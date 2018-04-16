@@ -76,7 +76,11 @@ if [ -x /usr/bin/dircolors ]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
     alias winHome='cd /mnt/d/Users/Joshua'
-    alias prog='cd ~/compSci/162/'
+    alias prog='cd ~/compSci'
+    alias syncHOME='rsync -ravp jobetts@linux.cs.pdx.edu:~/compSci/ ~/compSci/'
+    alias syncFAB='rsync -ravp ~/compSci/ jobetts@linux.cs.pdx.edu:~/compSci/'
+    alias CS='ssh jobetts@linux.cs.pdx.edu'
+    alias LAB='ssh jobetts@quizor1.cs.pdx.edu'
 fi
 
 # some more ls aliases
