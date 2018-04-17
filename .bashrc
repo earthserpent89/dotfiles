@@ -77,8 +77,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
     alias winHome='cd /mnt/d/Users/Joshua'
     alias prog='cd ~/Computer-Science/162/'
-    alias FABpull='rsync -rucp --progress jobetts@linux.cs.pdx.edu:~/Computer-Science/ ~/Computer-Science/'
-    alias FABpush='rsync -rucp  --progress ~/Computer-Science/ jobetts@linux.cs.pdx.edu:~/Computer-Science/'
     alias CS='ssh jobetts@linux.cs.pdx.edu'
     alias LAB='ssh jobetts@quizor1.cs.pdx.edu'
 fi
