@@ -80,6 +80,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias syncHOME='rsync -ravp jobetts@linux.cs.pdx.edu:~/compSci/ ~/compSci/'
     alias syncFAB='rsync -ravp ~/compSci/ jobetts@linux.cs.pdx.edu:~/compSci/'
     alias gitupdate='~/Documents/Github-Nightly-Backup.sh'
+    alias LAB='ssh jobetts@quizor1.cs.pdx.edu'
 fi
 
 # some more ls aliases
