@@ -81,8 +81,8 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 if [ -f ~/dotfiles/.bash_aliases ]; then
     . ~/dotfiles/.bash_aliases
 fi
-export VIMINIT='source $MYVIMRC'
-export MYVIMRC='~/dotfiles/.vimrc'
+export VIMINIT='source $VIMRC'
+export VIMRC='~/dotfiles/.vimrc'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
