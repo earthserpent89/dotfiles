@@ -1,4 +1,5 @@
-colors desert
+colors solarized
+set background=dark
 filetype indent on
 syntax enable
 set number
