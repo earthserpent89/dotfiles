@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    
+    <link rel="stylesheet" href="/public/css/screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/colorbox.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/tipsy.css" type="text/css" media="screen">
+    
+    <script src="/public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.ui.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.colorbox.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.tipsy.js" type="text/javascript"></script>
+    <script src="/public/js/ds.js" type="text/javascript"></script>
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-24042959-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+    <title>DotShare.it</title>
+</head>
+
+<body>
+
+<div id="header">
+    <div id="nav">
+        <ul class="label">
+            <li><span class="orange">.</span>share</li>
+        </ul>
+        
+        <ul>
+            <li>guest<span class="gray">@</span>dotshare <span class="gray">[</span>~<span class="gray">]</span> <span class="gray">$</span> ls -a nav/</li>
+            
+            <li><a href="/">..</a></li>
+            <li><a href="/news/">news</a></li>
+            <li><a href="/dots/">browse</a></li>
+            
+            
+            
+            <li><a href="/about/">about</a></li>
+            
+            
+            
+            
+                <li><a href="/login/">login</a></li>
+                <li><a href="/register/">register</a></li>
+            
+        </ul>
+    </div>
+    
+    <div id="donate">
+        <ul>
+            <li><a href="/donate/">donate</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="commands">
+    <div id="command">
+        <p>
+    <span class="dark-gray">guest</span>@<span class="dark-gray">dotshare</span> [<span class="dark-gray">~/groups/vim/colors</span>] <span class="dark-gray">$</span> ls synthwave/ | cat
+</p>
+    </div>
+</div>
+
+<div id="container">
+    <div id="categories">
+    <ul>
+        
+            <li class="label">
+                chat/
+                
+                <ul>
+                    
+                        <li><a href="/category/chat/irssi/">irssi</a></li>
+                    
+                        <li><a href="/category/chat/weechat/">weechat</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                emacs/
+                
+                <ul>
+                    
+                        <li><a href="/category/emacs/colors/">colors</a></li>
+                    
+                        <li><a href="/category/emacs/config/">config</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                fms/
+                
+                <ul>
+                    
+                        <li><a href="/category/fms/mc/">mc</a></li>
+                    
+                        <li><a href="/category/fms/ranger/">ranger</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                info/
+                
+                <ul>
+                    
+                        <li><a href="/category/info/conky/">conky</a></li>
+                    
+                        <li><a href="/category/info/dzen2/">dzen2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                misc/
+                
+                <ul>
+                    
+                        <li><a href="/category/misc/misc/">misc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                mpd/
+                
+                <ul>
+                    
+                        <li><a href="/category/mpd/ncmpcpp/">ncmpcpp</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                panels/
+                
+                <ul>
+                    
+                        <li><a href="/category/panels/bmpanel/">bmpanel</a></li>
+                    
+                        <li><a href="/category/panels/lxpanel/">lxpanel</a></li>
+                    
+                        <li><a href="/category/panels/pypanel/">pypanel</a></li>
+                    
+                        <li><a href="/category/panels/tint2/">tint2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                shells/
+                
+                <ul>
+                    
+                        <li><a href="/category/shells/bash/">bash</a></li>
+                    
+                        <li><a href="/category/shells/tcsh/">tcsh</a></li>
+                    
+                        <li><a href="/category/shells/zsh/">zsh</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                terms/
+                
+                <ul>
+                    
+                        <li><a href="/category/terms/colors/">colors</a></li>
+                    
+                        <li><a href="/category/terms/screen/">screen</a></li>
+                    
+                        <li><a href="/category/terms/tmux/">tmux</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                vim/
+                
+                <ul>
+                    
+                        <li><a href="/category/vim/colors/">colors</a></li>
+                    
+                        <li><a href="/category/vim/rc/">rc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                wms/
+                
+                <ul>
+                    
+                        <li><a href="/category/wms/awesome/">awesome</a></li>
+                    
+                        <li><a href="/category/wms/bspwm/">bspwm</a></li>
+                    
+                        <li><a href="/category/wms/dwm/">dwm</a></li>
+                    
+                        <li><a href="/category/wms/fluxbox/">fluxbox</a></li>
+                    
+                        <li><a href="/category/wms/fvwm/">fvwm</a></li>
+                    
+                        <li><a href="/category/wms/herbstluft/">herbstluft</a></li>
+                    
+                        <li><a href="/category/wms/i3/">i3</a></li>
+                    
+                        <li><a href="/category/wms/monster/">monster</a></li>
+                    
+                        <li><a href="/category/wms/openbox/">openbox</a></li>
+                    
+                        <li><a href="/category/wms/ratpoison/">ratpoison</a></li>
+                    
+                        <li><a href="/category/wms/spectrwm/">spectrwm</a></li>
+                    
+                        <li><a href="/category/wms/stumpwm/">stumpwm</a></li>
+                    
+                        <li><a href="/category/wms/subtle/">subtle</a></li>
+                    
+                        <li><a href="/category/wms/wmfs/">wmfs</a></li>
+                    
+                        <li><a href="/category/wms/xmonad/">xmonad</a></li>
+                    
+                </ul>
+            </li>
+        
+    </ul>
+</div>
+    
+    <div id="content">
+        
+    
+
+        
+    
+    
+        <div class="item">
+            <div class="header">
+                <h4>synthwave (<a href="/public/images/uploads/1332.png" target="_blank">scrot</a>, <a href="/dots/1332/0/raw/">raw</a>, <a href="/dots/1332/0/dl/">dl</a>) (<span class="green">+3</span> <a href="/dots/1332/likes/">likes</a>)</h4>
+                <h5><a href="/~fs0ciety/">fs0ciety</a> Oct 07, 2016 (vim/<a href="/category/vim/colors/">colors</a>)</h5>
+            </div>
+            
+            <div class="content">
+                
+                    <div id="scrot">
+                        <p>
+                            <a href="/public/images/uploads/1332.png" target="_blank"><img src="/public/images/uploads/1332-thumb.png"></a>
+                        </p>
+                        
+                        <div class="overlay">
+                            <p>SCROT</p>
+                        </div>
+                    </div>
+                
+                
+                <div class="dot first">
+                    <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339
+340
+341
+342
+343
+344
+345
+346
+347
+348
+349
+350
+351
+352
+353
+354
+355
+356
+357
+358
+359
+360
+361
+362</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">&quot; synthwave.vim -- Vim color scheme.</span>
+<span class="c">&quot; Author:       Dean Thomson</span>
+<span class="c">&quot; Webpage:      https://fsociety.info</span>
+<span class="c">&quot; Description:  A colorscheme</span>
+
+<span class="nb">hi</span> clear
+
+<span class="k">set</span> <span class="nb">background</span><span class="p">=</span><span class="nb">dark</span>
+
+<span class="k">if</span> exists<span class="p">(</span><span class="s2">&quot;syntax_on&quot;</span><span class="p">)</span>
+<span class="nb">syntax</span> reset
+<span class="k">endif</span>
+
+<span class="k">let</span> colors_name <span class="p">=</span> <span class="c">&quot;synthwave&quot;</span>
+
+<span class="c">&quot; highlight groups {{{</span>
+
+<span class="k">if</span> &amp;<span class="nb">t_Co</span> <span class="p">&gt;=</span> <span class="m">256</span> <span class="p">||</span> has<span class="p">(</span><span class="s2">&quot;gui_running&quot;</span><span class="p">)</span>
+		<span class="nb">hi</span> Normal ctermbg<span class="p">=</span><span class="m">0</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#312e39</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+	<span class="k">set</span> <span class="nb">background</span><span class="p">=</span><span class="nb">dark</span>
+		<span class="nb">hi</span> NonText ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">0</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#33303b</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Comment ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">8</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4f4b58</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Constant ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">3</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#71949a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Error ctermbg<span class="p">=</span><span class="m">1</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#87404f</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Identifier ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">1</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#87404f</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Ignore ctermbg<span class="p">=</span><span class="m">8</span> ctermfg<span class="p">=</span><span class="m">0</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#4f4b58</span> guifg<span class="p">=</span><span class="mh">#33303b</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> PreProc ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">3</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#71949a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Special ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">6</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#554757</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Statement ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">1</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#87404f</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> String ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">2</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4c9882</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Number ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">3</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#71949a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Todo ctermbg<span class="p">=</span><span class="m">8</span> ctermfg<span class="p">=</span><span class="m">3</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#4f4b58</span> guifg<span class="p">=</span><span class="mh">#71949a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Type ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">3</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#71949a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Underlined ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">1</span> cterm<span class="p">=</span><span class="nb">underline</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#87404f</span> gui<span class="p">=</span><span class="nb">underline</span>
+		<span class="nb">hi</span> StatusLine ctermbg<span class="p">=</span><span class="m">7</span> ctermfg<span class="p">=</span><span class="m">0</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#c0a79a</span> guifg<span class="p">=</span><span class="mh">#33303b</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> StatusLineNC ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="nb">NONE</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="nb">NONE</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> TabLine ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">8</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4f4b58</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> TabLineFill ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">8</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4f4b58</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> TabLineSel ctermbg<span class="p">=</span><span class="m">4</span> ctermfg<span class="p">=</span><span class="m">0</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#615772</span> guifg<span class="p">=</span><span class="mh">#33303b</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> TermCursorNC ctermbg<span class="p">=</span><span class="m">3</span> ctermfg<span class="p">=</span><span class="m">0</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#71949a</span> guifg<span class="p">=</span><span class="mh">#33303b</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> VertSplit ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="nb">NONE</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="nb">NONE</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Title ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> CursorLine ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">8</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4f4b58</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> LineNr ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">8</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4f4b58</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> CursorLineNr ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">8</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4f4b58</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> helpLeadBlank ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> helpNormal ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Visual ctermbg<span class="p">=</span><span class="m">8</span> ctermfg<span class="p">=</span><span class="m">0</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#4f4b58</span> guifg<span class="p">=</span><span class="mh">#33303b</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> VisualNOS ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">1</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#87404f</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Pmenu ctermbg<span class="p">=</span><span class="m">8</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#4f4b58</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> PmenuSbar ctermbg<span class="p">=</span><span class="m">6</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#554757</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> PmenuSel ctermbg<span class="p">=</span><span class="m">4</span> ctermfg<span class="p">=</span><span class="m">0</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#615772</span> guifg<span class="p">=</span><span class="mh">#33303b</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> PmenuThumb ctermbg<span class="p">=</span><span class="m">8</span> ctermfg<span class="p">=</span><span class="m">8</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#4f4b58</span> guifg<span class="p">=</span><span class="mh">#70838c</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> FoldColumn ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Folded ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">8</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4f4b58</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> WildMenu ctermbg<span class="p">=</span><span class="m">2</span> ctermfg<span class="p">=</span><span class="m">0</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#4c9882</span> guifg<span class="p">=</span><span class="mh">#33303b</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> SpecialKey ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">8</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4f4b58</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> DiffAdd ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">2</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4c9882</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> DiffChange ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">8</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4f4b58</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> DiffDelete ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">1</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#87404f</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> DiffText ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> IncSearch ctermbg<span class="p">=</span><span class="m">3</span> ctermfg<span class="p">=</span><span class="m">0</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#71949a</span> guifg<span class="p">=</span><span class="mh">#33303b</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Search ctermbg<span class="p">=</span><span class="m">3</span> ctermfg<span class="p">=</span><span class="m">0</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#71949a</span> guifg<span class="p">=</span><span class="mh">#33303b</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Directory ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> MatchParen ctermbg<span class="p">=</span><span class="m">8</span> ctermfg<span class="p">=</span><span class="m">0</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#4f4b58</span> guifg<span class="p">=</span><span class="mh">#33303b</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> ColorColumn ctermbg<span class="p">=</span><span class="m">4</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#615772</span> guifg<span class="p">=</span><span class="mh">#7c9fa6</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> signColumn ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> ErrorMsg ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">8</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4f4b58</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> ModeMsg ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">2</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4c9882</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> MoreMsg ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">2</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4c9882</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Question ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> WarningMsg ctermbg<span class="p">=</span><span class="m">1</span> ctermfg<span class="p">=</span><span class="m">0</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#87404f</span> guifg<span class="p">=</span><span class="mh">#33303b</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Cursor ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">8</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4f4b58</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Structure ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> CursorColumn ctermbg<span class="p">=</span><span class="m">8</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="mh">#4f4b58</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> ModeMsg ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> SpellBad ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">1</span> cterm<span class="p">=</span><span class="nb">underline</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#87404f</span> gui<span class="p">=</span><span class="nb">underline</span> guisp<span class="p">=</span><span class="mh">#99736e</span>
+		<span class="nb">hi</span> SpellCap ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">underline</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">underline</span> guisp<span class="p">=</span><span class="mh">#7c9fa6</span>
+		<span class="nb">hi</span> SpellLocal ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">underline</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">underline</span> guisp<span class="p">=</span>#BF9C86
+		<span class="nb">hi</span> SpellRare ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">6</span> cterm<span class="p">=</span><span class="nb">underline</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#554757</span> gui<span class="p">=</span><span class="nb">underline</span> guisp<span class="p">=</span>#<span class="m">99</span>BFBA
+		<span class="nb">hi</span> Boolean ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Character ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">1</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#87404f</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Conditional ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Define ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Delimiter ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Float ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Include ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Keyword ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Label ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">3</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#71949a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Operator ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Repeat ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">3</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#71949a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> SpecialChar ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Tag ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">3</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#71949a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Typedef ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">3</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#71949a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> vimUserCommand ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">1</span> cterm<span class="p">=</span>BOLD guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#87404f</span> gui<span class="p">=</span>BOLD
+			<span class="nb">hi</span> link vimMap vimUserCommand
+			<span class="nb">hi</span> link vimLet vimUserCommand
+			<span class="nb">hi</span> link vimCommand vimUserCommand
+			<span class="nb">hi</span> link vimFTCmd vimUserCommand
+			<span class="nb">hi</span> link vimAutoCmd vimUserCommand
+			<span class="nb">hi</span> link vimNotFunc vimUserCommand
+		<span class="nb">hi</span> vimNotation ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> vimMapModKey ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> vimBracket ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> vimCommentString ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">8</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4f4b58</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> htmlLink ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">1</span> cterm<span class="p">=</span><span class="nb">underline</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#87404f</span> gui<span class="p">=</span><span class="nb">underline</span>
+		<span class="nb">hi</span> htmlBold ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">3</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#71949a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> htmlItalic ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> htmlEndTag ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> htmlTag ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> htmlTagName ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">1</span> cterm<span class="p">=</span>BOLD guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#87404f</span> gui<span class="p">=</span>BOLD
+		<span class="nb">hi</span> htmlH1 ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span>BOLD guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span>BOLD
+			<span class="nb">hi</span> link htmlH2 htmlH1
+			<span class="nb">hi</span> link htmlH3 htmlH1
+			<span class="nb">hi</span> link htmlH4 htmlH1
+			<span class="nb">hi</span> link htmlH5 htmlH1
+			<span class="nb">hi</span> link htmlH6 htmlH1
+		<span class="nb">hi</span> cssMultiColumnAttr ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">2</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4c9882</span> gui<span class="p">=</span><span class="nb">NONE</span>
+			<span class="nb">hi</span> link cssFontAttr cssMultiColumnAttr
+			<span class="nb">hi</span> link cssFlexibleBoxAttr cssMultiColumnAttr
+		<span class="nb">hi</span> cssBraces ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+			<span class="nb">hi</span> link cssAttrComma cssBraces
+		<span class="nb">hi</span> cssValueLength ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> cssUnitDecorators ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> cssValueNumber ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+			<span class="nb">hi</span> link cssValueLength cssValueNumber
+		<span class="nb">hi</span> cssNoise ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">8</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4f4b58</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> cssTagName ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">1</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#87404f</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> cssFunctionName ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> scssSelectorChar ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> scssAttribute ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+			<span class="nb">hi</span> link scssDefinition cssNoise
+		<span class="nb">hi</span> sassidChar ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">1</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#87404f</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> sassClassChar ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> sassInclude ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> sassMixing ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> sassMixinName ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> javaScript ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> javaScriptBraces ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> javaScriptNumber ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> markdownAutomaticLink ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">1</span> cterm<span class="p">=</span><span class="nb">underline</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#87404f</span> gui<span class="p">=</span><span class="nb">underline</span>
+			<span class="nb">hi</span> link markdownUrl markdownAutomaticLink
+		<span class="nb">hi</span> markdownError ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> markdownCode ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">3</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#71949a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> markdownCodeBlock ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">3</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#71949a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> markdownCodeDelimiter ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> xdefaultsValue ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyInclude ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyDefine ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyFunction ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyStringDelimiter ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">2</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4c9882</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyInteger ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">3</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#71949a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyAttribute ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyConstant ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">3</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#71949a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyInterpolation ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">2</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4c9882</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyInterpolationDelimiter ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">3</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#71949a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyRegexp ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">6</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#554757</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubySymbol ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">2</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4c9882</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyTodo ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">8</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4f4b58</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyRegexpAnchor ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+			<span class="nb">hi</span> link rubyRegexpQuantifier rubyRegexpAnchor
+		<span class="nb">hi</span> pythonOperator ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> pythonFunction ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> pythonRepeat ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> pythonStatement ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">1</span> cterm<span class="p">=</span>Bold guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#87404f</span> gui<span class="p">=</span>Bold
+		<span class="nb">hi</span> pythonBuiltIn ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> phpMemberSelector ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> phpComparison ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> phpParent ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> cOperator ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">6</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#554757</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> cPreCondit ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">5</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#783e57</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> SignifySignAdd ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">2</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#4c9882</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> SignifySignChange ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> SignifySignDelete ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">1</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#87404f</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> NERDTreeDirSlash ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">4</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#615772</span> gui<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> NERDTreeExecFile ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="m">7</span> cterm<span class="p">=</span><span class="nb">NONE</span> guibg<span class="p">=</span><span class="nb">NONE</span> guifg<span class="p">=</span><span class="mh">#c0a79a</span> gui<span class="p">=</span><span class="nb">NONE</span>
+<span class="k">elseif</span> &amp;<span class="nb">t_Co</span> <span class="p">==</span> <span class="m">8</span> <span class="p">||</span> $TERM <span class="p">!~</span># <span class="s1">&#39;^linux&#39;</span> <span class="p">||</span> &amp;<span class="nb">t_Co</span> <span class="p">==</span> <span class="m">16</span>
+<span class="k">set</span> <span class="nb">t_Co</span><span class="p">=</span><span class="m">16</span>
+		<span class="nb">hi</span> Normal ctermbg<span class="p">=</span>black ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+	<span class="k">set</span> <span class="nb">background</span><span class="p">=</span><span class="nb">dark</span>
+		<span class="nb">hi</span> NonText ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>black cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Comment ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>gray cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Constant ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>yellow cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Error ctermbg<span class="p">=</span><span class="k">red</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Identifier ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="k">red</span> cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Ignore ctermbg<span class="p">=</span>gray ctermfg<span class="p">=</span>black cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> PreProc ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>yellow cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Special ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>cyan cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Statement ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="k">red</span> cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> String ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>green cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Number ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>yellow cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Todo ctermbg<span class="p">=</span>gray ctermfg<span class="p">=</span>yellow cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Type ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>yellow cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Underlined ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="k">red</span> cterm<span class="p">=</span><span class="nb">underline</span>
+		<span class="nb">hi</span> StatusLine ctermbg<span class="p">=</span>white ctermfg<span class="p">=</span>black cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> StatusLineNC ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="nb">NONE</span> cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> TabLine ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>gray cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> TabLineFill ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>gray cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> TabLineSel ctermbg<span class="p">=</span>blue ctermfg<span class="p">=</span>black cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> TermCursorNC ctermbg<span class="p">=</span>yellow ctermfg<span class="p">=</span>black cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> VertSplit ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="nb">NONE</span> cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Title ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> CursorLine ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>gray cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> LineNr ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>gray cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> CursorLineNr ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>gray cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> helpLeadBlank ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> helpNormal ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Visual ctermbg<span class="p">=</span>gray ctermfg<span class="p">=</span>black cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> VisualNOS ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="k">red</span> cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Pmenu ctermbg<span class="p">=</span>gray ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> PmenuSbar ctermbg<span class="p">=</span>cyan ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> PmenuSel ctermbg<span class="p">=</span>blue ctermfg<span class="p">=</span>black cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> PmenuThumb ctermbg<span class="p">=</span>gray ctermfg<span class="p">=</span>gray cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> FoldColumn ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Folded ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>gray cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> WildMenu ctermbg<span class="p">=</span>green ctermfg<span class="p">=</span>black cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> SpecialKey ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>gray cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> DiffAdd ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>green cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> DiffChange ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>gray cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> DiffDelete ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="k">red</span> cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> DiffText ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> IncSearch ctermbg<span class="p">=</span>yellow ctermfg<span class="p">=</span>black cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Search ctermbg<span class="p">=</span>yellow ctermfg<span class="p">=</span>black cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Directory ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> MatchParen ctermbg<span class="p">=</span>gray ctermfg<span class="p">=</span>black cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> ColorColumn ctermbg<span class="p">=</span>blue ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> signColumn ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> ErrorMsg ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>gray cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> ModeMsg ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>green cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> MoreMsg ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>green cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Question ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> WarningMsg ctermbg<span class="p">=</span><span class="k">red</span> ctermfg<span class="p">=</span>black cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Cursor ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>gray cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Structure ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> CursorColumn ctermbg<span class="p">=</span>gray ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> ModeMsg ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> SpellBad ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="k">red</span> cterm<span class="p">=</span><span class="nb">underline</span>
+		<span class="nb">hi</span> SpellCap ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">underline</span>
+		<span class="nb">hi</span> SpellLocal ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">underline</span>
+		<span class="nb">hi</span> SpellRare ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>cyan cterm<span class="p">=</span><span class="nb">underline</span>
+		<span class="nb">hi</span> Boolean ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Character ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="k">red</span> cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Conditional ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Define ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Delimiter ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Float ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Include ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Keyword ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Label ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>yellow cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Operator ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Repeat ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>yellow cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> SpecialChar ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Tag ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>yellow cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> Typedef ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>yellow cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> vimUserCommand ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="k">red</span> cterm<span class="p">=</span>BOLD
+			<span class="nb">hi</span> link vimMap vimUserCommand
+			<span class="nb">hi</span> link vimLet vimUserCommand
+			<span class="nb">hi</span> link vimCommand vimUserCommand
+			<span class="nb">hi</span> link vimFTCmd vimUserCommand
+			<span class="nb">hi</span> link vimAutoCmd vimUserCommand
+			<span class="nb">hi</span> link vimNotFunc vimUserCommand
+		<span class="nb">hi</span> vimNotation ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> vimMapModKey ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> vimBracket ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> vimCommentString ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>gray cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> htmlLink ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="k">red</span> cterm<span class="p">=</span><span class="nb">underline</span>
+		<span class="nb">hi</span> htmlBold ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>yellow cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> htmlItalic ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> htmlEndTag ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> htmlTag ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> htmlTagName ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="k">red</span> cterm<span class="p">=</span>BOLD
+		<span class="nb">hi</span> htmlH1 ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span>BOLD
+			<span class="nb">hi</span> link htmlH2 htmlH1
+			<span class="nb">hi</span> link htmlH3 htmlH1
+			<span class="nb">hi</span> link htmlH4 htmlH1
+			<span class="nb">hi</span> link htmlH5 htmlH1
+			<span class="nb">hi</span> link htmlH6 htmlH1
+		<span class="nb">hi</span> cssMultiColumnAttr ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>green cterm<span class="p">=</span><span class="nb">NONE</span>
+			<span class="nb">hi</span> link cssFontAttr cssMultiColumnAttr
+			<span class="nb">hi</span> link cssFlexibleBoxAttr cssMultiColumnAttr
+		<span class="nb">hi</span> cssBraces ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+			<span class="nb">hi</span> link cssAttrComma cssBraces
+		<span class="nb">hi</span> cssValueLength ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> cssUnitDecorators ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> cssValueNumber ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+			<span class="nb">hi</span> link cssValueLength cssValueNumber
+		<span class="nb">hi</span> cssNoise ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>gray cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> cssTagName ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="k">red</span> cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> cssFunctionName ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> scssSelectorChar ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> scssAttribute ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+			<span class="nb">hi</span> link scssDefinition cssNoise
+		<span class="nb">hi</span> sassidChar ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="k">red</span> cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> sassClassChar ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> sassInclude ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> sassMixing ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> sassMixinName ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> javaScript ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> javaScriptBraces ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> javaScriptNumber ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> markdownAutomaticLink ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="k">red</span> cterm<span class="p">=</span><span class="nb">underline</span>
+			<span class="nb">hi</span> link markdownUrl markdownAutomaticLink
+		<span class="nb">hi</span> markdownError ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> markdownCode ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>yellow cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> markdownCodeBlock ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>yellow cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> markdownCodeDelimiter ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> xdefaultsValue ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyInclude ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyDefine ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyFunction ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyStringDelimiter ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>green cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyInteger ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>yellow cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyAttribute ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyConstant ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>yellow cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyInterpolation ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>green cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyInterpolationDelimiter ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>yellow cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyRegexp ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>cyan cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubySymbol ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>green cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyTodo ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>gray cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> rubyRegexpAnchor ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+			<span class="nb">hi</span> link rubyRegexpQuantifier rubyRegexpAnchor
+		<span class="nb">hi</span> pythonOperator ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> pythonFunction ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> pythonRepeat ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> pythonStatement ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="k">red</span> cterm<span class="p">=</span>Bold
+		<span class="nb">hi</span> pythonBuiltIn ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> phpMemberSelector ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> phpComparison ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> phpParent ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> cOperator ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>cyan cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> cPreCondit ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>orange cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> SignifySignAdd ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>green cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> SignifySignChange ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> SignifySignDelete ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span><span class="k">red</span> cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> NERDTreeDirSlash ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>blue cterm<span class="p">=</span><span class="nb">NONE</span>
+		<span class="nb">hi</span> NERDTreeExecFile ctermbg<span class="p">=</span><span class="nb">NONE</span> ctermfg<span class="p">=</span>white cterm<span class="p">=</span><span class="nb">NONE</span>
+<span class="k">endif</span>
+
+
+<span class="c">&quot; }}}v</span>
+
+
+
+<span class="c">	&quot; Neovim Terminal Mode Colors.</span>
+	<span class="k">let</span> g:terminal_color_0 <span class="p">=</span> <span class="c">&quot;\#312e39&quot;</span>
+	<span class="k">let</span> g:terminal_color_1 <span class="p">=</span> <span class="c">&quot;\#87404f&quot;</span>
+	<span class="k">let</span> g:terminal_color_2 <span class="p">=</span> <span class="c">&quot;\#4c9882&quot;</span>
+	<span class="k">let</span> g:terminal_color_3 <span class="p">=</span> <span class="c">&quot;\#71949a&quot;</span>
+	<span class="k">let</span> g:terminal_color_4 <span class="p">=</span> <span class="c">&quot;\#615772&quot;</span>
+	<span class="k">let</span> g:terminal_color_5 <span class="p">=</span> <span class="c">&quot;\#783e57&quot;</span>
+	<span class="k">let</span> g:terminal_color_6 <span class="p">=</span> <span class="c">&quot;\#554757&quot;</span>
+	<span class="k">let</span> g:terminal_color_7 <span class="p">=</span> <span class="c">&quot;\#554757&quot;</span>
+	<span class="k">let</span> g:terminal_color_8 <span class="p">=</span> <span class="c">&quot;\#33303b&quot;</span>
+	<span class="k">let</span> g:terminal_color_9 <span class="p">=</span> <span class="c">&quot;\#87404f&quot;</span>
+	<span class="k">let</span> g:terminal_color_10 <span class="p">=</span> <span class="c">&quot;\#87404f&quot;</span>
+	<span class="k">let</span> g:terminal_color_11 <span class="p">=</span> <span class="c">&quot;\#71949a&quot;</span>
+	<span class="k">let</span> g:terminal_color_12 <span class="p">=</span> <span class="c">&quot;\#71949a&quot;</span>
+	<span class="k">let</span> g:terminal_color_13 <span class="p">=</span> <span class="c">&quot;\#783e57&quot;</span>
+	<span class="k">let</span> g:terminal_color_14 <span class="p">=</span> <span class="c">&quot;\#554757&quot;</span>
+	<span class="k">let</span> g:terminal_color_15 <span class="p">=</span> <span class="c">&quot;\#c0a79a&quot;</span>
+
+<span class="c">&quot; }}}</span>
+</pre></div>
+</td></tr></table>
+                </div>
+                
+                <div class="overlay short">
+                    <p>CLICK TO VIEW</p>
+                </div>
+                
+                <div class="minimize">
+                    <p>x</p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+    
+        <div class="item">
+            <div class="header">
+                <h4>Notes</h4>
+            </div>
+            
+            <div class="content markdown">
+                <p>A vim colour scheme that matches the synthwave xresources theme.</p>
+
+            </div>
+        </div>
+    
+    
+    
+    
+    
+
+    </div>
+    
+    <div id="footer">&nbsp;</div>
+</div>
+
+<div id="logo">
+    <a href="/"><img src="/public/images/logo.png" width="62" height="63" alt="DotShare.it"></a>
+</div>
+
+</body>
+</html>YB›ÄF      ZÂV%ZÂV%?2           :http://dotshare.it/dots/1332/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Sun, 29 Apr 2018 12:20:38 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 98653
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Sun, 29 Apr 2018 12:20:38 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 98653
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+ uncompressed-len 0 net-response-time-onstart 348 net-response-time-onstop 549  Å]

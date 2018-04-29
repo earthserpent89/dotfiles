@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    
+    <link rel="stylesheet" href="/public/css/screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/colorbox.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/tipsy.css" type="text/css" media="screen">
+    
+    <script src="/public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.ui.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.colorbox.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.tipsy.js" type="text/javascript"></script>
+    <script src="/public/js/ds.js" type="text/javascript"></script>
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-24042959-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+    <title>DotShare.it</title>
+</head>
+
+<body>
+
+<div id="header">
+    <div id="nav">
+        <ul class="label">
+            <li><span class="orange">.</span>share</li>
+        </ul>
+        
+        <ul>
+            <li>guest<span class="gray">@</span>dotshare <span class="gray">[</span>~<span class="gray">]</span> <span class="gray">$</span> ls -a nav/</li>
+            
+            <li><a href="/">..</a></li>
+            <li><a href="/news/">news</a></li>
+            <li><a href="/dots/">browse</a></li>
+            
+            
+            
+            <li><a href="/about/">about</a></li>
+            
+            
+            
+            
+                <li><a href="/login/">login</a></li>
+                <li><a href="/register/">register</a></li>
+            
+        </ul>
+    </div>
+    
+    <div id="donate">
+        <ul>
+            <li><a href="/donate/">donate</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="commands">
+    <div id="command">
+        <p>
+    <span class="dark-gray">guest</span>@<span class="dark-gray">dotshare</span> [<span class="dark-gray">~/groups/wms/i3</span>] <span class="dark-gray">$</span> ls i3-Polybar/ | cat
+</p>
+    </div>
+</div>
+
+<div id="container">
+    <div id="categories">
+    <ul>
+        
+            <li class="label">
+                chat/
+                
+                <ul>
+                    
+                        <li><a href="/category/chat/irssi/">irssi</a></li>
+                    
+                        <li><a href="/category/chat/weechat/">weechat</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                emacs/
+                
+                <ul>
+                    
+                        <li><a href="/category/emacs/colors/">colors</a></li>
+                    
+                        <li><a href="/category/emacs/config/">config</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                fms/
+                
+                <ul>
+                    
+                        <li><a href="/category/fms/mc/">mc</a></li>
+                    
+                        <li><a href="/category/fms/ranger/">ranger</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                info/
+                
+                <ul>
+                    
+                        <li><a href="/category/info/conky/">conky</a></li>
+                    
+                        <li><a href="/category/info/dzen2/">dzen2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                misc/
+                
+                <ul>
+                    
+                        <li><a href="/category/misc/misc/">misc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                mpd/
+                
+                <ul>
+                    
+                        <li><a href="/category/mpd/ncmpcpp/">ncmpcpp</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                panels/
+                
+                <ul>
+                    
+                        <li><a href="/category/panels/bmpanel/">bmpanel</a></li>
+                    
+                        <li><a href="/category/panels/lxpanel/">lxpanel</a></li>
+                    
+                        <li><a href="/category/panels/pypanel/">pypanel</a></li>
+                    
+                        <li><a href="/category/panels/tint2/">tint2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                shells/
+                
+                <ul>
+                    
+                        <li><a href="/category/shells/bash/">bash</a></li>
+                    
+                        <li><a href="/category/shells/tcsh/">tcsh</a></li>
+                    
+                        <li><a href="/category/shells/zsh/">zsh</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                terms/
+                
+                <ul>
+                    
+                        <li><a href="/category/terms/colors/">colors</a></li>
+                    
+                        <li><a href="/category/terms/screen/">screen</a></li>
+                    
+                        <li><a href="/category/terms/tmux/">tmux</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                vim/
+                
+                <ul>
+                    
+                        <li><a href="/category/vim/colors/">colors</a></li>
+                    
+                        <li><a href="/category/vim/rc/">rc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                wms/
+                
+                <ul>
+                    
+                        <li><a href="/category/wms/awesome/">awesome</a></li>
+                    
+                        <li><a href="/category/wms/bspwm/">bspwm</a></li>
+                    
+                        <li><a href="/category/wms/dwm/">dwm</a></li>
+                    
+                        <li><a href="/category/wms/fluxbox/">fluxbox</a></li>
+                    
+                        <li><a href="/category/wms/fvwm/">fvwm</a></li>
+                    
+                        <li><a href="/category/wms/herbstluft/">herbstluft</a></li>
+                    
+                        <li><a href="/category/wms/i3/">i3</a></li>
+                    
+                        <li><a href="/category/wms/monster/">monster</a></li>
+                    
+                        <li><a href="/category/wms/openbox/">openbox</a></li>
+                    
+                        <li><a href="/category/wms/ratpoison/">ratpoison</a></li>
+                    
+                        <li><a href="/category/wms/spectrwm/">spectrwm</a></li>
+                    
+                        <li><a href="/category/wms/stumpwm/">stumpwm</a></li>
+                    
+                        <li><a href="/category/wms/subtle/">subtle</a></li>
+                    
+                        <li><a href="/category/wms/wmfs/">wmfs</a></li>
+                    
+                        <li><a href="/category/wms/xmonad/">xmonad</a></li>
+                    
+                </ul>
+            </li>
+        
+    </ul>
+</div>
+    
+    <div id="content">
+        
+    
+
+        
+    
+    
+        <div class="item">
+            <div class="header">
+                <h4>i3 + Polybar (<a href="/public/images/uploads/1422.png" target="_blank">scrot</a>, <a href="/dots/1422/0/raw/">raw</a>, <a href="/dots/1422/0/dl/">dl</a>)</h4>
+                <h5><a href="/~IzacCF/">IzacCF</a> Jan 19, 2017 (wms/<a href="/category/wms/i3/">i3</a>)</h5>
+            </div>
+            
+            <div class="content">
+                
+                    <div id="scrot">
+                        <p>
+                            <a href="/public/images/uploads/1422.png" target="_blank"><img src="/public/images/uploads/1422-thumb.png"></a>
+                        </p>
+                        
+                        <div class="overlay">
+                            <p>SCROT</p>
+                        </div>
+                    </div>
+                
+                
+                <div class="dot first">
+                    <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">;=====================================================</span>
+<span class="o">;</span>
+<span class="o">;</span><span class="n">   To learn more about how to configure Polybar</span>
+<span class="o">;</span><span class="n">   go to https</span><span class="o">:</span><span class="n">//github.com/jaagr/polybar</span>
+<span class="o">;</span>
+<span class="o">;</span><span class="n">   The README contains alot of information</span>
+<span class="o">;</span>
+<span class="o">;=====================================================</span>
+
+<span class="nx">[colors]</span>
+<span class="k">background</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="c1">#222</span>
+<span class="k">background-alt</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="c1">#444</span>
+<span class="k">foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#dfdfdf</span>
+<span class="k">foreground-alt</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="c1">#55</span>
+<span class="k">primary</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#ffb52a</span>
+<span class="k">secondary</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#e60053</span>
+<span class="k">alert</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#bd2c40</span>
+
+<span class="nx">[global/wm]</span>
+<span class="k">margin-top</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">5</span>
+<span class="k">margin-bottom</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">5</span>
+
+<span class="nx">[settings]</span>
+<span class="k">screenchange-reload</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span>
+
+<span class="nx">[bar/bottom]</span>
+<span class="k">monitor</span><span class="n"> </span><span class="o">=</span><span class="n"> VGA-0</span>
+<span class="k">modules-left</span><span class="n"> </span><span class="o">=</span><span class="n"> </span>
+<span class="k">modules-center</span><span class="n"> </span><span class="o">=</span><span class="n"> cpu memory eth temperature date volume</span>
+<span class="k">modules-right</span><span class="n"> </span><span class="o">=</span>
+
+<span class="k">background</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#000000</span><span class="n">00</span>
+<span class="k">foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">colors.foreground</span><span class="o">}</span>
+
+<span class="k">bottom</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span>
+<span class="k">width</span><span class="n"> </span><span class="o">=</span><span class="n"> 100</span><span class="o">%</span>
+<span class="k">height</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">25</span>
+<span class="k">offset-x</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">offset-y</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+
+<span class="nx">[bar/example]</span>
+<span class="k">monitor</span><span class="n"> </span><span class="o">=</span><span class="n"> VGA-0</span>
+<span class="k">width</span><span class="n"> </span><span class="o">=</span><span class="n"> 100</span><span class="o">%</span>
+<span class="k">height</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">25</span>
+<span class="k">offset-x</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">offset-y</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+
+<span class="o">;</span><span class="n">background </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">xrdb</span><span class="o">:</span><span class="n">color9</span><span class="o">}</span>
+
+<span class="o">;</span><span class="n">background transparente</span>
+<span class="k">background</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#000000</span><span class="n">00</span>
+<span class="o">;</span><span class="n">background </span><span class="o">=</span><span class="n"> </span><span class="s">#2F343F</span>
+<span class="k">foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">colors.foreground</span><span class="o">}</span>
+
+<span class="k">overline-size</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">overline-color</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="c1">#f00</span>
+<span class="k">underline-size</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">underline-color</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="c1">#00f</span>
+
+<span class="k">border-bottom-size</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">1</span>
+<span class="k">border-bottom-color</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#0088CC</span>
+
+<span class="k">padding-left</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">padding-right</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">2</span>
+<span class="k">module-margin-left</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">1</span>
+<span class="k">module-margin-right</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">2</span>
+
+<span class="k">font-0</span><span class="n"> </span><span class="o">=</span><span class="n"> hack</span><span class="o">:</span><span class="n">pixelsize</span><span class="o">=</span><span class="mi">12</span><span class="o">;</span><span class="n">1</span>
+<span class="k">font-1</span><span class="n"> </span><span class="o">=</span><span class="n"> unifont</span><span class="o">:</span><span class="n">size</span><span class="o">=</span><span class="n">6</span><span class="o">:</span><span class="n">heavy</span><span class="o">:</span><span class="n">fontformat</span><span class="o">=</span><span class="kp">true</span><span class="n">type</span><span class="o">;</span><span class="n">-2</span>
+<span class="k">font-2</span><span class="n"> </span><span class="o">=</span><span class="n"> siji</span><span class="o">:</span><span class="n">pixelsize</span><span class="o">=</span><span class="mi">10</span><span class="o">;</span><span class="n">0</span>
+<span class="k">font-3</span><span class="n"> </span><span class="o">=</span><span class="n"> FontAwesome</span><span class="o">:</span><span class="n">size</span><span class="o">=</span><span class="mi">11</span><span class="o">;</span><span class="n">-1</span>
+
+<span class="k">modules-left</span><span class="n"> </span><span class="o">=</span><span class="n"> menu i3 xwindow</span>
+<span class="k">modules-center</span><span class="n"> </span><span class="o">=</span><span class="n"> </span>
+<span class="k">modules-right</span><span class="n"> </span><span class="o">=</span><span class="n"> cpu memory eth date volume</span>
+
+<span class="k">tray-position</span><span class="n"> </span><span class="o">=</span><span class="n"> right</span>
+<span class="k">tray-padding</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="o">;</span><span class="n">tray-transparent </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span>
+
+<span class="o">;</span><span class="n">wm-restack </span><span class="o">=</span><span class="n"> i3</span>
+
+<span class="k">scroll-up</span><span class="n"> </span><span class="o">=</span><span class="n"> i3wm-wsnext</span>
+<span class="k">scroll-down</span><span class="n"> </span><span class="o">=</span><span class="n"> i3wm-wsprev</span>
+
+<span class="k">bottom</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">false</span>
+
+<span class="nx">[module/xwindow]</span>
+<span class="k">type</span><span class="n"> </span><span class="o">=</span><span class="n"> internal/xwindow</span>
+<span class="o">;</span><span class="n">label </span><span class="o">=</span><span class="n"> </span><span class="o">%</span><span class="n">title</span><span class="o">:</span><span class="n">0</span><span class="o">:</span><span class="n">40</span><span class="o">:</span><span class="n">...</span><span class="o">%</span>
+<span class="o">;</span><span class="n">label </span><span class="o">=</span><span class="n"> </span><span class="o">%{</span><span class="n">o</span><span class="s">#503896</span><span class="n"> u</span><span class="s">#503896</span><span class="n"> </span><span class="o">+</span><span class="n">o </span><span class="o">+</span><span class="n">u B</span><span class="s">#301674</span><span class="o">}</span><span class="n">  </span><span class="o">%</span><span class="n">title</span><span class="o">:</span><span class="n">0</span><span class="o">:</span><span class="n">40</span><span class="o">:</span><span class="n">...</span><span class="o">%</span><span class="n">  </span><span class="o">%{</span><span class="n">B- </span><span class="nf">-o</span><span class="n"> </span><span class="nf">-u</span><span class="o">}</span>
+<span class="k">label</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">%</span><span class="n">title</span><span class="o">:</span><span class="n">0</span><span class="o">:</span><span class="n">70</span><span class="o">:</span><span class="n">...</span><span class="o">%</span><span class="n">  </span><span class="o">%{</span><span class="n">B- </span><span class="nf">-o</span><span class="n"> </span><span class="nf">-u</span><span class="o">}</span>
+
+<span class="nx">[module/xtitle]</span>
+<span class="k">type</span><span class="n"> </span><span class="o">=</span><span class="n"> custom/script</span>
+<span class="k">exec</span><span class="n"> </span><span class="o">=</span><span class="n"> xwindowname tail</span>
+<span class="k">tail</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span>
+<span class="k">format</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">%{</span><span class="n">T3</span><span class="o">}</span><span class="n"> &lt;output&gt; </span><span class="o">%{</span><span class="n">T-</span><span class="o">}</span>
+
+<span class="nx">[module/xkeyboard]</span>
+<span class="k">type</span><span class="n"> </span><span class="o">=</span><span class="n"> internal/xkeyboard</span>
+<span class="k">blacklist-0</span><span class="n"> </span><span class="o">=</span><span class="n"> num lock</span>
+<span class="k">label-layout</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">%{</span><span class="n">F</span><span class="c1">#55}%{F-} %layout%</span>
+<span class="k">label-layout-underline</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">colors.secondary</span><span class="o">}</span>
+<span class="k">label-indicator-padding</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">2</span>
+<span class="k">label-indicator-margin</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">1</span>
+<span class="k">label-indicator-background</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">colors.secondary</span><span class="o">}</span>
+<span class="k">label-indicator-underline</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">colors.secondary</span><span class="o">}</span>
+
+<span class="nx">[module/menu]</span>
+<span class="k">type</span><span class="n"> </span><span class="o">=</span><span class="n"> custom/menu</span>
+
+<span class="o">;</span><span class="n"> </span><span class="s">&quot;menu-LEVEL-N&quot;</span><span class="n"> has the same properties as </span><span class="s">&quot;label-NAME&quot;</span><span class="n"> with</span>
+<span class="o">;</span><span class="n"> the additional </span><span class="s">&quot;exec&quot;</span><span class="n"> property</span>
+<span class="o">;</span>
+<span class="o">;</span><span class="n"> Available exec commands</span><span class="o">:</span>
+<span class="o">;</span><span class="n">   menu-open-LEVEL</span>
+<span class="o">;</span><span class="n">   menu-close</span>
+<span class="o">;</span><span class="n"> Other commands will be executed using </span><span class="s">&quot;/usr/bin/env sh -c $COMMAND&quot;</span>
+<span class="o">;</span>
+
+<span class="k">menu-0-0</span><span class="n"> </span><span class="o">=</span><span class="n"> Browsers</span>
+<span class="k">menu-0-0-exec</span><span class="n"> </span><span class="o">=</span><span class="n"> menu-open-1</span>
+<span class="k">menu-0-2</span><span class="n"> </span><span class="o">=</span><span class="n"> Multimedia</span>
+<span class="k">menu-0-2-exec</span><span class="n"> </span><span class="o">=</span><span class="n"> menu-open-3</span>
+
+<span class="k">menu-1-0</span><span class="n"> </span><span class="o">=</span><span class="n"> Firefox</span>
+<span class="k">menu-1-0-exec</span><span class="n"> </span><span class="o">=</span><span class="n"> firefox &amp;</span>
+<span class="k">menu-1-1</span><span class="n"> </span><span class="o">=</span><span class="n"> Chromium</span>
+<span class="k">menu-1-1-exec</span><span class="n"> </span><span class="o">=</span><span class="n"> chromium &amp;</span>
+
+<span class="k">menu-2-0</span><span class="n"> </span><span class="o">=</span><span class="n"> Gimp</span>
+<span class="k">menu-2-0-exec</span><span class="n"> </span><span class="o">=</span><span class="n"> gimp &amp;</span>
+<span class="k">menu-2-1</span><span class="n"> </span><span class="o">=</span><span class="n"> Scrot</span>
+<span class="k">menu-2-1-exec</span><span class="n"> </span><span class="o">=</span><span class="n"> scrot &amp;</span>
+
+<span class="k">menu-3-0</span><span class="n"> </span><span class="o">=</span><span class="n"> Gvim</span>
+<span class="k">menu-3-0-exec</span><span class="n"> </span><span class="o">=</span><span class="n"> gvim &amp;</span>
+
+<span class="nx">[module/filesystem]</span>
+<span class="k">type</span><span class="n"> </span><span class="o">=</span><span class="n"> internal/fs</span>
+<span class="k">interval</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mf">0.5</span>
+<span class="k">mount-0</span><span class="n"> </span><span class="o">=</span><span class="n"> /</span>
+
+<span class="k">label-mounted</span><span class="n"> </span><span class="o">=</span><span class="n">  </span><span class="o">%</span><span class="n">mountpoint</span><span class="o">%:</span><span class="n"> </span><span class="o">%</span><span class="n">percentage_free</span><span class="o">%</span>
+<span class="k">label-unmounted</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">%</span><span class="n">mountpoint</span><span class="o">%:</span><span class="n"> not mounted</span>
+<span class="k">label-unmounted-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">colors.foreground-alt</span><span class="o">}</span>
+
+<span class="nx">[module/i3]</span>
+<span class="k">type</span><span class="n"> </span><span class="o">=</span><span class="n"> internal/i3</span>
+<span class="k">format</span><span class="n"> </span><span class="o">=</span><span class="n"> &lt;label-state&gt; &lt;label-mode&gt;</span>
+<span class="k">index-sort</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span>
+<span class="k">wrapping-scroll</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span>
+
+<span class="k">strip-wsnumbers</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span>
+<span class="k">pin-workspaces</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span>
+
+<span class="k">label-mode-padding</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">2</span>
+<span class="k">label-mode-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#0088CC</span>
+
+<span class="k">label-unfocused-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#555555</span>
+<span class="k">label-unfocused-padding</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">1</span>
+
+<span class="k">label-visible-foregroud</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#888888</span>
+<span class="k">label-visible-padding</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">1</span>
+
+<span class="k">label-focused-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#0088CC</span>
+<span class="k">label-focused-padding</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">2</span>
+
+<span class="k">label-urgent-padding</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">1</span>
+
+<span class="k">label-dimmed-underline</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">BAR.background</span><span class="o">}</span>
+<span class="k">label-focused-underline</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#0088CC</span>
+
+<span class="nx">[module/cpu]</span>
+<span class="k">type</span><span class="n"> </span><span class="o">=</span><span class="n"> internal/cpu</span>
+<span class="k">interval</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mf">0.5</span>
+
+<span class="k">format</span><span class="n"> </span><span class="o">=</span><span class="n"> &lt;label&gt; &lt;ramp-coreload&gt;</span>
+<span class="k">font-1</span><span class="n"> </span><span class="o">=</span><span class="n"> Unifont</span><span class="o">:</span><span class="n">size</span><span class="o">=</span><span class="mi">5</span><span class="o">;</span><span class="n">-3</span>
+
+<span class="k">label</span><span class="n"> </span><span class="o">=</span><span class="n"> CPU</span>
+<span class="o">;</span><span class="n">label-font </span><span class="o">=</span><span class="n"> </span><span class="mi">3</span>
+<span class="o">;</span><span class="n">label-foreground </span><span class="o">=</span><span class="n"> </span><span class="s">#0088CC</span>
+
+<span class="k">ramp-coreload-0</span><span class="n"> </span><span class="o">=</span><span class="n"> ▁</span>
+<span class="k">ramp-coreload-0-font</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">4</span>
+<span class="k">ramp-coreload-0-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#0088CC</span>
+<span class="k">ramp-coreload-1</span><span class="n"> </span><span class="o">=</span><span class="n"> ▂</span>
+<span class="k">ramp-coreload-1-font</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">4</span>
+<span class="k">ramp-coreload-1-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#0088CC</span>
+<span class="k">ramp-coreload-2</span><span class="n"> </span><span class="o">=</span><span class="n"> ▃</span>
+<span class="k">ramp-coreload-2-font</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">4</span>
+<span class="k">ramp-coreload-2-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#0088CC</span>
+<span class="k">ramp-coreload-3</span><span class="n"> </span><span class="o">=</span><span class="n"> ▄</span>
+<span class="k">ramp-coreload-3-font</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">4</span>
+<span class="k">ramp-coreload-3-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#0088CC</span>
+
+<span class="nx">[module/memory]</span>
+<span class="k">type</span><span class="n"> </span><span class="o">=</span><span class="n"> internal/memory</span>
+<span class="k">format</span><span class="n"> </span><span class="o">=</span><span class="n"> &lt;label&gt; &lt;bar-used&gt;</span>
+<span class="k">label</span><span class="n"> </span><span class="o">=</span><span class="n"> RAM </span><span class="nx">[%gb_used%]</span><span class="n"> </span>
+<span class="o">;</span><span class="n">label-foreground </span><span class="o">=</span><span class="n"> </span><span class="s">#0088CC</span>
+
+<span class="k">bar-used-width</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">10</span>
+<span class="k">bar-used-gradient</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span>
+<span class="k">bar-used-foreground-0</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#0088CC</span>
+<span class="k">bar-used-foreground-1</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#2f8419</span>
+<span class="k">bar-used-foreground-2</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#f5a70a</span>
+<span class="k">bar-used-foreground-3</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#ed5456</span>
+<span class="k">bar-used-indicator</span><span class="n"> </span><span class="o">=</span><span class="n"> █</span>
+<span class="k">bar-used-indicator-font</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">3</span>
+<span class="k">bar-used-indicator-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="c1">#fff</span>
+<span class="k">bar-used-fill</span><span class="n"> </span><span class="o">=</span><span class="n"> █</span>
+<span class="k">bar-used-fill-font</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">3</span>
+<span class="k">bar-used-empty</span><span class="n"> </span><span class="o">=</span><span class="n"> █</span>
+<span class="k">bar-used-empty-font</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">3</span>
+<span class="k">bar-used-empty-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="c1">#44</span>
+
+<span class="nx">[module/eth]</span>
+<span class="k">type</span><span class="n"> </span><span class="o">=</span><span class="n"> internal/network</span>
+<span class="k">interface</span><span class="n"> </span><span class="o">=</span><span class="n"> enp3s0</span>
+<span class="k">interval</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mf">0.5</span>
+
+<span class="o">;</span><span class="n">format-connected-underline </span><span class="o">=</span><span class="n"> </span><span class="s">#0088CC</span>
+<span class="k">label-connected</span><span class="n"> </span><span class="o">=</span><span class="n">  [ </span><span class="o">:</span><span class="n">   </span><span class="o">%</span><span class="n">upspeed</span><span class="o">%</span><span class="n"> | </span><span class="o">:</span><span class="n">   </span><span class="o">%</span><span class="n">downspeed</span><span class="o">%</span><span class="n"> ]</span>
+<span class="o">;</span><span class="n">label-connected-foreground </span><span class="o">=</span><span class="n"> </span><span class="s">#2aa198</span>
+
+<span class="o">;</span><span class="n">format-disconnected-underline </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">self.format-connected-underline</span><span class="o">}</span>
+<span class="o">;</span><span class="n">label-disconnected </span><span class="o">=</span><span class="n"> NET </span><span class="o">%</span><span class="n">ifname</span><span class="o">%</span><span class="n"> disconnected</span>
+<span class="o">;</span><span class="n">label-disconnected-foreground </span><span class="o">=</span><span class="n"> NET </span><span class="o">${</span><span class="n">colors.foreground-alt</span><span class="o">}</span>
+
+<span class="o">;</span><span class="n">Required if &lt;bar-progress&gt; is used</span>
+<span class="k">bar-progress-width</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">5</span>
+<span class="k">bar-progress-format</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">%{+</span><span class="n">u</span><span class="o">}%{+</span><span class="n">o</span><span class="o">}%</span><span class="n">fill</span><span class="o">%%{</span><span class="n">-u</span><span class="o">}%{</span><span class="n">-o</span><span class="o">}%</span><span class="n">indicator</span><span class="o">%%{+</span><span class="n">u</span><span class="o">}%{+</span><span class="n">o</span><span class="o">}%</span><span class="n">empty</span><span class="o">%%{</span><span class="n">-u</span><span class="o">}%{</span><span class="n">-o</span><span class="o">}</span>
+<span class="k">bar-progress-indicator</span><span class="n"> </span><span class="o">=</span><span class="n"> |</span>
+<span class="k">bar-progress-indicator-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">BAR.foreground</span><span class="o">}</span>
+<span class="k">bar-progress-indicator-font</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">3</span>
+<span class="k">bar-progress-fill</span><span class="n"> </span><span class="o">=</span><span class="n"> █</span>
+<span class="k">bar-progress-fill-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="c1">#5a5</span>
+<span class="k">bar-progress-fill-font</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">3</span>
+<span class="k">bar-progress-empty</span><span class="n"> </span><span class="o">=</span><span class="n"> █</span>
+<span class="k">bar-progress-empty-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="c1">#555</span>
+<span class="k">bar-progress-empty-font</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">3</span>
+
+<span class="nx">[module/date]</span>
+<span class="k">type</span><span class="n"> </span><span class="o">=</span><span class="n"> internal/date</span>
+<span class="k">interval</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mf">0.5</span>
+
+<span class="k">date</span><span class="n"> </span><span class="o">=</span>
+<span class="k">date-alt</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; %d/%m/%Y |&quot;</span>
+
+<span class="k">time</span><span class="n"> </span><span class="o">=</span><span class="n">  </span><span class="o">%</span><span class="n">d/</span><span class="o">%</span><span class="n">m/</span><span class="o">%</span><span class="n">Y | </span><span class="o">%</span><span class="n">H</span><span class="o">:%</span><span class="n">M</span><span class="o">:%</span><span class="n">S</span>
+<span class="k">time-alt</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">%</span><span class="n">H</span><span class="o">:%</span><span class="n">M</span><span class="o">:%</span><span class="n">S</span>
+
+<span class="k">format-prefix</span><span class="n"> </span><span class="o">=</span><span class="n"> </span>
+<span class="k">format-prefix-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">colors.foreground-alt</span><span class="o">}</span>
+<span class="k">format-underline</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#0a6cf5</span>
+
+<span class="k">label</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">%</span><span class="n">date</span><span class="o">%</span><span class="n"> </span><span class="o">%</span><span class="n">time</span><span class="o">%</span>
+
+<span class="nx">[module/volume]</span>
+<span class="k">type</span><span class="n"> </span><span class="o">=</span><span class="n"> internal/volume</span>
+
+<span class="k">format-volume</span><span class="n"> </span><span class="o">=</span><span class="n"> &lt;label-volume&gt; &lt;bar-volume&gt;</span>
+<span class="k">label-volume</span><span class="n"> </span><span class="o">=</span><span class="n"> VOL</span>
+<span class="k">label-volume-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">root.foreground</span><span class="o">}</span>
+
+<span class="k">format-muted-prefix</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; &quot;</span>
+<span class="k">format-muted-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">colors.foreground-alt</span><span class="o">}</span>
+<span class="k">label-muted</span><span class="n"> </span><span class="o">=</span><span class="n"> sound muted</span>
+
+<span class="k">bar-volume-width</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">10</span>
+<span class="k">bar-volume-foreground-0</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#55aa55</span>
+<span class="k">bar-volume-foreground-1</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#55aa55</span>
+<span class="k">bar-volume-foreground-2</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#55aa55</span>
+<span class="k">bar-volume-foreground-3</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#55aa55</span>
+<span class="k">bar-volume-foreground-4</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#55aa55</span>
+<span class="k">bar-volume-foreground-5</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#f5a70a</span>
+<span class="k">bar-volume-foreground-6</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#ff5555</span>
+<span class="k">bar-volume-gradient</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span>
+<span class="k">bar-volume-indicator</span><span class="n"> </span><span class="o">=</span><span class="n"> │</span>
+<span class="k">bar-volume-indicator-font</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">2</span>
+<span class="k">bar-volume-indicator-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#0088CC</span>
+<span class="k">bar-volume-fill</span><span class="n"> </span><span class="o">=</span><span class="n"> ─</span>
+<span class="k">bar-volume-fill-font</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">2</span>
+<span class="k">bar-volume-empty</span><span class="n"> </span><span class="o">=</span><span class="n"> ─</span>
+<span class="k">bar-volume-empty-font</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">2</span>
+<span class="k">bar-volume-empty-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">colors.foreground-alt</span><span class="o">}</span>
+
+<span class="nx">[module/temperature]</span>
+<span class="k">type</span><span class="n"> </span><span class="o">=</span><span class="n"> internal/temperature</span>
+<span class="k">thermal-zone</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">warn-temperature</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">60</span>
+
+<span class="k">format</span><span class="n"> </span><span class="o">=</span><span class="n"> &lt;ramp&gt; &lt;label&gt;</span>
+<span class="k">format-underline</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#0088CC</span>
+<span class="k">format-warn</span><span class="n"> </span><span class="o">=</span><span class="n"> &lt;ramp&gt; &lt;label-warn&gt;</span>
+<span class="k">format-warn-underline</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">self.format-underline</span><span class="o">}</span>
+
+<span class="k">label</span><span class="n"> </span><span class="o">=</span><span class="n">   </span><span class="o">%</span><span class="n">temperature</span><span class="o">%</span>
+<span class="k">labeil-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">#0088CC</span>
+<span class="k">label-warn</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">%</span><span class="n">temperature</span><span class="o">%</span>
+<span class="k">label-warn-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">colors.secondary</span><span class="o">}</span>
+
+<span class="k">ramp-0</span><span class="n"> </span><span class="o">=</span><span class="n"> </span>
+<span class="k">ramp-1</span><span class="n"> </span><span class="o">=</span><span class="n"> </span>
+<span class="k">ramp-2</span><span class="n"> </span><span class="o">=</span><span class="n"> </span>
+<span class="k">ramp-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">colors.foreground-alt</span><span class="o">}</span>
+
+<span class="nx">[module/powermenu]</span>
+<span class="k">type</span><span class="n"> </span><span class="o">=</span><span class="n"> custom/menu</span>
+
+<span class="k">format-spacing</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">1</span>
+
+<span class="k">label-open</span><span class="n"> </span><span class="o">=</span><span class="n">  power</span>
+<span class="k">label-open-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">colors.secondary</span><span class="o">}</span>
+<span class="k">label-close</span><span class="n"> </span><span class="o">=</span><span class="n">  cancel</span>
+<span class="k">label-close-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">colors.secondary</span><span class="o">}</span>
+<span class="k">label-separator</span><span class="n"> </span><span class="o">=</span><span class="n"> |</span>
+<span class="k">label-separator-foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">${</span><span class="n">colors.foreground-alt</span><span class="o">}</span>
+
+<span class="k">menu-0-0</span><span class="n"> </span><span class="o">=</span><span class="n"> reboot</span>
+<span class="k">menu-0-0-exec</span><span class="n"> </span><span class="o">=</span><span class="n"> menu-open-1</span>
+<span class="k">menu-0-1</span><span class="n"> </span><span class="o">=</span><span class="n"> power off</span>
+<span class="k">menu-0-1-exec</span><span class="n"> </span><span class="o">=</span><span class="n"> menu-open-2</span>
+
+<span class="k">menu-1-0</span><span class="n"> </span><span class="o">=</span><span class="n"> cancel</span>
+<span class="k">menu-1-0-exec</span><span class="n"> </span><span class="o">=</span><span class="n"> menu-open-0</span>
+<span class="k">menu-1-1</span><span class="n"> </span><span class="o">=</span><span class="n"> reboot</span>
+<span class="k">menu-1-1-exec</span><span class="n"> </span><span class="o">=</span><span class="n"> sudo reboot</span>
+
+<span class="k">menu-2-0</span><span class="n"> </span><span class="o">=</span><span class="n"> power off</span>
+<span class="k">menu-2-0-exec</span><span class="n"> </span><span class="o">=</span><span class="n"> sudo poweroff</span>
+<span class="k">menu-2-1</span><span class="n"> </span><span class="o">=</span><span class="n"> cancel</span>
+<span class="k">menu-2-1-exec</span><span class="n"> </span><span class="o">=</span><span class="n"> menu-open-0</span>
+
+<span class="o">;</span><span class="n"> vim</span><span class="o">:</span><span class="n">ft</span><span class="o">=</span><span class="n">dosini</span>
+</pre></div>
+</td></tr></table>
+                </div>
+                
+                <div class="overlay short">
+                    <p>CLICK TO VIEW</p>
+                </div>
+                
+                <div class="minimize">
+                    <p>x</p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+    
+        <div class="item">
+            <div class="header">
+                <h4>Notes</h4>
+            </div>
+            
+            <div class="content markdown">
+                <p>i3wm + Polybar</p>
+
+<p>Reference: <a href="https://goo.gl/7VqPXt">https://goo.gl/7VqPXt</a><br>
+Wall:  <a href="http://imgur.com/a/TLB3A">http://imgur.com/a/TLB3A</a></p>
+
+            </div>
+        </div>
+    
+    
+    
+    
+    
+
+    </div>
+    
+    <div id="footer">&nbsp;</div>
+</div>
+
+<div id="logo">
+    <a href="/"><img src="/public/images/logo.png" width="62" height="63" alt="DotShare.it"></a>
+</div>
+
+</body>
+</html>�5ƙo      Z�.`Z�.`? ��           :http://dotshare.it/dots/1422/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Sun, 29 Apr 2018 09:30:57 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 50280
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Sun, 29 Apr 2018 09:30:57 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 50280
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+ uncompressed-len 0 net-response-time-onstart 305 net-response-time-onstop 446   �h

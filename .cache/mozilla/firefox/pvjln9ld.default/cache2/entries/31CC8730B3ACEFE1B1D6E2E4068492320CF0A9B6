@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    
+    <link rel="stylesheet" href="/public/css/screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/colorbox.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/tipsy.css" type="text/css" media="screen">
+    
+    <script src="/public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.ui.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.colorbox.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.tipsy.js" type="text/javascript"></script>
+    <script src="/public/js/ds.js" type="text/javascript"></script>
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-24042959-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+    <title>DotShare.it</title>
+</head>
+
+<body>
+
+<div id="header">
+    <div id="nav">
+        <ul class="label">
+            <li><span class="orange">.</span>share</li>
+        </ul>
+        
+        <ul>
+            <li>guest<span class="gray">@</span>dotshare <span class="gray">[</span>~<span class="gray">]</span> <span class="gray">$</span> ls -a nav/</li>
+            
+            <li><a href="/">..</a></li>
+            <li><a href="/news/">news</a></li>
+            <li><a href="/dots/">browse</a></li>
+            
+            
+            
+            <li><a href="/about/">about</a></li>
+            
+            
+            
+            
+                <li><a href="/login/">login</a></li>
+                <li><a href="/register/">register</a></li>
+            
+        </ul>
+    </div>
+    
+    <div id="donate">
+        <ul>
+            <li><a href="/donate/">donate</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="commands">
+    <div id="command">
+        <p>
+    <span class="dark-gray">guest</span>@<span class="dark-gray">dotshare</span> [<span class="dark-gray">~/groups/fms/ranger</span>] <span class="dark-gray">$</span> ls z3bra-tabs/ | cat
+</p>
+    </div>
+</div>
+
+<div id="container">
+    <div id="categories">
+    <ul>
+        
+            <li class="label">
+                chat/
+                
+                <ul>
+                    
+                        <li><a href="/category/chat/irssi/">irssi</a></li>
+                    
+                        <li><a href="/category/chat/weechat/">weechat</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                emacs/
+                
+                <ul>
+                    
+                        <li><a href="/category/emacs/colors/">colors</a></li>
+                    
+                        <li><a href="/category/emacs/config/">config</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                fms/
+                
+                <ul>
+                    
+                        <li><a href="/category/fms/mc/">mc</a></li>
+                    
+                        <li><a href="/category/fms/ranger/">ranger</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                info/
+                
+                <ul>
+                    
+                        <li><a href="/category/info/conky/">conky</a></li>
+                    
+                        <li><a href="/category/info/dzen2/">dzen2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                misc/
+                
+                <ul>
+                    
+                        <li><a href="/category/misc/misc/">misc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                mpd/
+                
+                <ul>
+                    
+                        <li><a href="/category/mpd/ncmpcpp/">ncmpcpp</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                panels/
+                
+                <ul>
+                    
+                        <li><a href="/category/panels/bmpanel/">bmpanel</a></li>
+                    
+                        <li><a href="/category/panels/lxpanel/">lxpanel</a></li>
+                    
+                        <li><a href="/category/panels/pypanel/">pypanel</a></li>
+                    
+                        <li><a href="/category/panels/tint2/">tint2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                shells/
+                
+                <ul>
+                    
+                        <li><a href="/category/shells/bash/">bash</a></li>
+                    
+                        <li><a href="/category/shells/tcsh/">tcsh</a></li>
+                    
+                        <li><a href="/category/shells/zsh/">zsh</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                terms/
+                
+                <ul>
+                    
+                        <li><a href="/category/terms/colors/">colors</a></li>
+                    
+                        <li><a href="/category/terms/screen/">screen</a></li>
+                    
+                        <li><a href="/category/terms/tmux/">tmux</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                vim/
+                
+                <ul>
+                    
+                        <li><a href="/category/vim/colors/">colors</a></li>
+                    
+                        <li><a href="/category/vim/rc/">rc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                wms/
+                
+                <ul>
+                    
+                        <li><a href="/category/wms/awesome/">awesome</a></li>
+                    
+                        <li><a href="/category/wms/bspwm/">bspwm</a></li>
+                    
+                        <li><a href="/category/wms/dwm/">dwm</a></li>
+                    
+                        <li><a href="/category/wms/fluxbox/">fluxbox</a></li>
+                    
+                        <li><a href="/category/wms/fvwm/">fvwm</a></li>
+                    
+                        <li><a href="/category/wms/herbstluft/">herbstluft</a></li>
+                    
+                        <li><a href="/category/wms/i3/">i3</a></li>
+                    
+                        <li><a href="/category/wms/monster/">monster</a></li>
+                    
+                        <li><a href="/category/wms/openbox/">openbox</a></li>
+                    
+                        <li><a href="/category/wms/ratpoison/">ratpoison</a></li>
+                    
+                        <li><a href="/category/wms/spectrwm/">spectrwm</a></li>
+                    
+                        <li><a href="/category/wms/stumpwm/">stumpwm</a></li>
+                    
+                        <li><a href="/category/wms/subtle/">subtle</a></li>
+                    
+                        <li><a href="/category/wms/wmfs/">wmfs</a></li>
+                    
+                        <li><a href="/category/wms/xmonad/">xmonad</a></li>
+                    
+                </ul>
+            </li>
+        
+    </ul>
+</div>
+    
+    <div id="content">
+        
+    
+
+        
+    
+    
+        <div class="item">
+            <div class="header">
+                <h4>z3bra tabs (<a href="/public/images/uploads/960.png" target="_blank">scrot</a>, <a href="/dots/960/0/raw/">raw</a>, <a href="/dots/960/0/dl/">dl</a>)</h4>
+                <h5><a href="/~DotDev/">DotDev</a> Jan 13, 2015 (fms/<a href="/category/fms/ranger/">ranger</a>)</h5>
+            </div>
+            
+            <div class="content">
+                
+                    <div id="scrot">
+                        <p>
+                            <a href="/public/images/uploads/960.png" target="_blank"><img src="/public/images/uploads/960-thumb.png"></a>
+                        </p>
+                        
+                        <div class="overlay">
+                            <p>SCROT</p>
+                        </div>
+                    </div>
+                
+                
+                <div class="dot first">
+                    <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160</pre></div></td><td class="code"><div class="highlight"><pre><span class="kn">from</span> <span class="nn">ranger.gui.colorscheme</span> <span class="kn">import</span> <span class="n">ColorScheme</span>
+<span class="kn">from</span> <span class="nn">ranger.gui.color</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="k">class</span> <span class="nc">z3bratabs</span><span class="p">(</span><span class="n">ColorScheme</span><span class="p">):</span>
+    <span class="n">progress_bar_color</span> <span class="o">=</span> <span class="mi">8</span>
+
+    <span class="k">def</span> <span class="nf">use</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">context</span><span class="p">):</span>
+        <span class="n">fg</span><span class="p">,</span> <span class="n">bg</span><span class="p">,</span> <span class="n">attr</span> <span class="o">=</span> <span class="n">default_colors</span>
+
+        <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">reset</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">default_colors</span>
+
+        <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">in_browser</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">selected</span><span class="p">:</span>
+                <span class="n">attr</span> <span class="o">=</span> <span class="n">reverse</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">attr</span> <span class="o">=</span> <span class="n">normal</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">empty</span> <span class="ow">or</span> <span class="n">context</span><span class="o">.</span><span class="n">error</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">7</span>
+                <span class="n">bg</span> <span class="o">=</span> <span class="mi">8</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">border</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">7</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">image</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">10</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">video</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">4</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">audio</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">6</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">document</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">8</span>
+                <span class="n">bg</span> <span class="o">=</span> <span class="mi">7</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">container</span><span class="p">:</span>
+                <span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">8</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">directory</span><span class="p">:</span>
+                <span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">7</span>
+            <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">executable</span> <span class="ow">and</span> <span class="ow">not</span> \
+                    <span class="nb">any</span><span class="p">((</span><span class="n">context</span><span class="o">.</span><span class="n">media</span><span class="p">,</span> <span class="n">context</span><span class="o">.</span><span class="n">container</span><span class="p">,</span>
+                       <span class="n">context</span><span class="o">.</span><span class="n">fifo</span><span class="p">,</span> <span class="n">context</span><span class="o">.</span><span class="n">socket</span><span class="p">)):</span>
+                <span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">4</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">socket</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">3</span>
+                <span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">fifo</span> <span class="ow">or</span> <span class="n">context</span><span class="o">.</span><span class="n">device</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">10</span>
+                <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">device</span><span class="p">:</span>
+                    <span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">link</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="n">context</span><span class="o">.</span><span class="n">good</span> <span class="ow">and</span> <span class="mi">7</span> <span class="ow">or</span> <span class="mi">8</span>
+                <span class="n">bg</span> <span class="o">=</span> <span class="mi">8</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">bad</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">1</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">tag_marker</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">context</span><span class="o">.</span><span class="n">selected</span><span class="p">:</span>
+                <span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+                <span class="k">if</span> <span class="n">fg</span> <span class="ow">in</span> <span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">):</span>
+                    <span class="n">fg</span> <span class="o">=</span> <span class="mi">8</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">fg</span> <span class="o">=</span> <span class="mi">1</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">context</span><span class="o">.</span><span class="n">selected</span> <span class="ow">and</span> <span class="p">(</span><span class="n">context</span><span class="o">.</span><span class="n">cut</span> <span class="ow">or</span> <span class="n">context</span><span class="o">.</span><span class="n">copied</span><span class="p">):</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">15</span>
+                <span class="n">bg</span> <span class="o">=</span> <span class="mi">8</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">main_column</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">selected</span><span class="p">:</span>
+                    <span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+                <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">marked</span><span class="p">:</span>
+                    <span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+                    <span class="n">fg</span> <span class="o">=</span> <span class="mi">8</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">badinfo</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">attr</span> <span class="o">&amp;</span> <span class="n">reverse</span><span class="p">:</span>
+                    <span class="n">bg</span> <span class="o">=</span> <span class="mi">1</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">fg</span> <span class="o">=</span> <span class="mi">7</span>
+
+        <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">in_titlebar</span><span class="p">:</span>
+            <span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">hostname</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="n">context</span><span class="o">.</span><span class="n">bad</span> <span class="ow">and</span> <span class="mi">8</span> <span class="ow">or</span> <span class="mi">7</span>
+                <span class="n">bg</span> <span class="o">=</span> <span class="mi">8</span>
+            <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">directory</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">8</span>
+            <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">tab</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">good</span><span class="p">:</span>
+                    <span class="n">fg</span> <span class="o">=</span> <span class="mi">1</span>
+            <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">link</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">8</span>
+
+        <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">in_statusbar</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">permissions</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">good</span><span class="p">:</span>
+                    <span class="n">fg</span> <span class="o">=</span> <span class="mi">7</span>
+                    <span class="n">bg</span> <span class="o">=</span> <span class="mi">8</span>
+                <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">bad</span><span class="p">:</span>
+                    <span class="n">fg</span> <span class="o">=</span> <span class="mi">8</span>
+                    <span class="n">bg</span> <span class="o">=</span> <span class="mi">7</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">marked</span><span class="p">:</span>
+                <span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span> <span class="o">|</span> <span class="n">reverse</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">8</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">message</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">bad</span><span class="p">:</span>
+                    <span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+                    <span class="n">fg</span> <span class="o">=</span> <span class="mi">10</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">loaded</span><span class="p">:</span>
+                <span class="n">bg</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">progress_bar_color</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">vcsinfo</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">10</span>
+                <span class="n">attr</span> <span class="o">&amp;=</span> <span class="o">~</span><span class="n">bold</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">vcscommit</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">5</span>
+                <span class="n">attr</span> <span class="o">&amp;=</span> <span class="o">~</span><span class="n">bold</span>
+
+
+        <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">text</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">highlight</span><span class="p">:</span>
+                <span class="n">attr</span> <span class="o">|=</span> <span class="n">reverse</span>
+
+        <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">in_taskview</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">title</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">8</span>
+
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">selected</span><span class="p">:</span>
+                <span class="n">attr</span> <span class="o">|=</span> <span class="n">reverse</span>
+
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">loaded</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">selected</span><span class="p">:</span>
+                    <span class="n">fg</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">progress_bar_color</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">bg</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">progress_bar_color</span>
+
+
+        <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">vcsfile</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">context</span><span class="o">.</span><span class="n">selected</span><span class="p">:</span>
+            <span class="n">attr</span> <span class="o">&amp;=</span> <span class="o">~</span><span class="n">bold</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">vcsconflict</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">1</span>
+            <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">vcschanged</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">2</span>
+            <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">vcsunknown</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">3</span>
+            <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">vcsstaged</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">4</span>
+            <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">vcssync</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">5</span>
+            <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">vcsignored</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">6</span>
+
+        <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">vcsremote</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">context</span><span class="o">.</span><span class="n">selected</span><span class="p">:</span>
+            <span class="n">attr</span> <span class="o">&amp;=</span> <span class="o">~</span><span class="n">bold</span>
+            <span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">vcssync</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">12</span>
+            <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">vcsbehind</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">13</span>
+            <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">vcsahead</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">9</span>
+            <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">vcsdiverged</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">10</span>
+            <span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">vcsunknown</span><span class="p">:</span>
+                <span class="n">fg</span> <span class="o">=</span> <span class="mi">11</span>
+
+        <span class="k">return</span> <span class="n">fg</span><span class="p">,</span> <span class="n">bg</span><span class="p">,</span> <span class="n">attr</span>
+</pre></div>
+</td></tr></table>
+                </div>
+                
+                <div class="overlay short">
+                    <p>CLICK TO VIEW</p>
+                </div>
+                
+                <div class="minimize">
+                    <p>x</p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+    
+    
+    
+    
+    
+
+    </div>
+    
+    <div id="footer">&nbsp;</div>
+</div>
+
+<div id="logo">
+    <a href="/"><img src="/public/images/logo.png" width="62" height="63" alt="DotShare.it"></a>
+</div>
+
+</body>
+</html>b¡˘∏1      ZÂGµZÂGµ?	0           :http://dotshare.it/dots/960/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Sun, 29 Apr 2018 11:19:02 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 29800
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Sun, 29 Apr 2018 11:19:02 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 29800
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+ uncompressed-len 0 net-response-time-onstart 251 net-response-time-onstop 356   th

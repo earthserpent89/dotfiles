@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    
+    <link rel="stylesheet" href="/public/css/screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/colorbox.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/tipsy.css" type="text/css" media="screen">
+    
+    <script src="/public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.ui.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.colorbox.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.tipsy.js" type="text/javascript"></script>
+    <script src="/public/js/ds.js" type="text/javascript"></script>
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-24042959-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+    <title>DotShare.it</title>
+</head>
+
+<body>
+
+<div id="header">
+    <div id="nav">
+        <ul class="label">
+            <li><span class="orange">.</span>share</li>
+        </ul>
+        
+        <ul>
+            <li>guest<span class="gray">@</span>dotshare <span class="gray">[</span>~<span class="gray">]</span> <span class="gray">$</span> ls -a nav/</li>
+            
+            <li><a href="/">..</a></li>
+            <li><a href="/news/">news</a></li>
+            <li><a href="/dots/">browse</a></li>
+            
+            
+            
+            <li><a href="/about/">about</a></li>
+            
+            
+            
+            
+                <li><a href="/login/">login</a></li>
+                <li><a href="/register/">register</a></li>
+            
+        </ul>
+    </div>
+    
+    <div id="donate">
+        <ul>
+            <li><a href="/donate/">donate</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="commands">
+    <div id="command">
+        <p>
+    <span class="dark-gray">guest</span>@<span class="dark-gray">dotshare</span> [<span class="dark-gray">~/groups/wms/i3</span>] <span class="dark-gray">$</span> ls
+</p>
+    </div>
+</div>
+
+<div id="container">
+    <div id="categories">
+    <ul>
+        
+            <li class="label">
+                chat/
+                
+                <ul>
+                    
+                        <li><a href="/category/chat/irssi/">irssi</a></li>
+                    
+                        <li><a href="/category/chat/weechat/">weechat</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                emacs/
+                
+                <ul>
+                    
+                        <li><a href="/category/emacs/colors/">colors</a></li>
+                    
+                        <li><a href="/category/emacs/config/">config</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                fms/
+                
+                <ul>
+                    
+                        <li><a href="/category/fms/mc/">mc</a></li>
+                    
+                        <li><a href="/category/fms/ranger/">ranger</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                info/
+                
+                <ul>
+                    
+                        <li><a href="/category/info/conky/">conky</a></li>
+                    
+                        <li><a href="/category/info/dzen2/">dzen2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                misc/
+                
+                <ul>
+                    
+                        <li><a href="/category/misc/misc/">misc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                mpd/
+                
+                <ul>
+                    
+                        <li><a href="/category/mpd/ncmpcpp/">ncmpcpp</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                panels/
+                
+                <ul>
+                    
+                        <li><a href="/category/panels/bmpanel/">bmpanel</a></li>
+                    
+                        <li><a href="/category/panels/lxpanel/">lxpanel</a></li>
+                    
+                        <li><a href="/category/panels/pypanel/">pypanel</a></li>
+                    
+                        <li><a href="/category/panels/tint2/">tint2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                shells/
+                
+                <ul>
+                    
+                        <li><a href="/category/shells/bash/">bash</a></li>
+                    
+                        <li><a href="/category/shells/tcsh/">tcsh</a></li>
+                    
+                        <li><a href="/category/shells/zsh/">zsh</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                terms/
+                
+                <ul>
+                    
+                        <li><a href="/category/terms/colors/">colors</a></li>
+                    
+                        <li><a href="/category/terms/screen/">screen</a></li>
+                    
+                        <li><a href="/category/terms/tmux/">tmux</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                vim/
+                
+                <ul>
+                    
+                        <li><a href="/category/vim/colors/">colors</a></li>
+                    
+                        <li><a href="/category/vim/rc/">rc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                wms/
+                
+                <ul>
+                    
+                        <li><a href="/category/wms/awesome/">awesome</a></li>
+                    
+                        <li><a href="/category/wms/bspwm/">bspwm</a></li>
+                    
+                        <li><a href="/category/wms/dwm/">dwm</a></li>
+                    
+                        <li><a href="/category/wms/fluxbox/">fluxbox</a></li>
+                    
+                        <li><a href="/category/wms/fvwm/">fvwm</a></li>
+                    
+                        <li><a href="/category/wms/herbstluft/">herbstluft</a></li>
+                    
+                        <li><a href="/category/wms/i3/">i3</a></li>
+                    
+                        <li><a href="/category/wms/monster/">monster</a></li>
+                    
+                        <li><a href="/category/wms/openbox/">openbox</a></li>
+                    
+                        <li><a href="/category/wms/ratpoison/">ratpoison</a></li>
+                    
+                        <li><a href="/category/wms/spectrwm/">spectrwm</a></li>
+                    
+                        <li><a href="/category/wms/stumpwm/">stumpwm</a></li>
+                    
+                        <li><a href="/category/wms/subtle/">subtle</a></li>
+                    
+                        <li><a href="/category/wms/wmfs/">wmfs</a></li>
+                    
+                        <li><a href="/category/wms/xmonad/">xmonad</a></li>
+                    
+                </ul>
+            </li>
+        
+    </ul>
+</div>
+    
+    <div id="content">
+        
+    
+
+        
+    <div class="item">
+        <div class="header">
+            <h1>Moar dots!</h1>
+        </div>
+        
+        <div class="content">
+            
+                <table id="dots">
+                    <thead>
+                        <tr>
+                            
+                                <th><a href="/category/wms/i3/sort/title/">Title</a></th>
+                            
+                            
+                            <th>User</th>
+                            
+                            
+                                <th><a href="/category/wms/i3/rsort/date/">Date</a></th>
+                            
+                            
+                            
+                                <th><a class="likes" href="/category/wms/i3/sort/likes/"><img src="/public/images/like.png" width="16" height="16" alt="likes"></a></th>
+                            
+                            
+                            
+                                <th><a class="comments" href="/category/wms/i3/sort/comments/"><img src="/public/images/comments.png" width="16" height="16" alt="comments"></a></th>
+                            
+                            
+                            <th>&nbsp;</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        
+                            
+                                <tr>
+                                    <td><a href="/dots/1410/">green dark</a></td>
+                                    <td><a href="/~virus69/">virus69</a></td>
+                                    <td>Dec 26, 2016</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1410.png" rel="scrot" title="green dark:virus69:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1398/">Oxide</a></td>
+                                    <td><a href="/~dikiaap/">dikiaap</a></td>
+                                    <td>Dec 02, 2016</td>
+                                    <td class="likes">+3</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1398.png" rel="scrot" title="Oxide:dikiaap:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1394/">Fresh</a></td>
+                                    <td><a href="/~virus69/">virus69</a></td>
+                                    <td>Nov 30, 2016</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1394.png" rel="scrot" title="Fresh:virus69:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1392/">magenta</a></td>
+                                    <td><a href="/~virus69/">virus69</a></td>
+                                    <td>Nov 26, 2016</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1392.png" rel="scrot" title="magenta:virus69:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1380/">vintage</a></td>
+                                    <td><a href="/~virus69/">virus69</a></td>
+                                    <td>Nov 20, 2016</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1380.png" rel="scrot" title="vintage:virus69:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1349/">Material Design</a></td>
+                                    <td><a href="/~virus69/">virus69</a></td>
+                                    <td>Nov 02, 2016</td>
+                                    <td class="likes">+3</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1349.png" rel="scrot" title="Material Design:virus69:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1305/">My i3 Arch Linux</a></td>
+                                    <td><a href="/~josepy/">josepy</a></td>
+                                    <td>Sep 24, 2016</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1305.png" rel="scrot" title="My i3 Arch Linux:josepy:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1283/">Arch.i3.lemonbar</a></td>
+                                    <td><a href="/~okubax/">okubax</a></td>
+                                    <td>Sep 16, 2016</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1283.png" rel="scrot" title="Arch.i3.lemonbar:okubax:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1236/">fsobriety</a></td>
+                                    <td><a href="/~virus69/">virus69</a></td>
+                                    <td>Aug 30, 2016</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1236.png" rel="scrot" title="fsobriety:virus69:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1227/">ArchlinuxKISS-Black</a></td>
+                                    <td><a href="/~virus69/">virus69</a></td>
+                                    <td>Aug 21, 2016</td>
+                                    <td class="likes">+4</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1227.png" rel="scrot" title="ArchlinuxKISS-Black:virus69:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1226/">Archlinux &amp; i3-gaps</a></td>
+                                    <td><a href="/~presse1citron/">presse1citron</a></td>
+                                    <td>Aug 19, 2016</td>
+                                    <td class="likes">+5</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1226.png" rel="scrot" title="Archlinux &amp; i3-gaps:presse1citron:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1220/">Coffe and cream</a></td>
+                                    <td><a href="/~virus69/">virus69</a></td>
+                                    <td>Aug 15, 2016</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1220.png" rel="scrot" title="Coffe and cream:virus69:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1217/">i3-gaps with solarized colors</a></td>
+                                    <td><a href="/~okubax/">okubax</a></td>
+                                    <td>Aug 12, 2016</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1217.png" rel="scrot" title="i3-gaps with solarized colors:okubax:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1201/">i3 Gatter</a></td>
+                                    <td><a href="/~Gatter/">Gatter</a></td>
+                                    <td>Jul 22, 2016</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1201.png" rel="scrot" title="i3 Gatter:Gatter:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1199/">i3wm</a></td>
+                                    <td><a href="/~IzacCF/">IzacCF</a></td>
+                                    <td>Jul 18, 2016</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1199.png" rel="scrot" title="i3wm:IzacCF:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1197/">i3 Setup</a></td>
+                                    <td><a href="/~emily/">emily</a></td>
+                                    <td>Jul 05, 2016</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            &nbsp;
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1191/">Old School</a></td>
+                                    <td><a href="/~TotoSugiarto83/">TotoSugiarto83</a></td>
+                                    <td>Jun 20, 2016</td>
+                                    <td class="likes">+3</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1191.png" rel="scrot" title="Old School:TotoSugiarto83:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1188/">i3 &amp; gaps</a></td>
+                                    <td><a href="/~presse1citron/">presse1citron</a></td>
+                                    <td>Jun 14, 2016</td>
+                                    <td class="likes">+2</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1188.png" rel="scrot" title="i3 &amp; gaps:presse1citron:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1185/">underwater tank</a></td>
+                                    <td><a href="/~svbtext/">svbtext</a></td>
+                                    <td>Jun 13, 2016</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1185.png" rel="scrot" title="underwater tank:svbtext:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1183/">Solarized i3wm + i3status</a></td>
+                                    <td><a href="/~vandr0iy/">vandr0iy</a></td>
+                                    <td>Jun 08, 2016</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1183.png" rel="scrot" title="Solarized i3wm + i3status:vandr0iy:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1178/">solarized i3 v2</a></td>
+                                    <td><a href="/~okubax/">okubax</a></td>
+                                    <td>May 21, 2016</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1178.png" rel="scrot" title="solarized i3 v2:okubax:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1165/">nyan</a></td>
+                                    <td><a href="/~nyasuh/">nyasuh</a></td>
+                                    <td>Apr 24, 2016</td>
+                                    <td class="likes">+2</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1165.png" rel="scrot" title="nyan:nyasuh:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1148/">Oh man here we go</a></td>
+                                    <td><a href="/~applecrumble/">applecrumble</a></td>
+                                    <td>Feb 25, 2016</td>
+                                    <td class="likes">+3</td>
+                                    <td class="comments">2</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1148.png" rel="scrot" title="Oh man here we go:applecrumble:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1137/">i3 bar </a></td>
+                                    <td><a href="/~Thiago/">Thiago</a></td>
+                                    <td>Jan 28, 2016</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            &nbsp;
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1136/">i3 config</a></td>
+                                    <td><a href="/~Thiago/">Thiago</a></td>
+                                    <td>Jan 28, 2016</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            &nbsp;
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1128/">jupiter</a></td>
+                                    <td><a href="/~Szteto/">Szteto</a></td>
+                                    <td>Jan 08, 2016</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1128.png" rel="scrot" title="jupiter:Szteto:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1126/">neat-o</a></td>
+                                    <td><a href="/~destaat/">destaat</a></td>
+                                    <td>Jan 04, 2016</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1126.png" rel="scrot" title="neat-o:destaat:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1118/">Happy New Year!</a></td>
+                                    <td><a href="/~wallardy/">wallardy</a></td>
+                                    <td>Jan 01, 2016</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1118.png" rel="scrot" title="Happy New Year!:wallardy:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1113/">Dark Red i3</a></td>
+                                    <td><a href="/~boxxcar/">boxxcar</a></td>
+                                    <td>Dec 22, 2015</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1113.png" rel="scrot" title="Dark Red i3:boxxcar:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1110/">Breezy</a></td>
+                                    <td><a href="/~rvndps/">rvndps</a></td>
+                                    <td>Dec 15, 2015</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1110.png" rel="scrot" title="Breezy:rvndps:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1106/">Nightime i3</a></td>
+                                    <td><a href="/~Xikuuky/">Xikuuky</a></td>
+                                    <td>Dec 10, 2015</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            &nbsp;
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1098/">i3status py for Moosic and Bars</a></td>
+                                    <td><a href="/~bziur/">bziur</a></td>
+                                    <td>Nov 29, 2015</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1098.png" rel="scrot" title="i3status py for Moosic and Bars:bziur:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1070/">i3 in dark colors</a></td>
+                                    <td><a href="/~kalterfive/">kalterfive</a></td>
+                                    <td>Oct 02, 2015</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1070.png" rel="scrot" title="i3 in dark colors:kalterfive:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1056/">manjaro i3 gaps</a></td>
+                                    <td><a href="/~twodogsdave/">twodogsdave</a></td>
+                                    <td>Sep 02, 2015</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1056.png" rel="scrot" title="manjaro i3 gaps:twodogsdave:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1051/">kalterfive&#39;s i3 config</a></td>
+                                    <td><a href="/~kalterfive/">kalterfive</a></td>
+                                    <td>Aug 27, 2015</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1051.png" rel="scrot" title="kalterfive&#39;s i3 config:kalterfive:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1046/">Powerline I3</a></td>
+                                    <td><a href="/~electro7/">electro7</a></td>
+                                    <td>Aug 15, 2015</td>
+                                    <td class="likes">+7</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1046.png" rel="scrot" title="Powerline I3:electro7:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1044/">solarized i3</a></td>
+                                    <td><a href="/~okubax/">okubax</a></td>
+                                    <td>Aug 10, 2015</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1044.png" rel="scrot" title="solarized i3:okubax:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1035/">deterenkelt‚Äôs i3 config</a></td>
+                                    <td><a href="/~deterenkelt/">deterenkelt</a></td>
+                                    <td>Jul 17, 2015</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1035.png" rel="scrot" title="deterenkelt‚Äôs i3 config:deterenkelt:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1030/">i3-config-dark-icons</a></td>
+                                    <td><a href="/~lovelybacon/">lovelybacon</a></td>
+                                    <td>Jun 30, 2015</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1030.png" rel="scrot" title="i3-config-dark-icons:lovelybacon:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1022/">lb.i3</a></td>
+                                    <td><a href="/~lovelybacon/">lovelybacon</a></td>
+                                    <td>Jun 26, 2015</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1022.png" rel="scrot" title="lb.i3:lovelybacon:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1015/">i3wm config</a></td>
+                                    <td><a href="/~hallowweed/">hallowweed</a></td>
+                                    <td>Jun 14, 2015</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1015.png" rel="scrot" title="i3wm config:hallowweed:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1014/">i3 configs</a></td>
+                                    <td><a href="/~arcetera/">arcetera</a></td>
+                                    <td>Jun 14, 2015</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            &nbsp;
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1013/">solarized...all</a></td>
+                                    <td><a href="/~szaghi/">szaghi</a></td>
+                                    <td>Jun 13, 2015</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1013.png" rel="scrot" title="solarized...all:szaghi:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1012/">i3wm </a></td>
+                                    <td><a href="/~smlb/">smlb</a></td>
+                                    <td>Jun 08, 2015</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1012.png" rel="scrot" title="i3wm :smlb:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1011/">I3 Flat Dark</a></td>
+                                    <td><a href="/~lucafav/">lucafav</a></td>
+                                    <td>May 28, 2015</td>
+                                    <td class="likes">+14</td>
+                                    <td class="comments">26</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1011.png" rel="scrot" title="I3 Flat Dark:lucafav:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1010/">i3-gaps</a></td>
+                                    <td><a href="/~twodogsdave/">twodogsdave</a></td>
+                                    <td>May 27, 2015</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1010.png" rel="scrot" title="i3-gaps:twodogsdave:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1002/">i3 config</a></td>
+                                    <td><a href="/~twodogsdave/">twodogsdave</a></td>
+                                    <td>May 12, 2015</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1002.png" rel="scrot" title="i3 config:twodogsdave:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/994/">i3wm-of-jeannie</a></td>
+                                    <td><a href="/~defenestre/">defenestre</a></td>
+                                    <td>Apr 23, 2015</td>
+                                    <td class="likes">+6</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/994.png" rel="scrot" title="i3wm-of-jeannie:defenestre:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/973/">myDefault</a></td>
+                                    <td><a href="/~afterthought325/">afterthought325</a></td>
+                                    <td>Feb 06, 2015</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            &nbsp;
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/968/">purple stuff</a></td>
+                                    <td><a href="/~iamevn/">iamevn</a></td>
+                                    <td>Jan 29, 2015</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/968.png" rel="scrot" title="purple stuff:iamevn:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                        
+                    </tbody>
+                </table>
+            
+        </div>
+    </div>
+    
+    
+        <div id="pages">
+            
+                
+                    
+                        
+                            <a href="/category/wms/i3/p/1/">1</a>
+                        
+                    
+                
+            
+                
+                    
+                        <strong>2</strong>
+                    
+                
+            
+                
+                    
+                        
+                            <a href="/category/wms/i3/p/3/">3</a>
+                        
+                    
+                
+            
+        </div>
+    
+
+    </div>
+    
+    <div id="footer">&nbsp;</div>
+</div>
+
+<div id="logo">
+    <a href="/"><img src="/public/images/logo.png" width="62" height="63" alt="DotShare.it"></a>
+</div>
+
+</body>
+</html>Ω[Ãeœ      ZÂ`tZÂ`t?ç       (    :http://dotshare.it/category/wms/i3/p/2/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Sun, 29 Apr 2018 13:04:05 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 51250
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Sun, 29 Apr 2018 13:04:05 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 51250
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+ uncompressed-len 0 net-response-time-onstart 742 net-response-time-onstop 877   »2

@@ -1,0 +1,1602 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    
+    <link rel="stylesheet" href="/public/css/screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/colorbox.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/tipsy.css" type="text/css" media="screen">
+    
+    <script src="/public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.ui.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.colorbox.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.tipsy.js" type="text/javascript"></script>
+    <script src="/public/js/ds.js" type="text/javascript"></script>
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-24042959-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+    <title>DotShare.it</title>
+</head>
+
+<body>
+
+<div id="header">
+    <div id="nav">
+        <ul class="label">
+            <li><span class="orange">.</span>share</li>
+        </ul>
+        
+        <ul>
+            <li>guest<span class="gray">@</span>dotshare <span class="gray">[</span>~<span class="gray">]</span> <span class="gray">$</span> ls -a nav/</li>
+            
+            <li><a href="/">..</a></li>
+            <li><a href="/news/">news</a></li>
+            <li><a href="/dots/">browse</a></li>
+            
+            
+            
+            <li><a href="/about/">about</a></li>
+            
+            
+            
+            
+                <li><a href="/login/">login</a></li>
+                <li><a href="/register/">register</a></li>
+            
+        </ul>
+    </div>
+    
+    <div id="donate">
+        <ul>
+            <li><a href="/donate/">donate</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="commands">
+    <div id="command">
+        <p>
+    <span class="dark-gray">guest</span>@<span class="dark-gray">dotshare</span> [<span class="dark-gray">~/groups/wms/i3</span>] <span class="dark-gray">$</span> ls i3-gaps-Config/ | cat
+</p>
+    </div>
+</div>
+
+<div id="container">
+    <div id="categories">
+    <ul>
+        
+            <li class="label">
+                chat/
+                
+                <ul>
+                    
+                        <li><a href="/category/chat/irssi/">irssi</a></li>
+                    
+                        <li><a href="/category/chat/weechat/">weechat</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                emacs/
+                
+                <ul>
+                    
+                        <li><a href="/category/emacs/colors/">colors</a></li>
+                    
+                        <li><a href="/category/emacs/config/">config</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                fms/
+                
+                <ul>
+                    
+                        <li><a href="/category/fms/mc/">mc</a></li>
+                    
+                        <li><a href="/category/fms/ranger/">ranger</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                info/
+                
+                <ul>
+                    
+                        <li><a href="/category/info/conky/">conky</a></li>
+                    
+                        <li><a href="/category/info/dzen2/">dzen2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                misc/
+                
+                <ul>
+                    
+                        <li><a href="/category/misc/misc/">misc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                mpd/
+                
+                <ul>
+                    
+                        <li><a href="/category/mpd/ncmpcpp/">ncmpcpp</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                panels/
+                
+                <ul>
+                    
+                        <li><a href="/category/panels/bmpanel/">bmpanel</a></li>
+                    
+                        <li><a href="/category/panels/lxpanel/">lxpanel</a></li>
+                    
+                        <li><a href="/category/panels/pypanel/">pypanel</a></li>
+                    
+                        <li><a href="/category/panels/tint2/">tint2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                shells/
+                
+                <ul>
+                    
+                        <li><a href="/category/shells/bash/">bash</a></li>
+                    
+                        <li><a href="/category/shells/tcsh/">tcsh</a></li>
+                    
+                        <li><a href="/category/shells/zsh/">zsh</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                terms/
+                
+                <ul>
+                    
+                        <li><a href="/category/terms/colors/">colors</a></li>
+                    
+                        <li><a href="/category/terms/screen/">screen</a></li>
+                    
+                        <li><a href="/category/terms/tmux/">tmux</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                vim/
+                
+                <ul>
+                    
+                        <li><a href="/category/vim/colors/">colors</a></li>
+                    
+                        <li><a href="/category/vim/rc/">rc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                wms/
+                
+                <ul>
+                    
+                        <li><a href="/category/wms/awesome/">awesome</a></li>
+                    
+                        <li><a href="/category/wms/bspwm/">bspwm</a></li>
+                    
+                        <li><a href="/category/wms/dwm/">dwm</a></li>
+                    
+                        <li><a href="/category/wms/fluxbox/">fluxbox</a></li>
+                    
+                        <li><a href="/category/wms/fvwm/">fvwm</a></li>
+                    
+                        <li><a href="/category/wms/herbstluft/">herbstluft</a></li>
+                    
+                        <li><a href="/category/wms/i3/">i3</a></li>
+                    
+                        <li><a href="/category/wms/monster/">monster</a></li>
+                    
+                        <li><a href="/category/wms/openbox/">openbox</a></li>
+                    
+                        <li><a href="/category/wms/ratpoison/">ratpoison</a></li>
+                    
+                        <li><a href="/category/wms/spectrwm/">spectrwm</a></li>
+                    
+                        <li><a href="/category/wms/stumpwm/">stumpwm</a></li>
+                    
+                        <li><a href="/category/wms/subtle/">subtle</a></li>
+                    
+                        <li><a href="/category/wms/wmfs/">wmfs</a></li>
+                    
+                        <li><a href="/category/wms/xmonad/">xmonad</a></li>
+                    
+                </ul>
+            </li>
+        
+    </ul>
+</div>
+    
+    <div id="content">
+        
+    
+
+        
+    
+    
+        <div class="item">
+            <div class="header">
+                <h4>i3-gaps Config (<a href="/public/images/uploads/1508.png" target="_blank">scrot</a>) (<span class="green">+2</span> <a href="/dots/1508/likes/">likes</a>)</h4>
+                <h5><a href="/~sistematico/">sistematico</a> Jul 11, 2017 (wms/<a href="/category/wms/i3/">i3</a>)</h5>
+            </div>
+        </div>
+        
+        <div class="item file">
+            <div class="header">
+                <h4>config_i3_config<span class="right">(<a href="/dots/1508/0/raw/">raw</a>, <a href="/dots/1508/0/dl/">dl</a>)</span></h4>
+            </div>
+            
+            <div class="content">
+                
+                    <div id="scrot">
+                        <p>
+                            <a href="/public/images/uploads/1508.png" target="_blank"><img src="/public/images/uploads/1508-thumb.png"></a>
+                        </p>
+                        
+                        <div class="overlay">
+                            <p>SCROT</p>
+                        </div>
+                    </div>
+                
+                
+                <div class="dot first">
+                    <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288</pre></div></td><td class="code"><div class="highlight"><pre><span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">mod Mod4</span>
+<span class="k">gaps</span><span class="n"> inner </span><span class="mi">10</span>
+<span class="k">hide_edge_borders</span><span class="n"> both</span>
+<span class="k">force_display_urgency_hint</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">workspace_auto_back_and_forth</span><span class="n"> yes</span>
+<span class="k">new_window</span><span class="n"> pixel </span><span class="mi">3</span>
+<span class="c1">#font pango:DejaVu Sans Mono 8</span>
+<span class="k">font</span><span class="n"> pango</span><span class="o">:</span><span class="n">Cantarell 8, Siji </span><span class="mi">10</span>
+
+<span class="c1">#100%: FF - 95%: F2 - 90%: E6 - 85%: D9 - 80%: CC - 75%: BF - 70%: B3 - 65%: A6 - 60%: 99 - 55%: 8C - 50%: 80 - 45%: 73 - 40%: 66 - 35%: 59 - 30%: 4D - 25%: 40 - 20%: 33 - 15%: 26 - 10%: 1A - 5%: 0D - 0%: 00</span>
+
+<span class="c1"># Nord</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">branco1				</span><span class="s">#d8dee9</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">branco2				</span><span class="s">#e5e9f0</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">branco3				</span><span class="s">#eceff4</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">cinza1					</span><span class="s">#2e3440</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">cinza2					</span><span class="s">#3b4252</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">cinza3					</span><span class="s">#434c5e</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">cinza4					</span><span class="s">#4c566a</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">verde					</span><span class="s">#8fbcbb</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">verde2					</span><span class="s">#a3be8c</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">azul					</span><span class="s">#88c0d0</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">azul2					</span><span class="s">#81a1c1</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">azul3					</span><span class="s">#5e81ac</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">vermelho				</span><span class="s">#bf616a</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">laranja				</span><span class="s">#d08770</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">amarelo				</span><span class="s">#ebcb8b</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">roxo					</span><span class="s">#b48ead</span>
+
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">branco                 </span><span class="s">#ffffff</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">preto					</span><span class="s">#000000</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">cinza					</span><span class="s">#8c8b8b</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">fundo                  </span><span class="s">#1b1b1b</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">fundo-inativo          </span><span class="s">#222222</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">texto                  </span><span class="s">#ffffff</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">texto-ativo            </span><span class="s">#3465a4</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">texto-inativo          </span><span class="s">#888888</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">texto-urgente          </span><span class="s">#cc5252</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">fundo-urgente          </span><span class="s">#900000</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">indicador              </span><span class="s">#00ff00</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">separador              </span><span class="s">#666666</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">borda					</span><span class="s">#5b6365</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">semitransparente		</span><span class="s">#000000</span><span class="n">73</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">transparente			</span><span class="s">#000000</span><span class="n">00</span>
+
+<span class="c1">#                       BORDER      BACKGROUND  TEXT        INDICATOR   CHILD_BORDER</span>
+<span class="k">client.focused</span><span class="n">          </span><span class="o">$</span><span class="n">borda				</span><span class="o">$</span><span class="n">fundo-inativo  </span><span class="o">$</span><span class="n">texto                  </span><span class="o">$</span><span class="n">borda					</span><span class="o">$</span><span class="n">borda</span>
+<span class="k">client.unfocused</span><span class="n">        </span><span class="o">$</span><span class="n">borda				</span><span class="o">$</span><span class="n">fundo-inativo  </span><span class="o">$</span><span class="n">texto-inativo			</span><span class="o">$</span><span class="n">fundo-inativo			</span><span class="o">$</span><span class="n">borda</span>
+<span class="k">client.focused_inactive</span><span class="n"> </span><span class="o">$</span><span class="n">borda				</span><span class="o">$</span><span class="n">fundo-inativo  </span><span class="o">$</span><span class="n">texto-inativo			</span><span class="o">$</span><span class="n">fundo-inativo			</span><span class="o">$</span><span class="n">borda</span>
+<span class="k">client.urgent</span><span class="n">           </span><span class="o">$</span><span class="n">borda				</span><span class="o">$</span><span class="n">fundo-inativo  </span><span class="o">$</span><span class="n">texto-urgente          </span><span class="o">$</span><span class="n">fundo-inativo			</span><span class="o">$</span><span class="n">borda</span>
+
+<span class="k">floating_modifier</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span>
+
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Return exec i3-sensible-terminal</span>
+
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">q kill</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">q kill</span>
+
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">d exec </span><span class="nf">--no-startup-id</span><span class="n"> exec rofi </span><span class="nf">-sidebar-mode</span><span class="n"> </span><span class="nf">-lines</span><span class="n"> </span><span class="mi">0</span><span class="n"> </span><span class="nf">-theme</span><span class="n"> ~/.local/share/rofi/themes/sistematico.rasi </span><span class="nf">-show</span><span class="n"> drun </span><span class="nf">-bw</span><span class="n"> </span><span class="mi">4</span><span class="n"> </span><span class="nf">-eh</span><span class="n"> </span><span class="mi">1</span><span class="n"> </span><span class="nf">-opacity</span><span class="n"> </span><span class="s">&quot;80&quot;</span><span class="n"> </span><span class="nf">-lines</span><span class="n"> </span><span class="mi">8</span><span class="n"> </span><span class="nf">-line-margin</span><span class="n"> </span><span class="mi">4</span><span class="n"> </span><span class="nf">-width</span><span class="n"> </span><span class="mi">20</span><span class="n"> </span><span class="nf">-padding</span><span class="n"> </span><span class="mi">16</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">g exec </span><span class="nf">--no-startup-id</span><span class="n"> echo </span><span class="s">&quot;&quot;</span><span class="n"> | rofi </span><span class="nf">-theme</span><span class="n"> ~/.local/share/rofi/themes/sistematico-dark.rasi </span><span class="nf">-dmenu</span><span class="n"> </span><span class="nf">-p</span><span class="n"> </span><span class="s">&quot;Google: &quot;</span><span class="n"> </span><span class="nf">-bw</span><span class="n"> </span><span class="mi">0</span><span class="n"> </span><span class="nf">-lines</span><span class="n"> </span><span class="mi">1</span><span class="n"> </span><span class="nf">-separator-style</span><span class="n"> none </span><span class="nf">-location</span><span class="n"> </span><span class="mi">0</span><span class="n"> </span><span class="nf">-width</span><span class="n"> </span><span class="mi">250</span><span class="n"> </span><span class="nf">-hide-scrollbar</span><span class="n"> </span><span class="nf">-padding</span><span class="n"> </span><span class="mi">5</span><span class="n"> | xargs </span><span class="nf">-I</span><span class="o">{}</span><span class="n"> xdg-open https</span><span class="o">:</span><span class="n">//www.google.com.br/search?q</span><span class="o">={}</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">g exec </span><span class="nf">--no-startup-id</span><span class="n"> echo </span><span class="s">&quot;&quot;</span><span class="n"> | rofi </span><span class="nf">-theme</span><span class="n"> ~/.local/share/rofi/themes/sistematico-dark.rasi </span><span class="nf">-dmenu</span><span class="n"> </span><span class="nf">-p</span><span class="n"> </span><span class="s">&quot;DuckDuckGo: &quot;</span><span class="n"> </span><span class="nf">-bw</span><span class="n"> </span><span class="mi">0</span><span class="n"> </span><span class="nf">-lines</span><span class="n"> </span><span class="mi">1</span><span class="n"> </span><span class="nf">-separator-style</span><span class="n"> none </span><span class="nf">-location</span><span class="n"> </span><span class="mi">0</span><span class="n"> </span><span class="nf">-width</span><span class="n"> </span><span class="mi">250</span><span class="n"> </span><span class="nf">-hide-scrollbar</span><span class="n"> </span><span class="nf">-padding</span><span class="n"> </span><span class="mi">5</span><span class="n"> | xargs </span><span class="nf">-I</span><span class="o">{}</span><span class="n"> xdg-open https</span><span class="o">:</span><span class="n">//duckduckgo.com/?q</span><span class="o">={}</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="nf">--release</span><span class="n"> Mod1</span><span class="o">+</span><span class="n">g exec </span><span class="nf">--no-startup-id</span><span class="n"> exec ~/.config/rofi/scripts/git</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">x exec i3lock-fancy </span><span class="nf">-f</span><span class="n"> </span><span class="s">&quot;Iosevka-Thin&quot;</span><span class="n"> </span><span class="nf">-t</span><span class="n"> </span><span class="s">&quot;Arch Linux&quot;</span><span class="n"> </span><span class="nf">-p</span><span class="n"> </span><span class="nf">-g</span><span class="n"> -- scrot </span><span class="nf">-z</span><span class="n"> | amixer </span><span class="nf">-q</span><span class="n"> </span><span class="nf">-D</span><span class="n"> pulse sset Master mute</span>
+
+<span class="k">bindsym</span><span class="n"> XF86AudioRaiseVolume exec amixer </span><span class="nf">-q</span><span class="n"> </span><span class="nf">-D</span><span class="n"> pulse sset Master 5</span><span class="o">%+</span><span class="n"> unmute</span>
+<span class="k">bindsym</span><span class="n"> XF86AudioLowerVolume exec amixer </span><span class="nf">-q</span><span class="n"> </span><span class="nf">-D</span><span class="n"> pulse sset Master 5</span><span class="o">%</span><span class="n">- unmute</span>
+
+<span class="k">bindsym</span><span class="n"> Print exec </span><span class="nf">--no-startup-id</span><span class="n"> ~/bin/screenshot.sh</span>
+<span class="k">bindsym</span><span class="n"> Control</span><span class="o">+</span><span class="n">Print exec </span><span class="nf">--no-startup-id</span><span class="n"> ~/bin/screenshot.sh </span><span class="nf">-w</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="nf">--release</span><span class="n"> Mod1</span><span class="o">+</span><span class="n">Sys_Req exec </span><span class="nf">--no-startup-id</span><span class="n"> ~/bin/screenshot.sh </span><span class="nf">-s</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Print exec </span><span class="nf">--no-startup-id</span><span class="n"> ~/bin/screenshot.sh </span><span class="nf">-d</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">Print exec </span><span class="nf">--no-startup-id</span><span class="n"> ~/bin/screenshot.sh </span><span class="nf">-g</span>
+
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">j focus left</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">k focus down</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">l focus up</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">semicolon focus right</span>
+
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Left focus left</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Down focus down</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Up focus up</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Right focus right</span>
+
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">j move left</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">k move down</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">l move up</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">semicolon move right</span>
+
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">Left move left</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">Down move down</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">Up move up</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">Right move right</span>
+
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">c move position center</span>
+
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">h split h</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">v split v</span>
+
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">f fullscreen toggle</span>
+
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">s layout stacking</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">w layout tabbed</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">e layout toggle split</span>
+
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">space floating toggle</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">space focus mode_toggle</span>
+
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">a focus parent</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">d focus child</span>
+
+<span class="c1"># Icones:             </span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">workspace1  </span><span class="s">&quot;1:  &quot;</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">workspace2  </span><span class="s">&quot;2:  &quot;</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">workspace3  </span><span class="s">&quot;3:  &quot;</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">workspace4  </span><span class="s">&quot;4:  &quot;</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">workspace5  </span><span class="s">&quot;5:  &quot;</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">workspace6  </span><span class="s">&quot;6:  &quot;</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">workspace7  </span><span class="s">&quot;7:  &quot;</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">workspace8  </span><span class="s">&quot;8:  &quot;</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">workspace9  </span><span class="s">&quot;9:  &quot;</span>
+<span class="k">set</span><span class="n"> </span><span class="o">$</span><span class="n">workspace10 </span><span class="s">&quot;10:  &quot;</span>
+
+<span class="c1"># Alt+TAB &amp; Alt+Shift+TAB	</span>
+<span class="k">bindsym</span><span class="n"> Mod1</span><span class="o">+</span><span class="n">Tab workspace next</span>
+<span class="k">bindsym</span><span class="n"> Mod1</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">Tab workspace prev</span>
+
+<span class="c1"># switch to workspace</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">1 workspace </span><span class="o">$</span><span class="n">workspace1</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">2 workspace </span><span class="o">$</span><span class="n">workspace2</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">3 workspace </span><span class="o">$</span><span class="n">workspace3</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">4 workspace </span><span class="o">$</span><span class="n">workspace4</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">5 workspace </span><span class="o">$</span><span class="n">workspace5</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">6 workspace </span><span class="o">$</span><span class="n">workspace6</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">7 workspace </span><span class="o">$</span><span class="n">workspace7</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">8 workspace </span><span class="o">$</span><span class="n">workspace8</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">9 workspace </span><span class="o">$</span><span class="n">workspace9</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">0 workspace </span><span class="o">$</span><span class="n">workspace10</span>
+
+<span class="c1"># move focused container to workspace</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">1 move container to workspace </span><span class="o">$</span><span class="n">workspace1</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">2 move container to workspace </span><span class="o">$</span><span class="n">workspace2</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">3 move container to workspace </span><span class="o">$</span><span class="n">workspace3</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">4 move container to workspace </span><span class="o">$</span><span class="n">workspace4</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">5 move container to workspace </span><span class="o">$</span><span class="n">workspace5</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">6 move container to workspace </span><span class="o">$</span><span class="n">workspace6</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">7 move container to workspace </span><span class="o">$</span><span class="n">workspace7</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">8 move container to workspace </span><span class="o">$</span><span class="n">workspace8</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">9 move container to workspace </span><span class="o">$</span><span class="n">workspace9</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">0 move container to workspace </span><span class="o">$</span><span class="n">workspace10</span>
+
+<span class="c1"># move to workspaces</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Control</span><span class="o">+</span><span class="n">Right workspace next</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Control</span><span class="o">+</span><span class="n">Left workspace prev</span>
+
+<span class="c1">#bindsym $mod+Shift+c reload</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">r restart</span>
+
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">minus move scratchpad</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">minus scratchpad show</span>
+
+<span class="c1">#bindsym $mod+Shift+e exec &quot;i3-nagbar -t warning -m &#39;You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.&#39; -b &#39;Yes, exit i3&#39; &#39;i3-msg exit&#39;&quot;</span>
+
+<span class="k">for_window</span><span class="n"> </span><span class="nx">[urgent=&quot;latest&quot;]</span><span class="n"> focus</span>
+
+<span class="c1"># move [absolute] position &lt;pos_x&gt; [px] &lt;pos_y&gt; [px]</span>
+<span class="c1"># 1920 x 1080</span>
+<span class="c1"># move position center</span>
+
+<span class="k">for_window</span><span class="n"> </span><span class="nx">[window_role=&quot;pop-up&quot;]</span><span class="n"> floating enable, move position center</span>
+<span class="k">for_window</span><span class="n"> </span><span class="nx">[window_role=&quot;bubble&quot;]</span><span class="n"> floating enable, move position center</span>
+<span class="k">for_window</span><span class="n"> </span><span class="nx">[window_role=&quot;task_dialog&quot;]</span><span class="n"> floating enable, move position center</span>
+<span class="k">for_window</span><span class="n"> </span><span class="nx">[window_role=&quot;Preferences&quot;]</span><span class="n"> floating enable, move position center</span>
+
+<span class="k">for_window</span><span class="n"> </span><span class="nx">[window_type=&quot;dialog&quot;]</span><span class="n"> floating enable, move position center</span>
+<span class="k">for_window</span><span class="n"> </span><span class="nx">[window_type=&quot;menu&quot;]</span><span class="n"> floating enable, move position center</span>
+
+<span class="k">for_window</span><span class="n"> </span><span class="nx">[class=&quot;(mpv|Catfish|Engrampa|File-roller|Notes|Agave|Viewnior|Pavucontrol|Galculator)&quot;]</span><span class="n"> floating enable, move position center</span>
+<span class="k">for_window</span><span class="n"> [class</span><span class="o">=</span><span class="s">&quot;Lxtask&quot;</span><span class="n"> </span><span class="k">title</span><span class="o">=</span><span class="s">&quot;Gerenciador de tarefas&quot;</span><span class="n">] floating enable, resize set </span><span class="mi">800</span><span class="n"> px </span><span class="mi">600</span><span class="n"> px, move position center</span>
+<span class="k">for_window</span><span class="n"> [class</span><span class="o">=</span><span class="s">&quot;^VirtualBox&quot;</span><span class="n"> </span><span class="k">title</span><span class="o">=</span><span class="s">&quot;*Executando*&quot;</span><span class="n">] floating enable</span>
+<span class="k">for_window</span><span class="n"> </span><span class="nx">[class=&quot;^etcher-electron&quot;]</span><span class="n"> floating enable</span>
+<span class="k">for_window</span><span class="n"> </span><span class="nx">[class=&quot;^Skype&quot;]</span><span class="n"> floating enable</span>
+<span class="k">for_window</span><span class="n"> [title</span><span class="o">=</span><span class="s">&quot;^Governo do Estado de Mato Grosso do Sul&quot;</span><span class="n">] floating enable</span>
+<span class="k">for_window</span><span class="n"> [title</span><span class="o">=</span><span class="s">&quot;^Mail do iCloud - Enc&quot;</span><span class="n">] floating enable</span>
+<span class="k">for_window</span><span class="n"> [title</span><span class="o">=</span><span class="s">&quot;Filtros de mensagens&quot;</span><span class="n">] floating enable</span>
+<span class="k">for_window</span><span class="n"> [title</span><span class="o">=</span><span class="s">&quot;Preferências do Thunderbird&quot;</span><span class="n">] floating enable</span>
+<span class="k">for_window</span><span class="n"> </span><span class="nx">[title=&quot;Biblioteca&quot;]</span><span class="n"> floating enable, move position center</span>
+<span class="k">for_window</span><span class="n"> </span><span class="nx">[title=&quot;Library&quot;]</span><span class="n"> floating enable, move position center</span>
+<span class="k">for_window</span><span class="n"> </span><span class="nx">[title=&quot;^DownThemAll&quot;]</span><span class="n"> floating enable</span>
+<span class="k">for_window</span><span class="n"> </span><span class="nx">[title=&quot;DownThemAll!$&quot;]</span><span class="n"> move window to scratchpad</span>
+<span class="k">for_window</span><span class="n"> [title</span><span class="o">=</span><span class="s">&quot;Mail do iCloud - Chromium&quot;</span><span class="n">] floating enable, move position center</span>
+<span class="k">for_window</span><span class="n"> [title</span><span class="o">=</span><span class="s">&quot;i3 Wallpaper&quot;</span><span class="n">] floating enable, move position center</span>
+<span class="k">for_window</span><span class="n"> [title</span><span class="o">=</span><span class="s">&quot;About Mozilla Firefox&quot;</span><span class="n">] floating enable, move position center</span>
+<span class="k">for_window</span><span class="n"> [title</span><span class="o">=</span><span class="s">&quot;Sobre o Mozilla Firefox&quot;</span><span class="n">] floating enable, move position center</span>
+<span class="k">for_window</span><span class="n"> [title</span><span class="o">=</span><span class="s">&quot;Lista de amigos&quot;</span><span class="n">] floating enable, move absolute position </span><span class="mi">1667</span><span class="n"> px </span><span class="mi">0</span><span class="n"> px, resize set </span><span class="mi">250</span><span class="n"> px </span><span class="mi">400</span><span class="n"> px</span>
+
+<span class="k">assign</span><span class="n"> </span><span class="nx">[class=&quot;^(Chromium|Firefox|firefox-developer)&quot;]</span><span class="n"> </span><span class="o">$</span><span class="n">workspace1</span>
+<span class="k">assign</span><span class="n"> </span><span class="nx">[class=&quot;(Termite|Tilix)&quot;]</span><span class="n"> </span><span class="o">$</span><span class="n">workspace2</span>
+<span class="k">assign</span><span class="n"> </span><span class="nx">[class=&quot;(Pluma|Sublime_text|Atom)&quot;]</span><span class="n"> </span><span class="o">$</span><span class="n">workspace3</span>
+<span class="k">assign</span><span class="n"> </span><span class="nx">[class=&quot;^Thunar&quot;]</span><span class="n"> </span><span class="o">$</span><span class="n">workspace4</span>
+<span class="k">assign</span><span class="n"> </span><span class="nx">[class=&quot;^Gimp&quot;]</span><span class="n"> </span><span class="o">$</span><span class="n">workspace5</span>
+<span class="k">assign</span><span class="n"> </span><span class="nx">[class=&quot;^Inkscape&quot;]</span><span class="n"> </span><span class="o">$</span><span class="n">workspace5</span>
+<span class="k">assign</span><span class="n"> </span><span class="nx">[class=&quot;^Lxappearance&quot;]</span><span class="n"> </span><span class="o">$</span><span class="n">workspace5</span>
+<span class="k">assign</span><span class="n"> </span><span class="nx">[class=&quot;^Deadbeef&quot;]</span><span class="n"> </span><span class="o">$</span><span class="n">workspace6</span>
+<span class="k">assign</span><span class="n"> </span><span class="nx">[class=&quot;^Gmpc&quot;]</span><span class="n"> </span><span class="o">$</span><span class="n">workspace6</span>
+<span class="k">assign</span><span class="n"> </span><span class="nx">[class=&quot;^Deluge&quot;]</span><span class="n"> </span><span class="o">$</span><span class="n">workspace7</span>
+<span class="k">assign</span><span class="n"> </span><span class="nx">[class=&quot;^Thunderbird&quot;]</span><span class="n"> </span><span class="o">$</span><span class="n">workspace8</span>
+<span class="k">assign</span><span class="n"> </span><span class="nx">[class=&quot;^Telegram&quot;]</span><span class="n"> </span><span class="o">$</span><span class="n">workspace9</span>
+<span class="k">assign</span><span class="n"> </span><span class="nx">[class=&quot;^Whatsie&quot;]</span><span class="n"> </span><span class="o">$</span><span class="n">workspace9</span>
+<span class="k">assign</span><span class="n"> </span><span class="nx">[class=&quot;^Hexchat&quot;]</span><span class="n"> </span><span class="o">$</span><span class="n">workspace9</span>
+<span class="k">assign</span><span class="n"> </span><span class="nx">[class=&quot;^Gtkman&quot;]</span><span class="n"> </span><span class="o">$</span><span class="n">workspace10</span>
+<span class="k">assign</span><span class="n"> </span><span class="nx">[class=&quot;^Mate-disk-usage-analyzer&quot;]</span><span class="n"> </span><span class="o">$</span><span class="n">workspace10</span>
+<span class="c1">#assign [class=&quot;^Pamac-updater&quot;] $workspace10</span>
+<span class="c1">#assign [class=&quot;^Pamac-manager&quot;] $workspace10</span>
+<span class="k">assign</span><span class="n"> </span><span class="nx">[class=&quot;(^Pamac*|Notes|Lxtask)&quot;]</span><span class="n"> </span><span class="o">$</span><span class="n">workspace10</span>
+
+<span class="c1">#bindsym $mod+c exec &quot;i3-nagbar -t warning -m &#39;Editar arquivos do i3&#39; \</span>
+<span class="c1">#-b &#39;config&#39; &#39;i3-msg exec pluma ~/.config/i3/config&#39; \</span>
+<span class="c1">#-b &#39;i3blocks&#39; &#39;i3-msg exec pluma ~/.config/i3/blocks&#39; \</span>
+<span class="c1">#-b &#39;dunst&#39; &#39;i3-msg exec pluma ~/.config/i3/dunstrc&#39; \</span>
+<span class="c1">#-b &#39;compton&#39; &#39;i3-msg exec pluma ~/.config/compton.conf&#39; \</span>
+<span class="c1">#-b &#39;rofi&#39; &#39;i3-msg exec pluma ~/.config/rofi/config&#39; \</span>
+<span class="c1">#-b &#39;.Xresources&#39; &#39;i3-msg exec pluma ~/.Xresources&#39; \</span>
+<span class="c1">#-b &#39;.xinitrc&#39; &#39;i3-msg exec pluma ~/.config/.xinitrc&#39; \</span>
+<span class="c1">#-b &#39;.Xdefaults&#39; &#39;i3-msg exec pluma ~/.config/.Xdefaults&#39; \</span>
+<span class="c1">#-b &#39;apps&#39; &#39;i3-msg exec pluma ~/.config/rofi/scripts/apps&#39;&quot;</span>
+
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">c exec ~/.config/rofi/scripts/configs</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">a exec ~/.config/rofi/scripts/apps</span>
+
+<span class="k">mode</span><span class="n"> </span><span class="s">&quot;[s]air, [d]esligar, [r]einiciar, [s]uspender&quot;</span><span class="n"> </span><span class="o">{</span>
+<span class="n">	bindsym s exec i3-msg exit</span>
+<span class="n">	bindsym d exec systemctl poweroff</span>
+<span class="n">	bindsym r exec systemctl reboot</span>
+<span class="n">	bindsym s exec systemctl suspend</span>
+
+<span class="n">	bindsym Return mode </span><span class="s">&quot;default&quot;</span>
+<span class="n">    bindsym Escape mode </span><span class="s">&quot;default&quot;</span>
+<span class="o">}</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Mod1</span><span class="o">+</span><span class="n">e mode </span><span class="s">&quot;[s]air, [d]esligar, [r]einiciar, [s]uspender&quot;</span>
+
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">Shift</span><span class="o">+</span><span class="n">e exec ~/.config/rofi/scripts/power</span>
+
+<span class="k">mode</span><span class="n"> </span><span class="s">&quot;resize&quot;</span><span class="n"> </span><span class="o">{</span>
+<span class="n">        bindsym j resize shrink width </span><span class="mi">10</span><span class="n"> px or </span><span class="mi">10</span><span class="n"> ppt</span>
+<span class="n">        bindsym k resize grow height </span><span class="mi">10</span><span class="n"> px or </span><span class="mi">10</span><span class="n"> ppt</span>
+<span class="n">        bindsym l resize shrink height </span><span class="mi">10</span><span class="n"> px or </span><span class="mi">10</span><span class="n"> ppt</span>
+<span class="n">        bindsym semicolon resize grow width </span><span class="mi">10</span><span class="n"> px or </span><span class="mi">10</span><span class="n"> ppt</span>
+
+<span class="n">        bindsym Left resize shrink width </span><span class="mi">10</span><span class="n"> px or </span><span class="mi">10</span><span class="n"> ppt</span>
+<span class="n">        bindsym Down resize grow height </span><span class="mi">10</span><span class="n"> px or </span><span class="mi">10</span><span class="n"> ppt</span>
+<span class="n">        bindsym Up resize shrink height </span><span class="mi">10</span><span class="n"> px or </span><span class="mi">10</span><span class="n"> ppt</span>
+<span class="n">        bindsym Right resize grow width </span><span class="mi">10</span><span class="n"> px or </span><span class="mi">10</span><span class="n"> ppt</span>
+
+<span class="n">        bindsym Return mode </span><span class="s">&quot;default&quot;</span>
+<span class="n">        bindsym Escape mode </span><span class="s">&quot;default&quot;</span>
+<span class="o">}</span>
+<span class="k">bindsym</span><span class="n"> </span><span class="o">$</span><span class="n">mod</span><span class="o">+</span><span class="n">r mode </span><span class="s">&quot;resize&quot;</span>
+
+<span class="k">bar</span><span class="n"> </span><span class="o">{</span>
+<span class="n">	font pango</span><span class="o">:</span><span class="n">Hack, FontAwesome </span><span class="mi">10</span>
+<span class="n">	tray_output none</span>
+<span class="n">	status_command i3blocks</span>
+<span class="n">	i3bar_command i3bar </span><span class="nf">-t</span>
+<span class="n">	position top</span>
+<span class="n">	separator_symbol </span><span class="s">&quot;■&quot;</span>
+<span class="n">	strip_workspace_numbers yes</span>
+<span class="n">	colors </span><span class="o">{</span>
+<span class="n">		statusline		</span><span class="o">$</span><span class="n">cinza</span>
+<span class="n">		background		</span><span class="o">$</span><span class="n">transparente</span>
+<span class="n">		separator		</span><span class="o">$</span><span class="n">cinza</span>
+
+<span class="n">		focused_workspace	</span><span class="o">$</span><span class="n">transparente	</span><span class="o">$</span><span class="n">transparente	</span><span class="o">$</span><span class="n">branco</span>
+<span class="n">		inactive_workspace	</span><span class="o">$</span><span class="n">transparente	</span><span class="o">$</span><span class="n">transparente	</span><span class="o">$</span><span class="n">cinza</span>
+<span class="n">		urgent_workspace	</span><span class="o">$</span><span class="n">transparente	</span><span class="o">$</span><span class="n">transparente	</span><span class="o">$</span><span class="n">texto-urgente		</span>
+<span class="n">    </span><span class="o">}</span>
+<span class="o">}</span>
+
+<span class="k">exec</span><span class="n"> </span><span class="nf">--no-startup-id</span><span class="n"> ~/bin/wallpaper.sh </span><span class="nf">-r</span>
+<span class="k">exec</span><span class="n"> </span><span class="nf">--no-startup-id</span><span class="n"> compton </span><span class="nf">-b</span>
+<span class="k">exec</span><span class="n"> </span><span class="nf">--no-startup-id</span><span class="n"> conky</span>
+<span class="k">exec</span><span class="n"> </span><span class="nf">--no-startup-id</span><span class="n"> dunst</span>
+<span class="k">exec</span><span class="n"> </span><span class="nf">--no-startup-id</span><span class="n"> clipit</span>
+<span class="k">exec</span><span class="n"> </span><span class="nf">--no-startup-id</span><span class="n"> sudo headsetcontrol </span><span class="mi">64</span>
+<span class="k">exec</span><span class="n"> </span><span class="nf">--no-startup-id</span><span class="n"> xautolock.sh</span>
+<span class="k">exec</span><span class="n"> </span><span class="nf">--no-startup-id</span><span class="n"> xset r rate </span><span class="mi">300</span><span class="n"> </span><span class="mi">75</span>
+<span class="k">exec</span><span class="n"> </span><span class="nf">--no-startup-id</span><span class="n"> thunar </span><span class="nf">--daemon</span>
+<span class="k">exec</span><span class="n"> </span><span class="nf">--no-startup-id</span><span class="n"> dropbox</span>
+<span class="c1">#exec --no-startup-id notes</span>
+</pre></div>
+</td></tr></table>
+                </div>
+                
+                <div class="overlay short">
+                    <p>CLICK TO VIEW</p>
+                </div>
+                
+                <div class="minimize">
+                    <p>x</p>
+                </div>
+            </div>
+        </div>
+        
+        
+            
+            
+            <div class="multi">
+                
+                    <div class="item file">
+                        <div class="header">
+                            
+                                <h4>.config_i3blocks_config<span class="right">(<a href="/dots/1508/1/raw/">raw</a>, <a href="/dots/1508/1/dl/">dl</a>)</span></h4>
+                            
+                        </div>
+                        
+                        <div class="content">
+                            <div class="dot">
+                                <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57</pre></div></td><td class="code"><div class="highlight"><pre><span class="c1"># Colors: https://github.com/da-edra/dotfiles/blob/master/.i3blocks.conf</span>
+
+<span class="k">command</span><span class="o">=</span><span class="n">~/.config/i3blocks/scripts/</span><span class="o">$</span><span class="n">BLOCK_NAME</span>
+<span class="c1">#full_text=</span>
+<span class="c1">#align=center</span>
+<span class="c1">#separator=false</span>
+<span class="c1">#separator_block_width=7</span>
+<span class="c1">#color=#ffffff</span>
+<span class="c1">#markup=none</span>
+
+<span class="k">separator</span><span class="o">=</span><span class="kp">false</span>
+<span class="k">separator_block_width</span><span class="o">=</span><span class="mi">10</span>
+<span class="k">border_top</span><span class="o">=</span><span class="mi">0</span>
+<span class="k">border_left</span><span class="o">=</span><span class="mi">0</span>
+<span class="k">border_right</span><span class="o">=</span><span class="mi">0</span>
+<span class="k">border_bottom</span><span class="o">=</span><span class="mi">3</span>
+
+<span class="nx">[focus]</span>
+<span class="k">label</span><span class="o">=</span><span class="n"></span>
+<span class="k">interval</span><span class="o">=</span><span class="mi">5</span>
+<span class="k">border</span><span class="o">=</span><span class="s">#cc241d</span>
+
+<span class="nx">[mpd]</span>
+<span class="k">label</span><span class="o">=</span><span class="n"></span>
+<span class="k">interval</span><span class="o">=</span><span class="mi">5</span>
+<span class="k">border</span><span class="o">=</span><span class="s">#d79921</span>
+
+<span class="nx">[temperature]</span>
+<span class="k">label</span><span class="o">=</span><span class="n"></span>
+<span class="k">interval</span><span class="o">=</span><span class="mi">10</span>
+<span class="k">border</span><span class="o">=</span><span class="s">#b16286</span>
+
+<span class="nx">[weather]</span>
+<span class="k">instance</span><span class="o">=</span><span class="s">&quot;SAM|BR|BR010|CAMPO+GRANDE&quot;</span>
+<span class="k">interval</span><span class="o">=</span><span class="mi">300</span>
+<span class="k">border</span><span class="o">=</span><span class="s">#98971a</span>
+
+<span class="nx">[packages]</span>
+<span class="k">label</span><span class="o">=</span><span class="n"></span>
+<span class="k">interval</span><span class="o">=</span><span class="mi">600</span>
+<span class="k">border</span><span class="o">=</span><span class="s">#458588</span>
+
+<span class="nx">[trash]</span>
+<span class="k">label</span><span class="o">=</span><span class="n"></span>
+<span class="k">interval</span><span class="o">=</span><span class="mi">30</span>
+<span class="k">border</span><span class="o">=</span><span class="s">#928374</span>
+
+<span class="nx">[hora]</span>
+<span class="k">label</span><span class="o">=</span><span class="n"></span>
+<span class="k">interval</span><span class="o">=</span><span class="mi">5</span>
+<span class="k">border</span><span class="o">=</span><span class="s">#cc241d</span>
+
+<span class="nx">[volume]</span>
+<span class="k">instance</span><span class="o">=</span><span class="n">Master</span>
+<span class="k">interval</span><span class="o">=</span><span class="mi">1</span>
+<span class="k">signal</span><span class="o">=</span><span class="mi">10</span>
+<span class="k">border</span><span class="o">=</span><span class="s">#d79921</span>
+</pre></div>
+</td></tr></table>
+                            </div>
+                            
+                            <div class="overlay">&nbsp;</div>
+                            
+                            <div class="minimize">
+                                <p>x</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="item file">
+                        <div class="header">
+                            
+                                <h4>.config_dunst_dunstrc<span class="right">(<a href="/dots/1508/2/raw/">raw</a>, <a href="/dots/1508/2/dl/">dl</a>)</span></h4>
+                            
+                        </div>
+                        
+                        <div class="content">
+                            <div class="dot">
+                                <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140</pre></div></td><td class="code"><div class="highlight"><pre><span class="nx">[global]</span>
+<span class="n">    </span><span class="k">font</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;Hack 10&quot;</span>
+<span class="n">	</span><span class="c1">#transparency = 95</span>
+<span class="n">    </span><span class="k">markup</span><span class="n"> </span><span class="o">=</span><span class="n"> yes</span>
+<span class="n">    </span><span class="k">format</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&lt;b&gt;%s %p&lt;/b&gt;\n%b&quot;</span>
+<span class="n">    </span><span class="k">sort</span><span class="n"> </span><span class="o">=</span><span class="n"> yes</span>
+<span class="n">    </span><span class="k">indicate_hidden</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span>
+<span class="n">	</span><span class="k">show_indicators</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">false</span>
+<span class="n">    </span><span class="c1"># geometry = &quot;x5&quot;</span>
+<span class="n">    </span><span class="k">idle_threshold</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="n">    </span><span class="k">geometry</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;400x5-25+35&quot;</span>
+<span class="n">    </span><span class="k">alignment</span><span class="n"> </span><span class="o">=</span><span class="n"> center</span>
+<span class="n">    </span><span class="k">show_age_threshold</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">60</span>
+<span class="n">    </span><span class="k">sticky_history</span><span class="n"> </span><span class="o">=</span><span class="n"> yes</span>
+<span class="n">    </span><span class="k">follow</span><span class="n"> </span><span class="o">=</span><span class="n"> mouse</span>
+<span class="n">    </span><span class="k">word_wrap</span><span class="n"> </span><span class="o">=</span><span class="n"> yes</span>
+<span class="n">    </span><span class="k">separator_height</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">2</span>
+<span class="n">    </span><span class="k">padding</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">10</span>
+<span class="n">    </span><span class="k">horizontal_padding</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">10</span>
+<span class="n">    </span><span class="k">separator_color</span><span class="n"> </span><span class="o">=</span><span class="n"> frame</span>
+<span class="n">    </span><span class="k">startup_notification</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">false</span>
+<span class="n">    </span><span class="c1">#dmenu = &quot;/usr/bin/dmenu -p dunst: -nb #FFFFFF -nf #000000 -sb #2e3440 -sf #000000&quot;</span>
+<span class="n">    </span><span class="k">dmenu</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/usr/bin/dmenu -p dunst: -nb &#39;#2e3440&#39; -nf &#39;#000000&#39; -sb &#39;#2e3440&#39; -sf &#39;#2e3440&#39;&quot;</span>
+<span class="n">    </span><span class="k">browser</span><span class="n"> </span><span class="o">=</span><span class="n"> firefox-developer</span>
+<span class="n">	</span><span class="c1"># Align icons left/right/off</span>
+<span class="n">    </span><span class="k">icon_position</span><span class="n"> </span><span class="o">=</span><span class="n"> left</span>
+<span class="n">    </span><span class="k">icon_folders</span><span class="n"> </span><span class="o">=</span><span class="n"> /usr/share/icons/gnome/32x32/status/</span><span class="o">:</span><span class="n">/usr/share/icons/gnome/32x32/devices/</span>
+<span class="n">	</span><span class="c1">#icon_folders = /usr/share/icons/Arc/status/32/:/usr/share/icons/Arc/devices/32/:/usr/share/icons/Arc/apps/32/</span>
+<span class="n">	</span><span class="k">frame_width</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="n">	</span><span class="c1">#frame_color = &quot;#000000&quot;</span>
+
+<span class="nx">[shortcuts]</span>
+<span class="n">    </span><span class="k">close</span><span class="n"> </span><span class="o">=</span><span class="n"> ctrl</span><span class="o">+</span><span class="n">space</span>
+<span class="n">    </span><span class="k">close_all</span><span class="n"> </span><span class="o">=</span><span class="n"> ctrl</span><span class="o">+</span><span class="n">shift</span><span class="o">+</span><span class="n">space</span>
+<span class="n">    </span><span class="k">history</span><span class="n"> </span><span class="o">=</span><span class="n"> ctrl</span><span class="o">+</span><span class="n">period</span>
+<span class="n">    </span><span class="k">context</span><span class="n"> </span><span class="o">=</span><span class="n"> ctrl</span><span class="o">+</span><span class="n">shift</span><span class="o">+</span><span class="n">period</span>
+
+<span class="nx">[urgency_low]</span>
+<span class="n">    </span><span class="k">background</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;#ffffff&quot;</span>
+<span class="n">    </span><span class="k">foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;#000000&quot;</span>
+<span class="n">    </span><span class="k">timeout</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">7</span>
+
+<span class="nx">[urgency_normal]</span>
+<span class="n">    </span><span class="c1">#background = &quot;#94DBFF&quot;</span>
+<span class="n">	</span><span class="c1">#background = &quot;#2e3436&quot;</span>
+<span class="n">	</span><span class="k">background</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;#2e3440&quot;</span>
+<span class="n">    </span><span class="k">foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;#000000&quot;</span>
+<span class="n">    </span><span class="k">timeout</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">15</span>
+
+<span class="nx">[urgency_critical]</span>
+<span class="n">    </span><span class="k">background</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;#ff9999&quot;</span>
+<span class="n">    </span><span class="k">foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;#000000&quot;</span>
+<span class="n">    </span><span class="k">timeout</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">17</span>
+
+
+<span class="nx">[libpurple_signed]</span>
+<span class="n">    </span><span class="k">appname</span><span class="n"> </span><span class="o">=</span><span class="n"> libpurple</span>
+<span class="n">    </span><span class="k">summary</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">*</span><span class="n">igned</span><span class="o">*</span>
+<span class="n">    </span><span class="k">urgency</span><span class="n"> </span><span class="o">=</span><span class="n"> low</span>
+<span class="n">    </span><span class="k">timeout</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">3</span>
+<span class="n">    </span><span class="k">background</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;#ccff33&quot;</span>
+
+<span class="nx">[libpurple_came_back]</span>
+<span class="n">    </span><span class="k">appname</span><span class="n"> </span><span class="o">=</span><span class="n"> libpurple</span>
+<span class="n">    </span><span class="k">summary</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;*came*&quot;</span>
+<span class="n">    </span><span class="k">format</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+
+<span class="nx">[libpurple_went_away]</span>
+<span class="n">    </span><span class="k">appname</span><span class="n"> </span><span class="o">=</span><span class="n"> libpurple</span>
+<span class="n">    </span><span class="k">summary</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;*went*&quot;</span>
+<span class="n">    </span><span class="k">format</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+
+<span class="nx">[libpurple_says]</span>
+<span class="n">    </span><span class="k">appname</span><span class="n"> </span><span class="o">=</span><span class="n"> libpurple</span>
+<span class="n">    </span><span class="k">summary</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">*</span><span class="n">ays</span><span class="o">*</span>
+<span class="n">    </span><span class="k">urgency</span><span class="n"> </span><span class="o">=</span><span class="n"> critical</span>
+<span class="n">    </span><span class="k">background</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;#ccff33&quot;</span>
+
+<span class="nx">[libpurple]</span>
+<span class="n">    </span><span class="k">appname</span><span class="n"> </span><span class="o">=</span><span class="n"> libpurple</span>
+<span class="n">    </span><span class="k">urgency</span><span class="n"> </span><span class="o">=</span><span class="n"> critical</span>
+<span class="n">    </span><span class="k">background</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;#ccff33&quot;</span>
+
+<span class="nx">[twitter]</span>
+<span class="n">    </span><span class="k">appname</span><span class="n"> </span><span class="o">=</span><span class="n"> Pidgin</span>
+<span class="n">    </span><span class="k">summary</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">*</span><span class="n">twitter.com</span><span class="o">*</span>
+<span class="n">    </span><span class="k">urgency</span><span class="n"> </span><span class="o">=</span><span class="n"> low</span>
+
+<span class="nx">[turpial]</span>
+<span class="n">    </span><span class="k">appname</span><span class="n"> </span><span class="o">=</span><span class="n"> Turpial</span>
+<span class="n">    </span><span class="k">urgency</span><span class="n"> </span><span class="o">=</span><span class="n"> low</span>
+
+<span class="nx">[ttytter]</span>
+<span class="n">    </span><span class="k">summary</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;TTYtter*&quot;</span>
+<span class="n">    </span><span class="k">urgency</span><span class="n"> </span><span class="o">=</span><span class="n"> low</span>
+
+<span class="nx">[dunst-sum]</span>
+<span class="n">    </span><span class="k">appname</span><span class="n"> </span><span class="o">=</span><span class="n"> gmailnotify.py</span>
+<span class="n">    </span><span class="k">summary</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;*[dD]unst*&quot;</span>
+<span class="n">    </span><span class="k">urgency</span><span class="n"> </span><span class="o">=</span><span class="n"> critical</span>
+
+<span class="nx">[dunst-body]</span>
+<span class="n">    </span><span class="k">appname</span><span class="n"> </span><span class="o">=</span><span class="n"> gmailnotify.py</span>
+<span class="n">    </span><span class="k">body</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;*[dD]unst*&quot;</span>
+<span class="n">    </span><span class="k">urgency</span><span class="n"> </span><span class="o">=</span><span class="n"> critical</span>
+
+<span class="nx">[mcabber]</span>
+<span class="n">    </span><span class="k">appname</span><span class="n"> </span><span class="o">=</span><span class="n"> notify-send</span>
+<span class="n">    </span><span class="k">summary</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;*jabber*&quot;</span>
+<span class="n">    </span><span class="k">urgency</span><span class="n"> </span><span class="o">=</span><span class="n"> critical</span>
+
+<span class="nx">[irc]</span>
+<span class="n">    </span><span class="k">appname</span><span class="n"> </span><span class="o">=</span><span class="n"> weechat</span>
+<span class="n">    </span><span class="k">timeout</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="n">    </span><span class="k">background</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;#99FF33&quot;</span>
+<span class="n">    </span><span class="k">foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;#000000&quot;</span>
+
+<span class="nx">[XChat]</span>
+<span class="n">    </span><span class="k">appname</span><span class="n"> </span><span class="o">=</span><span class="n"> XChat</span>
+<span class="n">    </span><span class="k">timeout</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="n">    </span><span class="k">background</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;#99FF33&quot;</span>
+<span class="n">    </span><span class="k">foreground</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;#000000&quot;</span>
+
+<span class="nx">[test]</span>
+<span class="n">    </span><span class="k">summary</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;*test*&quot;</span>
+<span class="n">    </span><span class="k">background</span><span class="o">=</span><span class="s">&quot;#22dd22&quot;</span>
+<span class="n">    </span>
+<span class="nx">[mae]</span>
+<span class="n">    </span><span class="k">appname</span><span class="n"> </span><span class="o">=</span><span class="n"> Telegram</span>
+<span class="n">    </span><span class="k">summary</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;*[fF]azenda*&quot;</span>
+<span class="n">    </span><span class="k">body</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;*&quot;</span>
+<span class="n">	</span><span class="k">script</span><span class="n"> </span><span class="o">=</span><span class="n"> /home/lucas/bin/alarme.sh</span>
+<span class="n">	</span><span class="k">urgency</span><span class="n"> </span><span class="o">=</span><span class="n"> critical  </span>
+<span class="n">	</span>
+<span class="nx">[joao]</span>
+<span class="n">    </span><span class="k">appname</span><span class="n"> </span><span class="o">=</span><span class="n"> Telegram</span>
+<span class="n">	</span><span class="k">summary</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;*Jσα̃σ Pεɔяσ*&quot;</span>
+<span class="n">    </span><span class="k">body</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;*&quot;</span>
+<span class="n">    </span><span class="k">script</span><span class="n"> </span><span class="o">=</span><span class="n"> /home/lucas/bin/alarme.sh</span>
+<span class="n">    </span><span class="k">urgency</span><span class="n"> </span><span class="o">=</span><span class="n"> critical</span>
+</pre></div>
+</td></tr></table>
+                            </div>
+                            
+                            <div class="overlay">&nbsp;</div>
+                            
+                            <div class="minimize">
+                                <p>x</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="item file">
+                        <div class="header">
+                            
+                                <h4>.config_conky_conky.conf<span class="right">(<a href="/dots/1508/3/raw/">raw</a>, <a href="/dots/1508/3/dl/">dl</a>)</span></h4>
+                            
+                        </div>
+                        
+                        <div class="content">
+                            <div class="dot">
+                                <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84</pre></div></td><td class="code"><div class="highlight"><pre><span class="k">--</span><span class="n"> vim</span><span class="o">:</span><span class="n"> </span><span class="k">ts</span><span class="o">=</span><span class="mi">4</span><span class="n"> </span><span class="k">sw</span><span class="o">=</span><span class="mi">4</span><span class="n"> noet ai cindent </span><span class="k">syntax</span><span class="o">=</span><span class="n">lua</span>
+<span class="k">--[[</span>
+<span class="k">Conky,</span><span class="n"> a system monitor, based on torsmo</span>
+
+<span class="k">Any</span><span class="n"> original torsmo code is licensed under the BSD license</span>
+
+<span class="k">All</span><span class="n"> code written since the fork of torsmo is licensed under the GPL</span>
+
+<span class="k">Please</span><span class="n"> see COPYING for details</span>
+
+<span class="k">Copyright</span><span class="n"> (c) 2004, Hannu Saransaari and Lauri Hakkarainen</span>
+<span class="k">Copyright</span><span class="n"> (c) 2005-2012 Brenden Matthews, Philip Kovacs, et. al. (see AUTHORS)</span>
+<span class="k">All</span><span class="n"> rights reserved.</span>
+
+<span class="k">This</span><span class="n"> program is free software</span><span class="o">:</span><span class="n"> you can redistribute it and/or modify</span>
+<span class="k">it</span><span class="n"> under the terms of the GNU General Public License as published by</span>
+<span class="k">the</span><span class="n"> Free Software Foundation, either version </span><span class="mi">3</span><span class="n"> of the License, or</span>
+<span class="k">(at</span><span class="n"> your option) any later version.</span>
+
+<span class="k">This</span><span class="n"> program is distributed in the hope that it will be useful,</span>
+<span class="k">but</span><span class="n"> WITHOUT ANY WARRANTY</span><span class="o">;</span><span class="n"> without even the implied warranty of</span>
+<span class="k">MERCHANTABILITY</span><span class="n"> or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<span class="k">GNU</span><span class="n"> General Public License for more details.</span>
+<span class="k">You</span><span class="n"> should have received a copy of the GNU General Public License</span>
+<span class="k">along</span><span class="n"> with this program.  If not, see &lt;http</span><span class="o">:</span><span class="n">//www.gnu.org/licenses/&gt;.</span>
+<span class="k">]]</span>
+
+<span class="k">conky.config</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="o">{</span>
+<span class="n">    </span><span class="k">alignment</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&#39;bc&#39;</span><span class="n">,</span>
+<span class="n">    </span><span class="k">maximum_width</span><span class="n"> </span><span class="o">=</span><span class="n"> 1920,</span>
+<span class="n">    </span><span class="k">minimum_width</span><span class="n"> </span><span class="o">=</span><span class="n"> 1920,</span>
+<span class="n">    </span><span class="k">minimum_height</span><span class="n"> </span><span class="o">=</span><span class="n"> 5,</span>
+<span class="n">    </span><span class="k">border_width</span><span class="n"> </span><span class="o">=</span><span class="n"> 0,</span>
+<span class="n">    </span><span class="k">cpu_avg_samples</span><span class="n"> </span><span class="o">=</span><span class="n"> 2,</span>
+<span class="n">	</span><span class="k">default_color</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&#39;white&#39;</span><span class="n">,</span>
+<span class="n">    </span><span class="k">default_outline_color</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&#39;white&#39;</span><span class="n">,</span>
+<span class="n">    </span><span class="k">default_shade_color</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&#39;white&#39;</span><span class="n">,</span>
+<span class="n">    </span><span class="k">draw_borders</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">false</span><span class="n">,</span>
+<span class="n">    </span><span class="k">draw_graph_borders</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span><span class="n">,</span>
+<span class="n">    </span><span class="k">draw_outline</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">false</span><span class="n">,</span>
+<span class="n">    </span><span class="k">draw_shades</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">false</span><span class="n">,</span>
+<span class="n">    </span><span class="k">use_xft</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span><span class="n">,</span>
+<span class="n">    </span><span class="k">font</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&#39;Hack:size=10&#39;</span><span class="n">,</span>
+<span class="n">    </span><span class="k">gap_x</span><span class="n"> </span><span class="o">=</span><span class="n"> 0,</span>
+<span class="n">    </span><span class="k">gap_y</span><span class="n"> </span><span class="o">=</span><span class="n"> 0,</span>
+<span class="n">    </span><span class="k">net_avg_samples</span><span class="n"> </span><span class="o">=</span><span class="n"> 2,</span>
+<span class="n">    </span><span class="k">no_buffers</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span><span class="n">,</span>
+<span class="n">    </span><span class="k">double_buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span><span class="n">,</span>
+<span class="n">    </span><span class="k">out_to_console</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">false</span><span class="n">,</span>
+<span class="n">    </span><span class="k">out_to_stderr</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">false</span><span class="n">,</span>
+<span class="n">    </span><span class="k">extra_newline</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">false</span><span class="n">,</span>
+<span class="n">    </span><span class="k">own_window</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span><span class="n">,</span>
+<span class="n">    </span><span class="k">own_window_class</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&#39;Conky&#39;</span><span class="n">,</span>
+<span class="n">    -- normal, desktop, dock, panel, override</span>
+<span class="n">    </span><span class="k">own_window_type</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&#39;panel&#39;</span><span class="n">,</span>
+<span class="n">    </span><span class="k">own_window_transparent</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span><span class="n">,</span>
+<span class="n">    </span><span class="k">own_window_hints</span><span class="n"> </span><span class="o">=</span><span class="n"> undecorated,below,sticky,skip_taskbar,skip_pager,</span>
+<span class="n">	</span><span class="k">own_window_argb_visual</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span><span class="n">,</span>
+<span class="n">    </span><span class="k">stippled_borders</span><span class="n"> </span><span class="o">=</span><span class="n"> 0,</span>
+<span class="n">    </span><span class="k">update_interval</span><span class="n"> </span><span class="o">=</span><span class="n"> 1.0,</span>
+<span class="n">    </span><span class="k">uppercase</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">false</span><span class="n">,</span>
+<span class="n">    </span><span class="k">use_spacer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&#39;none&#39;</span><span class="n">,</span>
+<span class="n">    </span><span class="k">show_graph_scale</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">false</span><span class="n">,</span>
+<span class="n">    </span><span class="k">show_graph_range</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="kp">false</span><span class="n">,</span>
+<span class="n">	</span><span class="k">default_bar_width</span><span class="n"> </span><span class="o">=</span><span class="n"> 50,</span>
+<span class="n">	</span><span class="k">color1</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&#39;8fbcbb&#39;</span><span class="n">,</span>
+<span class="n">	</span><span class="k">color2</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&#39;88c0d0&#39;</span><span class="n">,</span>
+<span class="n">	</span><span class="k">color3</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&#39;81a1c1&#39;</span><span class="n">,</span>
+<span class="n">	</span><span class="k">color4</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&#39;5e81ac&#39;</span><span class="n">,</span>
+<span class="n">	</span><span class="k">color5</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&#39;bf616a&#39;</span><span class="n">,</span>
+<span class="n">	</span><span class="k">color6</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&#39;d08770&#39;</span><span class="n">,</span>
+<span class="n">	</span><span class="k">color7</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&#39;ebcb8b&#39;</span><span class="n">,</span>
+<span class="n">	</span><span class="k">color8</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&#39;a3be8c&#39;</span><span class="n">,</span>
+<span class="n">	</span><span class="k">color9</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&#39;b48ead&#39;</span><span class="n">,</span>
+<span class="o">}</span>
+
+<span class="k">conky.text</span><span class="n"> </span><span class="o">=</span><span class="n"> [[</span>
+<span class="o">${</span><span class="n">offset 55</span><span class="o">}${</span><span class="n">color3</span><span class="o">}</span><span class="n">cpu </span><span class="o">${</span><span class="n">cpubar 4</span><span class="o">}</span><span class="n"> \</span>
+<span class="o">${</span><span class="n">offset 240</span><span class="o">}${</span><span class="n">color4</span><span class="o">}</span><span class="n">ram </span><span class="o">${</span><span class="n">membar 4</span><span class="o">}</span><span class="n"> \</span>
+<span class="o">${</span><span class="n">offset 240</span><span class="o">}${</span><span class="n">color5</span><span class="o">}</span><span class="n">swap </span><span class="o">${</span><span class="n">swapbar 4</span><span class="o">}</span><span class="n"> \</span>
+<span class="o">${</span><span class="n">offset 240</span><span class="o">}${</span><span class="n">color6</span><span class="o">}</span><span class="n">/ </span><span class="o">${</span><span class="n">fs_bar </span><span class="mi">4</span><span class="n"> /</span><span class="o">}</span><span class="n"> \</span>
+<span class="o">${</span><span class="n">offset 240</span><span class="o">}${</span><span class="n">color7</span><span class="o">}</span><span class="n">/home </span><span class="o">${</span><span class="n">fs_bar </span><span class="mi">4</span><span class="n"> /home</span><span class="o">}</span><span class="n"> \</span>
+<span class="o">${</span><span class="n">offset 240</span><span class="o">}${</span><span class="n">color8</span><span class="o">}</span><span class="n">wireless </span><span class="o">${</span><span class="n">wireless_link_bar wlan0</span><span class="o">}</span>
+<span class="k">]]</span>
+</pre></div>
+</td></tr></table>
+                            </div>
+                            
+                            <div class="overlay">&nbsp;</div>
+                            
+                            <div class="minimize">
+                                <p>x</p>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        
+    
+
+    
+    
+        <div class="item">
+            <div class="header">
+                <h4>Notes</h4>
+            </div>
+            
+            <div class="content markdown">
+                <p>Based on <a href="https://github.com/Airblader/i3">Airblader</a> dotfiles and others&hellip;</p>
+
+<ul>
+<li><a href="https://github.com/sistematico/majestic" title="Majestic Dotfiles">Github</a></li>
+</ul>
+
+            </div>
+        </div>
+    
+    
+    
+        <div class="item">
+            <div class="header">
+                <h4>Comments</h4>
+            </div>
+            
+            <div class="content comments">
+                
+                    <h6><a href="/~IzacCF/">IzacCF</a> said about <strong class="light-orange">9 months ago</strong></h6>
+                    <div class="markdown">
+                        <p>Ótimo trabalho, man!<br>
+Simples e sóbrio.</p>
+
+                        
+                        
+                    </div>
+                
+                    <h6><a href="/~sistematico/">sistematico</a> said about <strong class="light-orange">9 months ago</strong></h6>
+                    <div class="markdown">
+                        <p>Valeu! É com base nesse trabalho: <a href="https://www.youtube.com/watch?v=j1I63wGcvU4">https://www.youtube.com/watch?v=j1I63wGcvU4</a></p>
+
+                        
+                        
+                    </div>
+                
+                    <h6><a href="/~IzacCF/">IzacCF</a> said about <strong class="light-orange">9 months ago</strong></h6>
+                    <div class="markdown">
+                        <p>Carlberg is great !!!</p>
+
+                        
+                        
+                            <p class="edited">
+                                <em>edited about <strong class="light-orange">7 months ago</strong></em>
+                            </p>
+                        
+                    </div>
+                
+                    <h6><a href="/~vegangaro/">vegangaro</a> said about <strong class="light-orange">9 months ago</strong></h6>
+                    <div class="markdown">
+                        <p>Krai ficou lindao! hehe</p>
+
+                        
+                        
+                    </div>
+                
+                    <h6><a href="/~sistematico/">sistematico</a> said about <strong class="light-orange">5 months ago</strong></h6>
+                    <div class="markdown">
+                        <p>Obrigado pessoal, configs atualizadas.<br>
+Se quiserem as antigas é só dar uma pesquisadas nos commits&hellip;</p>
+
+                        
+                        
+                    </div>
+                
+            </div>
+        </div>
+        
+        
+    
+    
+    
+
+    </div>
+    
+    <div id="footer">&nbsp;</div>
+</div>
+
+<div id="logo">
+    <a href="/"><img src="/public/images/logo.png" width="62" height="63" alt="DotShare.it"></a>
+</div>
+
+</body>
+</html>���:��           Z�U�?           :http://dotshare.it/dots/1508/ strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Sun, 29 Apr 2018 12:19:48 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 94795
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Sun, 29 Apr 2018 12:19:48 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 94795
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+ uncompressed-len 0  rK

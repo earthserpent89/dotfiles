@@ -1,0 +1,2083 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    
+    <link rel="stylesheet" href="/public/css/screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/colorbox.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/tipsy.css" type="text/css" media="screen">
+    
+    <script src="/public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.ui.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.colorbox.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.tipsy.js" type="text/javascript"></script>
+    <script src="/public/js/ds.js" type="text/javascript"></script>
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-24042959-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+    <title>DotShare.it</title>
+</head>
+
+<body>
+
+<div id="header">
+    <div id="nav">
+        <ul class="label">
+            <li><span class="orange">.</span>share</li>
+        </ul>
+        
+        <ul>
+            <li>guest<span class="gray">@</span>dotshare <span class="gray">[</span>~<span class="gray">]</span> <span class="gray">$</span> ls -a nav/</li>
+            
+            <li><a href="/">..</a></li>
+            <li><a href="/news/">news</a></li>
+            <li><a href="/dots/">browse</a></li>
+            
+            
+            
+            <li><a href="/about/">about</a></li>
+            
+            
+            
+            
+                <li><a href="/login/">login</a></li>
+                <li><a href="/register/">register</a></li>
+            
+        </ul>
+    </div>
+    
+    <div id="donate">
+        <ul>
+            <li><a href="/donate/">donate</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="commands">
+    <div id="command">
+        <p>
+    <span class="dark-gray">guest</span>@<span class="dark-gray">dotshare</span> [<span class="dark-gray">~/groups/terms/colors</span>] <span class="dark-gray">$</span> ls ricing-is-fun/ | cat
+</p>
+    </div>
+</div>
+
+<div id="container">
+    <div id="categories">
+    <ul>
+        
+            <li class="label">
+                chat/
+                
+                <ul>
+                    
+                        <li><a href="/category/chat/irssi/">irssi</a></li>
+                    
+                        <li><a href="/category/chat/weechat/">weechat</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                emacs/
+                
+                <ul>
+                    
+                        <li><a href="/category/emacs/colors/">colors</a></li>
+                    
+                        <li><a href="/category/emacs/config/">config</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                fms/
+                
+                <ul>
+                    
+                        <li><a href="/category/fms/mc/">mc</a></li>
+                    
+                        <li><a href="/category/fms/ranger/">ranger</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                info/
+                
+                <ul>
+                    
+                        <li><a href="/category/info/conky/">conky</a></li>
+                    
+                        <li><a href="/category/info/dzen2/">dzen2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                misc/
+                
+                <ul>
+                    
+                        <li><a href="/category/misc/misc/">misc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                mpd/
+                
+                <ul>
+                    
+                        <li><a href="/category/mpd/ncmpcpp/">ncmpcpp</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                panels/
+                
+                <ul>
+                    
+                        <li><a href="/category/panels/bmpanel/">bmpanel</a></li>
+                    
+                        <li><a href="/category/panels/lxpanel/">lxpanel</a></li>
+                    
+                        <li><a href="/category/panels/pypanel/">pypanel</a></li>
+                    
+                        <li><a href="/category/panels/tint2/">tint2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                shells/
+                
+                <ul>
+                    
+                        <li><a href="/category/shells/bash/">bash</a></li>
+                    
+                        <li><a href="/category/shells/tcsh/">tcsh</a></li>
+                    
+                        <li><a href="/category/shells/zsh/">zsh</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                terms/
+                
+                <ul>
+                    
+                        <li><a href="/category/terms/colors/">colors</a></li>
+                    
+                        <li><a href="/category/terms/screen/">screen</a></li>
+                    
+                        <li><a href="/category/terms/tmux/">tmux</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                vim/
+                
+                <ul>
+                    
+                        <li><a href="/category/vim/colors/">colors</a></li>
+                    
+                        <li><a href="/category/vim/rc/">rc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                wms/
+                
+                <ul>
+                    
+                        <li><a href="/category/wms/awesome/">awesome</a></li>
+                    
+                        <li><a href="/category/wms/bspwm/">bspwm</a></li>
+                    
+                        <li><a href="/category/wms/dwm/">dwm</a></li>
+                    
+                        <li><a href="/category/wms/fluxbox/">fluxbox</a></li>
+                    
+                        <li><a href="/category/wms/fvwm/">fvwm</a></li>
+                    
+                        <li><a href="/category/wms/herbstluft/">herbstluft</a></li>
+                    
+                        <li><a href="/category/wms/i3/">i3</a></li>
+                    
+                        <li><a href="/category/wms/monster/">monster</a></li>
+                    
+                        <li><a href="/category/wms/openbox/">openbox</a></li>
+                    
+                        <li><a href="/category/wms/ratpoison/">ratpoison</a></li>
+                    
+                        <li><a href="/category/wms/spectrwm/">spectrwm</a></li>
+                    
+                        <li><a href="/category/wms/stumpwm/">stumpwm</a></li>
+                    
+                        <li><a href="/category/wms/subtle/">subtle</a></li>
+                    
+                        <li><a href="/category/wms/wmfs/">wmfs</a></li>
+                    
+                        <li><a href="/category/wms/xmonad/">xmonad</a></li>
+                    
+                </ul>
+            </li>
+        
+    </ul>
+</div>
+    
+    <div id="content">
+        
+    
+
+        
+    
+    
+        <div class="item">
+            <div class="header">
+                <h4>ricing is fun (<a href="/public/images/uploads/1439.png" target="_blank">scrot</a>) (<span class="green">+2</span> <a href="/dots/1439/likes/">likes</a>)</h4>
+                <h5><a href="/~kenty/">kenty</a> Feb 08, 2017 (terms/<a href="/category/terms/colors/">colors</a>)</h5>
+            </div>
+        </div>
+        
+        <div class="item file">
+            <div class="header">
+                <h4>.Xresources<span class="right">(<a href="/dots/1439/0/raw/">raw</a>, <a href="/dots/1439/0/dl/">dl</a>)</span></h4>
+            </div>
+            
+            <div class="content">
+                
+                    <div id="scrot">
+                        <p>
+                            <a href="/public/images/uploads/1439.png" target="_blank"><img src="/public/images/uploads/1439-thumb.png"></a>
+                        </p>
+                        
+                        <div class="overlay">
+                            <p>SCROT</p>
+                        </div>
+                    </div>
+                
+                
+                <div class="dot first">
+                    <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81</pre></div></td><td class="code"><div class="highlight"><pre><span class="k">URxvt*scrollBar</span><span class="p">:</span>     <span class="kp">false</span><span class="n"></span>
+<span class="k">URxvt*scrollBar_right</span><span class="p">:</span>   <span class="kp">false</span><span class="n"></span>
+
+<span class="k">URxvt*transparent</span><span class="p">:</span>   <span class="kp">false</span><span class="n"></span>
+
+<span class="k">URxvt*title</span><span class="p">:</span> <span class="n">urxvt</span>
+<span class="k">URxvt*termName</span><span class="p">:</span> <span class="n">rxvt</span><span class="o">-</span><span class="n">unicode</span><span class="o">-</span><span class="n">256color</span>
+<span class="k">URxvt.letterSpace</span><span class="p">:</span> <span class="n">1</span>
+
+<span class="k">URxvt.font</span><span class="p">:</span> <span class="n">xft</span><span class="o">:</span><span class="n">inconsolata</span><span class="o">:</span><span class="n">size</span><span class="o">=</span><span class="n">10</span><span class="o">,</span><span class="n">style</span><span class="o">=</span><span class="n">Regular</span>
+
+<span class="k">*antialias</span><span class="p">:</span>  <span class="kp">true</span><span class="n"></span>
+<span class="k">*autohint</span><span class="p">:</span>  <span class="kp">true</span><span class="n"></span>
+
+<span class="k">rofi.location</span><span class="p">:</span>          <span class="n">0</span>
+<span class="k">rofi.color-enabled</span><span class="p">:</span>     <span class="kp">true</span><span class="n"></span>
+<span class="c1">!                       &#39;background&#39;, &#39;border&#39;</span><span class="n"></span>
+<span class="k">rofi.color-window</span><span class="p">:</span>      <span class="n">argb</span><span class="o">:</span><span class="n">ff997733</span><span class="o">,</span><span class="n"> argb</span><span class="o">:</span><span class="n">ff997733</span><span class="o">,</span><span class="n"> argb</span><span class="o">:</span><span class="n">fff4d68c</span>
+
+<span class="c1">! State:                &#39;bg&#39;,          &#39;fg&#39;,   &#39;bgalt&#39;,       &#39;hlbg&#39;,        &#39;hlfg&#39;</span><span class="n"></span>
+<span class="k">rofi.color-normal</span><span class="p">:</span>      <span class="n">argb</span><span class="o">:</span><span class="n">00333333</span><span class="o">,</span><span class="n"> </span><span class="s">#ffffff</span><span class="o">,</span><span class="n"> argb</span><span class="o">:</span><span class="n">00333333</span><span class="o">,</span><span class="n"> argb</span><span class="o">:</span><span class="n">00333333</span><span class="o">,</span><span class="n"> argb</span><span class="o">:</span><span class="n">fff4d68c</span>
+<span class="k">rofi.color-urgent</span><span class="p">:</span>      <span class="n">argb</span><span class="o">:</span><span class="n">00333333</span><span class="o">,</span><span class="n"> </span><span class="s">#ffffff</span><span class="o">,</span><span class="n"> argb</span><span class="o">:</span><span class="n">00333333</span><span class="o">,</span><span class="n"> argb</span><span class="o">:</span><span class="n">00333333</span><span class="o">,</span><span class="n"> argb</span><span class="o">:</span><span class="n">fff4d68c</span>
+<span class="k">rofi.color-active</span><span class="p">:</span>      <span class="n">argb</span><span class="o">:</span><span class="n">00333333</span><span class="o">,</span><span class="n"> </span><span class="s">#ffffff</span><span class="o">,</span><span class="n"> argb</span><span class="o">:</span><span class="n">00333333</span><span class="o">,</span><span class="n"> argb</span><span class="o">:</span><span class="n">00333333</span><span class="o">,</span><span class="n"> argb</span><span class="o">:</span><span class="n">fff4d68c</span>
+<span class="k">rofi.separator-style</span><span class="p">:</span>   <span class="n">solid</span>
+<span class="k">rofi.fullscreen</span><span class="p">:</span>        <span class="kp">true</span><span class="n"></span>
+<span class="k">rofi.padding</span><span class="p">:</span>           <span class="n">130</span>
+<span class="k">rofi.hide-scrollbar</span><span class="p">:</span>    <span class="kp">true</span><span class="n"></span>
+<span class="k">rofi.line-margin</span><span class="p">:</span>       <span class="n">5</span>
+<span class="k">rofi.fake-transparency</span><span class="p">:</span> <span class="kp">true</span><span class="n"></span>
+<span class="k">rofi.yoffset</span><span class="p">:</span>           <span class="n">0</span>
+<span class="k">rofi.xoffset</span><span class="p">:</span>           <span class="n">0</span>
+<span class="k">rofi.width</span><span class="p">:</span>             <span class="n">1366</span>
+<span class="k">rofi.opacity</span><span class="p">:</span>           <span class="n">90</span>
+<span class="k">rofi.font</span><span class="p">:</span>              <span class="n">Fira Mono 12</span>
+
+<span class="k">Xft.autohint</span><span class="p">:</span> <span class="n">1</span>
+<span class="k">Xft.lcdfilter</span><span class="p">:</span> <span class="n">lcddefault</span>
+<span class="k">Xft.hintstyle</span><span class="p">:</span> <span class="n">hints</span><span class="s">light</span><span class="n"></span>
+<span class="k">Xft.hinting</span><span class="p">:</span> <span class="n">1</span>
+<span class="k">Xft.antialias</span><span class="p">:</span> <span class="n">1</span>
+<span class="k">Xft.rgba</span><span class="p">:</span> <span class="n">rgb</span>
+
+
+
+
+<span class="c1">! special</span><span class="n"></span>
+<span class="k">*.foreground</span><span class="p">:</span>   <span class="s">#ffffff</span><span class="n"></span>
+<span class="k">*.background</span><span class="p">:</span>   <span class="s">#1e1e1e</span><span class="n"></span>
+<span class="k">*.cursorColor</span><span class="p">:</span>  <span class="s">#ffffff</span><span class="n"></span>
+
+<span class="c1">! black</span><span class="n"></span>
+<span class="k">*.color0</span><span class="p">:</span>       <span class="s">#222222</span><span class="n"></span>
+<span class="k">*.color8</span><span class="p">:</span>       <span class="s">#333333</span><span class="n"></span>
+
+<span class="c1">! red</span><span class="n"></span>
+<span class="k">*.color1</span><span class="p">:</span>       <span class="s">#ca4a4b</span><span class="n"></span>
+<span class="k">*.color9</span><span class="p">:</span>       <span class="s">#ca4a4b</span><span class="n"></span>
+
+<span class="c1">! green</span><span class="n"></span>
+<span class="k">*.color2</span><span class="p">:</span>       <span class="s">#aa2a2a</span><span class="n"></span>
+<span class="k">*.color10</span><span class="p">:</span>      <span class="s">#aa2a2a</span><span class="n"></span>
+
+<span class="c1">! yellow</span><span class="n"></span>
+<span class="k">*.color3</span><span class="p">:</span>       <span class="s">#830c0c</span><span class="n"></span>
+<span class="k">*.color11</span><span class="p">:</span>      <span class="s">#830c0c</span><span class="n"></span>
+
+<span class="c1">! blue</span><span class="n"></span>
+<span class="k">*.color4</span><span class="p">:</span>       <span class="s">#ca4a4b</span><span class="n"></span>
+<span class="k">*.color12</span><span class="p">:</span>      <span class="s">#ca4a4b</span><span class="n"></span>
+
+<span class="c1">! magenta</span><span class="n"></span>
+<span class="k">*.color5</span><span class="p">:</span>       <span class="s">#aa2a2a</span><span class="n"></span>
+<span class="k">*.color13</span><span class="p">:</span>      <span class="s">#aa2a2a</span><span class="n"></span>
+
+<span class="c1">! cyan</span><span class="n"></span>
+<span class="k">*.color6</span><span class="p">:</span>       <span class="s">#830c0c</span><span class="n"></span>
+<span class="k">*.color14</span><span class="p">:</span>      <span class="s">#830c0c</span><span class="n"></span>
+
+<span class="c1">! white</span><span class="n"></span>
+<span class="k">*.color7</span><span class="p">:</span>       <span class="s">#ffffff</span><span class="n"></span>
+<span class="k">*.color15</span><span class="p">:</span>      <span class="s">#ffffff</span><span class="n"></span>
+</pre></div>
+</td></tr></table>
+                </div>
+                
+                <div class="overlay short">
+                    <p>CLICK TO VIEW</p>
+                </div>
+                
+                <div class="minimize">
+                    <p>x</p>
+                </div>
+            </div>
+        </div>
+        
+        
+            
+            
+            <div class="multi">
+                
+                    <div class="item file">
+                        <div class="header">
+                            
+                                <h4>i3_config<span class="right">(<a href="/dots/1439/1/raw/">raw</a>, <a href="/dots/1439/1/dl/">dl</a>)</span></h4>
+                            
+                        </div>
+                        
+                        <div class="content">
+                            <div class="dot">
+                                <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339
+340
+341
+342
+343
+344
+345
+346
+347
+348
+349
+350
+351
+352
+353
+354
+355
+356
+357
+358
+359
+360
+361
+362
+363
+364
+365
+366
+367
+368
+369
+370
+371
+372
+373
+374
+375
+376
+377
+378
+379
+380
+381
+382
+383
+384
+385</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">###########</span><span class="n"></span>
+<span class="o">#</span><span class="n"> General </span><span class="o">#</span><span class="n"></span>
+<span class="o">###########</span><span class="n"></span>
+
+<span class="n">set </span><span class="err">$</span><span class="n">mod Mod1</span>
+<span class="n">set </span><span class="err">$</span><span class="n">mod1 Mod4</span>
+
+<span class="n">font pango</span><span class="o">:</span><span class="n">Roboto Mono 9</span>
+
+
+
+<span class="o">#############</span><span class="n"></span>
+<span class="o">#</span><span class="n"> Variables </span><span class="o">#</span><span class="n"></span>
+<span class="o">#############</span><span class="n"></span>
+
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="s">darkblack</span><span class="n">   background  </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="s">black</span><span class="n">       background  </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="s">darkred</span><span class="n">     color0  </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="s">red</span><span class="n">         color8  </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="s">darkgreen</span><span class="n">   color1  </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="s">green</span><span class="n">       color9  </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="s">darkyellow</span><span class="n">  color2  </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="s">yellow</span><span class="n">      color10 </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="s">darkblue</span><span class="n">    color3  </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="s">blue</span><span class="n">        color11 </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="s">darkmagenta</span><span class="n"> color4  </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="s">magenta</span><span class="n">     color12 </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="s">darkcyan</span><span class="n">    color5  </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="s">cyan</span><span class="n">        color13 </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="s">dark</span><span class="n">idk     color6  </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="n">idk	       color14 </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="s">darkwhite</span><span class="n">   color7  </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="s">white</span><span class="n">       color15 </span><span class="s">#000000</span><span class="n"></span>
+
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="n">fg i3wm</span><span class="o">.</span><span class="n">color7 </span><span class="s">#f0f0f0</span><span class="n"></span>
+<span class="n">set</span><span class="o">_</span><span class="n">from</span><span class="o">_</span><span class="n">resource </span><span class="err">$</span><span class="n">bg i3wm</span><span class="o">.</span><span class="n">color2 </span><span class="s">#f0f0f0</span><span class="n"></span>
+
+
+<span class="o">#</span><span class="n"> class                 border  	backgr</span><span class="o">.</span><span class="n">       text</span><span class="o">_</span><span class="n">indicator 	child</span><span class="o">_</span><span class="n">border</span>
+<span class="n">client</span><span class="o">.</span><span class="n">focused          </span><span class="err">$</span><span class="s">darkgreen</span><span class="n">     </span><span class="err">$</span><span class="s">darkgreen</span><span class="n">     </span><span class="err">$</span><span class="s">darkwhite</span><span class="n">  	</span><span class="err">$</span><span class="s">darkgreen</span><span class="n">       </span><span class="err">$</span><span class="s">darkgreen</span><span class="n"></span>
+<span class="n">client</span><span class="o">.</span><span class="n">focused</span><span class="o">_</span><span class="n">inactive </span><span class="err">$</span><span class="s">green</span><span class="n">    </span><span class="err">$</span><span class="s">green</span><span class="n">     </span><span class="err">$</span><span class="s">darkwhite</span><span class="n">  	</span><span class="err">$</span><span class="s">green</span><span class="n">       </span><span class="err">$</span><span class="s">green</span><span class="n"></span>
+<span class="n">client</span><span class="o">.</span><span class="n">unfocused        </span><span class="err">$</span><span class="s">black</span><span class="n">    </span><span class="err">$</span><span class="s">black</span><span class="n">     </span><span class="err">$</span><span class="s">darkwhite</span><span class="n">  	</span><span class="err">$</span><span class="s">black</span><span class="n">       </span><span class="err">$</span><span class="s">black</span><span class="n"></span>
+<span class="n">client</span><span class="o">.</span><span class="n">urgent           </span><span class="err">$</span><span class="s">darkgreen</span><span class="n">     </span><span class="err">$</span><span class="s">darkgreen</span><span class="n">     </span><span class="err">$</span><span class="s">darkwhite</span><span class="n">  	</span><span class="err">$</span><span class="s">darkgreen</span><span class="n">       </span><span class="err">$</span><span class="s">darkgreen</span><span class="n"></span>
+<span class="n">client</span><span class="o">.</span><span class="n">placeh</span><span class="s">old</span><span class="n">er      </span><span class="err">$</span><span class="s">darkgreen</span><span class="n">     </span><span class="err">$</span><span class="s">darkgreen</span><span class="n">     </span><span class="err">$</span><span class="s">darkwhite</span><span class="n">  	</span><span class="err">$</span><span class="s">darkgreen</span><span class="n">       </span><span class="err">$</span><span class="s">darkgreen</span><span class="n"></span>
+
+<span class="n">client</span><span class="o">.</span><span class="n">background       </span><span class="err">$</span><span class="s">darkgreen</span><span class="n"></span>
+
+
+
+
+<span class="o">################</span><span class="n"></span>
+<span class="o">#</span><span class="n"> Key Bindings </span><span class="o">#</span><span class="n"></span>
+<span class="o">################</span><span class="n"></span>
+
+<span class="o">#</span><span class="n"> Start a terminal </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Return exec i3</span><span class="o">-</span><span class="n">sensible</span><span class="o">-</span><span class="n">terminal</span>
+
+<span class="o">#</span><span class="n"> Kill focused window </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">q kill</span>
+
+<span class="o">#</span><span class="n"> Use Mouse</span><span class="err">+$</span><span class="n">mod to drag floating windows to their wanted position </span><span class="o">#</span><span class="n"></span>
+<span class="n">floating</span><span class="o">_</span><span class="n">modifier </span><span class="err">$</span><span class="n">mod</span>
+
+<span class="o">#</span><span class="n"> Start rofi </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">r exec </span><span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">startup</span><span class="o">-</span><span class="n">id rofi </span><span class="o">-</span><span class="n">show run</span>
+
+<span class="o">#</span><span class="n"> i3lock </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod1</span><span class="err">+</span><span class="n">l exec </span><span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">kenty</span><span class="o">/.</span><span class="n">scripts</span><span class="o">/</span><span class="n">lock</span><span class="o">.</span><span class="n">sh</span>
+
+<span class="o">#</span><span class="n"> Screens</span><span class="s">hot</span><span class="n"> with scrot</span>
+<span class="n">bindsym Print exec scrot </span><span class="o">-</span><span class="n">e </span><span class="err">&#39;</span><span class="n">mv </span><span class="err">$</span><span class="n">f </span><span class="err">~</span><span class="o">/</span><span class="n">Obr</span><span class="err">á</span><span class="n">zky</span><span class="o">/</span><span class="n">Screens</span><span class="s">hot</span><span class="n">s</span><span class="err">&#39;</span><span class="n"></span>
+
+<span class="o">#</span><span class="n"> Restart i3 inplace </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">r restart</span>
+
+
+<span class="o">#</span><span class="n"> Change focus</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">h focus left</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">j focus down</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">k focus up</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">l focus right</span>
+
+<span class="o">#</span><span class="n"> Alternatively</span><span class="o">,</span><span class="n"> you can use the cursor keys  </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Left focus left</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Down focus down</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Up focus up</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Right focus right</span>
+
+<span class="o">#</span><span class="n"> Move focused window </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">h move left 10 px </span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">j move down 10 px</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">k move up 10 px</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">l move right 10 px</span>
+
+
+<span class="o">#</span><span class="n"> Split in vertical orientation </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">v split v</span>
+
+<span class="o">#</span><span class="n"> Split in horizontal orientation </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">v split h</span>
+
+<span class="o">#</span><span class="n"> Enter fullscreen mode for the focused container </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">f fullscreen toggle</span>
+
+<span class="o">#</span><span class="n"> Change container layout </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">s layout tabbed</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">e layout toggle split</span>
+
+<span class="o">#</span><span class="n"> Toggle tiling </span><span class="o">/</span><span class="n"> floating </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">space floating toggle</span>
+
+<span class="o">#</span><span class="n"> Change focus between tiling </span><span class="o">/</span><span class="n"> floating windows </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">space focus mode</span><span class="o">_</span><span class="n">toggle</span>
+
+
+<span class="o">#</span><span class="n"> Focus the parent container </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">a focus parent</span>
+
+<span class="o">#</span><span class="n"> Focus the child container </span><span class="o">#</span><span class="n"></span>
+<span class="o">#</span><span class="n"> bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">d focus child</span>
+
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">w exec </span><span class="s">&quot;wal -i $HOME/Obrázky/Wallpapers -o wal-set&quot;</span><span class="n"></span>
+
+<span class="o">##############</span><span class="n"></span>
+<span class="o">#</span><span class="n"> Workspaces </span><span class="o">#</span><span class="n"></span>
+<span class="o">##############</span><span class="n"></span>
+
+<span class="o">#</span><span class="n"> Allow workspaces back and forth </span><span class="o">#</span><span class="n"></span>
+<span class="n">workspace</span><span class="o">_</span><span class="n">auto</span><span class="o">_</span><span class="n">back</span><span class="o">_</span><span class="n">and</span><span class="o">_</span><span class="n">forth yes</span>
+
+<span class="n">set </span><span class="err">$</span><span class="n">ws1  </span><span class="s">&quot;1&quot;</span><span class="n"></span>
+<span class="n">set </span><span class="err">$</span><span class="n">ws2  </span><span class="s">&quot;2&quot;</span><span class="n"></span>
+<span class="n">set </span><span class="err">$</span><span class="n">ws3  </span><span class="s">&quot;3&quot;</span><span class="n"></span>
+<span class="n">set </span><span class="err">$</span><span class="n">ws4  </span><span class="s">&quot;4&quot;</span><span class="n"></span>
+<span class="n">set </span><span class="err">$</span><span class="n">ws5  </span><span class="s">&quot;5&quot;</span><span class="n"></span>
+<span class="n">set </span><span class="err">$</span><span class="n">ws6  </span><span class="s">&quot;6&quot;</span><span class="n"></span>
+<span class="n">set </span><span class="err">$</span><span class="n">ws7  </span><span class="s">&quot;7&quot;</span><span class="n"></span>
+<span class="n">set </span><span class="err">$</span><span class="n">ws8  </span><span class="s">&quot;8&quot;</span><span class="n"></span>
+<span class="n">set </span><span class="err">$</span><span class="n">ws9  </span><span class="s">&quot;9&quot;</span><span class="n"></span>
+<span class="n">set </span><span class="err">$</span><span class="n">ws10 </span><span class="s">&quot;10&quot;</span><span class="n"></span>
+
+<span class="o">#</span><span class="n"> Switch to workspace </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">1 workspace </span><span class="err">$</span><span class="n">ws1</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">2 workspace </span><span class="err">$</span><span class="n">ws2</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">3 workspace </span><span class="err">$</span><span class="n">ws3</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">4 workspace </span><span class="err">$</span><span class="n">ws4</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">5 workspace </span><span class="err">$</span><span class="n">ws5</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">6 workspace </span><span class="err">$</span><span class="n">ws6</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">7 workspace </span><span class="err">$</span><span class="n">ws7</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">8 workspace </span><span class="err">$</span><span class="n">ws8</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">9 workspace </span><span class="err">$</span><span class="n">ws9</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">0 workspace </span><span class="err">$</span><span class="n">ws10</span>
+
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Tab workspace back</span><span class="o">_</span><span class="n">and</span><span class="o">_</span><span class="n">forth</span>
+
+<span class="o">#</span><span class="n"> Move focused container to workspace </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">1 move container to workspace </span><span class="err">$</span><span class="n">ws1</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">2 move container to workspace </span><span class="err">$</span><span class="n">ws2</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">3 move container to workspace </span><span class="err">$</span><span class="n">ws3</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">4 move container to workspace </span><span class="err">$</span><span class="n">ws4</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">5 move container to workspace </span><span class="err">$</span><span class="n">ws5</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">6 move container to workspace </span><span class="err">$</span><span class="n">ws6</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">7 move container to workspace </span><span class="err">$</span><span class="n">ws7</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">8 move container to workspace </span><span class="err">$</span><span class="n">ws8</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">9 move container to workspace </span><span class="err">$</span><span class="n">ws9</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">0 move container to workspace </span><span class="err">$</span><span class="n">ws10</span>
+
+
+<span class="o">#</span><span class="n"> Assign clients to workspaces </span><span class="o">#</span><span class="n"></span>
+<span class="n">assign </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;(?i)chrome&quot;</span><span class="err">]</span><span class="n"> </span><span class="err">$</span><span class="n">ws1</span>
+<span class="n">assign </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;^Steam$&quot;</span><span class="err">]</span><span class="n"> </span><span class="err">$</span><span class="n">ws2</span>
+<span class="n">assign </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;^X-terminal-emulator$&quot;</span><span class="err">]</span><span class="n"> </span><span class="err">$</span><span class="n">ws3</span>
+<span class="n">assign </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;^Terminator$&quot;</span><span class="err">]</span><span class="n"> </span><span class="err">$</span><span class="n">ws3</span>
+<span class="n">assign </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;^Thunar$&quot;</span><span class="err">]</span><span class="n"> </span><span class="err">$</span><span class="n">ws4</span>
+<span class="n">assign </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;^Google-play-music-desktop-player$&quot;</span><span class="err">]</span><span class="n"> </span><span class="err">$</span><span class="n">ws5</span>
+<span class="n">assign </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;^Chromium$&quot;</span><span class="err">]</span><span class="n"> </span><span class="err">$</span><span class="n">ws1</span>
+
+<span class="o">#</span><span class="n"> Enable or disable floating </span><span class="o">#</span><span class="n"></span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;Arandr&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;recordMyDesktop&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;Lxappearance&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;Nitrogen&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;Artha&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">ins</span><span class="s">tan</span><span class="n">ce</span><span class="o">=</span><span class="s">&quot;dukto&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;Pcmanfm&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;feh&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;Zenmap&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;Angry IP Scanner&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;DB Browser for SQLite&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">window</span><span class="o">_</span><span class="n">role</span><span class="o">=</span><span class="s">&quot;pop-up&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">window</span><span class="o">_</span><span class="n">role</span><span class="o">=</span><span class="s">&quot;bubble&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">window</span><span class="o">_</span><span class="n">role</span><span class="o">=</span><span class="s">&quot;task_dialog&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">window</span><span class="o">_</span><span class="n">role</span><span class="o">=</span><span class="s">&quot;Preferences&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">window</span><span class="o">_</span><span class="n">type</span><span class="o">=</span><span class="s">&quot;dialog&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">window</span><span class="o">_</span><span class="n">type</span><span class="o">=</span><span class="s">&quot;menu&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;Pavucontrol&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;^Google-Chrome$&quot;</span><span class="n"> window</span><span class="o">_</span><span class="n">role</span><span class="o">=</span><span class="s">&quot;^pop-up$&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;^Chromium$&quot;</span><span class="n"> window</span><span class="o">_</span><span class="n">role</span><span class="o">=</span><span class="s">&quot;^pop-up$&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;^Steam$&quot;</span><span class="n"> window</span><span class="o">_</span><span class="n">role</span><span class="o">=</span><span class="s">&quot;^pop-up$&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+
+<span class="o">#</span><span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;^.*&quot;</span><span class="err">]</span><span class="n"> floating enable</span>
+
+
+
+<span class="o">#########</span><span class="n"></span>
+<span class="o">#</span><span class="n"> Modes </span><span class="o">#</span><span class="n"></span>
+<span class="o">#########</span><span class="n"></span>
+
+<span class="o">#</span><span class="n"> Resize window </span><span class="err">(</span><span class="n">you can also use the mouse for that</span><span class="err">)</span><span class="n"> </span><span class="o">#</span><span class="n"></span>
+<span class="n">set </span><span class="err">$</span><span class="n">mode</span><span class="o">_</span><span class="n">resize </span><span class="err"></span><span class="n">   Resize</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">g mode </span><span class="s">&quot;$mode_resize&quot;</span><span class="n"></span>
+
+
+<span class="n">mode </span><span class="s">&quot;$mode_resize&quot;</span><span class="n"> </span><span class="err">{</span><span class="n"></span>
+<span class="n">        bindsym h resize shrink width 10 px or 10 ppt</span>
+<span class="n">        bindsym j resize grow height 10 px or 10 ppt</span>
+<span class="n">        bindsym k resize shrink height 10 px or 10 ppt</span>
+<span class="n">        bindsym l resize grow width 10 px or 10 ppt</span>
+
+<span class="o">#</span><span class="n"> same bindings</span><span class="o">,</span><span class="n"> but for the arrow keys</span>
+<span class="n">        bindsym Left resize shrink width 10 px or 10 ppt</span>
+<span class="n">        bindsym Down resize grow height 10 px or 10 ppt</span>
+<span class="n">        bindsym Up resize shrink height 10 px or 10 ppt</span>
+<span class="n">        bindsym Right resize grow width 10 px or 10 ppt</span>
+
+<span class="n">        bindsym Return mode </span><span class="s">&quot;default&quot;</span><span class="n"></span>
+<span class="n">        bindsym Escape mode </span><span class="s">&quot;default&quot;</span><span class="n"></span>
+<span class="err">}</span><span class="n"></span>
+
+
+<span class="o">#</span><span class="n"> Press </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">g to enter the gap mode</span><span class="o">.</span><span class="n"> Choose o or i for modifying outer</span><span class="o">/</span><span class="n">inner gaps</span><span class="o">.</span><span class="n"> Press one of </span><span class="err">+</span><span class="n"> </span><span class="o">/</span><span class="n"> </span><span class="o">-</span><span class="n"> </span><span class="err">(</span><span class="n">in</span><span class="o">-/</span><span class="n">decrement for current workspace</span><span class="err">)</span><span class="n"> or 0 </span><span class="err">(</span><span class="n">remove gaps for current workspace</span><span class="err">)</span><span class="o">.</span><span class="n"> If you also press Shift with these keys</span><span class="o">,</span><span class="n"> the change will be global for all workspaces</span><span class="o">.</span><span class="n"> </span><span class="o">#</span><span class="n"></span>
+<span class="k">set $mode_gaps Gaps</span><span class="p">:</span> <span class="err">(</span><span class="n">o</span><span class="err">)</span><span class="n"> outer</span><span class="o">,</span><span class="n"> </span><span class="err">(</span><span class="n">i</span><span class="err">)</span><span class="n"> inner</span>
+
+<span class="k">set $mode_gaps_outer Outer Gaps</span><span class="p">:</span> <span class="err">+|</span><span class="o">-</span><span class="err">|</span><span class="n">0 </span><span class="err">(</span><span class="n">local</span><span class="err">)</span><span class="o">,</span><span class="n"> Shift </span><span class="err">+</span><span class="n"> </span><span class="err">+|</span><span class="o">-</span><span class="err">|</span><span class="n">0 </span><span class="err">(</span><span class="n">global</span><span class="err">)</span><span class="n"></span>
+<span class="k">set $mode_gaps_inner Inner Gaps</span><span class="p">:</span> <span class="err">+|</span><span class="o">-</span><span class="err">|</span><span class="n">0 </span><span class="err">(</span><span class="n">local</span><span class="err">)</span><span class="o">,</span><span class="n"> Shift </span><span class="err">+</span><span class="n"> </span><span class="err">+|</span><span class="o">-</span><span class="err">|</span><span class="n">0 </span><span class="err">(</span><span class="n">global</span><span class="err">)</span><span class="n"></span>
+
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">g mode </span><span class="s">&quot;$mode_gaps&quot;</span><span class="n"></span>
+
+<span class="n">mode </span><span class="s">&quot;$mode_gaps&quot;</span><span class="n"> </span><span class="err">{</span><span class="n"></span>
+<span class="n">        bindsym o      mode </span><span class="s">&quot;$mode_gaps_outer&quot;</span><span class="n"></span>
+<span class="n">        bindsym i      mode </span><span class="s">&quot;$mode_gaps_inner&quot;</span><span class="n"></span>
+<span class="n">        bindsym Return mode </span><span class="s">&quot;default&quot;</span><span class="n"></span>
+<span class="n">        bindsym Escape mode </span><span class="s">&quot;default&quot;</span><span class="n"></span>
+<span class="err">}</span><span class="n"></span>
+
+<span class="n">mode </span><span class="s">&quot;$mode_gaps_inner&quot;</span><span class="n"> </span><span class="err">{</span><span class="n"></span>
+<span class="n">        bindsym plus  gaps inner current plus 5</span>
+<span class="n">        bindsym minus gaps inner current minus 5</span>
+<span class="n">        bindsym 0     gaps inner current set 0</span>
+
+<span class="n">        bindsym Shift</span><span class="err">+</span><span class="n">plus  gaps inner all plus 5</span>
+<span class="n">        bindsym Shift</span><span class="err">+</span><span class="n">minus gaps inner all minus 5</span>
+<span class="n">        bindsym Shift</span><span class="err">+</span><span class="n">0     gaps inner all set 0</span>
+
+<span class="n">        bindsym Return mode </span><span class="s">&quot;default&quot;</span><span class="n"></span>
+<span class="n">        bindsym Escape mode </span><span class="s">&quot;default&quot;</span><span class="n"></span>
+<span class="err">}</span><span class="n"></span>
+<span class="n">mode </span><span class="s">&quot;$mode_gaps_outer&quot;</span><span class="n"> </span><span class="err">{</span><span class="n"></span>
+<span class="n">        bindsym plus  gaps outer current plus 5</span>
+<span class="n">        bindsym minus gaps outer current minus 5</span>
+<span class="n">        bindsym 0     gaps outer current set 0</span>
+
+<span class="n">        bindsym Shift</span><span class="err">+</span><span class="n">plus  gaps outer all plus 5</span>
+<span class="n">        bindsym Shift</span><span class="err">+</span><span class="n">minus gaps outer all minus 5</span>
+<span class="n">        bindsym Shift</span><span class="err">+</span><span class="n">0     gaps outer all set 0</span>
+
+<span class="n">        bindsym Return mode </span><span class="s">&quot;default&quot;</span><span class="n"></span>
+<span class="n">        bindsym Escape mode </span><span class="s">&quot;default&quot;</span><span class="n"></span>
+<span class="err">}</span><span class="n"></span>
+
+<span class="o">#</span><span class="n"> System Menu </span><span class="o">#</span><span class="n"></span>
+<span class="n">set </span><span class="err">$</span><span class="n">sysmenu </span><span class="s">&quot;[p]oweroff  re[b]oot  [r]eload [s]uspend  [l]ogout  &quot;</span><span class="n"></span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Delete      mode </span><span class="err">$</span><span class="n">sysmenu</span>
+
+<span class="n">mode </span><span class="err">$</span><span class="n">sysmenu </span><span class="err">{</span><span class="n"></span>
+<span class="n">    bindsym r         restart</span>
+<span class="n">    bindsym l         exit</span>
+<span class="n">    bindsym p         exec shutdown </span><span class="o">-</span><span class="n">P now</span>
+<span class="n">    bindsym b         exec shutdown </span><span class="o">-</span><span class="n">r now</span>
+<span class="n">    bindsym s         exec systemct suspend</span>
+<span class="n">    bindsym Return    mode </span><span class="s">&quot;default&quot;</span><span class="n"></span>
+<span class="n">    bindsym Escape    mode </span><span class="s">&quot;default&quot;</span><span class="n"></span>
+<span class="err">}</span><span class="n"></span>
+
+
+<span class="o">#######</span><span class="n"></span>
+<span class="o">#</span><span class="n"> Bar </span><span class="o">#</span><span class="n"></span>
+<span class="o">#######</span><span class="n"></span>
+
+<span class="o">#</span><span class="n"> Start i3bar to display a workspace bar </span><span class="err">(</span><span class="n">plus the system information i3status </span><span class="o">#</span><span class="n"></span>
+<span class="o">#</span><span class="n"> finds out</span><span class="o">,</span><span class="n"> if available</span><span class="err">)</span><span class="n"> </span><span class="o">#</span><span class="n"></span>
+<span class="o">#</span><span class="n"> bar </span><span class="err">{</span><span class="n"></span>
+<span class="o">#</span><span class="n">  	colors </span><span class="err">{</span><span class="n"></span>
+<span class="o">#</span><span class="n">  		</span><span class="o">#</span><span class="n"> Whole color settings</span>
+<span class="o">#</span><span class="n">  		background 	</span><span class="s">#000000</span><span class="n"></span>
+<span class="o">#</span><span class="n">  		statusline 	</span><span class="err">$</span><span class="s">white</span><span class="n"></span>
+<span class="o">#</span><span class="n">  		separator  	</span><span class="err">$</span><span class="s">darkblack</span><span class="n"></span>
+<span class="o">#</span><span class="n">  </span>
+<span class="o">#</span><span class="n">  		</span><span class="o">#</span><span class="n"> Type             border  	background 	font</span>
+<span class="o">#</span><span class="n"> 		focused</span><span class="o">_</span><span class="n">workspace  </span><span class="err">$</span><span class="n">bg  	</span><span class="err">$</span><span class="n">bg 	</span><span class="err">$</span><span class="n">fg</span>
+<span class="o">#</span><span class="n"> 		active</span><span class="o">_</span><span class="n">workspace   </span><span class="err">$</span><span class="n">bg  	</span><span class="err">$</span><span class="n">fg  		</span><span class="err">$</span><span class="n">fg</span>
+<span class="o">#</span><span class="n"> 		inactive</span><span class="o">_</span><span class="n">workspace </span><span class="err">$</span><span class="n">bg 		</span><span class="err">$</span><span class="n">fg 		</span><span class="err">$</span><span class="n">fg</span>
+<span class="o">#</span><span class="n"> 		urgent</span><span class="o">_</span><span class="n">workspace   </span><span class="err">$</span><span class="n">bg	 	</span><span class="err">$</span><span class="s">white</span><span class="n"> 		</span><span class="err">$</span><span class="n">fg</span>
+<span class="o">#</span><span class="n"> 	</span><span class="err">}</span><span class="n"></span>
+<span class="o">#</span><span class="n"> 	height 23</span>
+<span class="o">#</span><span class="n"> 	position top</span>
+<span class="o">#</span><span class="n"> 	tray</span><span class="o">_</span><span class="n">padding 3</span>
+<span class="o">#</span><span class="n"> </span>
+<span class="o">#</span><span class="n">	i3bar</span><span class="o">_</span><span class="n">command i3bar</span>
+<span class="o">#</span><span class="n">	</span><span class="o">#</span><span class="n"> status</span><span class="o">_</span><span class="n">command i3status </span><span class="o">-</span><span class="n">c </span><span class="err">~</span><span class="o">/.</span><span class="n">config</span><span class="o">/</span><span class="n">i3</span><span class="o">/</span><span class="n">i3status</span><span class="o">.</span><span class="n">conf</span>
+<span class="o">#</span><span class="n"> 	</span><span class="o">#</span><span class="n"> status</span><span class="o">_</span><span class="n">command i3blocks </span><span class="o">-</span><span class="n">c </span><span class="err">~</span><span class="o">/.</span><span class="n">config</span><span class="o">/</span><span class="n">i3</span><span class="o">/</span><span class="n">i3blocks</span><span class="o">.</span><span class="n">conf</span>
+<span class="o">#</span><span class="n"> 	strip</span><span class="o">_</span><span class="n">workspace</span><span class="o">_</span><span class="n">numbers yes</span>
+<span class="o">#</span><span class="n"> </span><span class="err">}</span><span class="n"></span>
+
+
+
+<span class="o">#############</span><span class="n"></span>
+<span class="o">#</span><span class="n"> Autostart </span><span class="o">#</span><span class="n"></span>
+<span class="o">#############</span><span class="n"></span>
+
+<span class="n">exec</span><span class="o">_</span><span class="n">always </span><span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">startup</span><span class="o">-</span><span class="n">id </span><span class="err">$</span><span class="n">HOME</span><span class="o">/.</span><span class="n">config</span><span class="o">/</span><span class="n">polybar</span><span class="o">/</span><span class="n">launch</span><span class="o">.</span><span class="n">sh</span>
+<span class="n">exec</span><span class="o">_</span><span class="n">always </span><span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">startup</span><span class="o">-</span><span class="n">id feh </span><span class="o">--</span><span class="n">bg</span><span class="o">-</span><span class="n">scale </span><span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">kenty</span><span class="o">/</span><span class="n">Obr</span><span class="err">á</span><span class="n">zky</span><span class="o">/</span><span class="n">Wallpapers</span><span class="o">/</span><span class="n">wallpaper</span><span class="o">.*</span><span class="n"></span>
+<span class="n">exec</span><span class="o">_</span><span class="n">always </span><span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">startup</span><span class="o">-</span><span class="n">id </span><span class="s">&quot;xinput set-prop 13 285 0, 0&quot;</span><span class="n"></span>
+<span class="n">exec</span><span class="o">_</span><span class="n">always </span><span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">startup</span><span class="o">-</span><span class="n">id </span><span class="s">&quot;xinput set-prop 15 296 1&quot;</span><span class="n"></span>
+<span class="n">exec</span><span class="o">_</span><span class="n">always </span><span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">startup</span><span class="o">-</span><span class="n">id </span><span class="s">&quot;xinput set-prop 15 278 1&quot;</span><span class="n"></span>
+
+<span class="n">exec steam</span>
+
+<span class="n">exec </span><span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">startup</span><span class="o">-</span><span class="n">id compton </span><span class="o">--</span><span class="n">respect</span><span class="o">-</span><span class="n">prop</span><span class="o">-</span><span class="n">shadow</span>
+<span class="n">exec </span><span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">startup</span><span class="o">-</span><span class="n">id pactl set</span><span class="o">-</span><span class="n">sink</span><span class="o">-</span><span class="n">volume 0 35</span><span class="err">%</span><span class="n"></span>
+<span class="n">exec </span><span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">startup</span><span class="o">-</span><span class="n">id xset m 0</span><span class="o">/</span><span class="n">0 0</span>
+
+<span class="n">exec </span><span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">startup</span><span class="o">-</span><span class="n">id nm</span><span class="o">-</span><span class="n">applet </span><span class="err">&amp;</span><span class="n"></span>
+<span class="n">exec </span><span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">startup</span><span class="o">-</span><span class="n">id </span><span class="s">blue</span><span class="n">man</span><span class="o">-</span><span class="n">applet </span><span class="err">&amp;</span><span class="n"></span>
+<span class="n">exec </span><span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">startup</span><span class="o">-</span><span class="n">id </span><span class="s">red</span><span class="n">shift</span><span class="o">-</span><span class="n">gtk </span><span class="err">&amp;</span><span class="n"></span>
+
+<span class="n">exec</span><span class="o">_</span><span class="n">always </span><span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">startup</span><span class="o">-</span><span class="n">id wal </span><span class="o">-</span><span class="n">i </span><span class="s">&quot;$(&lt; &quot;</span><span class="err">${</span><span class="n">HOME</span><span class="err">}</span><span class="o">/.</span><span class="n">cache</span><span class="o">/</span><span class="n">wal</span><span class="o">/</span><span class="n">wal</span><span class="s">&quot;)&quot;</span><span class="n"></span>
+
+
+<span class="o">###################</span><span class="n"></span>
+<span class="o">#</span><span class="n"> Multimedia Keys </span><span class="o">#</span><span class="n"></span>
+<span class="o">###################</span><span class="n"></span>
+
+<span class="o">#</span><span class="n"> Pulse Audio controls </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym XF86AudioRaiseVolume exec </span><span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">startup</span><span class="o">-</span><span class="n">id pactl set</span><span class="o">-</span><span class="n">sink</span><span class="o">-</span><span class="n">volume 0 </span><span class="err">+</span><span class="n">5</span><span class="err">%</span><span class="n"> </span><span class="o">#</span><span class="n">increase sound volume</span>
+<span class="n">bindsym XF86AudioLowerVolume exec </span><span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">startup</span><span class="o">-</span><span class="n">id pactl set</span><span class="o">-</span><span class="n">sink</span><span class="o">-</span><span class="n">volume 0 </span><span class="o">-</span><span class="n">5</span><span class="err">%</span><span class="n"> </span><span class="o">#</span><span class="n">decrease sound volume</span>
+<span class="n">bindsym XF86AudioMute exec </span><span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">startup</span><span class="o">-</span><span class="n">id pactl set</span><span class="o">-</span><span class="n">sink</span><span class="o">-</span><span class="n">mute 0 toggle </span><span class="o">#</span><span class="n"> mute sound</span>
+
+<span class="o">#</span><span class="n"> Screen brightness controls </span><span class="o">#</span><span class="n"></span>
+<span class="n">bindsym XF86MonBrightnessUp exec xback</span><span class="s">light</span><span class="n"> </span><span class="o">-</span><span class="n">inc 5 </span><span class="o">#</span><span class="n"> increase screen brightness</span>
+
+<span class="n">bindsym XF86MonBrightnessDown exec xback</span><span class="s">light</span><span class="n"> </span><span class="o">-</span><span class="n">dec 5 </span><span class="o">#</span><span class="n"> decrease screen brightness</span>
+
+
+
+<span class="o">###########</span><span class="n"></span>
+<span class="o">#</span><span class="n"> i3</span><span class="o">-</span><span class="n">Gaps </span><span class="o">#</span><span class="n"></span>
+<span class="o">###########</span><span class="n"></span>
+
+<span class="o">#</span><span class="n"> Borders </span><span class="o">#</span><span class="n"></span>
+<span class="n">for</span><span class="o">_</span><span class="n">window </span><span class="err">[</span><span class="n">class</span><span class="o">=</span><span class="s">&quot;^.*&quot;</span><span class="err">]</span><span class="n"> border pixel 5</span>
+
+<span class="o">#</span><span class="n"> Set inner</span><span class="o">/</span><span class="n">outer gaps </span><span class="o">#</span><span class="n"></span>
+<span class="n">gaps inner 15</span>
+<span class="n">gaps outer 10</span>
+
+<span class="o">#</span><span class="n"> Smart gaps </span><span class="err">(</span><span class="n">gaps used if only more than one container on the workspace</span><span class="err">)</span><span class="n"> </span><span class="o">#</span><span class="n"></span>
+<span class="o">#</span><span class="n"> smart</span><span class="o">_</span><span class="n">gaps on</span>
+
+<span class="o">#</span><span class="n"> Smart borders </span><span class="err">(</span><span class="n">draw borders around container only if it is not the only container on this workspace</span><span class="err">)</span><span class="n"> </span><span class="o">#</span><span class="n"> </span>
+<span class="n">smart</span><span class="o">_</span><span class="n">borders on</span>
+
+<span class="n">workspace </span><span class="err">$</span><span class="n">ws1 gaps inner 0</span>
+<span class="n">workspace </span><span class="err">$</span><span class="n">ws1 gaps outer 0</span>
+
+
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">z gaps inner current minus 5</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">u gaps inner current plus 5</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">z gaps outer current minus 5</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">u gaps outer current plus 5</span>
+
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">Left resize shrink width 5 px or 5 ppt</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">Down resize grow height 5 px or 5 ppt</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">Up resize shrink height 5 px or 5 ppt</span>
+<span class="n">bindsym </span><span class="err">$</span><span class="n">mod</span><span class="err">+</span><span class="n">Shift</span><span class="err">+</span><span class="n">Right resize grow width 5 px or 5 ppt</span>
+</pre></div>
+</td></tr></table>
+                            </div>
+                            
+                            <div class="overlay">&nbsp;</div>
+                            
+                            <div class="minimize">
+                                <p>x</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="item file">
+                        <div class="header">
+                            
+                                <h4>polybar_config<span class="right">(<a href="/dots/1439/2/raw/">raw</a>, <a href="/dots/1439/2/dl/">dl</a>)</span></h4>
+                            
+                        </div>
+                        
+                        <div class="content">
+                            <div class="dot">
+                                <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339
+340
+341
+342
+343
+344
+345
+346
+347
+348
+349
+350
+351
+352
+353
+354
+355
+356
+357
+358
+359
+360
+361
+362
+363
+364
+365
+366
+367
+368
+369
+370
+371
+372
+373
+374
+375
+376
+377
+378
+379
+380
+381
+382
+383
+384
+385
+386
+387
+388
+389
+390</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">############</span><span class="n"></span>
+<span class="o">##</span><span class="n"> Colors </span><span class="o">##</span><span class="n"></span>
+<span class="o">############</span><span class="n"></span>
+
+<span class="err">[</span><span class="n">colors</span><span class="err">]</span><span class="n"></span>
+<span class="n">background </span><span class="o">=</span><span class="n"> </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">background</span><span class="o">-</span><span class="n">alt </span><span class="o">=</span><span class="n"> </span><span class="s">#000000</span><span class="n"></span>
+<span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="s">#ffffff</span><span class="n"></span>
+<span class="n">foreground</span><span class="o">-</span><span class="n">alt </span><span class="o">=</span><span class="n"> </span><span class="s">#555555</span><span class="n"></span>
+<span class="n">primary </span><span class="o">=</span><span class="n"> </span><span class="s">#ffb52a</span><span class="n"></span>
+<span class="n">secondary </span><span class="o">=</span><span class="n"> </span><span class="s">#e60053</span><span class="n"></span>
+<span class="n">alert </span><span class="o">=</span><span class="n"> </span><span class="s">#bd2c40</span><span class="n"></span>
+
+<span class="err">[</span><span class="n">global</span><span class="o">/</span><span class="n">wm</span><span class="err">]</span><span class="n"></span>
+<span class="n">margin</span><span class="o">-</span><span class="n">top </span><span class="o">=</span><span class="n"> 5</span>
+<span class="n">margin</span><span class="o">-</span><span class="n">bottom </span><span class="o">=</span><span class="n"> 5</span>
+
+
+<span class="o">##################</span><span class="n"></span>
+<span class="o">##</span><span class="n"> Bar settings </span><span class="o">##</span><span class="n"></span>
+<span class="o">##################</span><span class="n"></span>
+
+<span class="err">[</span><span class="n">bar</span><span class="o">/</span><span class="n">main</span><span class="err">]</span><span class="n"></span>
+<span class="err">;</span><span class="n">monitor </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">env</span><span class="o">:</span><span class="n">MONITOR</span><span class="o">:</span><span class="n">HDMI</span><span class="o">-</span><span class="n">1</span><span class="err">}</span><span class="n"></span>
+<span class="n">width </span><span class="o">=</span><span class="n"> 100</span><span class="err">%</span><span class="n"></span>
+<span class="n">height </span><span class="o">=</span><span class="n"> 26</span>
+<span class="n">offset</span><span class="o">-</span><span class="n">x </span><span class="o">=</span><span class="n"> 0</span>
+<span class="n">offset</span><span class="o">-</span><span class="n">y </span><span class="o">=</span><span class="n"> 0</span>
+
+<span class="err">;</span><span class="n">bottom </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span><span class="n"></span>
+
+<span class="err">;</span><span class="n">background </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">xrdb</span><span class="o">:</span><span class="n">color1</span><span class="err">}</span><span class="n"></span>
+<span class="n">background </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">xrdb</span><span class="o">:</span><span class="n">background</span><span class="err">}</span><span class="n"></span>
+<span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">foreground</span><span class="err">}</span><span class="n"></span>
+
+
+<span class="n">overline</span><span class="o">-</span><span class="n">size </span><span class="o">=</span><span class="n"> 0</span>
+<span class="n">overline</span><span class="o">-</span><span class="n">color </span><span class="o">=</span><span class="n"> </span><span class="o">#</span><span class="n">f00</span>
+<span class="n">underline</span><span class="o">-</span><span class="n">size </span><span class="o">=</span><span class="n"> 2</span>
+<span class="n">underline</span><span class="o">-</span><span class="n">color </span><span class="o">=</span><span class="n"> </span><span class="s">#CA4A4B</span><span class="n"></span>
+
+<span class="n">border</span><span class="o">-</span><span class="n">bottom</span><span class="o">-</span><span class="n">size </span><span class="o">=</span><span class="n"> 3</span>
+<span class="n">border</span><span class="o">-</span><span class="n">bottom</span><span class="o">-</span><span class="n">color </span><span class="o">=</span><span class="n"> </span><span class="s">#CA4A4B</span><span class="n"></span>
+
+<span class="n">border</span><span class="o">-</span><span class="n">top</span><span class="o">-</span><span class="n">size </span><span class="o">=</span><span class="n"> 0</span>
+<span class="n">border</span><span class="o">-</span><span class="n">top</span><span class="o">-</span><span class="n">color </span><span class="o">=</span><span class="n"> </span><span class="s">#CA4A4B</span><span class="n"></span>
+
+<span class="err">;</span><span class="n">border</span><span class="o">-</span><span class="n">left</span><span class="o">-</span><span class="n">size </span><span class="o">=</span><span class="n"> 3</span>
+<span class="err">;</span><span class="n">border</span><span class="o">-</span><span class="n">left</span><span class="o">-</span><span class="n">color </span><span class="o">=</span><span class="n"> </span><span class="s">#CA4A4B</span><span class="n"></span>
+
+<span class="err">;</span><span class="n">border</span><span class="o">-</span><span class="n">right</span><span class="o">-</span><span class="n">size </span><span class="o">=</span><span class="n"> 3</span>
+<span class="err">;</span><span class="n">border</span><span class="o">-</span><span class="n">right</span><span class="o">-</span><span class="n">color </span><span class="o">=</span><span class="n"> </span><span class="s">#CA4A4B</span><span class="n"></span>
+
+<span class="n">padding</span><span class="o">-</span><span class="n">left </span><span class="o">=</span><span class="n"> 0</span>
+<span class="n">padding</span><span class="o">-</span><span class="n">right </span><span class="o">=</span><span class="n"> 0</span>
+<span class="n">module</span><span class="o">-</span><span class="n">margin</span><span class="o">-</span><span class="n">left </span><span class="o">=</span><span class="n"> 0</span>
+<span class="n">module</span><span class="o">-</span><span class="n">margin</span><span class="o">-</span><span class="n">right </span><span class="o">=</span><span class="n"> 5</span>
+
+
+<span class="o">###########</span><span class="n"></span>
+<span class="o">##</span><span class="n"> Fonts </span><span class="o">##</span><span class="n"></span>
+<span class="o">###########</span><span class="n"></span>
+
+<span class="n">font</span><span class="o">-</span><span class="n">0 </span><span class="o">=</span><span class="n"> Fira Sans</span><span class="o">:</span><span class="n">size</span><span class="o">=</span><span class="n">9</span><span class="o">:</span><span class="n">weight</span><span class="o">=</span><span class="n">regular</span><span class="err">;</span><span class="n">2</span>
+<span class="n">font</span><span class="o">-</span><span class="n">1 </span><span class="o">=</span><span class="n"> FontAwesome</span><span class="o">:</span><span class="n">size</span><span class="o">=</span><span class="n">10</span><span class="err">;</span><span class="n">2</span>
+
+
+
+<span class="o">######################</span><span class="n"></span>
+<span class="o">##</span><span class="n"> Modules position </span><span class="o">##</span><span class="n"></span>
+<span class="o">######################</span><span class="n"></span>
+
+<span class="n">modules</span><span class="o">-</span><span class="n">left </span><span class="o">=</span><span class="n"> i3 music</span>
+<span class="n">modules</span><span class="o">-</span><span class="n">center </span><span class="o">=</span><span class="n"></span>
+<span class="n">modules</span><span class="o">-</span><span class="n">right </span><span class="o">=</span><span class="n"> xback</span><span class="s">light</span><span class="n"> xkeyboard temperature memory cpu wlan eth battery weather date</span>
+
+<span class="err">;</span><span class="n">tray</span><span class="o">-</span><span class="n">position </span><span class="o">=</span><span class="n"> right</span>
+<span class="n">tray</span><span class="o">-</span><span class="n">padding </span><span class="o">=</span><span class="n"> 3</span>
+<span class="err">;</span><span class="n">tray</span><span class="o">-</span><span class="n">transparent </span><span class="o">=</span><span class="n"> </span><span class="kp">false</span><span class="n"></span>
+<span class="n">tray</span><span class="o">-</span><span class="n">background </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">root</span><span class="o">.</span><span class="n">background</span><span class="err">}</span><span class="n"></span>
+
+<span class="err">;</span><span class="n">wm</span><span class="o">-</span><span class="n">restack </span><span class="o">=</span><span class="n"> bspwm</span>
+<span class="err">;</span><span class="n">wm</span><span class="o">-</span><span class="n">restack </span><span class="o">=</span><span class="n"> i3</span>
+
+<span class="err">;</span><span class="n">override</span><span class="o">-</span><span class="s">red</span><span class="n">irect </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span><span class="n"></span>
+
+<span class="err">;</span><span class="n">scroll</span><span class="o">-</span><span class="n">up </span><span class="o">=</span><span class="n"> bspwm</span><span class="o">-</span><span class="n">desknext</span>
+<span class="err">;</span><span class="n">scroll</span><span class="o">-</span><span class="n">down </span><span class="o">=</span><span class="n"> bspwm</span><span class="o">-</span><span class="n">deskprev</span>
+
+<span class="err">;</span><span class="n">scroll</span><span class="o">-</span><span class="n">up </span><span class="o">=</span><span class="n"> i3wm</span><span class="o">-</span><span class="n">wsnext</span>
+<span class="err">;</span><span class="n">scroll</span><span class="o">-</span><span class="n">down </span><span class="o">=</span><span class="n"> i3wm</span><span class="o">-</span><span class="n">wsprev</span>
+
+
+<span class="o">########</span><span class="n"></span>
+<span class="o">##</span><span class="n"> i3 </span><span class="o">##</span><span class="n"></span>
+<span class="o">########</span><span class="n"></span>
+
+<span class="err">[</span><span class="n">module</span><span class="o">/</span><span class="n">i3</span><span class="err">]</span><span class="n"></span>
+<span class="n">type </span><span class="o">=</span><span class="n"> internal</span><span class="o">/</span><span class="n">i3</span>
+<span class="n">strip</span><span class="o">-</span><span class="n">wsnumbers </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span><span class="n"></span>
+<span class="n">pin</span><span class="o">-</span><span class="n">workspaces </span><span class="o">=</span><span class="n"> </span><span class="kp">true</span><span class="n"></span>
+
+<span class="n">ws</span><span class="o">-</span><span class="n">icon</span><span class="o">-</span><span class="n">0 </span><span class="o">=</span><span class="n"> 1</span><span class="err">;</span><span class="o">/</span><span class="n"></span>
+<span class="n">ws</span><span class="o">-</span><span class="n">icon</span><span class="o">-</span><span class="n">1 </span><span class="o">=</span><span class="n"> 2</span><span class="err">;</span><span class="o">//</span><span class="n"></span>
+<span class="n">ws</span><span class="o">-</span><span class="n">icon</span><span class="o">-</span><span class="n">2 </span><span class="o">=</span><span class="n"> 3</span><span class="err">;</span><span class="o">///</span><span class="n"></span>
+<span class="n">ws</span><span class="o">-</span><span class="n">icon</span><span class="o">-</span><span class="n">3 </span><span class="o">=</span><span class="n"> 4</span><span class="err">;</span><span class="o">////</span><span class="n"></span>
+<span class="n">ws</span><span class="o">-</span><span class="n">icon</span><span class="o">-</span><span class="n">4 </span><span class="o">=</span><span class="n"> 5</span><span class="err">;</span><span class="o">/////</span><span class="n"></span>
+<span class="n">ws</span><span class="o">-</span><span class="n">icon</span><span class="o">-</span><span class="n">default </span><span class="o">=</span><span class="n"> </span><span class="err">|</span><span class="n"></span>
+
+<span class="n">format </span><span class="o">=</span><span class="n"> </span><span class="err">&lt;</span><span class="n">label</span><span class="o">-</span><span class="n">state</span><span class="err">&gt;</span><span class="n"></span>
+
+<span class="n">label</span><span class="o">-</span><span class="n">mode </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;%mode%&quot;</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">mode</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">foreground</span><span class="err">}</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">mode</span><span class="o">-</span><span class="n">background </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">background</span><span class="err">}</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">mode</span><span class="o">-</span><span class="n">padding </span><span class="o">=</span><span class="n"> 3</span>
+
+<span class="n">label</span><span class="o">-</span><span class="n">focused </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;%icon%&quot;</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">focused</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">background</span><span class="err">}</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">focused</span><span class="o">-</span><span class="n">background </span><span class="o">=</span><span class="n"> </span><span class="s">#CA4A4B</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">focused</span><span class="o">-</span><span class="n">underline </span><span class="o">=</span><span class="n"> </span>
+<span class="n">label</span><span class="o">-</span><span class="n">focused</span><span class="o">-</span><span class="n">padding </span><span class="o">=</span><span class="n"> 3</span>
+
+<span class="n">label</span><span class="o">-</span><span class="n">unfocused </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;%icon%&quot;</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">unfocused</span><span class="o">-</span><span class="n">padding </span><span class="o">=</span><span class="n"> 3</span>
+
+<span class="n">label</span><span class="o">-</span><span class="n">urgent </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;%icon%&quot;</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">urgent</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">foreground</span><span class="err">}</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">urgent</span><span class="o">-</span><span class="n">background </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">background</span><span class="err">}</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">urgent</span><span class="o">-</span><span class="n">padding </span><span class="o">=</span><span class="n"> 4</span>
+
+<span class="n">label</span><span class="o">-</span><span class="n">visible</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">foreground</span><span class="err">}</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">visible</span><span class="o">-</span><span class="n">background </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">background</span><span class="err">}</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">visible</span><span class="o">-</span><span class="n">padding </span><span class="o">=</span><span class="n"> 4</span>
+
+
+<span class="o">#############</span><span class="n"></span>
+<span class="o">##</span><span class="n"> XWindow </span><span class="o">##</span><span class="n"></span>
+<span class="o">#############</span><span class="n"></span>
+
+<span class="err">[</span><span class="n">module</span><span class="o">/</span><span class="n">xwindow</span><span class="err">]</span><span class="n"></span>
+<span class="n">type </span><span class="o">=</span><span class="n"> internal</span><span class="o">/</span><span class="n">xwindow</span>
+
+<span class="n">format</span><span class="o">-</span><span class="n">background </span><span class="o">=</span><span class="n"> </span>
+<span class="n">format</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="s">#ffffff</span><span class="n"></span>
+<span class="n">format</span><span class="o">-</span><span class="n">padding </span><span class="o">=</span><span class="n"> 0</span>
+
+
+<span class="n">label </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;   %title%&quot;</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">maxlen </span><span class="o">=</span><span class="n"> 50</span>
+
+
+<span class="o">##############</span><span class="n"></span>
+<span class="o">##</span><span class="n"> Keyboard </span><span class="o">##</span><span class="n"></span>
+<span class="o">##############</span><span class="n"></span>
+
+<span class="err">[</span><span class="n">module</span><span class="o">/</span><span class="n">xkeyboard</span><span class="err">]</span><span class="n"></span>
+<span class="o">##</span><span class="n"> type </span><span class="o">=</span><span class="n"> internal</span><span class="o">/</span><span class="n">xkeyboard</span>
+<span class="s">black</span><span class="n">list</span><span class="o">-</span><span class="n">0 </span><span class="o">=</span><span class="n"> num lock</span>
+<span class="n">label</span><span class="o">-</span><span class="n">layout </span><span class="o">=</span><span class="n"> </span><span class="err">%{</span><span class="n">F</span><span class="o">#</span><span class="n">55</span><span class="err">}%{</span><span class="n">F</span><span class="o">-</span><span class="err">}</span><span class="n"> </span><span class="err">%</span><span class="n">layout</span><span class="err">%</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">layout</span><span class="o">-</span><span class="n">underline </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">secondary</span><span class="err">}</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">indicator</span><span class="o">-</span><span class="n">padding </span><span class="o">=</span><span class="n"> 2</span>
+<span class="n">label</span><span class="o">-</span><span class="n">indicator</span><span class="o">-</span><span class="n">margin </span><span class="o">=</span><span class="n"> 1</span>
+<span class="n">label</span><span class="o">-</span><span class="n">indicator</span><span class="o">-</span><span class="n">background </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">secondary</span><span class="err">}</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">indicator</span><span class="o">-</span><span class="n">underline </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">secondary</span><span class="err">}</span><span class="n"></span>
+
+<span class="err">[</span><span class="n">module</span><span class="o">/</span><span class="n">filesystem</span><span class="err">]</span><span class="n"></span>
+<span class="n">type </span><span class="o">=</span><span class="n"> internal</span><span class="o">/</span><span class="n">fs</span>
+<span class="n">interval </span><span class="o">=</span><span class="n"> 25</span>
+
+<span class="n">mount</span><span class="o">-</span><span class="n">0 </span><span class="o">=</span><span class="n"> </span><span class="o">/</span><span class="n"></span>
+<span class="n">mount</span><span class="o">-</span><span class="n">1 </span><span class="o">=</span><span class="n"> </span><span class="o">/</span><span class="n">home</span>
+<span class="n">mount</span><span class="o">-</span><span class="n">2 </span><span class="o">=</span><span class="n"> </span><span class="o">/</span><span class="n">invalid</span><span class="o">/</span><span class="n">mountpoint</span>
+
+<span class="k">label-mounted = %mountpoint%</span><span class="p">:</span> <span class="err">%</span><span class="n">percentage</span><span class="o">_</span><span class="n">free</span><span class="err">%%</span><span class="n"></span>
+
+<span class="k">label-unmounted = %mountpoint%</span><span class="p">:</span> <span class="n">not mounted</span>
+<span class="n">label</span><span class="o">-</span><span class="n">unmounted</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">foreground</span><span class="o">-</span><span class="n">alt</span><span class="err">}</span><span class="n"></span>
+
+
+<span class="o">###############</span><span class="n"></span>
+<span class="o">##</span><span class="n"> Back</span><span class="s">light</span><span class="n"> </span><span class="o">##</span><span class="n"></span>
+<span class="o">################</span><span class="n"></span>
+
+<span class="err">[</span><span class="n">module</span><span class="o">/</span><span class="n">xback</span><span class="s">light</span><span class="err">]</span><span class="n"></span>
+<span class="o">#</span><span class="n"> type </span><span class="o">=</span><span class="n"> internal</span><span class="o">/</span><span class="n">xback</span><span class="s">light</span><span class="n"></span>
+
+<span class="n">format </span><span class="o">=</span><span class="n"> </span><span class="err">&lt;</span><span class="n">label</span><span class="err">&gt;</span><span class="n"> </span><span class="err">&lt;</span><span class="n">bar</span><span class="err">&gt;</span><span class="n"></span>
+<span class="n">label </span><span class="o">=</span><span class="n"> BL</span>
+
+<span class="n">bar</span><span class="o">-</span><span class="n">width </span><span class="o">=</span><span class="n"> 10</span>
+<span class="n">bar</span><span class="o">-</span><span class="n">indicator </span><span class="o">=</span><span class="n"> </span><span class="err">│</span><span class="n"></span>
+<span class="n">bar</span><span class="o">-</span><span class="n">indicator</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="o">#</span><span class="n">ff</span>
+<span class="n">bar</span><span class="o">-</span><span class="n">indicator</span><span class="o">-</span><span class="n">font </span><span class="o">=</span><span class="n"> 2</span>
+<span class="n">bar</span><span class="o">-</span><span class="n">fill </span><span class="o">=</span><span class="n"> </span><span class="err">─</span><span class="n"></span>
+<span class="n">bar</span><span class="o">-</span><span class="n">fill</span><span class="o">-</span><span class="n">font </span><span class="o">=</span><span class="n"> 2</span>
+<span class="n">bar</span><span class="o">-</span><span class="n">fill</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="s">#9f78e1</span><span class="n"></span>
+<span class="n">bar</span><span class="o">-</span><span class="n">empty </span><span class="o">=</span><span class="n"> </span><span class="err">─</span><span class="n"></span>
+<span class="n">bar</span><span class="o">-</span><span class="n">empty</span><span class="o">-</span><span class="n">font </span><span class="o">=</span><span class="n"> 2</span>
+<span class="n">bar</span><span class="o">-</span><span class="n">empty</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">foreground</span><span class="o">-</span><span class="n">alt</span><span class="err">}</span><span class="n"></span>
+
+<span class="err">[</span><span class="n">module</span><span class="o">/</span><span class="n">back</span><span class="s">light</span><span class="o">-</span><span class="n">acpi</span><span class="err">]</span><span class="n"></span>
+<span class="n">inherit </span><span class="o">=</span><span class="n"> module</span><span class="o">/</span><span class="n">xback</span><span class="s">light</span><span class="n"></span>
+<span class="n">type </span><span class="o">=</span><span class="n"> internal</span><span class="o">/</span><span class="n">back</span><span class="s">light</span><span class="n"></span>
+<span class="n">card </span><span class="o">=</span><span class="n"> intel</span><span class="o">_</span><span class="n">back</span><span class="s">light</span><span class="n"></span>
+
+
+<span class="o">#########</span><span class="n"></span>
+<span class="o">##</span><span class="n"> CPU </span><span class="o">##</span><span class="n"></span>
+<span class="o">#########</span><span class="n"></span>
+
+<span class="err">[</span><span class="n">module</span><span class="o">/</span><span class="n">cpu</span><span class="err">]</span><span class="n"></span>
+<span class="o">##</span><span class="n"> type </span><span class="o">=</span><span class="n"> internal</span><span class="o">/</span><span class="n">cpu</span>
+<span class="n">interval </span><span class="o">=</span><span class="n"> 2</span>
+<span class="n">format</span><span class="o">-</span><span class="n">prefix </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; &quot;</span><span class="n"></span>
+<span class="n">format</span><span class="o">-</span><span class="n">prefix</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="s">#FFFFFF</span><span class="n"></span>
+<span class="n">format</span><span class="o">-</span><span class="n">underline </span><span class="o">=</span><span class="n"> </span>
+<span class="n">label </span><span class="o">=</span><span class="n"> </span><span class="err">%</span><span class="n">percentage</span><span class="err">%%</span><span class="n"></span>
+
+
+<span class="o">#########</span><span class="n"></span>
+<span class="o">##</span><span class="n"> RAM </span><span class="o">##</span><span class="n"></span>
+<span class="o">#########</span><span class="n"></span>
+
+<span class="err">[</span><span class="n">module</span><span class="o">/</span><span class="n">memory</span><span class="err">]</span><span class="n"></span>
+<span class="o">##</span><span class="n"> type </span><span class="o">=</span><span class="n"> internal</span><span class="o">/</span><span class="n">memory</span>
+<span class="n">interval </span><span class="o">=</span><span class="n"> 2</span>
+<span class="n">format</span><span class="o">-</span><span class="n">prefix </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; &quot;</span><span class="n"></span>
+<span class="n">format</span><span class="o">-</span><span class="n">prefix</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="s">#FFFFFF</span><span class="n"></span>
+<span class="n">format</span><span class="o">-</span><span class="n">underline </span><span class="o">=</span><span class="n"> </span>
+<span class="n">label </span><span class="o">=</span><span class="n"> </span><span class="err">%</span><span class="n">percentage</span><span class="o">_</span><span class="n">used</span><span class="err">%%</span><span class="n"></span>
+
+
+<span class="o">##############</span><span class="n"></span>
+<span class="o">##</span><span class="n"> Wireless </span><span class="o">##</span><span class="n"></span>
+<span class="o">##############</span><span class="n"></span>
+
+<span class="err">[</span><span class="n">module</span><span class="o">/</span><span class="n">wlan</span><span class="err">]</span><span class="n"></span>
+<span class="n">type </span><span class="o">=</span><span class="n"> internal</span><span class="o">/</span><span class="n">network</span>
+<span class="n">interface </span><span class="o">=</span><span class="n"> wlp7s0</span>
+<span class="n">interval </span><span class="o">=</span><span class="n"> 3</span><span class="o">.</span><span class="n">0</span>
+
+<span class="n">format</span><span class="o">-</span><span class="n">connected </span><span class="o">=</span><span class="n"> </span><span class="err">&lt;</span><span class="n">ramp</span><span class="o">-</span><span class="n">signal</span><span class="err">&gt;</span><span class="n"> </span><span class="err">&lt;</span><span class="n">label</span><span class="o">-</span><span class="n">connected</span><span class="err">&gt;</span><span class="n"></span>
+<span class="n">format</span><span class="o">-</span><span class="n">connected</span><span class="o">-</span><span class="n">underline </span><span class="o">=</span><span class="n"> </span>
+<span class="n">format</span><span class="o">-</span><span class="n">disconnected</span><span class="o">-</span><span class="n">underline </span><span class="o">=</span><span class="n"> </span>
+
+<span class="n">label</span><span class="o">-</span><span class="n">connected </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;%{A1:urxvt -e nmtui:}  %essid%%{A}&quot;</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">disconnected </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;%{A1:urxvt -e nmtui:} %ifname% disconnected %{A}&quot;</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">disconnected</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">foreground</span><span class="o">-</span><span class="n">alt</span><span class="err">}</span><span class="n"></span>
+
+<span class="n">ramp</span><span class="o">-</span><span class="n">signal</span><span class="o">-</span><span class="n">0 </span><span class="o">=</span><span class="n"> </span><span class="err"></span><span class="n"></span>
+<span class="n">ramp</span><span class="o">-</span><span class="n">signal</span><span class="o">-</span><span class="n">1 </span><span class="o">=</span><span class="n"> </span><span class="err"></span><span class="n"></span>
+<span class="n">ramp</span><span class="o">-</span><span class="n">signal</span><span class="o">-</span><span class="n">2 </span><span class="o">=</span><span class="n"> </span><span class="err"></span><span class="n"></span>
+<span class="n">ramp</span><span class="o">-</span><span class="n">signal</span><span class="o">-</span><span class="n">3 </span><span class="o">=</span><span class="n"> </span><span class="err"></span><span class="n"></span>
+<span class="n">ramp</span><span class="o">-</span><span class="n">signal</span><span class="o">-</span><span class="n">4 </span><span class="o">=</span><span class="n"> </span><span class="err"></span><span class="n"></span>
+<span class="n">ramp</span><span class="o">-</span><span class="n">signal</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="s">#FFFFFF</span><span class="n"></span>
+
+
+
+<span class="o">##########</span><span class="n"></span>
+<span class="o">##</span><span class="n"> Date </span><span class="o">##</span><span class="n"></span>
+<span class="o">##########</span><span class="n"></span>
+
+<span class="err">[</span><span class="n">module</span><span class="o">/</span><span class="n">date</span><span class="err">]</span><span class="n"></span>
+<span class="n">type </span><span class="o">=</span><span class="n"> internal</span><span class="o">/</span><span class="n">date</span>
+<span class="n">interval </span><span class="o">=</span><span class="n"> 1</span>
+
+<span class="n">date </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; %a, %d %B |&quot;</span><span class="n"></span>
+<span class="n">time </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;%H:%M:%S &quot;</span><span class="n"></span>
+
+<span class="n">format</span><span class="o">-</span><span class="n">prefix </span><span class="o">=</span><span class="n"> </span>
+<span class="n">format</span><span class="o">-</span><span class="n">prefix</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">background</span><span class="err">}</span><span class="n"></span>
+<span class="n">format</span><span class="o">-</span><span class="n">background </span><span class="o">=</span><span class="n"> </span><span class="s">#CA4A4B</span><span class="n"></span>
+<span class="n">format</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">background</span><span class="err">}</span><span class="n"></span>
+
+<span class="n">label </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;%{A1:steam:}  %date% %time%  %{A}&quot;</span><span class="n"></span>
+
+
+<span class="o">############</span><span class="n"></span>
+<span class="o">##</span><span class="n"> Volume </span><span class="o">##</span><span class="n"></span>
+<span class="o">############</span><span class="n"></span>
+
+<span class="err">[</span><span class="n">module</span><span class="o">/</span><span class="n">volume</span><span class="err">]</span><span class="n"></span>
+<span class="n">type </span><span class="o">=</span><span class="n"> internal</span><span class="o">/</span><span class="n">volume</span>
+<span class="n">master</span><span class="o">-</span><span class="n">mixer </span><span class="o">=</span><span class="n"> Master</span>
+
+<span class="n">format</span><span class="o">-</span><span class="n">volume </span><span class="o">=</span><span class="n"> </span><span class="err">&lt;</span><span class="n">label</span><span class="o">-</span><span class="n">volume</span><span class="err">&gt;</span><span class="n"> </span><span class="err">&lt;</span><span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="err">&gt;</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">volume </span><span class="o">=</span><span class="n"> VOL</span>
+<span class="n">label</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">root</span><span class="o">.</span><span class="n">foreground</span><span class="err">}</span><span class="n"></span>
+
+<span class="n">format</span><span class="o">-</span><span class="n">muted</span><span class="o">-</span><span class="n">prefix </span><span class="o">=</span><span class="n"> </span>
+<span class="n">format</span><span class="o">-</span><span class="n">muted</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">foreground</span><span class="o">-</span><span class="n">alt</span><span class="err">}</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">muted </span><span class="o">=</span><span class="n"> sound muted</span>
+
+<span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">width </span><span class="o">=</span><span class="n"> 10</span>
+<span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">foreground</span><span class="o">-</span><span class="n">0 </span><span class="o">=</span><span class="n"> </span><span class="s">#55aa55</span><span class="n"></span>
+<span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">foreground</span><span class="o">-</span><span class="n">1 </span><span class="o">=</span><span class="n"> </span><span class="s">#55aa55</span><span class="n"></span>
+<span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">foreground</span><span class="o">-</span><span class="n">2 </span><span class="o">=</span><span class="n"> </span><span class="s">#55aa55</span><span class="n"></span>
+<span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">foreground</span><span class="o">-</span><span class="n">3 </span><span class="o">=</span><span class="n"> </span><span class="s">#55aa55</span><span class="n"></span>
+<span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">foreground</span><span class="o">-</span><span class="n">4 </span><span class="o">=</span><span class="n"> </span><span class="s">#55aa55</span><span class="n"></span>
+<span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">foreground</span><span class="o">-</span><span class="n">5 </span><span class="o">=</span><span class="n"> </span><span class="s">#f5a70a</span><span class="n"></span>
+<span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">foreground</span><span class="o">-</span><span class="n">6 </span><span class="o">=</span><span class="n"> </span><span class="s">#ff5555</span><span class="n"></span>
+<span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">gradient </span><span class="o">=</span><span class="n"> </span><span class="kp">false</span><span class="n"></span>
+<span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">indicator </span><span class="o">=</span><span class="n"> </span><span class="err">│</span><span class="n"></span>
+<span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">indicator</span><span class="o">-</span><span class="n">font </span><span class="o">=</span><span class="n"> 2</span>
+<span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">indicator</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="o">#</span><span class="n">ff</span>
+<span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">fill </span><span class="o">=</span><span class="n"> </span><span class="err">─</span><span class="n"></span>
+<span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">fill</span><span class="o">-</span><span class="n">font </span><span class="o">=</span><span class="n"> 2</span>
+<span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">empty </span><span class="o">=</span><span class="n"> </span><span class="err">─</span><span class="n"></span>
+<span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">empty</span><span class="o">-</span><span class="n">font </span><span class="o">=</span><span class="n"> 2</span>
+<span class="n">bar</span><span class="o">-</span><span class="n">volume</span><span class="o">-</span><span class="n">empty</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">foreground</span><span class="o">-</span><span class="n">alt</span><span class="err">}</span><span class="n"></span>
+
+
+<span class="o">#############</span><span class="n"></span>
+<span class="o">##</span><span class="n"> Battery </span><span class="o">##</span><span class="n"></span>
+<span class="o">#############</span><span class="n"></span>
+
+<span class="err">[</span><span class="n">module</span><span class="o">/</span><span class="n">battery</span><span class="err">]</span><span class="n"></span>
+<span class="n">type </span><span class="o">=</span><span class="n"> internal</span><span class="o">/</span><span class="n">battery</span>
+<span class="n">battery </span><span class="o">=</span><span class="n"> BAT1</span>
+<span class="n">adapter </span><span class="o">=</span><span class="n"> ACAD</span>
+<span class="n">full</span><span class="o">-</span><span class="n">at </span><span class="o">=</span><span class="n"> 98</span>
+
+<span class="n">format</span><span class="o">-</span><span class="n">charging </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; &lt;ramp-capacity&gt; &lt;label-charging&gt;&quot;</span><span class="n"></span>
+<span class="n">format</span><span class="o">-</span><span class="n">charging</span><span class="o">-</span><span class="n">underline </span><span class="o">=</span><span class="n"> </span>
+
+<span class="n">format</span><span class="o">-</span><span class="n">discharging </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; &lt;ramp-capacity&gt;  &lt;label-discharging&gt;&quot;</span><span class="n"></span>
+<span class="n">format</span><span class="o">-</span><span class="n">discharging</span><span class="o">-</span><span class="n">underline </span><span class="o">=</span><span class="n"> </span>
+
+<span class="n">format</span><span class="o">-</span><span class="n">full</span><span class="o">-</span><span class="n">prefix </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;  &quot;</span><span class="n"></span>
+<span class="n">format</span><span class="o">-</span><span class="n">full</span><span class="o">-</span><span class="n">prefix</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="s">#FFFFFF</span><span class="n"></span>
+
+<span class="n">ramp</span><span class="o">-</span><span class="n">capacity</span><span class="o">-</span><span class="n">0 </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;  &quot;</span><span class="n"></span>
+<span class="n">ramp</span><span class="o">-</span><span class="n">capacity</span><span class="o">-</span><span class="n">1 </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;  &quot;</span><span class="n"></span>
+<span class="n">ramp</span><span class="o">-</span><span class="n">capacity</span><span class="o">-</span><span class="n">2 </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;  &quot;</span><span class="n"></span>
+<span class="n">ramp</span><span class="o">-</span><span class="n">capacity</span><span class="o">-</span><span class="n">3 </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;  &quot;</span><span class="n"></span>
+<span class="n">ramp</span><span class="o">-</span><span class="n">capacity</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="s">#FFFFFF</span><span class="n"></span>
+<span class="n">ramp</span><span class="o">-</span><span class="n">capacity</span><span class="o">-</span><span class="n">underline </span><span class="o">=</span><span class="n"></span>
+
+<span class="n">click</span><span class="o">-</span><span class="n">left </span><span class="o">=</span><span class="n"> urxvt</span>
+
+<span class="o">##############</span><span class="n"></span>
+<span class="o">##</span><span class="n"> CPU Temp </span><span class="o">##</span><span class="n"></span>
+<span class="o">##############</span><span class="n"></span>
+
+<span class="err">[</span><span class="n">module</span><span class="o">/</span><span class="n">temperature</span><span class="err">]</span><span class="n"></span>
+<span class="o">##</span><span class="n"> type </span><span class="o">=</span><span class="n"> internal</span><span class="o">/</span><span class="n">temperature</span>
+<span class="n">thermal</span><span class="o">-</span><span class="n">zone </span><span class="o">=</span><span class="n"> 0</span>
+<span class="n">warn</span><span class="o">-</span><span class="n">temperature </span><span class="o">=</span><span class="n"> 60</span>
+
+
+<span class="n">format </span><span class="o">=</span><span class="n"> </span><span class="err">&lt;</span><span class="n">ramp</span><span class="err">&gt;</span><span class="n"> </span><span class="err">&lt;</span><span class="n">label</span><span class="err">&gt;</span><span class="n"></span>
+<span class="n">format</span><span class="o">-</span><span class="n">underline </span><span class="o">=</span><span class="n"> </span>
+<span class="n">format</span><span class="o">-</span><span class="n">warn </span><span class="o">=</span><span class="n"> </span><span class="err">&lt;</span><span class="n">ramp</span><span class="err">&gt;</span><span class="n"> </span><span class="err">&lt;</span><span class="n">label</span><span class="o">-</span><span class="n">warn</span><span class="err">&gt;</span><span class="n"></span>
+<span class="n">format</span><span class="o">-</span><span class="n">warn</span><span class="o">-</span><span class="n">underline </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">self</span><span class="o">.</span><span class="n">format</span><span class="o">-</span><span class="n">underline</span><span class="err">}</span><span class="n"></span>
+
+<span class="n">label </span><span class="o">=</span><span class="n"> </span><span class="err"></span><span class="n"> </span><span class="err">%</span><span class="n">temperature</span><span class="err">%</span><span class="n"> </span>
+<span class="n">label</span><span class="o">-</span><span class="n">warn </span><span class="o">=</span><span class="n"> </span><span class="err">%</span><span class="n">temperature</span><span class="err">%</span><span class="n"></span>
+<span class="n">label</span><span class="o">-</span><span class="n">warn</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">secondary</span><span class="err">}</span><span class="n"></span>
+
+<span class="n">ramp</span><span class="o">-</span><span class="n">0 </span><span class="o">=</span><span class="n"> </span>
+<span class="n">ramp</span><span class="o">-</span><span class="n">1 </span><span class="o">=</span><span class="n"> </span>
+<span class="n">ramp</span><span class="o">-</span><span class="n">2 </span><span class="o">=</span><span class="n"> </span>
+<span class="n">ramp</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">foreground</span><span class="o">-</span><span class="n">alt</span><span class="err">}</span><span class="n"></span>
+
+
+
+
+<span class="err">[</span><span class="n">module</span><span class="o">/</span><span class="n">weather</span><span class="err">]</span><span class="n"></span>
+<span class="n">type </span><span class="o">=</span><span class="n"> custom</span><span class="o">/</span><span class="n">script</span>
+<span class="n">interval </span><span class="o">=</span><span class="n"> 10</span>
+<span class="n">format </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;%{A:urxvt -hold -e curl wttr.in/Roznava:}&lt;label&gt;%{A}&quot;</span><span class="n"></span>
+<span class="n">format</span><span class="o">-</span><span class="n">prefix </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;   &quot;</span><span class="n"></span>
+<span class="n">format</span><span class="o">-</span><span class="n">prefix</span><span class="o">-</span><span class="n">foreground </span><span class="o">=</span><span class="n"> </span><span class="err">${</span><span class="n">colors</span><span class="o">.</span><span class="n">foreground</span><span class="err">}</span><span class="n"></span>
+
+<span class="n">exec </span><span class="o">=</span><span class="n"> </span><span class="err">~</span><span class="o">/.</span><span class="n">config</span><span class="o">/</span><span class="n">polybar</span><span class="o">/</span><span class="n">weather</span><span class="o">.</span><span class="n">sh</span>
+
+
+<span class="err">[</span><span class="n">module</span><span class="o">/</span><span class="s">red</span><span class="n">shift</span><span class="err">]</span><span class="n"></span>
+<span class="n">type </span><span class="o">=</span><span class="n"> custom</span><span class="o">/</span><span class="n">script</span>
+<span class="n">interval </span><span class="o">=</span><span class="n"> 5</span>
+
+<span class="n">exec </span><span class="o">=</span><span class="n"> </span><span class="err">~</span><span class="o">/.</span><span class="n">config</span><span class="o">/</span><span class="n">polybar</span><span class="o">/</span><span class="s">red</span><span class="n">shift</span><span class="o">.</span><span class="n">sh</span>
+
+
+<span class="err">[</span><span class="n">module</span><span class="o">/</span><span class="n">music</span><span class="err">]</span><span class="n"></span>
+<span class="n">type </span><span class="o">=</span><span class="n"> custom</span><span class="o">/</span><span class="n">script</span>
+<span class="n">interval </span><span class="o">=</span><span class="n"> 2</span>
+
+<span class="n">label </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;   %output:0:45:...%&quot;</span><span class="n"></span>
+<span class="n">exec </span><span class="o">=</span><span class="n"> </span><span class="err">~</span><span class="o">/.</span><span class="n">config</span><span class="o">/</span><span class="n">polybar</span><span class="o">/</span><span class="n">mpris</span><span class="o">.</span><span class="n">sh</span>
+</pre></div>
+</td></tr></table>
+                            </div>
+                            
+                            <div class="overlay">&nbsp;</div>
+                            
+                            <div class="minimize">
+                                <p>x</p>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        
+    
+
+    
+    
+    
+    
+    
+    
+
+    </div>
+    
+    <div id="footer">&nbsp;</div>
+</div>
+
+<div id="logo">
+    <a href="/"><img src="/public/images/logo.png" width="62" height="63" alt="DotShare.it"></a>
+</div>
+
+</body>
+</html> ;�@!�      Z�48Z�49? ��           :http://dotshare.it/dots/1439/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Sun, 29 Apr 2018 09:55:54 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 135238
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Sun, 29 Apr 2018 09:55:54 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 135238
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+ uncompressed-len 0 net-response-time-onstart 394 net-response-time-onstop 609  F

@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    
+    <link rel="stylesheet" href="/public/css/screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/colorbox.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/tipsy.css" type="text/css" media="screen">
+    
+    <script src="/public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.ui.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.colorbox.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.tipsy.js" type="text/javascript"></script>
+    <script src="/public/js/ds.js" type="text/javascript"></script>
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-24042959-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+    <title>DotShare.it</title>
+</head>
+
+<body>
+
+<div id="header">
+    <div id="nav">
+        <ul class="label">
+            <li><span class="orange">.</span>share</li>
+        </ul>
+        
+        <ul>
+            <li>guest<span class="gray">@</span>dotshare <span class="gray">[</span>~<span class="gray">]</span> <span class="gray">$</span> ls -a nav/</li>
+            
+            <li><a href="/">..</a></li>
+            <li><a href="/news/">news</a></li>
+            <li><a href="/dots/">browse</a></li>
+            
+            
+            
+            <li><a href="/about/">about</a></li>
+            
+            
+            
+            
+                <li><a href="/login/">login</a></li>
+                <li><a href="/register/">register</a></li>
+            
+        </ul>
+    </div>
+    
+    <div id="donate">
+        <ul>
+            <li><a href="/donate/">donate</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="commands">
+    <div id="command">
+        <p>
+    <span class="dark-gray">guest</span>@<span class="dark-gray">dotshare</span> [<span class="dark-gray">~/groups/vim/rc</span>] <span class="dark-gray">$</span> ls vimrc/ | cat
+</p>
+    </div>
+</div>
+
+<div id="container">
+    <div id="categories">
+    <ul>
+        
+            <li class="label">
+                chat/
+                
+                <ul>
+                    
+                        <li><a href="/category/chat/irssi/">irssi</a></li>
+                    
+                        <li><a href="/category/chat/weechat/">weechat</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                emacs/
+                
+                <ul>
+                    
+                        <li><a href="/category/emacs/colors/">colors</a></li>
+                    
+                        <li><a href="/category/emacs/config/">config</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                fms/
+                
+                <ul>
+                    
+                        <li><a href="/category/fms/mc/">mc</a></li>
+                    
+                        <li><a href="/category/fms/ranger/">ranger</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                info/
+                
+                <ul>
+                    
+                        <li><a href="/category/info/conky/">conky</a></li>
+                    
+                        <li><a href="/category/info/dzen2/">dzen2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                misc/
+                
+                <ul>
+                    
+                        <li><a href="/category/misc/misc/">misc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                mpd/
+                
+                <ul>
+                    
+                        <li><a href="/category/mpd/ncmpcpp/">ncmpcpp</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                panels/
+                
+                <ul>
+                    
+                        <li><a href="/category/panels/bmpanel/">bmpanel</a></li>
+                    
+                        <li><a href="/category/panels/lxpanel/">lxpanel</a></li>
+                    
+                        <li><a href="/category/panels/pypanel/">pypanel</a></li>
+                    
+                        <li><a href="/category/panels/tint2/">tint2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                shells/
+                
+                <ul>
+                    
+                        <li><a href="/category/shells/bash/">bash</a></li>
+                    
+                        <li><a href="/category/shells/tcsh/">tcsh</a></li>
+                    
+                        <li><a href="/category/shells/zsh/">zsh</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                terms/
+                
+                <ul>
+                    
+                        <li><a href="/category/terms/colors/">colors</a></li>
+                    
+                        <li><a href="/category/terms/screen/">screen</a></li>
+                    
+                        <li><a href="/category/terms/tmux/">tmux</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                vim/
+                
+                <ul>
+                    
+                        <li><a href="/category/vim/colors/">colors</a></li>
+                    
+                        <li><a href="/category/vim/rc/">rc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                wms/
+                
+                <ul>
+                    
+                        <li><a href="/category/wms/awesome/">awesome</a></li>
+                    
+                        <li><a href="/category/wms/bspwm/">bspwm</a></li>
+                    
+                        <li><a href="/category/wms/dwm/">dwm</a></li>
+                    
+                        <li><a href="/category/wms/fluxbox/">fluxbox</a></li>
+                    
+                        <li><a href="/category/wms/fvwm/">fvwm</a></li>
+                    
+                        <li><a href="/category/wms/herbstluft/">herbstluft</a></li>
+                    
+                        <li><a href="/category/wms/i3/">i3</a></li>
+                    
+                        <li><a href="/category/wms/monster/">monster</a></li>
+                    
+                        <li><a href="/category/wms/openbox/">openbox</a></li>
+                    
+                        <li><a href="/category/wms/ratpoison/">ratpoison</a></li>
+                    
+                        <li><a href="/category/wms/spectrwm/">spectrwm</a></li>
+                    
+                        <li><a href="/category/wms/stumpwm/">stumpwm</a></li>
+                    
+                        <li><a href="/category/wms/subtle/">subtle</a></li>
+                    
+                        <li><a href="/category/wms/wmfs/">wmfs</a></li>
+                    
+                        <li><a href="/category/wms/xmonad/">xmonad</a></li>
+                    
+                </ul>
+            </li>
+        
+    </ul>
+</div>
+    
+    <div id="content">
+        
+    
+
+        
+    
+    
+        <div class="item">
+            <div class="header">
+                <h4>vimrc (<a href="/dots/1216/0/raw/">raw</a>, <a href="/dots/1216/0/dl/">dl</a>)</h4>
+                <h5><a href="/~XenGi/">XenGi</a> Aug 11, 2016 (vim/<a href="/category/vim/rc/">rc</a>)</h5>
+            </div>
+            
+            <div class="content">
+                
+                
+                <div class="dot first">
+                    <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">&quot;               __</span>
+<span class="c">&quot;      __  __  /\_\     ___ ___     _ __    ___</span>
+<span class="c">&quot;     /\ \/\ \ \/\ \  /&#39; __` __`\  /\`&#39;__\ /&#39;___\</span>
+<span class="c">&quot;  __ \ \ \_/ | \ \ \ /\ \/\ \/\ \ \ \ \/ /\ \__/</span>
+<span class="c">&quot; /\_\ \ \___/   \ \_\\ \_\ \_\ \_\ \ \_\ \ \____\</span>
+<span class="c">&quot; \/_/  \/__/     \/_/ \/_/\/_/\/_/  \/_/  \/____/</span>
+<span class="c">&quot;</span>
+<span class="c">&quot; by XenGi &lt;xengi@mailbox.org&gt;</span>
+<span class="c">&quot; (c) 2016</span>
+<span class="c">&quot;</span>
+<span class="c">&quot; setup:</span>
+<span class="c">&quot;</span>
+<span class="c">&quot; mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/colors ~/.vim/ftplugin</span>
+<span class="c">&quot; wget -O ~/.vim/colors/wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=13400</span>
+<span class="c">&quot; curl -so ~/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim</span>
+<span class="c">&quot; git clone git://github.com/Lokaltog/vim-powerline.git ~/.vim/bundle/vim-powerline</span>
+<span class="c">&quot; git clone git://github.com/jtratner/vim-flavored-markdown.git ~/.vim/bundle/vim-flavored-markdown</span>
+<span class="c">&quot; wget -O ~/.vim/ftplugin/python_editing.vim http://www.vim.org/scripts/download_script.php?src_id=5492</span>
+
+
+<span class="c">&quot; enable pathogen</span>
+<span class="k">call</span> pathogen#infect<span class="p">()</span>
+
+<span class="c">&quot; compatibility with vi</span>
+<span class="k">set</span> <span class="nb">nocompatible</span>
+
+<span class="c">&quot; shell</span>
+<span class="k">set</span> <span class="k">shell</span><span class="p">=</span>fish
+
+<span class="c">&quot; encoding</span>
+<span class="k">set</span> <span class="nb">encoding</span><span class="p">=</span>utf<span class="m">-8</span>
+<span class="k">set</span> <span class="nb">fileencoding</span><span class="p">=</span>utf<span class="m">-8</span>
+
+<span class="c">&quot; show whitespace</span>
+<span class="c">&quot; MUST be inserted BEFORE the colorscheme command</span>
+autocmd <span class="nb">ColorScheme</span> * <span class="nb">highlight</span> ExtraWhitespace ctermbg<span class="p">=</span><span class="k">red</span> guibg<span class="p">=</span><span class="k">red</span>
+au <span class="nb">InsertLeave</span> * <span class="k">match</span> ExtraWhitespace <span class="sr">/\s\+$/</span>
+
+<span class="c">&quot; transparent font</span>
+<span class="k">function</span><span class="p">!</span> AdaptColorscheme<span class="p">()</span>
+<span class="nb">highlight</span> clear CursorLine
+<span class="nb">highlight</span> Normal ctermbg<span class="p">=</span>none
+<span class="nb">highlight</span> LineNr ctermbg<span class="p">=</span>none
+<span class="nb">highlight</span> Folded ctermbg<span class="p">=</span>none
+<span class="nb">highlight</span> NonText ctermbg<span class="p">=</span>none
+<span class="nb">highlight</span> SpecialKey ctermbg<span class="p">=</span>none
+<span class="nb">highlight</span> VertSplit ctermbg<span class="p">=</span>none
+<span class="nb">highlight</span> SignColumn ctermbg<span class="p">=</span>none
+<span class="k">endfunction</span>
+autocmd <span class="nb">ColorScheme</span> * <span class="k">call</span> AdaptColorscheme<span class="p">()</span>
+
+<span class="c">&quot; syntax and colors</span>
+<span class="nb">syntax</span> <span class="k">on</span>
+<span class="k">filetype</span> <span class="k">on</span>
+<span class="k">filetype</span> indent <span class="k">on</span>
+<span class="k">filetype</span> plugin <span class="k">on</span>
+<span class="k">set</span> <span class="nb">title</span>
+<span class="k">set</span> <span class="nb">wrap</span>
+<span class="k">set</span> <span class="nb">scrolloff</span><span class="p">=</span><span class="m">3</span>
+<span class="k">set</span> <span class="k">number</span>
+<span class="k">set</span> relativenumber
+<span class="k">set</span> <span class="nb">showmode</span>
+<span class="k">set</span> <span class="nb">ruler</span>
+<span class="k">set</span> <span class="nb">background</span><span class="p">=</span><span class="nb">dark</span>
+<span class="k">set</span> <span class="nb">laststatus</span><span class="p">=</span><span class="m">2</span>  <span class="c">&quot; needed for vim-powerline</span>
+<span class="k">set</span> <span class="nb">t_Co</span><span class="p">=</span><span class="m">256</span>
+<span class="k">colorscheme</span> wombat256mod
+<span class="k">color</span> wombat256mod
+<span class="k">set</span> <span class="nb">cmdheight</span><span class="p">=</span><span class="m">1</span>
+<span class="k">set</span> <span class="nb">hidden</span>
+<span class="k">set</span> colorcolumn<span class="p">=</span><span class="m">120</span>
+<span class="nb">highlight</span> ColorColumn ctermbg<span class="p">=</span><span class="m">233</span>
+
+<span class="c">&quot; search</span>
+<span class="k">set</span> <span class="nb">hlsearch</span>
+<span class="k">set</span> <span class="nb">incsearch</span>
+<span class="k">set</span> <span class="nb">ignorecase</span>
+<span class="k">set</span> <span class="nb">smartcase</span>
+<span class="k">set</span> <span class="k">history</span><span class="p">=</span><span class="m">1000</span>
+<span class="k">set</span> <span class="nb">undolevels</span><span class="p">=</span><span class="m">1000</span>
+<span class="k">set</span> <span class="nb">wrapscan</span>
+
+<span class="c">&quot; stuff</span>
+<span class="k">set</span> <span class="nb">backspace</span><span class="p">=</span>indent<span class="p">,</span><span class="nb">eol</span><span class="p">,</span><span class="k">start</span>
+<span class="k">set</span> <span class="nb">ffs</span><span class="p">=</span>unix<span class="p">,</span>dos<span class="p">,</span>mac
+<span class="k">set</span> <span class="nb">textwidth</span><span class="p">=</span><span class="m">120</span>
+
+<span class="c">&quot; tabs and spaces</span>
+<span class="k">set</span> <span class="nb">tabstop</span><span class="p">=</span><span class="m">4</span>
+<span class="k">set</span> <span class="nb">softtabstop</span><span class="p">=</span><span class="m">4</span>
+<span class="k">set</span> <span class="nb">shiftwidth</span><span class="p">=</span><span class="m">4</span>
+<span class="k">set</span> <span class="nb">shiftround</span>
+<span class="k">set</span> <span class="nb">expandtab</span>
+
+<span class="c">&quot; disable stupid backup and swap files - they trigger too many events for file system watchers</span>
+<span class="k">set</span> <span class="nb">nobackup</span>
+<span class="k">set</span> <span class="nb">nowritebackup</span>
+<span class="k">set</span> <span class="nb">noswapfile</span>
+
+<span class="c">&quot; github flavored markdown</span>
+augroup markdown
+    au<span class="p">!</span>
+    au <span class="nb">BufNewFile</span><span class="p">,</span><span class="nb">BufRead</span> *.md<span class="p">,</span>*.markdown <span class="k">setlocal</span> <span class="k">filetype</span><span class="p">=</span>ghmarkdown
+augroup END
+
+<span class="c">&quot; python folding</span>
+<span class="k">set</span> <span class="nb">nofoldenable</span>
+
+<span class="c">&quot; fix arrow keys</span>
+<span class="c">&quot;map &lt;ESC&gt;d &lt;C-Left&gt;</span>
+<span class="c">&quot;map &lt;ESC&gt;c &lt;C-Right&gt;</span>
+<span class="c">&quot;map! &lt;ESC&gt;d &lt;C-Left&gt;</span>
+<span class="c">&quot;map! &lt;ESC&gt;c &lt;C-Right&gt;</span>
+</pre></div>
+</td></tr></table>
+                </div>
+                
+                <div class="overlay">
+                    <p>CLICK TO VIEW</p>
+                </div>
+                
+                <div class="minimize">
+                    <p>x</p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+    
+    
+    
+    
+    
+
+    </div>
+    
+    <div id="footer">&nbsp;</div>
+</div>
+
+<div id="logo">
+    <a href="/"><img src="/public/images/logo.png" width="62" height="63" alt="DotShare.it"></a>
+</div>
+
+</body>
+</html>–ºˆ+ø      ZåVZåV?           :http://dotshare.it/dots/1216/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Sun, 29 Apr 2018 12:20:07 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 17283
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Sun, 29 Apr 2018 12:20:07 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 17283
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+ uncompressed-len 0 net-response-time-onstart 215 net-response-time-onstop 292   Cƒ

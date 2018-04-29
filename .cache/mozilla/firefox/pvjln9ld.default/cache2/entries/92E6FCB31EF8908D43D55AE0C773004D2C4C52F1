@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    
+    <link rel="stylesheet" href="/public/css/screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/colorbox.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/tipsy.css" type="text/css" media="screen">
+    
+    <script src="/public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.ui.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.colorbox.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.tipsy.js" type="text/javascript"></script>
+    <script src="/public/js/ds.js" type="text/javascript"></script>
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-24042959-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+    <title>DotShare.it</title>
+</head>
+
+<body>
+
+<div id="header">
+    <div id="nav">
+        <ul class="label">
+            <li><span class="orange">.</span>share</li>
+        </ul>
+        
+        <ul>
+            <li>guest<span class="gray">@</span>dotshare <span class="gray">[</span>~<span class="gray">]</span> <span class="gray">$</span> ls -a nav/</li>
+            
+            <li><a href="/">..</a></li>
+            <li><a href="/news/">news</a></li>
+            <li><a href="/dots/">browse</a></li>
+            
+            
+            
+            <li><a href="/about/">about</a></li>
+            
+            
+            
+            
+                <li><a href="/login/">login</a></li>
+                <li><a href="/register/">register</a></li>
+            
+        </ul>
+    </div>
+    
+    <div id="donate">
+        <ul>
+            <li><a href="/donate/">donate</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="commands">
+    <div id="command">
+        <p>
+    <span class="dark-gray">guest</span>@<span class="dark-gray">dotshare</span> [<span class="dark-gray">~/groups/terms/colors</span>] <span class="dark-gray">$</span> ls
+</p>
+    </div>
+</div>
+
+<div id="container">
+    <div id="categories">
+    <ul>
+        
+            <li class="label">
+                chat/
+                
+                <ul>
+                    
+                        <li><a href="/category/chat/irssi/">irssi</a></li>
+                    
+                        <li><a href="/category/chat/weechat/">weechat</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                emacs/
+                
+                <ul>
+                    
+                        <li><a href="/category/emacs/colors/">colors</a></li>
+                    
+                        <li><a href="/category/emacs/config/">config</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                fms/
+                
+                <ul>
+                    
+                        <li><a href="/category/fms/mc/">mc</a></li>
+                    
+                        <li><a href="/category/fms/ranger/">ranger</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                info/
+                
+                <ul>
+                    
+                        <li><a href="/category/info/conky/">conky</a></li>
+                    
+                        <li><a href="/category/info/dzen2/">dzen2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                misc/
+                
+                <ul>
+                    
+                        <li><a href="/category/misc/misc/">misc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                mpd/
+                
+                <ul>
+                    
+                        <li><a href="/category/mpd/ncmpcpp/">ncmpcpp</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                panels/
+                
+                <ul>
+                    
+                        <li><a href="/category/panels/bmpanel/">bmpanel</a></li>
+                    
+                        <li><a href="/category/panels/lxpanel/">lxpanel</a></li>
+                    
+                        <li><a href="/category/panels/pypanel/">pypanel</a></li>
+                    
+                        <li><a href="/category/panels/tint2/">tint2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                shells/
+                
+                <ul>
+                    
+                        <li><a href="/category/shells/bash/">bash</a></li>
+                    
+                        <li><a href="/category/shells/tcsh/">tcsh</a></li>
+                    
+                        <li><a href="/category/shells/zsh/">zsh</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                terms/
+                
+                <ul>
+                    
+                        <li><a href="/category/terms/colors/">colors</a></li>
+                    
+                        <li><a href="/category/terms/screen/">screen</a></li>
+                    
+                        <li><a href="/category/terms/tmux/">tmux</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                vim/
+                
+                <ul>
+                    
+                        <li><a href="/category/vim/colors/">colors</a></li>
+                    
+                        <li><a href="/category/vim/rc/">rc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                wms/
+                
+                <ul>
+                    
+                        <li><a href="/category/wms/awesome/">awesome</a></li>
+                    
+                        <li><a href="/category/wms/bspwm/">bspwm</a></li>
+                    
+                        <li><a href="/category/wms/dwm/">dwm</a></li>
+                    
+                        <li><a href="/category/wms/fluxbox/">fluxbox</a></li>
+                    
+                        <li><a href="/category/wms/fvwm/">fvwm</a></li>
+                    
+                        <li><a href="/category/wms/herbstluft/">herbstluft</a></li>
+                    
+                        <li><a href="/category/wms/i3/">i3</a></li>
+                    
+                        <li><a href="/category/wms/monster/">monster</a></li>
+                    
+                        <li><a href="/category/wms/openbox/">openbox</a></li>
+                    
+                        <li><a href="/category/wms/ratpoison/">ratpoison</a></li>
+                    
+                        <li><a href="/category/wms/spectrwm/">spectrwm</a></li>
+                    
+                        <li><a href="/category/wms/stumpwm/">stumpwm</a></li>
+                    
+                        <li><a href="/category/wms/subtle/">subtle</a></li>
+                    
+                        <li><a href="/category/wms/wmfs/">wmfs</a></li>
+                    
+                        <li><a href="/category/wms/xmonad/">xmonad</a></li>
+                    
+                </ul>
+            </li>
+        
+    </ul>
+</div>
+    
+    <div id="content">
+        
+    
+
+        
+    <div class="item">
+        <div class="header">
+            <h1>Moar dots!</h1>
+        </div>
+        
+        <div class="content">
+            
+                <table id="dots">
+                    <thead>
+                        <tr>
+                            
+                                <th><a href="/category/terms/colors/sort/title/">Title</a></th>
+                            
+                            
+                            <th>User</th>
+                            
+                            
+                                <th><a href="/category/terms/colors/rsort/date/">Date</a></th>
+                            
+                            
+                            
+                                <th><a class="likes" href="/category/terms/colors/sort/likes/"><img src="/public/images/like.png" width="16" height="16" alt="likes"></a></th>
+                            
+                            
+                            
+                                <th><a class="comments" href="/category/terms/colors/sort/comments/"><img src="/public/images/comments.png" width="16" height="16" alt="comments"></a></th>
+                            
+                            
+                            <th>&nbsp;</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        
+                            
+                                <tr>
+                                    <td><a href="/dots/698/">Vacuous</a></td>
+                                    <td><a href="/~hal/">hal</a></td>
+                                    <td>Dec 21, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/698.png" rel="scrot" title="Vacuous:hal:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/696/">deepv2</a></td>
+                                    <td><a href="/~Neuromatic/">Neuromatic</a></td>
+                                    <td>Dec 14, 2013</td>
+                                    <td class="likes">+2</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/696.png" rel="scrot" title="deepv2:Neuromatic:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/695/">deep</a></td>
+                                    <td><a href="/~Neuromatic/">Neuromatic</a></td>
+                                    <td>Dec 12, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/695.png" rel="scrot" title="deep:Neuromatic:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/694/">grandshell</a></td>
+                                    <td><a href="/~ivo/">ivo</a></td>
+                                    <td>Dec 07, 2013</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/694.png" rel="scrot" title="grandshell:ivo:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/682/">The Magenta Bottle</a></td>
+                                    <td><a href="/~noricenolife/">noricenolife</a></td>
+                                    <td>Nov 10, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/682.png" rel="scrot" title="The Magenta Bottle:noricenolife:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/681/">jancuk</a></td>
+                                    <td><a href="/~franksn/">franksn</a></td>
+                                    <td>Nov 10, 2013</td>
+                                    <td class="likes">+3</td>
+                                    <td class="comments">2</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/681.png" rel="scrot" title="jancuk:franksn:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/679/">nerdic</a></td>
+                                    <td><a href="/~linuxville/">linuxville</a></td>
+                                    <td>Nov 03, 2013</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/679.png" rel="scrot" title="nerdic:linuxville:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/673/">I can&#39;t believe it&#39;s not butter!</a></td>
+                                    <td><a href="/~Graawr/">Graawr</a></td>
+                                    <td>Oct 26, 2013</td>
+                                    <td class="likes">+7</td>
+                                    <td class="comments">4</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/673.png" rel="scrot" title="I can&#39;t believe it&#39;s not butter!:Graawr:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/670/">vermis</a></td>
+                                    <td><a href="/~franksn/">franksn</a></td>
+                                    <td>Oct 26, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/670.jpg" rel="scrot" title="vermis:franksn:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/668/">papirus-dark</a></td>
+                                    <td><a href="/~franksn/">franksn</a></td>
+                                    <td>Oct 24, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">3</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/668.png" rel="scrot" title="papirus-dark:franksn:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/667/">Naruto</a></td>
+                                    <td><a href="/~eddiegj/">eddiegj</a></td>
+                                    <td>Oct 23, 2013</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/667.png" rel="scrot" title="Naruto:eddiegj:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/659/">Kasugano</a></td>
+                                    <td><a href="/~kori/">kori</a></td>
+                                    <td>Oct 11, 2013</td>
+                                    <td class="likes">+6</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/659.png" rel="scrot" title="Kasugano:kori:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/657/">brenix_bluesmooth</a></td>
+                                    <td><a href="/~brenix/">brenix</a></td>
+                                    <td>Sep 22, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/657.png" rel="scrot" title="brenix_bluesmooth:brenix:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/653/">terminal colours</a></td>
+                                    <td><a href="/~DjDexter/">DjDexter</a></td>
+                                    <td>Sep 16, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            &nbsp;
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/640/">hlvn</a></td>
+                                    <td><a href="/~hlvn/">hlvn</a></td>
+                                    <td>Aug 29, 2013</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/640.png" rel="scrot" title="hlvn:hlvn:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/638/">yeah</a></td>
+                                    <td><a href="/~thesilentone/">thesilentone</a></td>
+                                    <td>Aug 23, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/638.png" rel="scrot" title="yeah:thesilentone:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/634/">Navy and Ivory</a></td>
+                                    <td><a href="/~hal/">hal</a></td>
+                                    <td>Aug 16, 2013</td>
+                                    <td class="likes">+17</td>
+                                    <td class="comments">5</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/634.png" rel="scrot" title="Navy and Ivory:hal:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/633/">Vintage colors</a></td>
+                                    <td><a href="/~Eaffon/">Eaffon</a></td>
+                                    <td>Aug 14, 2013</td>
+                                    <td class="likes">+2</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/633.png" rel="scrot" title="Vintage colors:Eaffon:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/628/">Vanilla Taffy</a></td>
+                                    <td><a href="/~hal/">hal</a></td>
+                                    <td>Aug 12, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/628.png" rel="scrot" title="Vanilla Taffy:hal:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/617/">Pretty colors</a></td>
+                                    <td><a href="/~hal/">hal</a></td>
+                                    <td>Jul 31, 2013</td>
+                                    <td class="likes">+4</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/617.png" rel="scrot" title="Pretty colors:hal:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/613/">xresources</a></td>
+                                    <td><a href="/~kra3/">kra3</a></td>
+                                    <td>Jul 30, 2013</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/613.jpg" rel="scrot" title="xresources:kra3:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/608/">1dimensional</a></td>
+                                    <td><a href="/~Neuromatic/">Neuromatic</a></td>
+                                    <td>Jul 28, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/608.png" rel="scrot" title="1dimensional:Neuromatic:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/603/">8bit</a></td>
+                                    <td><a href="/~linuxville/">linuxville</a></td>
+                                    <td>Jul 21, 2013</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/603.png" rel="scrot" title="8bit:linuxville:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/597/">Atari</a></td>
+                                    <td><a href="/~linuxville/">linuxville</a></td>
+                                    <td>Jul 18, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/597.png" rel="scrot" title="Atari:linuxville:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/596/">warm</a></td>
+                                    <td><a href="/~fey/">fey</a></td>
+                                    <td>Jul 15, 2013</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/596.png" rel="scrot" title="warm:fey:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/595/">Famicom</a></td>
+                                    <td><a href="/~rzrscm/">rzrscm</a></td>
+                                    <td>Jul 14, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/595.png" rel="scrot" title="Famicom:rzrscm:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/585/">Classy Touch</a></td>
+                                    <td><a href="/~Graawr/">Graawr</a></td>
+                                    <td>Jun 30, 2013</td>
+                                    <td class="likes">+2</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/585.png" rel="scrot" title="Classy Touch:Graawr:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/565/">The Cat system info</a></td>
+                                    <td><a href="/~hokagemadura/">hokagemadura</a></td>
+                                    <td>May 26, 2013</td>
+                                    <td class="likes">+8</td>
+                                    <td class="comments">2</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/565.png" rel="scrot" title="The Cat system info:hokagemadura:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/564/">The Cat</a></td>
+                                    <td><a href="/~hokagemadura/">hokagemadura</a></td>
+                                    <td>May 25, 2013</td>
+                                    <td class="likes">+2</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/564.png" rel="scrot" title="The Cat:hokagemadura:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/563/">colorscheme</a></td>
+                                    <td><a href="/~hokagemadura/">hokagemadura</a></td>
+                                    <td>May 23, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">2</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/563.png" rel="scrot" title="colorscheme:hokagemadura:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/557/">tangokatt</a></td>
+                                    <td><a href="/~KittyKatt/">KittyKatt</a></td>
+                                    <td>May 12, 2013</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/557.png" rel="scrot" title="tangokatt:KittyKatt:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/555/">Chocolate</a></td>
+                                    <td><a href="/~NulledTech/">NulledTech</a></td>
+                                    <td>May 04, 2013</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/555.png" rel="scrot" title="Chocolate:NulledTech:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/552/">brenix_blue</a></td>
+                                    <td><a href="/~brenix/">brenix</a></td>
+                                    <td>Apr 20, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/552.png" rel="scrot" title="brenix_blue:brenix:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/548/">X::Poppy!</a></td>
+                                    <td><a href="/~bhd/">bhd</a></td>
+                                    <td>Apr 11, 2013</td>
+                                    <td class="likes">+5</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/548.png" rel="scrot" title="X::Poppy!:bhd:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/547/">GmnFrost</a></td>
+                                    <td><a href="/~obliviousgmn/">obliviousgmn</a></td>
+                                    <td>Apr 11, 2013</td>
+                                    <td class="likes">+5</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/547.png" rel="scrot" title="GmnFrost:obliviousgmn:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/545/">Clueless</a></td>
+                                    <td><a href="/~Mafia/">Mafia</a></td>
+                                    <td>Apr 09, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/545.png" rel="scrot" title="Clueless:Mafia:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/544/">Magenta free</a></td>
+                                    <td><a href="/~dew/">dew</a></td>
+                                    <td>Apr 08, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/544.png" rel="scrot" title="Magenta free:dew:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/532/">colorful</a></td>
+                                    <td><a href="/~gjm/">gjm</a></td>
+                                    <td>Mar 22, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/532.png" rel="scrot" title="colorful:gjm:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/531/">dogdragon</a></td>
+                                    <td><a href="/~fey/">fey</a></td>
+                                    <td>Mar 21, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/531.png" rel="scrot" title="dogdragon:fey:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/527/">pantsu</a></td>
+                                    <td><a href="/~Shinryuu/">Shinryuu</a></td>
+                                    <td>Mar 06, 2013</td>
+                                    <td class="likes">+3</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/527.png" rel="scrot" title="pantsu:Shinryuu:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/523/">Visibone SemiLight</a></td>
+                                    <td><a href="/~gutterslob/">gutterslob</a></td>
+                                    <td>Mar 02, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/523.png" rel="scrot" title="Visibone SemiLight:gutterslob:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/514/">Xdefaults</a></td>
+                                    <td><a href="/~silentmike/">silentmike</a></td>
+                                    <td>Jan 26, 2013</td>
+                                    <td class="likes">+2</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/514.png" rel="scrot" title="Xdefaults:silentmike:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/511/">Zenburn Tango!</a></td>
+                                    <td><a href="/~kebertx/">kebertx</a></td>
+                                    <td>Jan 18, 2013</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/511.png" rel="scrot" title="Zenburn Tango!:kebertx:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/497/">house</a></td>
+                                    <td><a href="/~venam/">venam</a></td>
+                                    <td>Dec 29, 2012</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">2</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/497.png" rel="scrot" title="house:venam:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/496/">autumn</a></td>
+                                    <td><a href="/~venam/">venam</a></td>
+                                    <td>Dec 29, 2012</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/496.png" rel="scrot" title="autumn:venam:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/495/">aurore</a></td>
+                                    <td><a href="/~venam/">venam</a></td>
+                                    <td>Dec 29, 2012</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/495.png" rel="scrot" title="aurore:venam:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/494/">asian garden</a></td>
+                                    <td><a href="/~venam/">venam</a></td>
+                                    <td>Dec 29, 2012</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/494.png" rel="scrot" title="asian garden:venam:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/492/">Lumifoo</a></td>
+                                    <td><a href="/~gutterslob/">gutterslob</a></td>
+                                    <td>Dec 21, 2012</td>
+                                    <td class="likes">+3</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/492.png" rel="scrot" title="Lumifoo:gutterslob:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/464/">simple basic colors</a></td>
+                                    <td><a href="/~venam/">venam</a></td>
+                                    <td>Oct 12, 2012</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/464.png" rel="scrot" title="simple basic colors:venam:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/451/">Holo Theme</a></td>
+                                    <td><a href="/~eldamar/">eldamar</a></td>
+                                    <td>Sep 26, 2012</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">3</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/451.png" rel="scrot" title="Holo Theme:eldamar:terms:colors"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                        
+                    </tbody>
+                </table>
+            
+        </div>
+    </div>
+    
+    
+        <div id="pages">
+            
+                
+                    
+                        
+                            <a href="/category/terms/colors/p/1/">1</a>
+                        
+                    
+                
+            
+                
+                    
+                        
+                            <a href="/category/terms/colors/p/2/">2</a>
+                        
+                    
+                
+            
+                
+                    
+                        
+                            <a href="/category/terms/colors/p/3/">3</a>
+                        
+                    
+                
+            
+                
+                    
+                        <strong>4</strong>
+                    
+                
+            
+                
+                    
+                        
+                            <a href="/category/terms/colors/p/5/">5</a>
+                        
+                    
+                
+            
+                
+                    
+                        
+                            <a href="/category/terms/colors/p/6/">6</a>
+                        
+                    
+                
+            
+        </div>
+    
+
+    </div>
+    
+    <div id="footer">&nbsp;</div>
+</div>
+
+<div id="logo">
+    <a href="/"><img src="/public/images/logo.png" width="62" height="63" alt="DotShare.it"></a>
+</div>
+
+</body>
+</html>7`L9      	Zå8“Zå8‰?ão       .    :http://dotshare.it/category/terms/colors/p/4/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Sun, 29 Apr 2018 10:06:37 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 52427
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Sun, 29 Apr 2018 10:06:37 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 52427
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+ uncompressed-len 0 net-response-time-onstart 731 net-response-time-onstop 905   ÌË

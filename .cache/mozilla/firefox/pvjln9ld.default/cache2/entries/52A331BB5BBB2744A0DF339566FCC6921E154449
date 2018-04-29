@@ -1,0 +1,1784 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    
+    <link rel="stylesheet" href="/public/css/screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/colorbox.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/tipsy.css" type="text/css" media="screen">
+    
+    <script src="/public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.ui.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.colorbox.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.tipsy.js" type="text/javascript"></script>
+    <script src="/public/js/ds.js" type="text/javascript"></script>
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-24042959-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+    <title>DotShare.it</title>
+</head>
+
+<body>
+
+<div id="header">
+    <div id="nav">
+        <ul class="label">
+            <li><span class="orange">.</span>share</li>
+        </ul>
+        
+        <ul>
+            <li>guest<span class="gray">@</span>dotshare <span class="gray">[</span>~<span class="gray">]</span> <span class="gray">$</span> ls -a nav/</li>
+            
+            <li><a href="/">..</a></li>
+            <li><a href="/news/">news</a></li>
+            <li><a href="/dots/">browse</a></li>
+            
+            
+            
+            <li><a href="/about/">about</a></li>
+            
+            
+            
+            
+                <li><a href="/login/">login</a></li>
+                <li><a href="/register/">register</a></li>
+            
+        </ul>
+    </div>
+    
+    <div id="donate">
+        <ul>
+            <li><a href="/donate/">donate</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="commands">
+    <div id="command">
+        <p>
+    <span class="dark-gray">guest</span>@<span class="dark-gray">dotshare</span> [<span class="dark-gray">~/groups/wms/i3</span>] <span class="dark-gray">$</span> ls Minimalism/ | cat
+</p>
+    </div>
+</div>
+
+<div id="container">
+    <div id="categories">
+    <ul>
+        
+            <li class="label">
+                chat/
+                
+                <ul>
+                    
+                        <li><a href="/category/chat/irssi/">irssi</a></li>
+                    
+                        <li><a href="/category/chat/weechat/">weechat</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                emacs/
+                
+                <ul>
+                    
+                        <li><a href="/category/emacs/colors/">colors</a></li>
+                    
+                        <li><a href="/category/emacs/config/">config</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                fms/
+                
+                <ul>
+                    
+                        <li><a href="/category/fms/mc/">mc</a></li>
+                    
+                        <li><a href="/category/fms/ranger/">ranger</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                info/
+                
+                <ul>
+                    
+                        <li><a href="/category/info/conky/">conky</a></li>
+                    
+                        <li><a href="/category/info/dzen2/">dzen2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                misc/
+                
+                <ul>
+                    
+                        <li><a href="/category/misc/misc/">misc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                mpd/
+                
+                <ul>
+                    
+                        <li><a href="/category/mpd/ncmpcpp/">ncmpcpp</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                panels/
+                
+                <ul>
+                    
+                        <li><a href="/category/panels/bmpanel/">bmpanel</a></li>
+                    
+                        <li><a href="/category/panels/lxpanel/">lxpanel</a></li>
+                    
+                        <li><a href="/category/panels/pypanel/">pypanel</a></li>
+                    
+                        <li><a href="/category/panels/tint2/">tint2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                shells/
+                
+                <ul>
+                    
+                        <li><a href="/category/shells/bash/">bash</a></li>
+                    
+                        <li><a href="/category/shells/tcsh/">tcsh</a></li>
+                    
+                        <li><a href="/category/shells/zsh/">zsh</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                terms/
+                
+                <ul>
+                    
+                        <li><a href="/category/terms/colors/">colors</a></li>
+                    
+                        <li><a href="/category/terms/screen/">screen</a></li>
+                    
+                        <li><a href="/category/terms/tmux/">tmux</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                vim/
+                
+                <ul>
+                    
+                        <li><a href="/category/vim/colors/">colors</a></li>
+                    
+                        <li><a href="/category/vim/rc/">rc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                wms/
+                
+                <ul>
+                    
+                        <li><a href="/category/wms/awesome/">awesome</a></li>
+                    
+                        <li><a href="/category/wms/bspwm/">bspwm</a></li>
+                    
+                        <li><a href="/category/wms/dwm/">dwm</a></li>
+                    
+                        <li><a href="/category/wms/fluxbox/">fluxbox</a></li>
+                    
+                        <li><a href="/category/wms/fvwm/">fvwm</a></li>
+                    
+                        <li><a href="/category/wms/herbstluft/">herbstluft</a></li>
+                    
+                        <li><a href="/category/wms/i3/">i3</a></li>
+                    
+                        <li><a href="/category/wms/monster/">monster</a></li>
+                    
+                        <li><a href="/category/wms/openbox/">openbox</a></li>
+                    
+                        <li><a href="/category/wms/ratpoison/">ratpoison</a></li>
+                    
+                        <li><a href="/category/wms/spectrwm/">spectrwm</a></li>
+                    
+                        <li><a href="/category/wms/stumpwm/">stumpwm</a></li>
+                    
+                        <li><a href="/category/wms/subtle/">subtle</a></li>
+                    
+                        <li><a href="/category/wms/wmfs/">wmfs</a></li>
+                    
+                        <li><a href="/category/wms/xmonad/">xmonad</a></li>
+                    
+                </ul>
+            </li>
+        
+    </ul>
+</div>
+    
+    <div id="content">
+        
+    
+
+        
+    
+    
+        <div class="item">
+            <div class="header">
+                <h4>Minimalism (<a href="/public/images/uploads/8244.png" target="_blank">scrot</a>) (<span class="green">+5</span> <a href="/dots/8244/likes/">likes</a>)</h4>
+                <h5><a href="/~mohabaks/">mohabaks</a> Dec 09, 2017 (wms/<a href="/category/wms/i3/">i3</a>)</h5>
+            </div>
+        </div>
+        
+        <div class="item file">
+            <div class="header">
+                <h4>colors<span class="right">(<a href="/dots/8244/0/raw/">raw</a>, <a href="/dots/8244/0/dl/">dl</a>)</span></h4>
+            </div>
+            
+            <div class="content">
+                
+                    <div id="scrot">
+                        <p>
+                            <a href="/public/images/uploads/8244.png" target="_blank"><img src="/public/images/uploads/8244-thumb.png"></a>
+                        </p>
+                        
+                        <div class="overlay">
+                            <p>SCROT</p>
+                        </div>
+                    </div>
+                
+                
+                <div class="dot first">
+                    <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40</pre></div></td><td class="code"><div class="highlight"><pre><span class="k">URxvt*cursorColor:</span><span class="n">  </span><span class="s">#b9b9b9</span>
+<span class="k">URxvt*borderColor:</span><span class="n">  </span><span class="s">#101010</span>
+<span class="o">*</span><span class="n">colorUL</span><span class="o">:</span><span class="n">           </span><span class="s">#2aa198</span>
+
+<span class="k">!</span><span class="n"> special</span>
+<span class="o">*</span><span class="n">.foreground</span><span class="o">:</span><span class="n">   </span><span class="s">#b9b9b9</span>
+<span class="o">*</span><span class="n">.background</span><span class="o">:</span><span class="n">   </span><span class="s">#101010</span>
+<span class="o">*</span><span class="n">.cursorColor</span><span class="o">:</span><span class="n">  </span><span class="s">#b9b9b9</span>
+
+<span class="k">!</span><span class="n"> black</span>
+<span class="o">*</span><span class="n">.color0</span><span class="o">:</span><span class="n">       </span><span class="s">#151515</span>
+<span class="o">*</span><span class="n">.color8</span><span class="o">:</span><span class="n">       </span><span class="s">#404040</span>
+
+<span class="k">!</span><span class="n"> red</span>
+<span class="o">*</span><span class="n">.color1</span><span class="o">:</span><span class="n">       </span><span class="s">#2aa198</span>
+<span class="o">*</span><span class="n">.color9</span><span class="o">:</span><span class="n">       </span><span class="s">#2aa198</span>
+
+<span class="k">!</span><span class="n"> green</span>
+<span class="o">*</span><span class="n">.color2</span><span class="o">:</span><span class="n">       </span><span class="s">#505050</span>
+<span class="o">*</span><span class="n">.color10</span><span class="o">:</span><span class="n">      </span><span class="s">#505050</span>
+
+<span class="k">!</span><span class="n"> yellow</span>
+<span class="o">*</span><span class="n">.color3</span><span class="o">:</span><span class="n">       </span><span class="s">#979696</span>
+<span class="o">*</span><span class="n">.color11</span><span class="o">:</span><span class="n">      </span><span class="s">#979696</span>
+
+<span class="k">!</span><span class="n"> blue</span>
+<span class="o">*</span><span class="n">.color4</span><span class="o">:</span><span class="n">       </span><span class="s">#686868</span>
+<span class="o">*</span><span class="n">.color12</span><span class="o">:</span><span class="n">      </span><span class="s">#686868</span>
+
+<span class="k">!</span><span class="n"> magenta</span>
+<span class="o">*</span><span class="n">.color5</span><span class="o">:</span><span class="n">       </span><span class="s">#2aa198</span>
+<span class="o">*</span><span class="n">.color13</span><span class="o">:</span><span class="n">      </span><span class="s">#2aa198</span>
+
+<span class="k">!</span><span class="n"> cyan</span>
+<span class="o">*</span><span class="n">.color6</span><span class="o">:</span><span class="n">       </span><span class="s">#8e8e8e</span>
+<span class="o">*</span><span class="n">.color14</span><span class="o">:</span><span class="n">      </span><span class="s">#8e8e8e</span>
+
+<span class="k">!</span><span class="n"> white</span>
+<span class="o">*</span><span class="n">.color7</span><span class="o">:</span><span class="n">       </span><span class="s">#b9b9b9</span>
+<span class="o">*</span><span class="n">.color15</span><span class="o">:</span><span class="n">      </span><span class="s">#f7f7f7</span>
+</pre></div>
+</td></tr></table>
+                </div>
+                
+                <div class="overlay short">
+                    <p>CLICK TO VIEW</p>
+                </div>
+                
+                <div class="minimize">
+                    <p>x</p>
+                </div>
+            </div>
+        </div>
+        
+        
+            
+            
+            <div class="multi">
+                
+                    <div class="item file">
+                        <div class="header">
+                            
+                                <h4>weechat.conf<span class="right">(<a href="/dots/8244/1/raw/">raw</a>, <a href="/dots/8244/1/dl/">dl</a>)</span></h4>
+                            
+                        </div>
+                        
+                        <div class="content">
+                            <div class="dot">
+                                <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339
+340
+341
+342
+343
+344
+345
+346
+347
+348
+349
+350
+351
+352
+353
+354
+355
+356
+357
+358
+359
+360
+361
+362
+363
+364
+365
+366
+367
+368
+369
+370
+371
+372
+373
+374
+375
+376
+377
+378
+379
+380
+381
+382
+383
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+395
+396
+397
+398
+399
+400
+401
+402
+403
+404
+405
+406
+407
+408
+409
+410
+411
+412
+413
+414
+415
+416
+417
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+430
+431
+432
+433
+434
+435
+436
+437
+438
+439
+440
+441
+442
+443
+444
+445
+446
+447
+448
+449
+450
+451
+452
+453
+454
+455
+456
+457
+458
+459
+460
+461
+462
+463
+464
+465
+466
+467
+468
+469
+470
+471
+472
+473
+474
+475
+476
+477
+478
+479
+480
+481
+482
+483
+484
+485
+486
+487
+488
+489
+490
+491
+492
+493
+494
+495
+496
+497
+498
+499
+500
+501
+502
+503
+504
+505
+506
+507
+508
+509
+510
+511
+512
+513
+514
+515
+516
+517
+518
+519
+520
+521
+522
+523
+524
+525
+526
+527
+528
+529
+530
+531
+532
+533
+534
+535
+536
+537
+538
+539
+540
+541
+542
+543
+544
+545
+546
+547
+548
+549
+550
+551
+552
+553
+554
+555
+556
+557
+558
+559
+560
+561
+562
+563
+564
+565
+566
+567
+568
+569
+570
+571
+572
+573
+574
+575
+576
+577
+578
+579
+580
+581
+582
+583
+584
+585
+586
+587
+588
+589
+590
+591
+592
+593
+594
+595
+596
+597
+598
+599
+600
+601
+602
+603
+604
+605
+606
+607
+608
+609
+610
+611
+612
+613
+614
+615
+616
+617
+618
+619
+620
+621
+622
+623
+624
+625
+626
+627
+628
+629
+630
+631
+632
+633
+634
+635
+636
+637
+638
+639
+640
+641
+642
+643
+644
+645
+646
+647
+648
+649
+650
+651
+652
+653
+654
+655
+656
+657
+658
+659
+660
+661
+662
+663
+664
+665
+666
+667
+668
+669
+670</pre></div></td><td class="code"><div class="highlight"><pre><span class="c1">#</span>
+<span class="c1"># weechat -- weechat.conf</span>
+<span class="c1">#</span>
+<span class="c1"># WARNING: It is NOT recommended to edit this file by hand,</span>
+<span class="c1"># especially if WeeChat is running.</span>
+<span class="c1">#</span>
+<span class="c1"># Use /set or similar command to change settings in WeeChat.</span>
+<span class="c1">#</span>
+<span class="c1"># For more info, see: https://weechat.org/doc/quickstart</span>
+<span class="c1">#</span>
+
+<span class="nx">[debug]</span>
+
+<span class="nx">[startup]</span>
+<span class="k">command_after_plugins</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer clear&quot;</span>
+<span class="k">command_before_plugins</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+<span class="k">display_logo</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">display_version</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">sys_rlimit</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+
+<span class="nx">[look]</span>
+<span class="k">align_end_of_lines</span><span class="n"> </span><span class="o">=</span><span class="n"> message</span>
+<span class="k">align_multiline_words</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">bar_more_down</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; + &quot;</span>
+<span class="k">bar_more_left</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; -- &quot;</span>
+<span class="k">bar_more_right</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; ++ &quot;</span>
+<span class="k">bar_more_up</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; - &quot;</span>
+<span class="k">bare_display_exit_on_input</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">bare_display_time_format</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;%H:%M&quot;</span>
+<span class="k">buffer_auto_renumber</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">buffer_notify_default</span><span class="n"> </span><span class="o">=</span><span class="n"> all</span>
+<span class="k">buffer_position</span><span class="n"> </span><span class="o">=</span><span class="n"> end</span>
+<span class="k">buffer_search_case_sensitive</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">buffer_search_force_default</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">buffer_search_regex</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">buffer_search_where</span><span class="n"> </span><span class="o">=</span><span class="n"> message</span>
+<span class="k">buffer_time_format</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; &quot;</span>
+<span class="k">color_basic_force_bold</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">color_inactive_buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">color_inactive_message</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">color_inactive_prefix</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">color_inactive_prefix_buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">color_inactive_time</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">color_inactive_window</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">color_nick_offline</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">color_pairs_auto_reset</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">5</span>
+<span class="k">color_real_white</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">command_chars</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+<span class="k">command_incomplete</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">confirm_quit</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">confirm_upgrade</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">day_change</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">day_change_message_1date</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;           -- %a, %d %b %Y --&quot;</span>
+<span class="k">day_change_message_2dates</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;-- %%a, %%d %%b %%Y (%a, %d %b %Y) --&quot;</span>
+<span class="k">eat_newline_glitch</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">emphasized_attributes</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+<span class="k">highlight</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+<span class="k">highlight_regex</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+<span class="k">highlight_tags</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+<span class="k">hotlist_add_conditions</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;${away} || ${buffer.num_displayed} == 0&quot;</span>
+<span class="k">hotlist_buffer_separator</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;, &quot;</span>
+<span class="k">hotlist_count_max</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">2</span>
+<span class="k">hotlist_count_min_msg</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">2</span>
+<span class="k">hotlist_names_count</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">3</span>
+<span class="k">hotlist_names_length</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">hotlist_names_level</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">12</span>
+<span class="k">hotlist_names_merged_buffers</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">hotlist_prefix</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;H: &quot;</span>
+<span class="k">hotlist_remove</span><span class="n"> </span><span class="o">=</span><span class="n"> merged</span>
+<span class="k">hotlist_short_names</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">hotlist_sort</span><span class="n"> </span><span class="o">=</span><span class="n"> group_time_asc</span>
+<span class="k">hotlist_suffix</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+<span class="k">hotlist_unique_numbers</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">input_cursor_scroll</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">20</span>
+<span class="k">input_share</span><span class="n"> </span><span class="o">=</span><span class="n"> none</span>
+<span class="k">input_share_overwrite</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">input_undo_max</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">32</span>
+<span class="k">item_away_message</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">item_buffer_filter</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;*&quot;</span>
+<span class="k">item_buffer_zoom</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;!&quot;</span>
+<span class="k">item_mouse_status</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;M&quot;</span>
+<span class="k">item_time_format</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;%l:%M&quot;</span>
+<span class="k">jump_current_to_previous_buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">jump_previous_buffer_when_closing</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">jump_smart_back_to_buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">key_bind_safe</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">key_grab_delay</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">800</span>
+<span class="k">mouse</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">mouse_timer_delay</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">100</span>
+<span class="k">nick_color_force</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+<span class="k">nick_color_hash</span><span class="n"> </span><span class="o">=</span><span class="n"> djb2</span>
+<span class="k">nick_color_stop_chars</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;_|[&quot;</span>
+<span class="k">nick_prefix</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; &quot;</span>
+<span class="k">nick_suffix</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; &quot;</span>
+<span class="k">paste_auto_add_newline</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">paste_bracketed</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">paste_bracketed_timer_delay</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">10</span>
+<span class="k">paste_max_lines</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">5</span>
+<span class="k">prefix_action</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;*&quot;</span>
+<span class="k">prefix_align</span><span class="n"> </span><span class="o">=</span><span class="n"> right</span>
+<span class="k">prefix_align_max</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">prefix_align_min</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">prefix_align_more</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;+&quot;</span>
+<span class="k">prefix_align_more_after</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">prefix_buffer_align</span><span class="n"> </span><span class="o">=</span><span class="n"> right</span>
+<span class="k">prefix_buffer_align_max</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">prefix_buffer_align_more</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;+&quot;</span>
+<span class="k">prefix_buffer_align_more_after</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">prefix_error</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; âš  &quot;</span>
+<span class="k">prefix_join</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; â—¥ &quot;</span>
+<span class="k">prefix_network</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; - &quot;</span>
+<span class="k">prefix_quit</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; â—£  &quot;</span>
+<span class="k">prefix_same_nick</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;â†³&quot;</span>
+<span class="k">prefix_suffix</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;  &quot;</span>
+<span class="k">quote_nick_prefix</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&lt;&quot;</span>
+<span class="k">quote_nick_suffix</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&gt;&quot;</span>
+<span class="k">quote_time_format</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;%H:%M:%S&quot;</span>
+<span class="k">read_marker</span><span class="n"> </span><span class="o">=</span><span class="n"> line</span>
+<span class="k">read_marker_always_show</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">read_marker_string</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;- &quot;</span>
+<span class="k">save_config_on_exit</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">save_layout_on_exit</span><span class="n"> </span><span class="o">=</span><span class="n"> all</span>
+<span class="k">scroll_amount</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">3</span>
+<span class="k">scroll_bottom_after_switch</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">scroll_page_percent</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">100</span>
+<span class="k">search_text_not_found_alert</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">separator_horizontal</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; &quot;</span>
+<span class="k">separator_vertical</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+<span class="k">tab_width</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">2</span>
+<span class="k">time_format</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot; &quot;</span>
+<span class="k">window_auto_zoom</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">window_separator_horizontal</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">window_separator_vertical</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">window_title</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;weechat&quot;</span>
+<span class="k">word_chars_highlight</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;!\u00A0,-,_,|,alnum&quot;</span>
+<span class="k">word_chars_input</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;!\u00A0,-,_,|,alnum&quot;</span>
+
+<span class="nx">[palette]</span>
+
+<span class="nx">[color]</span>
+<span class="k">bar_more</span><span class="n"> </span><span class="o">=</span><span class="n"> green</span>
+<span class="k">chat</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">7</span>
+<span class="k">chat_bg</span><span class="n"> </span><span class="o">=</span><span class="n"> default</span>
+<span class="k">chat_buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> darkgray</span>
+<span class="k">chat_channel</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">15</span>
+<span class="k">chat_day_change</span><span class="n"> </span><span class="o">=</span><span class="n"> cyan</span>
+<span class="k">chat_delimiters</span><span class="n"> </span><span class="o">=</span><span class="n"> magenta</span>
+<span class="k">chat_highlight</span><span class="n"> </span><span class="o">=</span><span class="n"> black</span>
+<span class="k">chat_highlight_bg</span><span class="n"> </span><span class="o">=</span><span class="n"> red</span>
+<span class="k">chat_host</span><span class="n"> </span><span class="o">=</span><span class="n"> green</span>
+<span class="k">chat_inactive_buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> darkgray</span>
+<span class="k">chat_inactive_window</span><span class="n"> </span><span class="o">=</span><span class="n"> darkgray</span>
+<span class="k">chat_nick</span><span class="n"> </span><span class="o">=</span><span class="n"> magenta</span>
+<span class="k">chat_nick_colors</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;01,02,03,04,06,15&quot;</span>
+<span class="k">chat_nick_offline</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">8</span>
+<span class="k">chat_nick_offline_highlight</span><span class="n"> </span><span class="o">=</span><span class="n"> default</span>
+<span class="k">chat_nick_offline_highlight_bg</span><span class="n"> </span><span class="o">=</span><span class="n"> darkgray</span>
+<span class="k">chat_nick_other</span><span class="n"> </span><span class="o">=</span><span class="n"> white</span>
+<span class="k">chat_nick_prefix</span><span class="n"> </span><span class="o">=</span><span class="n"> green</span>
+<span class="k">chat_nick_self</span><span class="n"> </span><span class="o">=</span><span class="n"> blue</span>
+<span class="k">chat_nick_suffix</span><span class="n"> </span><span class="o">=</span><span class="n"> green</span>
+<span class="k">chat_prefix_action</span><span class="n"> </span><span class="o">=</span><span class="n"> white</span>
+<span class="k">chat_prefix_buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> red</span>
+<span class="k">chat_prefix_buffer_inactive_buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> darkgray</span>
+<span class="k">chat_prefix_error</span><span class="n"> </span><span class="o">=</span><span class="n"> yellow</span>
+<span class="k">chat_prefix_join</span><span class="n"> </span><span class="o">=</span><span class="n"> lightgreen</span>
+<span class="k">chat_prefix_more</span><span class="n"> </span><span class="o">=</span><span class="n"> lightmagenta</span>
+<span class="k">chat_prefix_network</span><span class="n"> </span><span class="o">=</span><span class="n"> magenta</span>
+<span class="k">chat_prefix_quit</span><span class="n"> </span><span class="o">=</span><span class="n"> lightred</span>
+<span class="k">chat_prefix_suffix</span><span class="n"> </span><span class="o">=</span><span class="n"> darkgray</span>
+<span class="k">chat_read_marker</span><span class="n"> </span><span class="o">=</span><span class="n"> magenta</span>
+<span class="k">chat_read_marker_bg</span><span class="n"> </span><span class="o">=</span><span class="n"> default</span>
+<span class="k">chat_server</span><span class="n"> </span><span class="o">=</span><span class="n"> brown</span>
+<span class="k">chat_tags</span><span class="n"> </span><span class="o">=</span><span class="n"> red</span>
+<span class="k">chat_text_found</span><span class="n"> </span><span class="o">=</span><span class="n"> yellow</span>
+<span class="k">chat_text_found_bg</span><span class="n"> </span><span class="o">=</span><span class="n"> lightmagenta</span>
+<span class="k">chat_time</span><span class="n"> </span><span class="o">=</span><span class="n"> red</span>
+<span class="k">chat_time_delimiters</span><span class="n"> </span><span class="o">=</span><span class="n"> red</span>
+<span class="k">chat_value</span><span class="n"> </span><span class="o">=</span><span class="n"> cyan</span>
+<span class="k">chat_value_null</span><span class="n"> </span><span class="o">=</span><span class="n"> blue</span>
+<span class="k">emphasized</span><span class="n"> </span><span class="o">=</span><span class="n"> yellow</span>
+<span class="k">emphasized_bg</span><span class="n"> </span><span class="o">=</span><span class="n"> magenta</span>
+<span class="k">input_actions</span><span class="n"> </span><span class="o">=</span><span class="n"> lightgreen</span>
+<span class="k">input_text_not_found</span><span class="n"> </span><span class="o">=</span><span class="n"> red</span>
+<span class="k">item_away</span><span class="n"> </span><span class="o">=</span><span class="n"> yellow</span>
+<span class="k">nicklist_away</span><span class="n"> </span><span class="o">=</span><span class="n"> cyan</span>
+<span class="k">nicklist_group</span><span class="n"> </span><span class="o">=</span><span class="n"> green</span>
+<span class="k">separator</span><span class="n"> </span><span class="o">=</span><span class="n"> black</span>
+<span class="k">status_count_highlight</span><span class="n"> </span><span class="o">=</span><span class="n"> magenta</span>
+<span class="k">status_count_msg</span><span class="n"> </span><span class="o">=</span><span class="n"> brown</span>
+<span class="k">status_count_other</span><span class="n"> </span><span class="o">=</span><span class="n"> default</span>
+<span class="k">status_count_private</span><span class="n"> </span><span class="o">=</span><span class="n"> green</span>
+<span class="k">status_data_highlight</span><span class="n"> </span><span class="o">=</span><span class="n"> lightmagenta</span>
+<span class="k">status_data_msg</span><span class="n"> </span><span class="o">=</span><span class="n"> yellow</span>
+<span class="k">status_data_other</span><span class="n"> </span><span class="o">=</span><span class="n"> default</span>
+<span class="k">status_data_private</span><span class="n"> </span><span class="o">=</span><span class="n"> lightgreen</span>
+<span class="k">status_filter</span><span class="n"> </span><span class="o">=</span><span class="n"> green</span>
+<span class="k">status_more</span><span class="n"> </span><span class="o">=</span><span class="n"> yellow</span>
+<span class="k">status_mouse</span><span class="n"> </span><span class="o">=</span><span class="n"> green</span>
+<span class="k">status_name</span><span class="n"> </span><span class="o">=</span><span class="n"> white</span>
+<span class="k">status_name_ssl</span><span class="n"> </span><span class="o">=</span><span class="n"> lightgreen</span>
+<span class="k">status_nicklist_count</span><span class="n"> </span><span class="o">=</span><span class="n"> default</span>
+<span class="k">status_number</span><span class="n"> </span><span class="o">=</span><span class="n"> yellow</span>
+<span class="k">status_time</span><span class="n"> </span><span class="o">=</span><span class="n"> default</span>
+
+<span class="nx">[completion]</span>
+<span class="k">base_word_until_cursor</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">command_inline</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">default_template</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;%(nicks)|%(irc_channels)&quot;</span>
+<span class="k">nick_add_space</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">nick_case_sensitive</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">nick_completer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;,&quot;</span>
+<span class="k">nick_first_only</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">nick_ignore_chars</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;[]-^&quot;</span>
+<span class="k">partial_completion_alert</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">partial_completion_command</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">partial_completion_command_arg</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">partial_completion_count</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">partial_completion_other</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+
+<span class="nx">[history]</span>
+<span class="k">display_default</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">5</span>
+<span class="k">max_buffer_lines_minutes</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">max_buffer_lines_number</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">100</span>
+<span class="k">max_commands</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">100</span>
+<span class="k">max_visited_buffers</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">50</span>
+
+<span class="nx">[proxy]</span>
+<span class="k">tor.address</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;127.0.0.1&quot;</span>
+<span class="k">tor.ipv6</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">tor.password</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+<span class="k">tor.port</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">9050</span>
+<span class="k">tor.type</span><span class="n"> </span><span class="o">=</span><span class="n"> socks5</span>
+<span class="k">tor.username</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+
+<span class="nx">[network]</span>
+<span class="k">connection_timeout</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">60</span>
+<span class="k">gnutls_ca_file</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/etc/ssl/certs/ca-certificates.crt&quot;</span>
+<span class="k">gnutls_handshake_timeout</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">30</span>
+<span class="k">proxy_curl</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+
+<span class="nx">[plugin]</span>
+<span class="k">autoload</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;*,!buflist&quot;</span>
+<span class="k">debug</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">extension</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;.so&quot;</span>
+<span class="k">path</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;%h/plugins&quot;</span>
+<span class="k">save_config_on_unload</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+
+<span class="nx">[bar]</span>
+<span class="k">buddylist.color_bg</span><span class="n"> </span><span class="o">=</span><span class="n"> default</span>
+<span class="k">buddylist.color_delim</span><span class="n"> </span><span class="o">=</span><span class="n"> default</span>
+<span class="k">buddylist.color_fg</span><span class="n"> </span><span class="o">=</span><span class="n"> default</span>
+<span class="k">buddylist.conditions</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+<span class="k">buddylist.filling_left_right</span><span class="n"> </span><span class="o">=</span><span class="n"> vertical</span>
+<span class="k">buddylist.filling_top_bottom</span><span class="n"> </span><span class="o">=</span><span class="n"> horizontal</span>
+<span class="k">buddylist.hidden</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">buddylist.items</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;buddylist, nicks&quot;</span>
+<span class="k">buddylist.position</span><span class="n"> </span><span class="o">=</span><span class="n"> right</span>
+<span class="k">buddylist.priority</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">buddylist.separator</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">buddylist.size</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">buddylist.size_max</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">buddylist.type</span><span class="n"> </span><span class="o">=</span><span class="n"> root</span>
+<span class="k">buffers.color_bg</span><span class="n"> </span><span class="o">=</span><span class="n"> default</span>
+<span class="k">buffers.color_delim</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">8</span>
+<span class="k">buffers.color_fg</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">8</span>
+<span class="k">buffers.conditions</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+<span class="k">buffers.filling_left_right</span><span class="n"> </span><span class="o">=</span><span class="n"> vertical</span>
+<span class="k">buffers.filling_top_bottom</span><span class="n"> </span><span class="o">=</span><span class="n"> columns_vertical</span>
+<span class="k">buffers.hidden</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">buffers.items</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;buffers&quot;</span>
+<span class="k">buffers.position</span><span class="n"> </span><span class="o">=</span><span class="n"> top</span>
+<span class="k">buffers.priority</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">buffers.separator</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">buffers.size</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">buffers.size_max</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">buffers.type</span><span class="n"> </span><span class="o">=</span><span class="n"> root</span>
+<span class="k">input.color_bg</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">input.color_delim</span><span class="n"> </span><span class="o">=</span><span class="n"> red</span>
+<span class="k">input.color_fg</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">7</span>
+<span class="k">input.conditions</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+<span class="k">input.filling_left_right</span><span class="n"> </span><span class="o">=</span><span class="n"> horizontal</span>
+<span class="k">input.filling_top_bottom</span><span class="n"> </span><span class="o">=</span><span class="n"> horizontal</span>
+<span class="k">input.hidden</span><span class="n"> </span><span class="o">=</span><span class="n"> off</span>
+<span class="k">input.items</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;â”€â”…â”€{ buffer_name }â”€â”…â”€,input_text&quot;</span>
+<span class="k">input.position</span><span class="n"> </span><span class="o">=</span><span class="n"> bottom</span>
+<span class="k">input.priority</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">1000</span>
+<span class="k">input.separator</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">input.size</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">1</span>
+<span class="k">input.size_max</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">input.type</span><span class="n"> </span><span class="o">=</span><span class="n"> root</span>
+<span class="k">isetbar.color_bg</span><span class="n"> </span><span class="o">=</span><span class="n"> default</span>
+<span class="k">isetbar.color_delim</span><span class="n"> </span><span class="o">=</span><span class="n"> cyan</span>
+<span class="k">isetbar.color_fg</span><span class="n"> </span><span class="o">=</span><span class="n"> default</span>
+<span class="k">isetbar.conditions</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+<span class="k">isetbar.filling_left_right</span><span class="n"> </span><span class="o">=</span><span class="n"> vertical</span>
+<span class="k">isetbar.filling_top_bottom</span><span class="n"> </span><span class="o">=</span><span class="n"> horizontal</span>
+<span class="k">isetbar.hidden</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">isetbar.items</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;isetbar_help&quot;</span>
+<span class="k">isetbar.position</span><span class="n"> </span><span class="o">=</span><span class="n"> top</span>
+<span class="k">isetbar.priority</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">isetbar.separator</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">isetbar.size</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">3</span>
+<span class="k">isetbar.size_max</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">3</span>
+<span class="k">isetbar.type</span><span class="n"> </span><span class="o">=</span><span class="n"> window</span>
+<span class="k">nicklist.color_bg</span><span class="n"> </span><span class="o">=</span><span class="n"> default</span>
+<span class="k">nicklist.color_delim</span><span class="n"> </span><span class="o">=</span><span class="n"> black</span>
+<span class="k">nicklist.color_fg</span><span class="n"> </span><span class="o">=</span><span class="n"> default</span>
+<span class="k">nicklist.conditions</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;nicklist&quot;</span>
+<span class="k">nicklist.filling_left_right</span><span class="n"> </span><span class="o">=</span><span class="n"> vertical</span>
+<span class="k">nicklist.filling_top_bottom</span><span class="n"> </span><span class="o">=</span><span class="n"> columns_horizontal</span>
+<span class="k">nicklist.hidden</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">nicklist.items</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;buffer_nicklist&quot;</span>
+<span class="k">nicklist.position</span><span class="n"> </span><span class="o">=</span><span class="n"> right</span>
+<span class="k">nicklist.priority</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">200</span>
+<span class="k">nicklist.separator</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">nicklist.size</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">nicklist.size_max</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">nicklist.type</span><span class="n"> </span><span class="o">=</span><span class="n"> root</span>
+<span class="k">title.color_bg</span><span class="n"> </span><span class="o">=</span><span class="n"> default</span>
+<span class="k">title.color_delim</span><span class="n"> </span><span class="o">=</span><span class="n"> darkgray</span>
+<span class="k">title.color_fg</span><span class="n"> </span><span class="o">=</span><span class="n"> green</span>
+<span class="k">title.conditions</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+<span class="k">title.filling_left_right</span><span class="n"> </span><span class="o">=</span><span class="n"> horizontal</span>
+<span class="k">title.filling_top_bottom</span><span class="n"> </span><span class="o">=</span><span class="n"> horizontal</span>
+<span class="k">title.hidden</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">title.items</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span>
+<span class="k">title.position</span><span class="n"> </span><span class="o">=</span><span class="n"> bottom</span>
+<span class="k">title.priority</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">title.separator</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+<span class="k">title.size</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">title.size_max</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="mi">0</span>
+<span class="k">title.type</span><span class="n"> </span><span class="o">=</span><span class="n"> root</span>
+
+<span class="nx">[layout]</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;core;weechat;1&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;server.freenode;1&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;server.rizon;1&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;server.blackcatz;1&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.#archlinux;2&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.#bash;3&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.##crypto;4&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.##hackers;5&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.##networking;6&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.#reddit-sysadmin;7&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.#startups;8&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.##security;9&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.#weechat;10&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;rizon.#rice;11&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;blackcatz.#howtohack;12&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.#android;13&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.#android-root;14&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.##bitcoin;15&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.##C;16&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.#git;17&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.##hardware;18&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.##javascript;19&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.#metasploit;20&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.#Powershell;21&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.#python;22&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.#ruby;23&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.#perl;24&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.#vim;25&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;freenode.#winehackers;26&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;rizon.#/g/technology;27&quot;</span>
+<span class="k">default.buffer</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;irc;rizon.#/tech/;28&quot;</span>
+<span class="k">default.window</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;1;0;0;0;irc;blackcatz.#howtohack&quot;</span>
+<span class="k">default.current</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span>
+
+<span class="nx">[notify]</span>
+<span class="k">irc.freenode.##linuxbbq</span><span class="n"> </span><span class="o">=</span><span class="n"> all</span>
+
+<span class="nx">[filter]</span>
+<span class="k">irc_smart</span><span class="n"> </span><span class="o">=</span><span class="n"> on</span><span class="o">;*;</span><span class="n">irc_smart_filter</span><span class="o">;*</span>
+
+<span class="nx">[key]</span>
+<span class="k">ctrl-?</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input delete_previous_char&quot;</span>
+<span class="k">ctrl-A</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_beginning_of_line&quot;</span>
+<span class="k">ctrl-B</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_previous_char&quot;</span>
+<span class="k">ctrl-Cb</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input insert \x02&quot;</span>
+<span class="k">ctrl-Cc</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input insert \x03&quot;</span>
+<span class="k">ctrl-Ci</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input insert \x1D&quot;</span>
+<span class="k">ctrl-Co</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input insert \x0F&quot;</span>
+<span class="k">ctrl-Cr</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input insert \x12&quot;</span>
+<span class="k">ctrl-Cu</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input insert \x15&quot;</span>
+<span class="k">ctrl-D</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input delete_next_char&quot;</span>
+<span class="k">ctrl-E</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_end_of_line&quot;</span>
+<span class="k">ctrl-F</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_next_char&quot;</span>
+<span class="k">ctrl-H</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input delete_previous_char&quot;</span>
+<span class="k">ctrl-I</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input complete_next&quot;</span>
+<span class="k">ctrl-J</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input return&quot;</span>
+<span class="k">ctrl-K</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input delete_end_of_line&quot;</span>
+<span class="k">ctrl-L</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window refresh&quot;</span>
+<span class="k">ctrl-M</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input return&quot;</span>
+<span class="k">ctrl-N</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer +1&quot;</span>
+<span class="k">ctrl-P</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer -1&quot;</span>
+<span class="k">ctrl-R</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input search_text&quot;</span>
+<span class="k">ctrl-Sctrl-U</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input set_unread&quot;</span>
+<span class="k">ctrl-T</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input transpose_chars&quot;</span>
+<span class="k">ctrl-U</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input delete_beginning_of_line&quot;</span>
+<span class="k">ctrl-W</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input delete_previous_word&quot;</span>
+<span class="k">ctrl-X</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input switch_active_buffer&quot;</span>
+<span class="k">ctrl-Y</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input clipboard_paste&quot;</span>
+<span class="k">meta-meta2-1~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window scroll_top&quot;</span>
+<span class="k">meta-meta2-23~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/bar scroll nicklist * yb&quot;</span>
+<span class="k">meta-meta2-24~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/bar scroll nicklist * ye&quot;</span>
+<span class="k">meta-meta2-4~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window scroll_bottom&quot;</span>
+<span class="k">meta-meta2-5~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window scroll_up&quot;</span>
+<span class="k">meta-meta2-6~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window scroll_down&quot;</span>
+<span class="k">meta-meta2-7~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window scroll_top&quot;</span>
+<span class="k">meta-meta2-8~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window scroll_bottom&quot;</span>
+<span class="k">meta-meta2-A</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer -1&quot;</span>
+<span class="k">meta-meta2-B</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer +1&quot;</span>
+<span class="k">meta-meta2-C</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer +1&quot;</span>
+<span class="k">meta-meta2-D</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer -1&quot;</span>
+<span class="k">meta-0</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer *10&quot;</span>
+<span class="k">meta-1</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer *1&quot;</span>
+<span class="k">meta-2</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer *2&quot;</span>
+<span class="k">meta-3</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer *3&quot;</span>
+<span class="k">meta-4</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer *4&quot;</span>
+<span class="k">meta-5</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer *5&quot;</span>
+<span class="k">meta-6</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer *6&quot;</span>
+<span class="k">meta-7</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer *7&quot;</span>
+<span class="k">meta-8</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer *8&quot;</span>
+<span class="k">meta-9</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer *9&quot;</span>
+<span class="k">meta-&lt;</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input jump_previously_visited_buffer&quot;</span>
+<span class="k">meta-</span><span class="o">=</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/filter toggle&quot;</span>
+<span class="k">meta-&gt;</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input jump_next_visited_buffer&quot;</span>
+<span class="k">meta-OA</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input history_global_previous&quot;</span>
+<span class="k">meta-OB</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input history_global_next&quot;</span>
+<span class="k">meta-OC</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_next_word&quot;</span>
+<span class="k">meta-OD</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_previous_word&quot;</span>
+<span class="k">meta-OF</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_end_of_line&quot;</span>
+<span class="k">meta-OH</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_beginning_of_line&quot;</span>
+<span class="k">meta-Oa</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input history_global_previous&quot;</span>
+<span class="k">meta-Ob</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input history_global_next&quot;</span>
+<span class="k">meta-Oc</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_next_word&quot;</span>
+<span class="k">meta-Od</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_previous_word&quot;</span>
+<span class="k">meta2-15~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer -1&quot;</span>
+<span class="k">meta2-17~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer +1&quot;</span>
+<span class="k">meta2-18~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window -1&quot;</span>
+<span class="k">meta2-19~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window +1&quot;</span>
+<span class="k">meta2-1;3A</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer -1&quot;</span>
+<span class="k">meta2-1;3B</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer +1&quot;</span>
+<span class="k">meta2-1;3C</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer +1&quot;</span>
+<span class="k">meta2-1;3D</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer -1&quot;</span>
+<span class="k">meta2-1;5A</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input history_global_previous&quot;</span>
+<span class="k">meta2-1;5B</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input history_global_next&quot;</span>
+<span class="k">meta2-1~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_beginning_of_line&quot;</span>
+<span class="k">meta2-20~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/bar scroll title * x-50%&quot;</span>
+<span class="k">meta2-21~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/bar scroll title * x+50%&quot;</span>
+<span class="k">meta2-23~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/bar scroll nicklist * y-100%&quot;</span>
+<span class="k">meta2-24~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/bar scroll nicklist * y+100%&quot;</span>
+<span class="k">meta2-3~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input delete_next_char&quot;</span>
+<span class="k">meta2-4~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_end_of_line&quot;</span>
+<span class="k">meta2-5;3~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window scroll_up&quot;</span>
+<span class="k">meta2-5~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window page_up&quot;</span>
+<span class="k">meta2-6;3~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window scroll_down&quot;</span>
+<span class="k">meta2-6~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window page_down&quot;</span>
+<span class="k">meta2-7~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_beginning_of_line&quot;</span>
+<span class="k">meta2-8~</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_end_of_line&quot;</span>
+<span class="k">meta2-A</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input history_previous&quot;</span>
+<span class="k">meta2-B</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input history_next&quot;</span>
+<span class="k">meta2-C</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_next_char&quot;</span>
+<span class="k">meta2-D</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_previous_char&quot;</span>
+<span class="k">meta2-F</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_end_of_line&quot;</span>
+<span class="k">meta2-G</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window page_down&quot;</span>
+<span class="k">meta2-H</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_beginning_of_line&quot;</span>
+<span class="k">meta2-I</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window page_up&quot;</span>
+<span class="k">meta2-Z</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input complete_previous&quot;</span>
+<span class="k">meta-_</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input redo&quot;</span>
+<span class="k">meta-a</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input jump_smart&quot;</span>
+<span class="k">meta-b</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_previous_word&quot;</span>
+<span class="k">meta-d</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input delete_next_word&quot;</span>
+<span class="k">meta-f</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input move_next_word&quot;</span>
+<span class="k">meta-h</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input hotlist_clear&quot;</span>
+<span class="k">meta-jmeta-l</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input jump_last_buffer&quot;</span>
+<span class="k">meta-jmeta-r</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/server raw&quot;</span>
+<span class="k">meta-jmeta-s</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/server jump&quot;</span>
+<span class="k">meta-j01</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 1&quot;</span>
+<span class="k">meta-j02</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 2&quot;</span>
+<span class="k">meta-j03</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 3&quot;</span>
+<span class="k">meta-j04</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 4&quot;</span>
+<span class="k">meta-j05</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 5&quot;</span>
+<span class="k">meta-j06</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 6&quot;</span>
+<span class="k">meta-j07</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 7&quot;</span>
+<span class="k">meta-j08</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 8&quot;</span>
+<span class="k">meta-j09</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 9&quot;</span>
+<span class="k">meta-j10</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 10&quot;</span>
+<span class="k">meta-j11</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 11&quot;</span>
+<span class="k">meta-j12</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 12&quot;</span>
+<span class="k">meta-j13</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 13&quot;</span>
+<span class="k">meta-j14</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 14&quot;</span>
+<span class="k">meta-j15</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 15&quot;</span>
+<span class="k">meta-j16</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 16&quot;</span>
+<span class="k">meta-j17</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 17&quot;</span>
+<span class="k">meta-j18</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 18&quot;</span>
+<span class="k">meta-j19</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 19&quot;</span>
+<span class="k">meta-j20</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 20&quot;</span>
+<span class="k">meta-j21</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 21&quot;</span>
+<span class="k">meta-j22</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 22&quot;</span>
+<span class="k">meta-j23</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 23&quot;</span>
+<span class="k">meta-j24</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 24&quot;</span>
+<span class="k">meta-j25</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 25&quot;</span>
+<span class="k">meta-j26</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 26&quot;</span>
+<span class="k">meta-j27</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 27&quot;</span>
+<span class="k">meta-j28</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 28&quot;</span>
+<span class="k">meta-j29</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 29&quot;</span>
+<span class="k">meta-j30</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 30&quot;</span>
+<span class="k">meta-j31</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 31&quot;</span>
+<span class="k">meta-j32</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 32&quot;</span>
+<span class="k">meta-j33</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 33&quot;</span>
+<span class="k">meta-j34</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 34&quot;</span>
+<span class="k">meta-j35</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 35&quot;</span>
+<span class="k">meta-j36</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 36&quot;</span>
+<span class="k">meta-j37</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 37&quot;</span>
+<span class="k">meta-j38</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 38&quot;</span>
+<span class="k">meta-j39</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 39&quot;</span>
+<span class="k">meta-j40</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 40&quot;</span>
+<span class="k">meta-j41</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 41&quot;</span>
+<span class="k">meta-j42</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 42&quot;</span>
+<span class="k">meta-j43</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 43&quot;</span>
+<span class="k">meta-j44</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 44&quot;</span>
+<span class="k">meta-j45</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 45&quot;</span>
+<span class="k">meta-j46</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 46&quot;</span>
+<span class="k">meta-j47</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 47&quot;</span>
+<span class="k">meta-j48</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 48&quot;</span>
+<span class="k">meta-j49</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 49&quot;</span>
+<span class="k">meta-j50</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 50&quot;</span>
+<span class="k">meta-j51</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 51&quot;</span>
+<span class="k">meta-j52</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 52&quot;</span>
+<span class="k">meta-j53</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 53&quot;</span>
+<span class="k">meta-j54</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 54&quot;</span>
+<span class="k">meta-j55</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 55&quot;</span>
+<span class="k">meta-j56</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 56&quot;</span>
+<span class="k">meta-j57</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 57&quot;</span>
+<span class="k">meta-j58</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 58&quot;</span>
+<span class="k">meta-j59</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 59&quot;</span>
+<span class="k">meta-j60</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 60&quot;</span>
+<span class="k">meta-j61</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 61&quot;</span>
+<span class="k">meta-j62</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 62&quot;</span>
+<span class="k">meta-j63</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 63&quot;</span>
+<span class="k">meta-j64</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 64&quot;</span>
+<span class="k">meta-j65</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 65&quot;</span>
+<span class="k">meta-j66</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 66&quot;</span>
+<span class="k">meta-j67</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 67&quot;</span>
+<span class="k">meta-j68</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 68&quot;</span>
+<span class="k">meta-j69</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 69&quot;</span>
+<span class="k">meta-j70</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 70&quot;</span>
+<span class="k">meta-j71</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 71&quot;</span>
+<span class="k">meta-j72</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 72&quot;</span>
+<span class="k">meta-j73</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 73&quot;</span>
+<span class="k">meta-j74</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 74&quot;</span>
+<span class="k">meta-j75</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 75&quot;</span>
+<span class="k">meta-j76</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 76&quot;</span>
+<span class="k">meta-j77</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 77&quot;</span>
+<span class="k">meta-j78</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 78&quot;</span>
+<span class="k">meta-j79</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 79&quot;</span>
+<span class="k">meta-j80</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 80&quot;</span>
+<span class="k">meta-j81</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 81&quot;</span>
+<span class="k">meta-j82</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 82&quot;</span>
+<span class="k">meta-j83</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 83&quot;</span>
+<span class="k">meta-j84</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 84&quot;</span>
+<span class="k">meta-j85</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 85&quot;</span>
+<span class="k">meta-j86</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 86&quot;</span>
+<span class="k">meta-j87</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 87&quot;</span>
+<span class="k">meta-j88</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 88&quot;</span>
+<span class="k">meta-j89</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 89&quot;</span>
+<span class="k">meta-j90</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 90&quot;</span>
+<span class="k">meta-j91</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 91&quot;</span>
+<span class="k">meta-j92</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 92&quot;</span>
+<span class="k">meta-j93</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 93&quot;</span>
+<span class="k">meta-j94</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 94&quot;</span>
+<span class="k">meta-j95</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 95&quot;</span>
+<span class="k">meta-j96</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 96&quot;</span>
+<span class="k">meta-j97</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 97&quot;</span>
+<span class="k">meta-j98</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 98&quot;</span>
+<span class="k">meta-j99</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/buffer 99&quot;</span>
+<span class="k">meta-k</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input grab_key_command&quot;</span>
+<span class="k">meta-n</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window scroll_next_highlight&quot;</span>
+<span class="k">meta-p</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window scroll_previous_highlight&quot;</span>
+<span class="k">meta-r</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input delete_line&quot;</span>
+<span class="k">meta-t</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/bar toggle buffers&quot;</span>
+<span class="k">meta-u</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input scroll_unread&quot;</span>
+<span class="k">meta-wmeta-meta2-A</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window up&quot;</span>
+<span class="k">meta-wmeta-meta2-B</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window down&quot;</span>
+<span class="k">meta-wmeta-meta2-C</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window right&quot;</span>
+<span class="k">meta-wmeta-meta2-D</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window left&quot;</span>
+<span class="k">meta-wmeta2-1;3A</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window up&quot;</span>
+<span class="k">meta-wmeta2-1;3B</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window down&quot;</span>
+<span class="k">meta-wmeta2-1;3C</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window right&quot;</span>
+<span class="k">meta-wmeta2-1;3D</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window left&quot;</span>
+<span class="k">meta-wmeta-b</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window balance&quot;</span>
+<span class="k">meta-wmeta-s</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window swap&quot;</span>
+<span class="k">meta-z</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window zoom&quot;</span>
+<span class="k">ctrl-_</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input undo&quot;</span>
+
+<span class="nx">[key_search]</span>
+<span class="k">ctrl-J</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input search_stop&quot;</span>
+<span class="k">ctrl-M</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input search_stop&quot;</span>
+<span class="k">ctrl-R</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input search_switch_case&quot;</span>
+<span class="k">meta2-A</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input search_previous&quot;</span>
+<span class="k">meta2-B</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input search_next&quot;</span>
+
+<span class="nx">[key_cursor]</span>
+<span class="k">ctrl-J</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/cursor stop&quot;</span>
+<span class="k">ctrl-M</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/cursor stop&quot;</span>
+<span class="k">meta-meta2-A</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/cursor move area_up&quot;</span>
+<span class="k">meta-meta2-B</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/cursor move area_down&quot;</span>
+<span class="k">meta-meta2-C</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/cursor move area_right&quot;</span>
+<span class="k">meta-meta2-D</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/cursor move area_left&quot;</span>
+<span class="k">meta2-1;3A</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/cursor move area_up&quot;</span>
+<span class="k">meta2-1;3B</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/cursor move area_down&quot;</span>
+<span class="k">meta2-1;3C</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/cursor move area_right&quot;</span>
+<span class="k">meta2-1;3D</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/cursor move area_left&quot;</span>
+<span class="k">meta2-A</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/cursor move up&quot;</span>
+<span class="k">meta2-B</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/cursor move down&quot;</span>
+<span class="k">meta2-C</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/cursor move right&quot;</span>
+<span class="k">meta2-D</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/cursor move left&quot;</span>
+<span class="k">@item(buffer_nicklist):K</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window ${_window_number};/kickban ${nick}&quot;</span>
+<span class="k">@item(buffer_nicklist):b</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window ${_window_number};/ban ${nick}&quot;</span>
+<span class="k">@item(buffer_nicklist):k</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window ${_window_number};/kick ${nick}&quot;</span>
+<span class="k">@item(buffer_nicklist):q</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window ${_window_number};/query ${nick};/cursor stop&quot;</span>
+<span class="k">@item(buffer_nicklist):w</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window ${_window_number};/whois ${nick}&quot;</span>
+<span class="k">@chat:Q</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;hsignal:chat_quote_time_prefix_message;/cursor stop&quot;</span>
+<span class="k">@chat:m</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;hsignal:chat_quote_message;/cursor stop&quot;</span>
+<span class="k">@chat:q</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;hsignal:chat_quote_prefix_message;/cursor stop&quot;</span>
+
+<span class="nx">[key_mouse]</span>
+<span class="k">@item(buffer_nicklist)&gt;item(buddylist):button1-gesture-*</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;hsignal:buddylist_mouse&quot;</span>
+<span class="k">@chat(*)&gt;item(buddylist):button1-gesture-*</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;hsignal:buddylist_mouse&quot;</span>
+<span class="k">@bar(buffers):ctrl-wheeldown</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;hsignal:buffers_mouse&quot;</span>
+<span class="k">@bar(buffers):ctrl-wheelup</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;hsignal:buffers_mouse&quot;</span>
+<span class="k">@bar(buflist):ctrl-wheeldown</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;hsignal:buflist_mouse&quot;</span>
+<span class="k">@bar(buflist):ctrl-wheelup</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;hsignal:buflist_mouse&quot;</span>
+<span class="k">@bar(input):button2</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/input grab_mouse_area&quot;</span>
+<span class="k">@bar(nicklist):button1-gesture-down</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/bar scroll nicklist ${_window_number} +100%&quot;</span>
+<span class="k">@bar(nicklist):button1-gesture-down-long</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/bar scroll nicklist ${_window_number} e&quot;</span>
+<span class="k">@bar(nicklist):button1-gesture-up</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/bar scroll nicklist ${_window_number} -100%&quot;</span>
+<span class="k">@bar(nicklist):button1-gesture-up-long</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/bar scroll nicklist ${_window_number} b&quot;</span>
+<span class="k">@chat(perl.iset):button1</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;hsignal:iset_mouse&quot;</span>
+<span class="k">@chat(perl.iset):button2*</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;hsignal:iset_mouse&quot;</span>
+<span class="k">@chat(perl.iset):wheeldown</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/repeat 5 /iset **down&quot;</span>
+<span class="k">@chat(perl.iset):wheelup</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/repeat 5 /iset **up&quot;</span>
+<span class="k">@chat(script.scripts):button1</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window ${_window_number};/script go ${_chat_line_y}&quot;</span>
+<span class="k">@chat(script.scripts):button2</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window ${_window_number};/script go ${_chat_line_y};/script installremove -q ${script_name_with_extension}&quot;</span>
+<span class="k">@chat(script.scripts):wheeldown</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/script down 5&quot;</span>
+<span class="k">@chat(script.scripts):wheelup</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/script up 5&quot;</span>
+<span class="k">@item(buddylist):button1*</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;hsignal:buddylist_mouse&quot;</span>
+<span class="k">@item(buddylist):button1-gesture-*</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;hsignal:buddylist_mouse&quot;</span>
+<span class="k">@item(buffer_nicklist):button1</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window ${_window_number};/query ${nick}&quot;</span>
+<span class="k">@item(buffer_nicklist):button1-gesture-left</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;/window ${_window_number};/kick ${nick}&quot;</span>
+<span class="k">@item(buffer_nicklist):button1-gesture-left-long</span><span class="n"> </span><span class="o">=</span><span class="n"> </span><span class="s">&quot;&quot;</span><span class="n">/window </span><span class="o">${</span><span class="n">_window_number</span><span class="o">};</span><span class="n">/kickban</span><span class="s">&quot;</span>
+<span class="s">@item(buffer_nicklist):button2 = &quot;</span><span class="n">/window </span><span class="o">${</span><span class="n">_window_number</span><span class="o">};</span><span class="n">/whois </span><span class="o">${</span><span class="n">nick</span><span class="o">}</span><span class="s">&quot;</span>
+<span class="s">@item(buffer_nicklist):button2-gesture-left = &quot;</span><span class="n">/window </span><span class="o">${</span><span class="n">_window_number</span><span class="o">};</span><span class="n">/ban </span><span class="o">${</span><span class="n">nick</span><span class="o">}</span><span class="s">&quot;</span>
+<span class="s">@item(buffers):button1* = &quot;</span><span class="n">hsignal</span><span class="o">:</span><span class="n">buffers_mouse</span><span class="s">&quot;</span>
+<span class="s">@item(buffers):button2 = &quot;</span><span class="n">hsignal</span><span class="o">:</span><span class="n">buffers_mouse</span><span class="s">&quot;</span>
+<span class="s">@item(buffers):button2* = &quot;</span><span class="n">hsignal</span><span class="o">:</span><span class="n">buffers_mouse</span><span class="s">&quot;</span>
+<span class="s">@item(buflist):button1* = &quot;</span><span class="n">hsignal</span><span class="o">:</span><span class="n">buflist_mouse</span><span class="s">&quot;</span>
+<span class="s">@item(buflist):button2* = &quot;</span><span class="n">hsignal</span><span class="o">:</span><span class="n">buflist_mouse</span><span class="s">&quot;</span>
+<span class="s">@bar:wheeldown = &quot;</span><span class="n">/bar scroll </span><span class="o">${</span><span class="n">_bar_name</span><span class="o">}</span><span class="n"> </span><span class="o">${</span><span class="n">_window_number</span><span class="o">}</span><span class="n"> </span><span class="o">+</span><span class="n">20</span><span class="o">%</span><span class="s">&quot;</span>
+<span class="s">@bar:wheelup = &quot;</span><span class="n">/bar scroll </span><span class="o">${</span><span class="n">_bar_name</span><span class="o">}</span><span class="n"> </span><span class="o">${</span><span class="n">_window_number</span><span class="o">}</span><span class="n"> -20</span><span class="o">%</span><span class="s">&quot;</span>
+<span class="s">@chat:button1 = &quot;</span><span class="n">/window </span><span class="o">${</span><span class="n">_window_number</span><span class="o">}</span><span class="s">&quot;</span>
+<span class="s">@chat:button1-gesture-left = &quot;</span><span class="n">/window </span><span class="o">${</span><span class="n">_window_number</span><span class="o">};</span><span class="n">/buffer -1</span><span class="s">&quot;</span>
+<span class="s">@chat:button1-gesture-left-long = &quot;</span><span class="n">/window </span><span class="o">${</span><span class="n">_window_number</span><span class="o">};</span><span class="n">/buffer 1</span><span class="s">&quot;</span>
+<span class="s">@chat:button1-gesture-right = &quot;</span><span class="n">/window </span><span class="o">${</span><span class="n">_window_number</span><span class="o">};</span><span class="n">/buffer </span><span class="o">+</span><span class="n">1</span><span class="s">&quot;</span>
+<span class="s">@chat:button1-gesture-right-long = &quot;</span><span class="n">/window </span><span class="o">${</span><span class="n">_window_number</span><span class="o">};</span><span class="n">/input jump_last_buffer</span><span class="s">&quot;</span>
+<span class="s">@chat:wheeldown = &quot;</span><span class="n">/window scroll_down </span><span class="nf">-window</span><span class="n"> </span><span class="o">${</span><span class="n">_window_number</span><span class="o">}</span><span class="s">&quot;</span>
+<span class="s">@chat:wheelup = &quot;</span><span class="n">/window scroll_up </span><span class="nf">-window</span><span class="n"> </span><span class="o">${</span><span class="n">_window_number</span><span class="o">}</span><span class="s">&quot;</span>
+<span class="s">@*:button3 = &quot;</span><span class="n">/cursor go </span><span class="o">${</span><span class="n">_x</span><span class="o">}</span><span class="n">,</span><span class="o">${</span><span class="n">_y</span><span class="o">}</span><span class="n">&quot;</span>
+</pre></div>
+</td></tr></table>
+                            </div>
+                            
+                            <div class="overlay">&nbsp;</div>
+                            
+                            <div class="minimize">
+                                <p>x</p>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        
+    
+
+    
+    
+        <div class="item">
+            <div class="header">
+                <h4>Notes</h4>
+            </div>
+            
+            <div class="content markdown">
+                <ul>
+<li>Other cool configs can be found <a href="https://github.com/mohabaks/dotfiles">here</a></li>
+</ul>
+
+            </div>
+        </div>
+    
+    
+    
+    
+    
+
+    </div>
+    
+    <div id="footer">&nbsp;</div>
+</div>
+
+<div id="logo">
+    <a href="/"><img src="/public/images/logo.png" width="62" height="63" alt="DotShare.it"></a>
+</div>
+
+</body>
+</html>z8 ¶‘      Zå(?Zå(@? ób           :http://dotshare.it/dots/8244/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Sun, 29 Apr 2018 09:04:48 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 111353
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Sun, 29 Apr 2018 09:04:48 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 111353
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+ uncompressed-len 0 net-response-time-onstart 287 net-response-time-onstop 519  ²ù

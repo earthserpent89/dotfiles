@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    
+    <link rel="stylesheet" href="/public/css/screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/colorbox.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/tipsy.css" type="text/css" media="screen">
+    
+    <script src="/public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.ui.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.colorbox.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.tipsy.js" type="text/javascript"></script>
+    <script src="/public/js/ds.js" type="text/javascript"></script>
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-24042959-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+    <title>DotShare.it</title>
+</head>
+
+<body>
+
+<div id="header">
+    <div id="nav">
+        <ul class="label">
+            <li><span class="orange">.</span>share</li>
+        </ul>
+        
+        <ul>
+            <li>guest<span class="gray">@</span>dotshare <span class="gray">[</span>~<span class="gray">]</span> <span class="gray">$</span> ls -a nav/</li>
+            
+            <li><a href="/">..</a></li>
+            <li><a href="/news/">news</a></li>
+            <li><a href="/dots/">browse</a></li>
+            
+            
+            
+            <li><a href="/about/">about</a></li>
+            
+            
+            
+            
+                <li><a href="/login/">login</a></li>
+                <li><a href="/register/">register</a></li>
+            
+        </ul>
+    </div>
+    
+    <div id="donate">
+        <ul>
+            <li><a href="/donate/">donate</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="commands">
+    <div id="command">
+        <p>
+    <span class="dark-gray">guest</span>@<span class="dark-gray">dotshare</span> [<span class="dark-gray">~/groups/terms/colors</span>] <span class="dark-gray">$</span> ls h4x0r/ | cat
+</p>
+    </div>
+</div>
+
+<div id="container">
+    <div id="categories">
+    <ul>
+        
+            <li class="label">
+                chat/
+                
+                <ul>
+                    
+                        <li><a href="/category/chat/irssi/">irssi</a></li>
+                    
+                        <li><a href="/category/chat/weechat/">weechat</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                emacs/
+                
+                <ul>
+                    
+                        <li><a href="/category/emacs/colors/">colors</a></li>
+                    
+                        <li><a href="/category/emacs/config/">config</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                fms/
+                
+                <ul>
+                    
+                        <li><a href="/category/fms/mc/">mc</a></li>
+                    
+                        <li><a href="/category/fms/ranger/">ranger</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                info/
+                
+                <ul>
+                    
+                        <li><a href="/category/info/conky/">conky</a></li>
+                    
+                        <li><a href="/category/info/dzen2/">dzen2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                misc/
+                
+                <ul>
+                    
+                        <li><a href="/category/misc/misc/">misc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                mpd/
+                
+                <ul>
+                    
+                        <li><a href="/category/mpd/ncmpcpp/">ncmpcpp</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                panels/
+                
+                <ul>
+                    
+                        <li><a href="/category/panels/bmpanel/">bmpanel</a></li>
+                    
+                        <li><a href="/category/panels/lxpanel/">lxpanel</a></li>
+                    
+                        <li><a href="/category/panels/pypanel/">pypanel</a></li>
+                    
+                        <li><a href="/category/panels/tint2/">tint2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                shells/
+                
+                <ul>
+                    
+                        <li><a href="/category/shells/bash/">bash</a></li>
+                    
+                        <li><a href="/category/shells/tcsh/">tcsh</a></li>
+                    
+                        <li><a href="/category/shells/zsh/">zsh</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                terms/
+                
+                <ul>
+                    
+                        <li><a href="/category/terms/colors/">colors</a></li>
+                    
+                        <li><a href="/category/terms/screen/">screen</a></li>
+                    
+                        <li><a href="/category/terms/tmux/">tmux</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                vim/
+                
+                <ul>
+                    
+                        <li><a href="/category/vim/colors/">colors</a></li>
+                    
+                        <li><a href="/category/vim/rc/">rc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                wms/
+                
+                <ul>
+                    
+                        <li><a href="/category/wms/awesome/">awesome</a></li>
+                    
+                        <li><a href="/category/wms/bspwm/">bspwm</a></li>
+                    
+                        <li><a href="/category/wms/dwm/">dwm</a></li>
+                    
+                        <li><a href="/category/wms/fluxbox/">fluxbox</a></li>
+                    
+                        <li><a href="/category/wms/fvwm/">fvwm</a></li>
+                    
+                        <li><a href="/category/wms/herbstluft/">herbstluft</a></li>
+                    
+                        <li><a href="/category/wms/i3/">i3</a></li>
+                    
+                        <li><a href="/category/wms/monster/">monster</a></li>
+                    
+                        <li><a href="/category/wms/openbox/">openbox</a></li>
+                    
+                        <li><a href="/category/wms/ratpoison/">ratpoison</a></li>
+                    
+                        <li><a href="/category/wms/spectrwm/">spectrwm</a></li>
+                    
+                        <li><a href="/category/wms/stumpwm/">stumpwm</a></li>
+                    
+                        <li><a href="/category/wms/subtle/">subtle</a></li>
+                    
+                        <li><a href="/category/wms/wmfs/">wmfs</a></li>
+                    
+                        <li><a href="/category/wms/xmonad/">xmonad</a></li>
+                    
+                </ul>
+            </li>
+        
+    </ul>
+</div>
+    
+    <div id="content">
+        
+    
+
+        
+    
+    
+        <div class="item">
+            <div class="header">
+                <h4>h4x0r (<a href="/public/images/uploads/1389.png" target="_blank">scrot</a>, <a href="/dots/1389/0/raw/">raw</a>, <a href="/dots/1389/0/dl/">dl</a>) (<span class="green">+3</span> <a href="/dots/1389/likes/">likes</a>)</h4>
+                <h5><a href="/~nxll/">nxll</a> Nov 26, 2016 (terms/<a href="/category/terms/colors/">colors</a>)</h5>
+            </div>
+            
+            <div class="content">
+                
+                    <div id="scrot">
+                        <p>
+                            <a href="/public/images/uploads/1389.png" target="_blank"><img src="/public/images/uploads/1389-thumb.png"></a>
+                        </p>
+                        
+                        <div class="overlay">
+                            <p>SCROT</p>
+                        </div>
+                    </div>
+                
+                
+                <div class="dot first">
+                    <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">#</span><span class="n"> H4XOR</span>
+<span class="o">#</span><span class="n"> nxll </span><span class="err">&lt;</span><span class="n">nxll</span><span class="err">@</span><span class="n">teknik</span><span class="o">.</span><span class="n">io</span><span class="err">&gt;</span><span class="n"></span>
+
+<span class="n">cursor</span><span class="o">=</span><span class="s">&quot;#C2FFA0&quot;</span><span class="n"></span>
+<span class="n">mouse</span><span class="o">_</span><span class="n">background</span><span class="o">=</span><span class="s">&quot;#1A3020&quot;</span><span class="n"></span>
+<span class="n">mouse</span><span class="o">_</span><span class="n">foreground</span><span class="o">=</span><span class="s">&quot;#C2FFA0&quot;</span><span class="n"></span>
+<span class="n">high</span><span class="s">light</span><span class="o">=</span><span class="s">&quot;#1F3B27&quot;</span><span class="n"></span>
+<span class="n">border</span><span class="o">=</span><span class="s">&quot;#1A3020&quot;</span><span class="n"></span>
+<span class="n">background</span><span class="o">=</span><span class="s">&quot;#1A3020&quot;</span><span class="n"></span>
+<span class="n">foreground</span><span class="o">=</span><span class="s">&quot;#C2FFA0&quot;</span><span class="n"></span>
+
+<span class="o">#</span><span class="n">BLACK</span>
+<span class="n">color0</span><span class="o">=</span><span class="s">&quot;#1D3624&quot;</span><span class="n"></span>
+<span class="n">color8</span><span class="o">=</span><span class="s">&quot;#1F3B27&quot;</span><span class="n"></span>
+<span class="o">#</span><span class="n">RED</span>
+<span class="n">color1</span><span class="o">=</span><span class="s">&quot;#9BCC80&quot;</span><span class="n"></span>
+<span class="n">color9</span><span class="o">=</span><span class="s">&quot;#9CCE81&quot;</span><span class="n"></span>
+<span class="o">#</span><span class="n">GREEN</span>
+<span class="n">color2</span><span class="o">=</span><span class="s">&quot;#BAFF94&quot;</span><span class="n"></span>
+<span class="n">color10</span><span class="o">=</span><span class="s">&quot;#BBFF95&quot;</span><span class="n"></span>
+<span class="o">#</span><span class="n">YELLOW</span>
+<span class="n">color3</span><span class="o">=</span><span class="s">&quot;#C2FFAF&quot;</span><span class="n"></span>
+<span class="n">color11</span><span class="o">=</span><span class="s">&quot;#C3FFAF&quot;</span><span class="n"></span>
+<span class="o">#</span><span class="n">BLUE</span>
+<span class="n">color4</span><span class="o">=</span><span class="s">&quot;#5F7D4E&quot;</span><span class="n"></span>
+<span class="n">color12</span><span class="o">=</span><span class="s">&quot;#607D4F&quot;</span><span class="n"></span>
+<span class="o">#</span><span class="n">MAGENTA</span>
+<span class="n">color5</span><span class="o">=</span><span class="s">&quot;#C2FFA0&quot;</span><span class="n"></span>
+<span class="n">color13</span><span class="o">=</span><span class="s">&quot;#C3FFA1&quot;</span><span class="n"></span>
+<span class="o">#</span><span class="n">CYAN</span>
+<span class="n">color6</span><span class="o">=</span><span class="s">&quot;#C2FFA0&quot;</span><span class="n"></span>
+<span class="n">color14</span><span class="o">=</span><span class="s">&quot;#C3FFA1&quot;</span><span class="n"></span>
+<span class="o">#</span><span class="n">WHITE</span>
+<span class="n">color7</span><span class="o">=</span><span class="s">&quot;#DBFFC7&quot;</span><span class="n"></span>
+<span class="n">color15</span><span class="o">=</span><span class="s">&quot;#DCFFC8&quot;</span><span class="n"></span>
+</pre></div>
+</td></tr></table>
+                </div>
+                
+                <div class="overlay short">
+                    <p>CLICK TO VIEW</p>
+                </div>
+                
+                <div class="minimize">
+                    <p>x</p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+    
+        <div class="item">
+            <div class="header">
+                <h4>Notes</h4>
+            </div>
+            
+            <div class="content markdown">
+                <p>for use with <a href="https://github.com/sos4nt/dynamic-colors">this</a> tool </p>
+
+            </div>
+        </div>
+    
+    
+    
+    
+    
+
+    </div>
+    
+    <div id="footer">&nbsp;</div>
+</div>
+
+<div id="logo">
+    <a href="/"><img src="/public/images/logo.png" width="62" height="63" alt="DotShare.it"></a>
+</div>
+
+</body>
+</html>9iÂ–ñ¥      Zå4MZå4M? û½           :http://dotshare.it/dots/1389/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Sun, 29 Apr 2018 09:56:14 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 13881
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Sun, 29 Apr 2018 09:56:14 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 13881
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+ uncompressed-len 0 net-response-time-onstart 218 net-response-time-onstop 333   69

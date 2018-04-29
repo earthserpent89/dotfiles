@@ -1,0 +1,874 @@
+div#cgit {
+	padding: 0em;
+	margin: 0em;
+	font-family: sans-serif;
+	font-size: 10pt;
+	color: #333;
+	background: white;
+	padding: 4px;
+}
+
+div#cgit a {
+	color: blue;
+	text-decoration: none;
+}
+
+div#cgit a:hover {
+	text-decoration: underline;
+}
+
+div#cgit table {
+	border-collapse: collapse;
+}
+
+div#cgit table#header {
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+div#cgit table#header td.logo {
+	width: 96px;
+	vertical-align: top;
+}
+
+div#cgit table#header td.main {
+	font-size: 250%;
+	padding-left: 10px;
+	white-space: nowrap;
+}
+
+div#cgit table#header td.main a {
+	color: #000;
+}
+
+div#cgit table#header td.form {
+	text-align: right;
+	vertical-align: bottom;
+	padding-right: 1em;
+	padding-bottom: 2px;
+	white-space: nowrap;
+}
+
+div#cgit table#header td.form form,
+div#cgit table#header td.form input,
+div#cgit table#header td.form select {
+	font-size: 90%;
+}
+
+div#cgit table#header td.sub {
+	color: #777;
+	border-top: solid 1px #ccc;
+	padding-left: 10px;
+}
+
+div#cgit table.tabs {
+	border-bottom: solid 3px #ccc;
+	border-collapse: collapse;
+	margin-top: 2em;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+div#cgit table.tabs td {
+	padding: 0px 1em;
+	vertical-align: bottom;
+}
+
+div#cgit table.tabs td a {
+	padding: 2px 0.75em;
+	color: #777;
+	font-size: 110%;
+}
+
+div#cgit table.tabs td a.active {
+	color: #000;
+	background-color: #ccc;
+}
+
+div#cgit table.tabs a[href^="http://"]:after, div#cgit table.tabs a[href^="https://"]:after {
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAQAAAAnOwc2AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfgAhcJDQY+gm2TAAAAHWlUWHRDb21tZW50AAAAAABDcmVhdGVkIHdpdGggR0lNUGQuZQcAAABbSURBVAhbY2BABs4MU4CwhYHBh2Erww4wrGFQZHjI8B8IgUIscJWyDHcggltQhI4zGDCcRwhChPggHIggP1QoAVmQkSETrGoHsiAEsACtBYN0oDAMbgU6EBcAAL2eHUt4XUU4AAAAAElFTkSuQmCC);
+	opacity: 0.5;
+	margin: 0 0 0 5px;
+}
+
+div#cgit table.tabs td.form {
+	text-align: right;
+}
+
+div#cgit table.tabs td.form form {
+	padding-bottom: 2px;
+	font-size: 90%;
+	white-space: nowrap;
+}
+
+div#cgit table.tabs td.form input,
+div#cgit table.tabs td.form select {
+	font-size: 90%;
+}
+
+div#cgit div.path {
+	margin: 0px;
+	padding: 5px 2em 2px 2em;
+	color: #000;
+	background-color: #eee;
+}
+
+div#cgit div.content {
+	margin: 0px;
+	padding: 2em;
+	border-bottom: solid 3px #ccc;
+}
+
+
+div#cgit table.list {
+	width: 100%;
+	border: none;
+	border-collapse: collapse;
+}
+
+div#cgit table.list tr {
+	background: white;
+}
+
+div#cgit table.list tr.logheader {
+	background: #eee;
+}
+
+div#cgit table.list tr:nth-child(even) {
+	background: #f7f7f7;
+}
+
+div#cgit table.list tr:nth-child(odd) {
+	background: white;
+}
+
+div#cgit table.list tr:hover {
+	background: #eee;
+}
+
+div#cgit table.list tr.nohover {
+	background: white;
+}
+
+div#cgit table.list tr.nohover:hover {
+	background: white;
+}
+
+div#cgit table.list tr.nohover-highlight:hover:nth-child(even) {
+	background: #f7f7f7;
+}
+
+div#cgit table.list tr.nohover-highlight:hover:nth-child(odd) {
+	background: white;
+}
+
+div#cgit table.list th {
+	font-weight: bold;
+	/* color: #888;
+	border-top: dashed 1px #888;
+	border-bottom: dashed 1px #888;
+	*/
+	padding: 0.1em 0.5em 0.05em 0.5em;
+	vertical-align: baseline;
+}
+
+div#cgit table.list td {
+	border: none;
+	padding: 0.1em 0.5em 0.1em 0.5em;
+}
+
+div#cgit table.list td.commitgraph {
+	font-family: monospace;
+	white-space: pre;
+}
+
+div#cgit table.list td.commitgraph .column1 {
+	color: #a00;
+}
+
+div#cgit table.list td.commitgraph .column2 {
+	color: #0a0;
+}
+
+div#cgit table.list td.commitgraph .column3 {
+	color: #aa0;
+}
+
+div#cgit table.list td.commitgraph .column4 {
+	color: #00a;
+}
+
+div#cgit table.list td.commitgraph .column5 {
+	color: #a0a;
+}
+
+div#cgit table.list td.commitgraph .column6 {
+	color: #0aa;
+}
+
+div#cgit table.list td.logsubject {
+	font-family: monospace;
+	font-weight: bold;
+}
+
+div#cgit table.list td.logmsg {
+	font-family: monospace;
+	white-space: pre;
+	padding: 0 0.5em;
+}
+
+div#cgit table.list td a {
+	color: black;
+}
+
+div#cgit table.list td a.ls-dir {
+	font-weight: bold;
+	color: #00f;
+}
+
+div#cgit table.list td a:hover {
+	color: #00f;
+}
+
+div#cgit img {
+	border: none;
+}
+
+div#cgit input#switch-btn {
+	margin: 2px 0px 0px 0px;
+}
+
+div#cgit td#sidebar input.txt {
+	width: 100%;
+	margin: 2px 0px 0px 0px;
+}
+
+div#cgit table#grid {
+	margin: 0px;
+}
+
+div#cgit td#content {
+	vertical-align: top;
+	padding: 1em 2em 1em 1em;
+	border: none;
+}
+
+div#cgit div#summary {
+	vertical-align: top;
+	margin-bottom: 1em;
+}
+
+div#cgit table#downloads {
+	float: right;
+	border-collapse: collapse;
+	border: solid 1px #777;
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+div#cgit table#downloads th {
+	background-color: #ccc;
+}
+
+div#cgit div#blob {
+	border: solid 1px black;
+}
+
+div#cgit div.error {
+	color: red;
+	font-weight: bold;
+	margin: 1em 2em;
+}
+
+div#cgit a.ls-blob, div#cgit a.ls-dir, div#cgit .ls-mod {
+	font-family: monospace;
+}
+
+div#cgit td.ls-size {
+	text-align: right;
+	font-family: monospace;
+	width: 10em;
+}
+
+div#cgit td.ls-mode {
+	font-family: monospace;
+	width: 10em;
+}
+
+div#cgit table.blob {
+	margin-top: 0.5em;
+	border-top: solid 1px black;
+}
+
+div#cgit table.blob td.lines {
+	margin: 0; padding: 0 0 0 0.5em;
+	vertical-align: top;
+	color: black;
+}
+
+div#cgit table.blob td.linenumbers {
+	margin: 0; padding: 0 0.5em 0 0.5em;
+	vertical-align: top;
+	text-align: right;
+	border-right: 1px solid gray;
+}
+
+div#cgit table.blob pre {
+	padding: 0; margin: 0;
+}
+
+div#cgit table.blob td.linenumbers a,
+div#cgit table.ssdiff td.lineno a {
+	color: gray;
+	text-align: right;
+	text-decoration: none;
+}
+
+div#cgit table.blob td.linenumbers a:hover,
+div#cgit table.ssdiff td.lineno a:hover {
+	color: black;
+}
+
+div#cgit table.bin-blob {
+	margin-top: 0.5em;
+	border: solid 1px black;
+}
+
+div#cgit table.bin-blob th {
+	font-family: monospace;
+	white-space: pre;
+	border: solid 1px #777;
+	padding: 0.5em 1em;
+}
+
+div#cgit table.bin-blob td {
+	font-family: monospace;
+	white-space: pre;
+	border-left: solid 1px #777;
+	padding: 0em 1em;
+}
+
+div#cgit table.nowrap td {
+	white-space: nowrap;
+}
+
+div#cgit table.commit-info {
+	border-collapse: collapse;
+	margin-top: 1.5em;
+}
+
+div#cgit div.cgit-panel {
+	float: right;
+	margin-top: 1.5em;
+}
+
+div#cgit div.cgit-panel table {
+	border-collapse: collapse;
+	border: solid 1px #aaa;
+	background-color: #eee;
+}
+
+div#cgit div.cgit-panel th {
+	text-align: center;
+}
+
+div#cgit div.cgit-panel td {
+	padding: 0.25em 0.5em;
+}
+
+div#cgit div.cgit-panel td.label {
+	padding-right: 0.5em;
+}
+
+div#cgit div.cgit-panel td.ctrl {
+	padding-left: 0.5em;
+}
+
+div#cgit table.commit-info th {
+	text-align: left;
+	font-weight: normal;
+	padding: 0.1em 1em 0.1em 0.1em;
+	vertical-align: top;
+}
+
+div#cgit table.commit-info td {
+	font-weight: normal;
+	padding: 0.1em 1em 0.1em 0.1em;
+}
+
+div#cgit div.commit-subject {
+	font-weight: bold;
+	font-size: 125%;
+	margin: 1.5em 0em 0.5em 0em;
+	padding: 0em;
+}
+
+div#cgit div.commit-msg {
+	white-space: pre;
+	font-family: monospace;
+}
+
+div#cgit div.notes-header {
+	font-weight: bold;
+	padding-top: 1.5em;
+}
+
+div#cgit div.notes {
+	white-space: pre;
+	font-family: monospace;
+	border: solid 1px #ee9;
+	background-color: #ffd;
+	padding: 0.3em 2em 0.3em 1em;
+	float: left;
+}
+
+div#cgit div.notes-footer {
+	clear: left;
+}
+
+div#cgit div.diffstat-header {
+	font-weight: bold;
+	padding-top: 1.5em;
+}
+
+div#cgit table.diffstat {
+	border-collapse: collapse;
+	border: solid 1px #aaa;
+	background-color: #eee;
+}
+
+div#cgit table.diffstat th {
+	font-weight: normal;
+	text-align: left;
+	text-decoration: underline;
+	padding: 0.1em 1em 0.1em 0.1em;
+	font-size: 100%;
+}
+
+div#cgit table.diffstat td {
+	padding: 0.2em 0.2em 0.1em 0.1em;
+	font-size: 100%;
+	border: none;
+}
+
+div#cgit table.diffstat td.mode {
+	white-space: nowrap;
+}
+
+div#cgit table.diffstat td span.modechange {
+	padding-left: 1em;
+	color: red;
+}
+
+div#cgit table.diffstat td.add a {
+	color: green;
+}
+
+div#cgit table.diffstat td.del a {
+	color: red;
+}
+
+div#cgit table.diffstat td.upd a {
+	color: blue;
+}
+
+div#cgit table.diffstat td.graph {
+	width: 500px;
+	vertical-align: middle;
+}
+
+div#cgit table.diffstat td.graph table {
+	border: none;
+}
+
+div#cgit table.diffstat td.graph td {
+	padding: 0px;
+	border: 0px;
+	height: 7pt;
+}
+
+div#cgit table.diffstat td.graph td.add {
+	background-color: #5c5;
+}
+
+div#cgit table.diffstat td.graph td.rem {
+	background-color: #c55;
+}
+
+div#cgit div.diffstat-summary {
+	color: #888;
+	padding-top: 0.5em;
+}
+
+div#cgit table.diff {
+	width: 100%;
+}
+
+div#cgit table.diff td {
+	font-family: monospace;
+	white-space: pre;
+}
+
+div#cgit table.diff td div.head {
+	font-weight: bold;
+	margin-top: 1em;
+	color: black;
+}
+
+div#cgit table.diff td div.hunk {
+	color: #009;
+}
+
+div#cgit table.diff td div.add {
+	color: green;
+}
+
+div#cgit table.diff td div.del {
+	color: red;
+}
+
+div#cgit .sha1 {
+	font-family: monospace;
+	font-size: 90%;
+}
+
+div#cgit .left {
+	text-align: left;
+}
+
+div#cgit .right {
+	text-align: right;
+}
+
+div#cgit table.list td.reposection {
+	font-style: italic;
+	color: #888;
+}
+
+div#cgit a.button {
+	font-size: 80%;
+	padding: 0em 0.5em;
+}
+
+div#cgit a.primary {
+	font-size: 100%;
+}
+
+div#cgit a.secondary {
+	font-size: 90%;
+}
+
+div#cgit td.toplevel-repo {
+
+}
+
+div#cgit table.list td.sublevel-repo {
+	padding-left: 1.5em;
+}
+
+div#cgit ul.pager {
+	list-style-type: none;
+	text-align: center;
+	margin: 1em 0em 0em 0em;
+	padding: 0;
+}
+
+div#cgit ul.pager li {
+	display: inline-block;
+	margin: 0.25em 0.5em;
+}
+
+div#cgit ul.pager a {
+	color: #777;
+}
+
+div#cgit ul.pager .current {
+	font-weight: bold;
+}
+
+div#cgit span.age-mins {
+	font-weight: bold;
+	color: #080;
+}
+
+div#cgit span.age-hours {
+	color: #080;
+}
+
+div#cgit span.age-days {
+	color: #040;
+}
+
+div#cgit span.age-weeks {
+	color: #444;
+}
+
+div#cgit span.age-months {
+	color: #888;
+}
+
+div#cgit span.age-years {
+	color: #bbb;
+}
+
+div#cgit span.insertions {
+	color: #080;
+}
+
+div#cgit span.deletions {
+	color: #800;
+}
+
+div#cgit div.footer {
+	margin-top: 0.5em;
+	text-align: center;
+	font-size: 80%;
+	color: #ccc;
+}
+
+div#cgit div.footer a {
+	color: #ccc;
+	text-decoration: none;
+}
+
+div#cgit div.footer a:hover {
+	text-decoration: underline;
+}
+
+div#cgit a.branch-deco {
+	color: #000;
+	margin: 0px 0.5em;
+	padding: 0px 0.25em;
+	background-color: #88ff88;
+	border: solid 1px #007700;
+}
+
+div#cgit a.tag-deco {
+	color: #000;
+	margin: 0px 0.5em;
+	padding: 0px 0.25em;
+	background-color: #ffff88;
+	border: solid 1px #777700;
+}
+
+div#cgit a.remote-deco {
+	color: #000;
+	margin: 0px 0.5em;
+	padding: 0px 0.25em;
+	background-color: #ccccff;
+	border: solid 1px #000077;
+}
+
+div#cgit a.deco {
+	color: #000;
+	margin: 0px 0.5em;
+	padding: 0px 0.25em;
+	background-color: #ff8888;
+	border: solid 1px #770000;
+}
+
+div#cgit div.commit-subject a.branch-deco,
+div#cgit div.commit-subject a.tag-deco,
+div#cgit div.commit-subject a.remote-deco,
+div#cgit div.commit-subject a.deco {
+	margin-left: 1em;
+	font-size: 75%;
+}
+
+div#cgit table.stats {
+	border: solid 1px black;
+	border-collapse: collapse;
+}
+
+div#cgit table.stats th {
+	text-align: left;
+	padding: 1px 0.5em;
+	background-color: #eee;
+	border: solid 1px black;
+}
+
+div#cgit table.stats td {
+	text-align: right;
+	padding: 1px 0.5em;
+	border: solid 1px black;
+}
+
+div#cgit table.stats td.total {
+	font-weight: bold;
+	text-align: left;
+}
+
+div#cgit table.stats td.sum {
+	color: #c00;
+	font-weight: bold;
+/*	background-color: #eee; */
+}
+
+div#cgit table.stats td.left {
+	text-align: left;
+}
+
+div#cgit table.vgraph {
+	border-collapse: separate;
+	border: solid 1px black;
+	height: 200px;
+}
+
+div#cgit table.vgraph th {
+	background-color: #eee;
+	font-weight: bold;
+	border: solid 1px white;
+	padding: 1px 0.5em;
+}
+
+div#cgit table.vgraph td {
+	vertical-align: bottom;
+	padding: 0px 10px;
+}
+
+div#cgit table.vgraph div.bar {
+	background-color: #eee;
+}
+
+div#cgit table.hgraph {
+	border: solid 1px black;
+	width: 800px;
+}
+
+div#cgit table.hgraph th {
+	background-color: #eee;
+	font-weight: bold;
+	border: solid 1px black;
+	padding: 1px 0.5em;
+}
+
+div#cgit table.hgraph td {
+	vertical-align: middle;
+	padding: 2px 2px;
+}
+
+div#cgit table.hgraph div.bar {
+	background-color: #eee;
+	height: 1em;
+}
+
+div#cgit table.ssdiff {
+	width: 100%;
+}
+
+div#cgit table.ssdiff td {
+	font-size: 75%;
+	font-family: monospace;
+	white-space: pre;
+	padding: 1px 4px 1px 4px;
+	border-left: solid 1px #aaa;
+	border-right: solid 1px #aaa;
+}
+
+div#cgit table.ssdiff td.add {
+	color: black;
+	background: #cfc;
+	min-width: 50%;
+}
+
+div#cgit table.ssdiff td.add_dark {
+	color: black;
+	background: #aca;
+	min-width: 50%;
+}
+
+div#cgit table.ssdiff span.add {
+	background: #cfc;
+	font-weight: bold;
+}
+
+div#cgit table.ssdiff td.del {
+	color: black;
+	background: #fcc;
+	min-width: 50%;
+}
+
+div#cgit table.ssdiff td.del_dark {
+	color: black;
+	background: #caa;
+	min-width: 50%;
+}
+
+div#cgit table.ssdiff span.del {
+	background: #fcc;
+	font-weight: bold;
+}
+
+div#cgit table.ssdiff td.changed {
+	color: black;
+	background: #ffc;
+	min-width: 50%;
+}
+
+div#cgit table.ssdiff td.changed_dark {
+	color: black;
+	background: #cca;
+	min-width: 50%;
+}
+
+div#cgit table.ssdiff td.lineno {
+	color: black;
+	background: #eee;
+	text-align: right;
+	width: 3em;
+	min-width: 3em;
+}
+
+div#cgit table.ssdiff td.hunk {
+	color: black;
+	background: #ccf;
+	border-top: solid 1px #aaa;
+	border-bottom: solid 1px #aaa;
+}
+
+div#cgit table.ssdiff td.head {
+	border-top: solid 1px #aaa;
+	border-bottom: solid 1px #aaa;
+}
+
+div#cgit table.ssdiff td.head div.head {
+	font-weight: bold;
+	color: black;
+}
+
+div#cgit table.ssdiff td.foot {
+	border-top: solid 1px #aaa;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+
+div#cgit table.ssdiff td.space {
+	border: none;
+}
+
+div#cgit table.ssdiff td.space div {
+	min-height: 3em;
+}
+š°‘Ôò§      Zå\ÈZå\È?ÌZî—H   #    :https://git.fleshless.org/cgit.css necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/2.0 200 OK
+server: nginx
+date: Sun, 29 Apr 2018 12:48:57 GMT
+content-type: text/css
+content-length: 13444
+last-modified: Thu, 27 Jul 2017 04:36:54 GMT
+etag: "59796de6-3484"
+accept-ranges: bytes
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+X-Firefox-Spdy: h2
+ original-response-headers server: nginx
+date: Sun, 29 Apr 2018 12:48:57 GMT
+content-type: text/css
+content-length: 13444
+last-modified: Thu, 27 Jul 2017 04:36:54 GMT
+etag: "59796de6-3484"
+accept-ranges: bytes
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+X-Firefox-Spdy: h2
+ uncompressed-len 0 net-response-time-onstart 511 net-response-time-onstop 658   4„

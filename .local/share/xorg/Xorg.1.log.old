@@ -1,0 +1,442 @@
+[  8423.353] _XSERVTransSocketUNIXCreateListener: ...SocketCreateListener() failed
+[  8423.353] _XSERVTransMakeAllCOTSServerListeners: server already running
+[  8423.353] (--) Log file renamed from "/home/josh/.local/share/xorg/Xorg.pid-8108.log" to "/home/josh/.local/share/xorg/Xorg.1.log"
+[  8423.354] 
+X.Org X Server 1.19.6
+Release Date: 2017-12-20
+[  8423.354] X Protocol Version 11, Revision 0
+[  8423.354] Build Operating System: Linux 4.15.6-1-ARCH x86_64 
+[  8423.354] Current Operating System: Linux Asuka-Dev 4.16.5-1-ARCH #1 SMP PREEMPT Thu Apr 26 16:53:40 UTC 2018 x86_64
+[  8423.354] Kernel command line: initrd=\initramfs-linux.img root=PARTUUID=6fb2ae70-ee5d-1a47-a55c-39f518ddb37b rw nvidia-drm.modeset=1
+[  8423.354] Build Date: 12 April 2018  05:31:07AM
+[  8423.354]  
+[  8423.354] Current version of pixman: 0.34.0
+[  8423.354] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[  8423.354] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[  8423.355] (==) Log file: "/home/josh/.local/share/xorg/Xorg.1.log", Time: Sat Apr 28 20:13:30 2018
+[  8423.355] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[  8423.355] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[  8423.355] (==) No Layout section.  Using the first Screen section.
+[  8423.355] (==) No screen section available. Using defaults.
+[  8423.355] (**) |-->Screen "Default Screen Section" (0)
+[  8423.355] (**) |   |-->Monitor "<default monitor>"
+[  8423.355] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[  8423.356] (==) Automatically adding devices
+[  8423.356] (==) Automatically enabling devices
+[  8423.356] (==) Automatically adding GPU devices
+[  8423.356] (==) Automatically binding GPU devices
+[  8423.356] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[  8423.356] (WW) The directory "/usr/share/fonts/misc/" does not exist.
+[  8423.356] 	Entry deleted from font path.
+[  8423.356] (WW) The directory "/usr/share/fonts/OTF/" does not exist.
+[  8423.356] 	Entry deleted from font path.
+[  8423.356] (WW) The directory "/usr/share/fonts/Type1/" does not exist.
+[  8423.356] 	Entry deleted from font path.
+[  8423.356] (WW) The directory "/usr/share/fonts/100dpi/" does not exist.
+[  8423.356] 	Entry deleted from font path.
+[  8423.356] (WW) The directory "/usr/share/fonts/75dpi/" does not exist.
+[  8423.356] 	Entry deleted from font path.
+[  8423.356] (==) FontPath set to:
+	/usr/share/fonts/TTF/
+[  8423.356] (==) ModulePath set to "/usr/lib/xorg/modules"
+[  8423.356] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[  8423.356] (II) Loader magic: 0x562500e5fd60
+[  8423.356] (II) Module ABI versions:
+[  8423.356] 	X.Org ANSI C Emulation: 0.4
+[  8423.356] 	X.Org Video Driver: 23.0
+[  8423.356] 	X.Org XInput driver : 24.1
+[  8423.356] 	X.Org Server Extension : 10.0
+[  8423.357] (++) using VT number 2
+
+[  8423.359] (II) systemd-logind: took control of session /org/freedesktop/login1/session/c5
+[  8423.360] (II) xfree86: Adding drm device (/dev/dri/card0)
+[  8423.361] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 13 paused 0
+[  8423.364] (**) OutputClass "nvidia" ModulePath extended to "/usr/lib/nvidia/xorg,/usr/lib/xorg/modules,/usr/lib/xorg/modules"
+[  8423.364] (**) OutputClass "nvidia" setting /dev/dri/card0 as PrimaryGPU
+[  8423.366] (--) PCI:*(0:35:0:0) 10de:11c2:3842:3655 rev 161, Mem @ 0xfc000000/16777216, 0xe8000000/134217728, 0xf0000000/33554432, I/O @ 0x0000e000/128, BIOS @ 0x????????/131072
+[  8423.366] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[  8423.366] (II) LoadModule: "glx"
+[  8423.367] (II) Loading /usr/lib/nvidia/xorg/libglx.so
+[  8423.371] (II) Module glx: vendor="NVIDIA Corporation"
+[  8423.371] 	compiled for 4.0.2, module version = 1.0.0
+[  8423.371] 	Module class: X.Org Server Extension
+[  8423.371] (II) NVIDIA GLX Module  390.48  Wed Mar 21 23:42:56 PDT 2018
+[  8423.371] (II) Applying OutputClass "nvidia" to /dev/dri/card0
+[  8423.371] 	loading driver: nvidia
+[  8423.371] (==) Matched nvidia as autoconfigured driver 0
+[  8423.371] (==) Matched nouveau as autoconfigured driver 1
+[  8423.371] (==) Matched nv as autoconfigured driver 2
+[  8423.371] (==) Matched nouveau as autoconfigured driver 3
+[  8423.371] (==) Matched nv as autoconfigured driver 4
+[  8423.371] (==) Matched modesetting as autoconfigured driver 5
+[  8423.371] (==) Matched fbdev as autoconfigured driver 6
+[  8423.371] (==) Matched vesa as autoconfigured driver 7
+[  8423.371] (==) Assigned the driver to the xf86ConfigLayout
+[  8423.371] (II) LoadModule: "nvidia"
+[  8423.371] (II) Loading /usr/lib/xorg/modules/drivers/nvidia_drv.so
+[  8423.372] (II) Module nvidia: vendor="NVIDIA Corporation"
+[  8423.372] 	compiled for 4.0.2, module version = 1.0.0
+[  8423.372] 	Module class: X.Org Video Driver
+[  8423.372] (II) LoadModule: "nouveau"
+[  8423.372] (WW) Warning, couldn't open module nouveau
+[  8423.372] (II) UnloadModule: "nouveau"
+[  8423.372] (II) Unloading nouveau
+[  8423.372] (EE) Failed to load module "nouveau" (module does not exist, 0)
+[  8423.372] (II) LoadModule: "nv"
+[  8423.373] (WW) Warning, couldn't open module nv
+[  8423.373] (II) UnloadModule: "nv"
+[  8423.373] (II) Unloading nv
+[  8423.373] (EE) Failed to load module "nv" (module does not exist, 0)
+[  8423.373] (II) LoadModule: "modesetting"
+[  8423.373] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[  8423.373] (II) Module modesetting: vendor="X.Org Foundation"
+[  8423.373] 	compiled for 1.19.6, module version = 1.19.6
+[  8423.373] 	Module class: X.Org Video Driver
+[  8423.373] 	ABI class: X.Org Video Driver, version 23.0
+[  8423.373] (II) LoadModule: "fbdev"
+[  8423.373] (WW) Warning, couldn't open module fbdev
+[  8423.373] (II) UnloadModule: "fbdev"
+[  8423.373] (II) Unloading fbdev
+[  8423.373] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[  8423.373] (II) LoadModule: "vesa"
+[  8423.374] (WW) Warning, couldn't open module vesa
+[  8423.374] (II) UnloadModule: "vesa"
+[  8423.374] (II) Unloading vesa
+[  8423.374] (EE) Failed to load module "vesa" (module does not exist, 0)
+[  8423.374] (II) NVIDIA dlloader X Driver  390.48  Wed Mar 21 23:18:15 PDT 2018
+[  8423.374] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[  8423.374] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[  8423.374] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+[  8423.374] (II) systemd-logind: releasing fd for 226:0
+[  8423.375] (II) Loading sub module "fb"
+[  8423.375] (II) LoadModule: "fb"
+[  8423.375] (II) Loading /usr/lib/xorg/modules/libfb.so
+[  8423.376] (II) Module fb: vendor="X.Org Foundation"
+[  8423.376] 	compiled for 1.19.6, module version = 1.0.0
+[  8423.376] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[  8423.376] (II) Loading sub module "wfb"
+[  8423.376] (II) LoadModule: "wfb"
+[  8423.376] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[  8423.376] (II) Module wfb: vendor="X.Org Foundation"
+[  8423.376] 	compiled for 1.19.6, module version = 1.0.0
+[  8423.376] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[  8423.376] (II) Loading sub module "ramdac"
+[  8423.376] (II) LoadModule: "ramdac"
+[  8423.376] (II) Module "ramdac" already built-in
+[  8423.376] (WW) Falling back to old probe method for modesetting
+[  8423.377] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[  8423.377] (II) NVIDIA(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[  8423.377] (==) NVIDIA(0): Depth 24, (==) framebuffer bpp 32
+[  8423.377] (==) NVIDIA(0): RGB weight 888
+[  8423.377] (==) NVIDIA(0): Default visual is TrueColor
+[  8423.377] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[  8423.377] (II) Applying OutputClass "nvidia" options to /dev/dri/card0
+[  8423.377] (**) NVIDIA(0): Option "AllowEmptyInitialConfiguration"
+[  8423.377] (**) NVIDIA(0): Enabling 2D acceleration
+[  8423.379] (--) NVIDIA(0): Valid display device(s) on GPU-0 at PCI:35:0:0
+[  8423.379] (--) NVIDIA(0):     CRT-0
+[  8423.379] (--) NVIDIA(0):     DFP-0
+[  8423.379] (--) NVIDIA(0):     DFP-1
+[  8423.379] (--) NVIDIA(0):     DFP-2
+[  8423.379] (--) NVIDIA(0):     DFP-3
+[  8423.379] (--) NVIDIA(0):     DFP-4 (boot)
+[  8423.382] (II) NVIDIA(0): NVIDIA GPU GeForce GTX 650 Ti BOOST (GK106) at PCI:35:0:0
+[  8423.382] (II) NVIDIA(0):     (GPU-0)
+[  8423.382] (--) NVIDIA(0): Memory: 1048576 kBytes
+[  8423.382] (--) NVIDIA(0): VideoBIOS: 80.06.59.00.52
+[  8423.382] (II) NVIDIA(0): Detected PCI Express Link width: 16X
+[  8423.385] (--) NVIDIA(GPU-0): CRT-0: disconnected
+[  8423.385] (--) NVIDIA(GPU-0): CRT-0: 400.0 MHz maximum pixel clock
+[  8423.385] (--) NVIDIA(GPU-0): 
+[  8423.387] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[  8423.387] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[  8423.387] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[  8423.388] (--) NVIDIA(GPU-0): 
+[  8423.388] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[  8423.388] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[  8423.388] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[  8423.388] (--) NVIDIA(GPU-0): 
+[  8423.389] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[  8423.389] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[  8423.389] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[  8423.389] (--) NVIDIA(GPU-0): 
+[  8423.389] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[  8423.389] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[  8423.389] (--) NVIDIA(GPU-0): DFP-3: 330.0 MHz maximum pixel clock
+[  8423.389] (--) NVIDIA(GPU-0): 
+[  8423.389] (--) NVIDIA(GPU-0): DELL U2718Q (DFP-4): connected
+[  8423.389] (--) NVIDIA(GPU-0): DELL U2718Q (DFP-4): Internal DisplayPort
+[  8423.389] (--) NVIDIA(GPU-0): DELL U2718Q (DFP-4): 960.0 MHz maximum pixel clock
+[  8423.389] (--) NVIDIA(GPU-0): 
+[  8423.396] (==) NVIDIA(0): 
+[  8423.396] (==) NVIDIA(0): No modes were requested; the default mode "nvidia-auto-select"
+[  8423.396] (==) NVIDIA(0):     will be used as the requested mode.
+[  8423.396] (==) NVIDIA(0): 
+[  8423.396] (II) NVIDIA(0): Validated MetaModes:
+[  8423.396] (II) NVIDIA(0):     "DFP-4:nvidia-auto-select"
+[  8423.396] (II) NVIDIA(0): Virtual screen size determined to be 3840 x 2160
+[  8423.405] (--) NVIDIA(0): DPI set to (159, 156); computed from "UseEdidDpi" X config
+[  8423.405] (--) NVIDIA(0):     option
+[  8423.405] (II) UnloadModule: "modesetting"
+[  8423.405] (II) Unloading modesetting
+[  8423.405] (--) Depth 24 pixmap format is 32 bpp
+[  8423.406] (II) NVIDIA: Using 6144.00 MB of virtual memory for indirect memory
+[  8423.406] (II) NVIDIA:     access.
+[  8423.410] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[  8423.410] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[  8423.410] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[  8423.410] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[  8423.410] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[  8423.410] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[  8423.410] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[  8423.410] (II) NVIDIA(0):     Config Options in the README.
+[  8423.443] (II) NVIDIA(0): Setting mode "DFP-4:nvidia-auto-select"
+[  8423.506] (==) NVIDIA(0): Disabling shared memory pixmaps
+[  8423.506] (==) NVIDIA(0): Backing store enabled
+[  8423.506] (==) NVIDIA(0): Silken mouse enabled
+[  8423.506] (==) NVIDIA(0): DPMS enabled
+[  8423.506] (WW) NVIDIA(0): Option "PrimaryGPU" is not used
+[  8423.506] (II) Loading sub module "dri2"
+[  8423.506] (II) LoadModule: "dri2"
+[  8423.506] (II) Module "dri2" already built-in
+[  8423.506] (II) NVIDIA(0): [DRI2] Setup complete
+[  8423.506] (II) NVIDIA(0): [DRI2]   VDPAU driver: nvidia
+[  8423.506] (--) RandR disabled
+[  8423.512] (II) Initializing extension GLX
+[  8423.512] (II) Indirect GLX disabled.
+[  8423.573] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[  8423.573] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[  8423.573] (**) Power Button: Applying InputClass "system-keyboard"
+[  8423.573] (II) LoadModule: "libinput"
+[  8423.574] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[  8423.576] (II) Module libinput: vendor="X.Org Foundation"
+[  8423.576] 	compiled for 1.19.6, module version = 0.27.1
+[  8423.576] 	Module class: X.Org XInput Driver
+[  8423.576] 	ABI class: X.Org XInput driver, version 24.1
+[  8423.576] (II) Using input driver 'libinput' for 'Power Button'
+[  8423.577] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 35 paused 0
+[  8423.577] (**) Power Button: always reports core events
+[  8423.577] (**) Option "Device" "/dev/input/event1"
+[  8423.577] (**) Option "_source" "server/udev"
+[  8423.578] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[  8423.578] (II) event1  - Power Button: device is a keyboard
+[  8423.578] (II) event1  - Power Button: device removed
+[  8423.578] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input1/event1"
+[  8423.578] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[  8423.578] (**) Option "xkb_layout" "us"
+[  8423.578] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[  8423.578] (II) event1  - Power Button: device is a keyboard
+[  8423.579] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[  8423.579] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[  8423.579] (**) Power Button: Applying InputClass "system-keyboard"
+[  8423.579] (II) Using input driver 'libinput' for 'Power Button'
+[  8423.580] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 38 paused 0
+[  8423.580] (**) Power Button: always reports core events
+[  8423.580] (**) Option "Device" "/dev/input/event0"
+[  8423.580] (**) Option "_source" "server/udev"
+[  8423.580] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[  8423.580] (II) event0  - Power Button: device is a keyboard
+[  8423.581] (II) event0  - Power Button: device removed
+[  8423.581] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[  8423.581] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[  8423.581] (**) Option "xkb_layout" "us"
+[  8423.581] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[  8423.581] (II) event0  - Power Button: device is a keyboard
+[  8423.582] (II) config/udev: Adding input device Corsair Corsair Gaming K68 Keyboard (/dev/input/event2)
+[  8423.582] (**) Corsair Corsair Gaming K68 Keyboard: Applying InputClass "libinput keyboard catchall"
+[  8423.582] (**) Corsair Corsair Gaming K68 Keyboard: Applying InputClass "system-keyboard"
+[  8423.582] (II) Using input driver 'libinput' for 'Corsair Corsair Gaming K68 Keyboard'
+[  8423.583] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 39 paused 0
+[  8423.583] (**) Corsair Corsair Gaming K68 Keyboard: always reports core events
+[  8423.583] (**) Option "Device" "/dev/input/event2"
+[  8423.584] (**) Option "_source" "server/udev"
+[  8423.584] (II) event2  - Corsair Corsair Gaming K68 Keyboard: is tagged by udev as: Keyboard
+[  8423.584] (II) event2  - Corsair Corsair Gaming K68 Keyboard: device is a keyboard
+[  8423.584] (II) event2  - Corsair Corsair Gaming K68 Keyboard: device removed
+[  8423.584] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:03:00.2/0000:04:08.0/0000:22:00.0/usb3/3-1/3-1.1/3-1.1:1.0/0003:1B1C:1B3F.0001/input/input2/event2"
+[  8423.584] (II) XINPUT: Adding extended input device "Corsair Corsair Gaming K68 Keyboard" (type: KEYBOARD, id 8)
+[  8423.584] (**) Option "xkb_layout" "us"
+[  8423.585] (II) event2  - Corsair Corsair Gaming K68 Keyboard: is tagged by udev as: Keyboard
+[  8423.585] (II) event2  - Corsair Corsair Gaming K68 Keyboard: device is a keyboard
+[  8423.587] (II) config/udev: Adding input device Corsair Corsair Gaming K68 Keyboard (/dev/input/event3)
+[  8423.587] (**) Corsair Corsair Gaming K68 Keyboard: Applying InputClass "libinput keyboard catchall"
+[  8423.587] (**) Corsair Corsair Gaming K68 Keyboard: Applying InputClass "system-keyboard"
+[  8423.587] (II) Using input driver 'libinput' for 'Corsair Corsair Gaming K68 Keyboard'
+[  8423.588] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 40 paused 0
+[  8423.588] (**) Corsair Corsair Gaming K68 Keyboard: always reports core events
+[  8423.588] (**) Option "Device" "/dev/input/event3"
+[  8423.588] (**) Option "_source" "server/udev"
+[  8423.589] (II) event3  - Corsair Corsair Gaming K68 Keyboard: is tagged by udev as: Keyboard
+[  8423.589] (II) event3  - Corsair Corsair Gaming K68 Keyboard: device is a keyboard
+[  8423.589] (II) event3  - Corsair Corsair Gaming K68 Keyboard: device removed
+[  8423.589] (II) libinput: Corsair Corsair Gaming K68 Keyboard: needs a virtual subdevice
+[  8423.589] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:03:00.2/0000:04:08.0/0000:22:00.0/usb3/3-1/3-1.1/3-1.1:1.1/0003:1B1C:1B3F.0002/input/input3/event3"
+[  8423.589] (II) XINPUT: Adding extended input device "Corsair Corsair Gaming K68 Keyboard" (type: MOUSE, id 9)
+[  8423.589] (**) Option "AccelerationScheme" "none"
+[  8423.589] (**) Corsair Corsair Gaming K68 Keyboard: (accel) selected scheme none/0
+[  8423.589] (**) Corsair Corsair Gaming K68 Keyboard: (accel) acceleration factor: 2.000
+[  8423.589] (**) Corsair Corsair Gaming K68 Keyboard: (accel) acceleration threshold: 4
+[  8423.590] (II) event3  - Corsair Corsair Gaming K68 Keyboard: is tagged by udev as: Keyboard
+[  8423.590] (II) event3  - Corsair Corsair Gaming K68 Keyboard: device is a keyboard
+[  8423.591] (II) config/udev: Adding input device Logitech Gaming Mouse G502 (/dev/input/event4)
+[  8423.591] (**) Logitech Gaming Mouse G502: Applying InputClass "libinput pointer catchall"
+[  8423.591] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502'
+[  8423.592] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 41 paused 0
+[  8423.592] (**) Logitech Gaming Mouse G502: always reports core events
+[  8423.592] (**) Option "Device" "/dev/input/event4"
+[  8423.592] (**) Option "_source" "server/udev"
+[  8423.593] (II) event4  - Logitech Gaming Mouse G502: is tagged by udev as: Mouse
+[  8423.593] (II) event4  - Logitech Gaming Mouse G502: device set to 2400 DPI
+[  8423.593] (II) event4  - Logitech Gaming Mouse G502: device is a pointer
+[  8423.593] (II) event4  - Logitech Gaming Mouse G502: device removed
+[  8423.593] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:03:00.2/0000:04:08.0/0000:22:00.0/usb3/3-1/3-1.2/3-1.2:1.0/0003:046D:C332.0003/input/input4/event4"
+[  8423.593] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502" (type: MOUSE, id 10)
+[  8423.593] (**) Option "AccelerationScheme" "none"
+[  8423.593] (**) Logitech Gaming Mouse G502: (accel) selected scheme none/0
+[  8423.593] (**) Logitech Gaming Mouse G502: (accel) acceleration factor: 2.000
+[  8423.593] (**) Logitech Gaming Mouse G502: (accel) acceleration threshold: 4
+[  8423.594] (II) event4  - Logitech Gaming Mouse G502: is tagged by udev as: Mouse
+[  8423.594] (II) event4  - Logitech Gaming Mouse G502: device set to 2400 DPI
+[  8423.594] (II) event4  - Logitech Gaming Mouse G502: device is a pointer
+[  8423.595] (II) config/udev: Adding input device Logitech Gaming Mouse G502 (/dev/input/mouse0)
+[  8423.595] (II) No input driver specified, ignoring this device.
+[  8423.595] (II) This device may have been added with another device file.
+[  8423.596] (II) config/udev: Adding input device Logitech Gaming Mouse G502 (/dev/input/event5)
+[  8423.596] (**) Logitech Gaming Mouse G502: Applying InputClass "libinput keyboard catchall"
+[  8423.596] (**) Logitech Gaming Mouse G502: Applying InputClass "system-keyboard"
+[  8423.596] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502'
+[  8423.597] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 42 paused 0
+[  8423.597] (**) Logitech Gaming Mouse G502: always reports core events
+[  8423.597] (**) Option "Device" "/dev/input/event5"
+[  8423.597] (**) Option "_source" "server/udev"
+[  8423.598] (II) event5  - Logitech Gaming Mouse G502: is tagged by udev as: Keyboard
+[  8423.598] (II) event5  - Logitech Gaming Mouse G502: device is a keyboard
+[  8423.598] (II) event5  - Logitech Gaming Mouse G502: device removed
+[  8423.598] (II) libinput: Logitech Gaming Mouse G502: needs a virtual subdevice
+[  8423.598] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:03:00.2/0000:04:08.0/0000:22:00.0/usb3/3-1/3-1.2/3-1.2:1.1/0003:046D:C332.0004/input/input5/event5"
+[  8423.598] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502" (type: MOUSE, id 11)
+[  8423.598] (**) Option "AccelerationScheme" "none"
+[  8423.598] (**) Logitech Gaming Mouse G502: (accel) selected scheme none/0
+[  8423.598] (**) Logitech Gaming Mouse G502: (accel) acceleration factor: 2.000
+[  8423.598] (**) Logitech Gaming Mouse G502: (accel) acceleration threshold: 4
+[  8423.599] (II) event5  - Logitech Gaming Mouse G502: is tagged by udev as: Keyboard
+[  8423.599] (II) event5  - Logitech Gaming Mouse G502: device is a keyboard
+[  8423.600] (II) config/udev: Adding input device C-Media Electronics Inc. USB Audio Device (/dev/input/event6)
+[  8423.600] (**) C-Media Electronics Inc. USB Audio Device: Applying InputClass "libinput keyboard catchall"
+[  8423.600] (**) C-Media Electronics Inc. USB Audio Device: Applying InputClass "system-keyboard"
+[  8423.600] (II) Using input driver 'libinput' for 'C-Media Electronics Inc. USB Audio Device'
+[  8423.601] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 43 paused 0
+[  8423.601] (**) C-Media Electronics Inc. USB Audio Device: always reports core events
+[  8423.601] (**) Option "Device" "/dev/input/event6"
+[  8423.601] (**) Option "_source" "server/udev"
+[  8423.602] (II) event6  - C-Media Electronics Inc. USB Audio Device: is tagged by udev as: Keyboard
+[  8423.602] (II) event6  - C-Media Electronics Inc. USB Audio Device: device is a keyboard
+[  8423.602] (II) event6  - C-Media Electronics Inc. USB Audio Device: device removed
+[  8423.602] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:03:00.2/0000:04:08.0/0000:22:00.0/usb3/3-1/3-1.4/3-1.4:1.3/0003:0D8C:0012.0005/input/input6/event6"
+[  8423.602] (II) XINPUT: Adding extended input device "C-Media Electronics Inc. USB Audio Device" (type: KEYBOARD, id 12)
+[  8423.602] (**) Option "xkb_layout" "us"
+[  8423.603] (II) event6  - C-Media Electronics Inc. USB Audio Device: is tagged by udev as: Keyboard
+[  8423.603] (II) event6  - C-Media Electronics Inc. USB Audio Device: device is a keyboard
+[  8423.604] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event16)
+[  8423.604] (II) No input driver specified, ignoring this device.
+[  8423.604] (II) This device may have been added with another device file.
+[  8423.604] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event17)
+[  8423.604] (II) No input driver specified, ignoring this device.
+[  8423.604] (II) This device may have been added with another device file.
+[  8423.605] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event18)
+[  8423.605] (II) No input driver specified, ignoring this device.
+[  8423.605] (II) This device may have been added with another device file.
+[  8423.605] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=9 (/dev/input/event19)
+[  8423.605] (II) No input driver specified, ignoring this device.
+[  8423.605] (II) This device may have been added with another device file.
+[  8423.606] (II) config/udev: Adding input device HD-Audio Generic Line (/dev/input/event10)
+[  8423.606] (II) No input driver specified, ignoring this device.
+[  8423.606] (II) This device may have been added with another device file.
+[  8423.606] (II) config/udev: Adding input device HD-Audio Generic Line Out Front (/dev/input/event11)
+[  8423.606] (II) No input driver specified, ignoring this device.
+[  8423.606] (II) This device may have been added with another device file.
+[  8423.606] (II) config/udev: Adding input device HD-Audio Generic Line Out Surround (/dev/input/event12)
+[  8423.606] (II) No input driver specified, ignoring this device.
+[  8423.606] (II) This device may have been added with another device file.
+[  8423.607] (II) config/udev: Adding input device HD-Audio Generic Line Out CLFE (/dev/input/event13)
+[  8423.607] (II) No input driver specified, ignoring this device.
+[  8423.607] (II) This device may have been added with another device file.
+[  8423.607] (II) config/udev: Adding input device HD-Audio Generic Line Out Side (/dev/input/event14)
+[  8423.607] (II) No input driver specified, ignoring this device.
+[  8423.607] (II) This device may have been added with another device file.
+[  8423.608] (II) config/udev: Adding input device HD-Audio Generic Front Headphone (/dev/input/event15)
+[  8423.608] (II) No input driver specified, ignoring this device.
+[  8423.608] (II) This device may have been added with another device file.
+[  8423.608] (II) config/udev: Adding input device HD-Audio Generic Front Mic (/dev/input/event8)
+[  8423.608] (II) No input driver specified, ignoring this device.
+[  8423.608] (II) This device may have been added with another device file.
+[  8423.609] (II) config/udev: Adding input device HD-Audio Generic Rear Mic (/dev/input/event9)
+[  8423.609] (II) No input driver specified, ignoring this device.
+[  8423.609] (II) This device may have been added with another device file.
+[  8423.609] (II) config/udev: Adding input device PC Speaker (/dev/input/event7)
+[  8423.609] (II) No input driver specified, ignoring this device.
+[  8423.609] (II) This device may have been added with another device file.
+[  8423.614] (**) Corsair Corsair Gaming K68 Keyboard: Applying InputClass "libinput keyboard catchall"
+[  8423.614] (**) Corsair Corsair Gaming K68 Keyboard: Applying InputClass "system-keyboard"
+[  8423.614] (II) Using input driver 'libinput' for 'Corsair Corsair Gaming K68 Keyboard'
+[  8423.614] (II) systemd-logind: returning pre-existing fd for /dev/input/event3 13:67
+[  8423.614] (**) Corsair Corsair Gaming K68 Keyboard: always reports core events
+[  8423.614] (**) Option "Device" "/dev/input/event3"
+[  8423.614] (**) Option "_source" "_driver/libinput"
+[  8423.614] (II) libinput: Corsair Corsair Gaming K68 Keyboard: is a virtual subdevice
+[  8423.614] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:03:00.2/0000:04:08.0/0000:22:00.0/usb3/3-1/3-1.1/3-1.1:1.1/0003:1B1C:1B3F.0002/input/input3/event3"
+[  8423.614] (II) XINPUT: Adding extended input device "Corsair Corsair Gaming K68 Keyboard" (type: KEYBOARD, id 13)
+[  8423.614] (**) Option "xkb_layout" "us"
+[  8423.614] (**) Logitech Gaming Mouse G502: Applying InputClass "libinput keyboard catchall"
+[  8423.614] (**) Logitech Gaming Mouse G502: Applying InputClass "system-keyboard"
+[  8423.614] (II) Using input driver 'libinput' for 'Logitech Gaming Mouse G502'
+[  8423.614] (II) systemd-logind: returning pre-existing fd for /dev/input/event5 13:69
+[  8423.614] (**) Logitech Gaming Mouse G502: always reports core events
+[  8423.614] (**) Option "Device" "/dev/input/event5"
+[  8423.614] (**) Option "_source" "_driver/libinput"
+[  8423.614] (II) libinput: Logitech Gaming Mouse G502: is a virtual subdevice
+[  8423.614] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:03:00.2/0000:04:08.0/0000:22:00.0/usb3/3-1/3-1.2/3-1.2:1.1/0003:046D:C332.0004/input/input5/event5"
+[  8423.614] (II) XINPUT: Adding extended input device "Logitech Gaming Mouse G502" (type: KEYBOARD, id 14)
+[  8423.614] (**) Option "xkb_layout" "us"
+[ 11388.465] (**) Option "fd" "35"
+[ 11388.465] (II) event1  - Power Button: device removed
+[ 11388.465] (**) Option "fd" "38"
+[ 11388.465] (II) event0  - Power Button: device removed
+[ 11388.465] (**) Option "fd" "39"
+[ 11388.465] (II) event2  - Corsair Corsair Gaming K68 Keyboard: device removed
+[ 11388.465] (**) Option "fd" "40"
+[ 11388.466] (**) Option "fd" "41"
+[ 11388.466] (II) event4  - Logitech Gaming Mouse G502: device removed
+[ 11388.466] (**) Option "fd" "42"
+[ 11388.466] (**) Option "fd" "43"
+[ 11388.466] (II) event6  - C-Media Electronics Inc. USB Audio Device: device removed
+[ 11388.466] (**) Option "fd" "40"
+[ 11388.466] (II) event3  - Corsair Corsair Gaming K68 Keyboard: device removed
+[ 11388.466] (**) Option "fd" "42"
+[ 11388.466] (II) event5  - Logitech Gaming Mouse G502: device removed
+[ 11388.468] (II) UnloadModule: "libinput"
+[ 11388.468] (II) systemd-logind: not releasing fd for 13:69, still in use
+[ 11388.468] (II) UnloadModule: "libinput"
+[ 11388.468] (II) systemd-logind: not releasing fd for 13:67, still in use
+[ 11388.468] (II) UnloadModule: "libinput"
+[ 11388.468] (II) systemd-logind: releasing fd for 13:70
+[ 11388.499] (II) UnloadModule: "libinput"
+[ 11388.499] (II) systemd-logind: releasing fd for 13:69
+[ 11388.555] (II) UnloadModule: "libinput"
+[ 11388.555] (II) systemd-logind: releasing fd for 13:68
+[ 11388.592] (II) UnloadModule: "libinput"
+[ 11388.592] (II) systemd-logind: releasing fd for 13:67
+[ 11388.635] (II) UnloadModule: "libinput"
+[ 11388.635] (II) systemd-logind: releasing fd for 13:66
+[ 11388.662] (II) UnloadModule: "libinput"
+[ 11388.662] (II) systemd-logind: releasing fd for 13:64
+[ 11388.702] (II) UnloadModule: "libinput"
+[ 11388.702] (II) systemd-logind: releasing fd for 13:65
+[ 11388.821] (II) NVIDIA(GPU-0): Deleting GPU-0
+[ 11388.825] (II) Server terminated successfully (0). Closing log file.

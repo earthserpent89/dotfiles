@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    
+    <link rel="stylesheet" href="/public/css/screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/colorbox.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/tipsy.css" type="text/css" media="screen">
+    
+    <script src="/public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.ui.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.colorbox.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.tipsy.js" type="text/javascript"></script>
+    <script src="/public/js/ds.js" type="text/javascript"></script>
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-24042959-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+    <title>DotShare.it</title>
+</head>
+
+<body>
+
+<div id="header">
+    <div id="nav">
+        <ul class="label">
+            <li><span class="orange">.</span>share</li>
+        </ul>
+        
+        <ul>
+            <li>guest<span class="gray">@</span>dotshare <span class="gray">[</span>~<span class="gray">]</span> <span class="gray">$</span> ls -a nav/</li>
+            
+            <li><a href="/">..</a></li>
+            <li><a href="/news/">news</a></li>
+            <li><a href="/dots/">browse</a></li>
+            
+            
+            
+            <li><a href="/about/">about</a></li>
+            
+            
+            
+            
+                <li><a href="/login/">login</a></li>
+                <li><a href="/register/">register</a></li>
+            
+        </ul>
+    </div>
+    
+    <div id="donate">
+        <ul>
+            <li><a href="/donate/">donate</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="commands">
+    <div id="command">
+        <p>
+    <span class="dark-gray">guest</span>@<span class="dark-gray">dotshare</span> [<span class="dark-gray">~/groups/fms/ranger</span>] <span class="dark-gray">$</span> ls Rangy/ | cat
+</p>
+    </div>
+</div>
+
+<div id="container">
+    <div id="categories">
+    <ul>
+        
+            <li class="label">
+                chat/
+                
+                <ul>
+                    
+                        <li><a href="/category/chat/irssi/">irssi</a></li>
+                    
+                        <li><a href="/category/chat/weechat/">weechat</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                emacs/
+                
+                <ul>
+                    
+                        <li><a href="/category/emacs/colors/">colors</a></li>
+                    
+                        <li><a href="/category/emacs/config/">config</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                fms/
+                
+                <ul>
+                    
+                        <li><a href="/category/fms/mc/">mc</a></li>
+                    
+                        <li><a href="/category/fms/ranger/">ranger</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                info/
+                
+                <ul>
+                    
+                        <li><a href="/category/info/conky/">conky</a></li>
+                    
+                        <li><a href="/category/info/dzen2/">dzen2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                misc/
+                
+                <ul>
+                    
+                        <li><a href="/category/misc/misc/">misc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                mpd/
+                
+                <ul>
+                    
+                        <li><a href="/category/mpd/ncmpcpp/">ncmpcpp</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                panels/
+                
+                <ul>
+                    
+                        <li><a href="/category/panels/bmpanel/">bmpanel</a></li>
+                    
+                        <li><a href="/category/panels/lxpanel/">lxpanel</a></li>
+                    
+                        <li><a href="/category/panels/pypanel/">pypanel</a></li>
+                    
+                        <li><a href="/category/panels/tint2/">tint2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                shells/
+                
+                <ul>
+                    
+                        <li><a href="/category/shells/bash/">bash</a></li>
+                    
+                        <li><a href="/category/shells/tcsh/">tcsh</a></li>
+                    
+                        <li><a href="/category/shells/zsh/">zsh</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                terms/
+                
+                <ul>
+                    
+                        <li><a href="/category/terms/colors/">colors</a></li>
+                    
+                        <li><a href="/category/terms/screen/">screen</a></li>
+                    
+                        <li><a href="/category/terms/tmux/">tmux</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                vim/
+                
+                <ul>
+                    
+                        <li><a href="/category/vim/colors/">colors</a></li>
+                    
+                        <li><a href="/category/vim/rc/">rc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                wms/
+                
+                <ul>
+                    
+                        <li><a href="/category/wms/awesome/">awesome</a></li>
+                    
+                        <li><a href="/category/wms/bspwm/">bspwm</a></li>
+                    
+                        <li><a href="/category/wms/dwm/">dwm</a></li>
+                    
+                        <li><a href="/category/wms/fluxbox/">fluxbox</a></li>
+                    
+                        <li><a href="/category/wms/fvwm/">fvwm</a></li>
+                    
+                        <li><a href="/category/wms/herbstluft/">herbstluft</a></li>
+                    
+                        <li><a href="/category/wms/i3/">i3</a></li>
+                    
+                        <li><a href="/category/wms/monster/">monster</a></li>
+                    
+                        <li><a href="/category/wms/openbox/">openbox</a></li>
+                    
+                        <li><a href="/category/wms/ratpoison/">ratpoison</a></li>
+                    
+                        <li><a href="/category/wms/spectrwm/">spectrwm</a></li>
+                    
+                        <li><a href="/category/wms/stumpwm/">stumpwm</a></li>
+                    
+                        <li><a href="/category/wms/subtle/">subtle</a></li>
+                    
+                        <li><a href="/category/wms/wmfs/">wmfs</a></li>
+                    
+                        <li><a href="/category/wms/xmonad/">xmonad</a></li>
+                    
+                </ul>
+            </li>
+        
+    </ul>
+</div>
+    
+    <div id="content">
+        
+    
+
+        
+    
+    
+        <div class="item">
+            <div class="header">
+                <h4>Rangy (<a href="/public/images/uploads/438.png" target="_blank">scrot</a>) (<span class="green">+9</span> <a href="/dots/438/likes/">likes</a>)</h4>
+                <h5><a href="/~Shinryuu/">Shinryuu</a> Sep 12, 2012 (fms/<a href="/category/fms/ranger/">ranger</a>)</h5>
+            </div>
+        </div>
+        
+        <div class="item file">
+            <div class="header">
+                <h4>rangy.py<span class="right">(<a href="/dots/438/0/raw/">raw</a>, <a href="/dots/438/0/dl/">dl</a>)</span></h4>
+            </div>
+            
+            <div class="content">
+                
+                    <div id="scrot">
+                        <p>
+                            <a href="/public/images/uploads/438.png" target="_blank"><img src="/public/images/uploads/438-thumb.png"></a>
+                        </p>
+                        
+                        <div class="overlay">
+                            <p>SCROT</p>
+                        </div>
+                    </div>
+                
+                
+                <div class="dot first">
+                    <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107</pre></div></td><td class="code"><div class="highlight"><pre><span class="c"># Ranger theme</span>
+<span class="c"># Mod of Spacecolors</span>
+
+<span class="kn">from</span> <span class="nn">ranger.gui.colorscheme</span> <span class="kn">import</span> <span class="n">ColorScheme</span>
+<span class="kn">from</span> <span class="nn">ranger.gui.color</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="k">class</span> <span class="nc">Default</span><span class="p">(</span><span class="n">ColorScheme</span><span class="p">):</span>
+	<span class="k">def</span> <span class="nf">use</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">context</span><span class="p">):</span>
+		<span class="n">fg</span><span class="p">,</span> <span class="n">bg</span><span class="p">,</span> <span class="n">attr</span> <span class="o">=</span> <span class="n">default_colors</span>
+
+		<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">reset</span><span class="p">:</span>
+			<span class="k">return</span> <span class="n">default_colors</span>
+
+		<span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">in_browser</span><span class="p">:</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">selected</span><span class="p">:</span>
+				<span class="n">attr</span> <span class="o">=</span> <span class="n">reverse</span>
+			<span class="k">else</span><span class="p">:</span>
+				<span class="n">attr</span> <span class="o">=</span> <span class="n">normal</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">empty</span> <span class="ow">or</span> <span class="n">context</span><span class="o">.</span><span class="n">error</span><span class="p">:</span>
+				<span class="n">bg</span> <span class="o">=</span> <span class="n">red</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">border</span><span class="p">:</span>
+				<span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+				<span class="n">fg</span> <span class="o">=</span> <span class="n">black</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">media</span><span class="p">:</span>
+				<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">image</span><span class="p">:</span>
+					<span class="n">fg</span> <span class="o">=</span> <span class="n">yellow</span>
+				<span class="k">else</span><span class="p">:</span>
+					<span class="n">fg</span> <span class="o">=</span> <span class="n">green</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">container</span><span class="p">:</span>
+				<span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+				<span class="n">fg</span> <span class="o">=</span> <span class="n">magenta</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">directory</span><span class="p">:</span>
+				<span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+				<span class="n">fg</span> <span class="o">=</span> <span class="n">black</span>
+			<span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">executable</span> <span class="ow">and</span> <span class="ow">not</span> \
+					<span class="nb">any</span><span class="p">((</span><span class="n">context</span><span class="o">.</span><span class="n">media</span><span class="p">,</span> <span class="n">context</span><span class="o">.</span><span class="n">container</span><span class="p">,</span>
+						<span class="n">context</span><span class="o">.</span><span class="n">fifo</span><span class="p">,</span> <span class="n">context</span><span class="o">.</span><span class="n">socket</span><span class="p">)):</span>
+				<span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+				<span class="n">fg</span> <span class="o">=</span> <span class="n">green</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">socket</span><span class="p">:</span>
+				<span class="n">fg</span> <span class="o">=</span> <span class="n">magenta</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">fifo</span> <span class="ow">or</span> <span class="n">context</span><span class="o">.</span><span class="n">device</span><span class="p">:</span>
+				<span class="n">fg</span> <span class="o">=</span> <span class="n">yellow</span>
+				<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">device</span><span class="p">:</span>
+					<span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">link</span><span class="p">:</span>
+				<span class="n">fg</span> <span class="o">=</span> <span class="n">context</span><span class="o">.</span><span class="n">good</span> <span class="ow">and</span> <span class="n">cyan</span> <span class="ow">or</span> <span class="n">magenta</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">tag_marker</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">context</span><span class="o">.</span><span class="n">selected</span><span class="p">:</span>
+				<span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+				<span class="k">if</span> <span class="n">fg</span> <span class="ow">in</span> <span class="p">(</span><span class="n">red</span><span class="p">,</span> <span class="n">magenta</span><span class="p">):</span>
+					<span class="n">fg</span> <span class="o">=</span> <span class="n">white</span>
+				<span class="k">else</span><span class="p">:</span>
+					<span class="n">fg</span> <span class="o">=</span> <span class="n">red</span>
+			<span class="k">if</span> <span class="ow">not</span> <span class="n">context</span><span class="o">.</span><span class="n">selected</span> <span class="ow">and</span> <span class="p">(</span><span class="n">context</span><span class="o">.</span><span class="n">cut</span> <span class="ow">or</span> <span class="n">context</span><span class="o">.</span><span class="n">copied</span><span class="p">):</span>
+				<span class="n">fg</span> <span class="o">=</span> <span class="n">black</span>
+				<span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">main_column</span><span class="p">:</span>
+				<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">selected</span><span class="p">:</span>
+					<span class="n">attr</span> <span class="o">|=</span> <span class="n">normal</span>
+				<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">marked</span><span class="p">:</span>
+					<span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+					<span class="n">fg</span> <span class="o">=</span> <span class="n">yellow</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">badinfo</span><span class="p">:</span>
+				<span class="k">if</span> <span class="n">attr</span> <span class="o">&amp;</span> <span class="n">reverse</span><span class="p">:</span>
+					<span class="n">bg</span> <span class="o">=</span> <span class="n">magenta</span>
+				<span class="k">else</span><span class="p">:</span>
+					<span class="n">fg</span> <span class="o">=</span> <span class="n">magenta</span>
+
+		<span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">in_titlebar</span><span class="p">:</span>
+			<span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">hostname</span><span class="p">:</span>
+				<span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+				<span class="n">fg</span> <span class="o">=</span> <span class="n">context</span><span class="o">.</span><span class="n">bad</span> <span class="ow">and</span> <span class="n">black</span> <span class="ow">or</span> <span class="n">black</span>
+			<span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">directory</span><span class="p">:</span>
+				<span class="n">fg</span> <span class="o">=</span> <span class="n">cyan</span>
+			<span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">tab</span><span class="p">:</span>
+				<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">good</span><span class="p">:</span>
+					<span class="n">bg</span> <span class="o">=</span> <span class="n">green</span>
+			<span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">link</span><span class="p">:</span>
+				<span class="n">fg</span> <span class="o">=</span> <span class="n">cyan</span>
+
+		<span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">in_statusbar</span><span class="p">:</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">permissions</span><span class="p">:</span>
+				<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">good</span><span class="p">:</span>
+					<span class="n">fg</span> <span class="o">=</span> <span class="n">cyan</span>
+				<span class="k">elif</span> <span class="n">context</span><span class="o">.</span><span class="n">bad</span><span class="p">:</span>
+					<span class="n">fg</span> <span class="o">=</span> <span class="n">magenta</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">marked</span><span class="p">:</span>
+				<span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span> <span class="o">|</span> <span class="n">reverse</span>
+				<span class="n">fg</span> <span class="o">=</span> <span class="n">yellow</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">message</span><span class="p">:</span>
+				<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">bad</span><span class="p">:</span>
+					<span class="n">attr</span> <span class="o">|=</span> <span class="n">bold</span>
+					<span class="n">fg</span> <span class="o">=</span> <span class="n">red</span>
+
+		<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">text</span><span class="p">:</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">highlight</span><span class="p">:</span>
+				<span class="n">attr</span> <span class="o">|=</span> <span class="n">reverse</span>
+
+		<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">in_taskview</span><span class="p">:</span>
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">title</span><span class="p">:</span>
+				<span class="n">fg</span> <span class="o">=</span> <span class="n">blue</span>
+
+			<span class="k">if</span> <span class="n">context</span><span class="o">.</span><span class="n">selected</span><span class="p">:</span>
+				<span class="n">attr</span> <span class="o">|=</span> <span class="n">reverse</span>
+
+		<span class="k">return</span> <span class="n">fg</span><span class="p">,</span> <span class="n">bg</span><span class="p">,</span> <span class="n">attr</span>
+</pre></div>
+</td></tr></table>
+                </div>
+                
+                <div class="overlay short">
+                    <p>CLICK TO VIEW</p>
+                </div>
+                
+                <div class="minimize">
+                    <p>x</p>
+                </div>
+            </div>
+        </div>
+        
+        
+            
+            
+            <div class="multi">
+                
+                    <div class="item file">
+                        <div class="header">
+                            
+                                <h4>options.py<span class="right">(<a href="/dots/438/1/raw/">raw</a>, <a href="/dots/438/1/dl/">dl</a>)</span></h4>
+                            
+                        </div>
+                        
+                        <div class="content">
+                            <div class="dot">
+                                <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216</pre></div></td><td class="code"><div class="highlight"><pre><span class="c"># -*- coding: utf-8 -*-</span>
+<span class="c"># Copyright (C) 2009, 2010, 2011  Roman Zimbelmann &lt;romanz@lavabit.com&gt;</span>
+<span class="c"># This configuration file is licensed under the same terms as ranger.</span>
+<span class="c"># ===================================================================</span>
+<span class="c"># This is the main configuration file of ranger.  It consists of python</span>
+<span class="c"># code, but fear not, you don&#39;t need any python knowledge for changing</span>
+<span class="c"># the settings.</span>
+<span class="c">#</span>
+<span class="c"># Lines beginning with # are comments.  To enable a line, remove the #.</span>
+<span class="c">#</span>
+<span class="c"># You can customize ranger in the file ~/.config/ranger/options.py.</span>
+<span class="c"># It has the same syntax as this file.  In fact, you can just copy this</span>
+<span class="c"># file there with `ranger --copy-config=options&#39; and make your modifications.</span>
+<span class="c"># But make sure you update your configs when you update ranger.</span>
+<span class="c"># ===================================================================</span>
+
+<span class="c"># Load the deault rc.conf file?  If you&#39;ve copied it to your configuration</span>
+<span class="c"># direcory, then you should deactivate this option.</span>
+<span class="n">load_default_rc</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="c"># How many columns are there, and what are their relative widths?</span>
+<span class="n">column_ratios</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+
+<span class="c"># Which files should be hidden?  Toggle this by typing `zh&#39; or</span>
+<span class="c"># changing the setting `show_hidden&#39;</span>
+<span class="n">hidden_filter</span> <span class="o">=</span> <span class="s">r&#39;^\.|\.(?:pyc|pyo|bak|swp)$|^lost\+found$|^__(py)?cache__$&#39;</span>
+<span class="n">show_hidden</span> <span class="o">=</span> <span class="bp">False</span>
+
+<span class="c"># Which script is used to generate file previews?</span>
+<span class="c"># ranger ships with scope.sh, a script that calls external programs (see</span>
+<span class="c"># README for dependencies) to preview images, archives, etc.</span>
+<span class="n">preview_script</span> <span class="o">=</span> <span class="s">&#39;~/.config/ranger/scope.sh&#39;</span>
+
+<span class="c"># Use that external preview script or display internal plain text previews?</span>
+<span class="n">use_preview_script</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="c"># Use a unicode &quot;...&quot; character to mark cut-off filenames?</span>
+<span class="n">unicode_ellipsis</span> <span class="o">=</span> <span class="bp">False</span>
+
+<span class="c"># Show dotfiles in the bookmark preview box?</span>
+<span class="n">show_hidden_bookmarks</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="c"># Which colorscheme to use?  These colorschemes are available by default:</span>
+<span class="c"># default, default88, jungle, snow</span>
+<span class="c"># Snow is monochrome and default88 uses 88 colors.</span>
+<span class="n">colorscheme</span> <span class="o">=</span> <span class="s">&#39;rangy&#39;</span>
+
+<span class="c"># Preview files on the rightmost column?</span>
+<span class="c"># And collapse (shrink) the last column if there is nothing to preview?</span>
+<span class="n">preview_files</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="n">preview_directories</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="n">collapse_preview</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="c"># Save the console history on exit?</span>
+<span class="n">save_console_history</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="c"># Draw a progress bar in the status bar which displays the average state of all</span>
+<span class="c"># currently running tasks which support progress bars?</span>
+<span class="n">draw_progress_bar_in_status_bar</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="c"># Draw borders around columns?</span>
+<span class="n">draw_borders</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="n">draw_bookmark_borders</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="c"># Display the directory name in tabs?</span>
+<span class="n">dirname_in_tabs</span> <span class="o">=</span> <span class="bp">False</span>
+
+<span class="c"># Enable the mouse support?</span>
+<span class="n">mouse_enabled</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="c"># Display the file size in the main column or status bar?</span>
+<span class="n">display_size_in_main_column</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="n">display_size_in_status_bar</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="c"># Display files tags in all columns or only in main column?</span>
+<span class="n">display_tags_in_all_columns</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="c"># Set a title for the window?</span>
+<span class="n">update_title</span> <span class="o">=</span> <span class="bp">False</span>
+
+<span class="c"># Shorten the title if it gets long?  The number defines how many</span>
+<span class="c"># directories are displayed at once, False turns off this feature.</span>
+<span class="n">shorten_title</span> <span class="o">=</span> <span class="mi">3</span>
+
+<span class="c"># Abbreviate $HOME with ~ in the titlebar (first line) of ranger?</span>
+<span class="n">tilde_in_titlebar</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="c"># How many directory-changes or console-commands should be kept in history?</span>
+<span class="n">max_history_size</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="n">max_console_history_size</span> <span class="o">=</span> <span class="mi">50</span>
+
+<span class="c"># Try to keep so much space between the top/bottom border when scrolling:</span>
+<span class="n">scroll_offset</span> <span class="o">=</span> <span class="mi">8</span>
+
+<span class="c"># Flush the input after each key hit?  (Noticable when ranger lags)</span>
+<span class="n">flushinput</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="c"># Padding on the right when there&#39;s no preview?</span>
+<span class="c"># This allows you to click into the space to run the file.</span>
+<span class="n">padding_right</span> <span class="o">=</span> <span class="bp">False</span>
+
+<span class="c"># Save bookmarks (used with mX and `X) instantly?</span>
+<span class="c"># This helps to synchronize bookmarks between multiple ranger</span>
+<span class="c"># instances but leads to *slight* performance loss.</span>
+<span class="c"># When false, bookmarks are saved when ranger is exited.</span>
+<span class="n">autosave_bookmarks</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="c"># You can display the &quot;real&quot; cumulative size of directories by using the</span>
+<span class="c"># command :get_cumulative_size or typing &quot;dc&quot;.  The size is expensive to</span>
+<span class="c"># calculate and will not be updated automatically.  You can choose</span>
+<span class="c"># to update it automatically though by turning on this option:</span>
+<span class="n">autoupdate_cumulative_size</span> <span class="o">=</span> <span class="bp">False</span>
+
+<span class="c"># Makes sense for screen readers:</span>
+<span class="n">show_cursor</span> <span class="o">=</span> <span class="bp">False</span>
+
+<span class="c"># One of: size, basename, mtime, type</span>
+<span class="n">sort</span> <span class="o">=</span> <span class="s">&#39;natural&#39;</span>
+<span class="n">sort_reverse</span> <span class="o">=</span> <span class="bp">False</span>
+<span class="n">sort_case_insensitive</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="n">sort_directories_first</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="c"># Enable this if key combinations with the Alt Key don&#39;t work for you.</span>
+<span class="c"># (Especially on xterm)</span>
+<span class="n">xterm_alt_key</span> <span class="o">=</span> <span class="bp">False</span>
+
+<span class="c"># A function that is called when the user interface is being set up.</span>
+<span class="n">init_function</span> <span class="o">=</span> <span class="bp">None</span>
+
+<span class="c"># You can use it to initialize some custom functionality or bind singals</span>
+<span class="c">#def init_function(fm):</span>
+<span class="c">#	fm.notify(&quot;Hello :)&quot;)</span>
+<span class="c">#	def on_tab_change(signal):</span>
+<span class="c">#		signal.origin.notify(&quot;Changing tab! Yay!&quot;)</span>
+<span class="c">#	fm.signal_bind(&quot;tab.change&quot;, on_tab_change)</span>
+
+<span class="c"># The color scheme overlay.  Explained below.</span>
+<span class="n">colorscheme_overlay</span> <span class="o">=</span> <span class="bp">None</span>
+
+<span class="c">## Apply an overlay function to the colorscheme.  It will be called with</span>
+<span class="c">## 4 arguments: the context and the 3 values (fg, bg, attr) returned by</span>
+<span class="c">## the original use() function of your colorscheme.  The return value</span>
+<span class="c">## must be a 3-tuple of (fg, bg, attr).</span>
+<span class="c">## Note: Here, the colors/attributes aren&#39;t directly imported into</span>
+<span class="c">## the namespace but have to be accessed with color.xyz.</span>
+
+<span class="c">#from ranger.gui import color</span>
+<span class="c">#def colorscheme_overlay(context, fg, bg, attr):</span>
+<span class="c">#	if context.directory and attr &amp; color.bold and \</span>
+<span class="c">#			not any((context.marked, context.selected)):</span>
+<span class="c">#		attr ^= color.bold  # I don&#39;t like bold directories!</span>
+<span class="c">#</span>
+<span class="c">#	if context.main_column and context.selected:</span>
+<span class="c">#		fg, bg = color.red, color.default  # To highlight the main column!</span>
+<span class="c">#</span>
+<span class="c">#	return fg, bg, attr</span>
+
+
+<span class="c"># ===================================================================</span>
+<span class="c"># Beware: from here on, you are on your own.  This part requires python</span>
+<span class="c"># knowledge.</span>
+<span class="c">#</span>
+<span class="c"># Since python is a dynamic language, it gives you the power to replace any</span>
+<span class="c"># part of ranger without touching the code.  This is commonly referred to as</span>
+<span class="c"># Monkey Patching and can be helpful if you, for some reason, don&#39;t want to</span>
+<span class="c"># modify rangers code directly.  Just remember: the more you mess around, the</span>
+<span class="c"># more likely it is to break when you switch to another version.</span>
+<span class="c">#</span>
+<span class="c"># Here are some practical examples of monkey patching.</span>
+<span class="c">#</span>
+<span class="c"># Technical information:  This file is imported as a python module.  If a</span>
+<span class="c"># variable has the name of a setting, ranger will attempt to use it to change</span>
+<span class="c"># that setting.  You can write &quot;del &lt;variable-name&gt;&quot; to avoid that.</span>
+<span class="c"># ===================================================================</span>
+<span class="c"># Add a new sorting algorithm: Random sort.</span>
+<span class="c"># Enable this with :set sort=random</span>
+
+<span class="c">#from ranger.fsobject.directory import Directory</span>
+<span class="c">#from random import random</span>
+<span class="c">#Directory.sort_dict[&#39;random&#39;] = lambda path: random()</span>
+
+<span class="c"># ===================================================================</span>
+<span class="c"># A function that changes which files are displayed.  This is more powerful</span>
+<span class="c"># than the hidden_filter setting since this function has more information.</span>
+
+<span class="c">## Save the original filter function</span>
+<span class="c">#import ranger.fsobject.directory</span>
+<span class="c">#old_accept_file = ranger.fsobject.directory.accept_file</span>
+<span class="c">#</span>
+<span class="c">## Define a new one</span>
+<span class="c">#def accept_file_MOD(fname, mypath, hidden_filter, name_filter):</span>
+<span class="c">#	if hidden_filter and mypath == &#39;/&#39; and fname in (&#39;boot&#39;, &#39;sbin&#39;, &#39;proc&#39;, &#39;sys&#39;):</span>
+<span class="c">#		return False</span>
+<span class="c">#	else:</span>
+<span class="c">#		return old_accept_file(fname, mypath, hidden_filter, name_filter)</span>
+<span class="c">#</span>
+<span class="c">## Overwrite the old function</span>
+<span class="c">#import ranger.fsobject.directory</span>
+<span class="c">#ranger.fsobject.directory.accept_file = accept_file_MOD</span>
+
+<span class="c"># ===================================================================</span>
+<span class="c"># A function that adds an additional macro.  Test this with :shell -p echo %date</span>
+
+<span class="c">## Save the original macro function</span>
+<span class="c">#import ranger.core.actions</span>
+<span class="c">#old_get_macros = ranger.core.actions.Actions._get_macros</span>
+<span class="c">#</span>
+<span class="c">## Define a new macro function</span>
+<span class="c">#import time</span>
+<span class="c">#def get_macros_MOD(self):</span>
+<span class="c">#	macros = old_get_macros(self)</span>
+<span class="c">#	macros[&#39;date&#39;] = time.strftime(&#39;%m/%d/%Y&#39;)</span>
+<span class="c">#	return macros</span>
+<span class="c">#</span>
+<span class="c">## Overwrite the old one</span>
+<span class="c">#ranger.core.actions.Actions._get_macros = get_macros_MOD</span>
+</pre></div>
+</td></tr></table>
+                            </div>
+                            
+                            <div class="overlay">&nbsp;</div>
+                            
+                            <div class="minimize">
+                                <p>x</p>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        
+    
+
+    
+    
+        <div class="item">
+            <div class="header">
+                <h4>Notes</h4>
+            </div>
+            
+            <div class="content markdown">
+                <p>A mod of spacecolors ranger theme. Coloring might need some tweaks, for the bold font I use terminuxmodx.</p>
+
+<p>Custom colorschemes goes in &ldquo;/home/$user/.config/ranger/colorschemes/&rdquo; folder and you have to define your theme in &ldquo;/home/$user/.config/ranger/options.py&rdquo; ie. colorscheme = &lsquo;yourtheme&rsquo;</p>
+
+            </div>
+        </div>
+    
+    
+    
+        <div class="item">
+            <div class="header">
+                <h4>Comments</h4>
+            </div>
+            
+            <div class="content comments">
+                
+                    <h6><a href="/~wenceslaus/">wenceslaus</a> said about <strong class="light-orange">5 years ago</strong></h6>
+                    <div class="markdown">
+                        <p>I also asked this on the /wg/ thread, but where should one put rangy.py?</p>
+
+                        
+                        
+                    </div>
+                
+                    <h6><a href="/~Shinryuu/">Shinryuu</a> said about <strong class="light-orange">5 years ago</strong></h6>
+                    <div class="markdown">
+                        <p>I updated Notes section, look there ;)</p>
+
+                        
+                        
+                    </div>
+                
+                    <h6><a href="/~McX/">McX</a> said about <strong class="light-orange">4 years ago</strong></h6>
+                    <div class="markdown">
+                        <p>What&rsquo;s the image viewer used ?</p>
+
+                        
+                        
+                    </div>
+                
+                    <h6><a href="/~Shinryuu/">Shinryuu</a> said about <strong class="light-orange">2 years ago</strong></h6>
+                    <div class="markdown">
+                        <p>It&rsquo;s just an ascii preview which is the default for ranger. You need to have libcaca installed for it.</p>
+
+                        
+                        
+                    </div>
+                
+            </div>
+        </div>
+        
+        
+    
+    
+    
+
+    </div>
+    
+    <div id="footer">&nbsp;</div>
+</div>
+
+<div id="logo">
+    <a href="/"><img src="/public/images/logo.png" width="62" height="63" alt="DotShare.it"></a>
+</div>
+
+</body>
+</html>FÜ]ÂU      ZåGºZåGº?	4           :http://dotshare.it/dots/438/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Sun, 29 Apr 2018 11:19:07 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 40906
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Sun, 29 Apr 2018 11:19:07 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 40906
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+ uncompressed-len 0 net-response-time-onstart 156 net-response-time-onstop 310   ŸÊ

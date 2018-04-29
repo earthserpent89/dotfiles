@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"89b8075f9d","applicationID":"31563158","transactionName":"JVlfRkRcW1hRRR9HRAlCWEJFHERcW0A=","queueTime":3,"applicationTime":45,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta property='current_user:id'>
+<meta charset="UTF-8" />
+<title>(G)Vim transparency the easy way (Example)</title>
+<meta name="description" content="A protip by aalvarado about vim, gvim, editor, notemacs, and atomsucks." />
+<meta name="keywords" content="vim, gvim, editor, notemacs, atomsucks" />
+<link rel="canonical" href="https://coderwall.com/p/8uo7lg/g-vim-transparency-the-easy-way" />
+<link rel="author" href="https://coderwall.com/aalvarado" />
+<meta property="og:title" content="(G)Vim transparency the easy way (Example)" />
+<meta property="og:url" content="https://coderwall.com/p/8uo7lg/g-vim-transparency-the-easy-way" />
+<meta property="og:site_name" content="Coderwall" />
+<meta property="og:description" content="A protip by aalvarado about vim, gvim, editor, notemacs, and atomsucks." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://coderwall-assets-0.s3.amazonaws.com/uploads/user/avatar/6643/me.png" />
+<meta name="twitter:title" content="(G)Vim transparency the easy way (Example)" />
+<meta name="twitter:url" content="https://coderwall.com/p/8uo7lg/g-vim-transparency-the-easy-way" />
+<meta name="twitter:site_name" content="Coderwall" />
+<meta name="twitter:site" content="@coderwall" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator:id" content="182107741" />
+<meta name="twitter:image" content="https://coderwall-assets-0.s3.amazonaws.com/uploads/user/avatar/6643/me.png" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" media="all" href="https://d1ujcb8mxkwm85.cloudfront.net/assets/application_static-8cd0567f17b372fd07cb9de3659f01a06b0ac69ab55f9c66d395f0b8ebfe2180.css" data-turbolinks-track="reload" />
+
+<script src="https://d1ujcb8mxkwm85.cloudfront.net/assets/application_static-0a29a8f0d477c0df2c190fab00c2a33aadf328a1289dc8d722ab0ef12ddc6336.js" data-turbolinks-track="reload"></script>
+<script src="https://content.jwplatform.com/libraries/pEaCoeG7.js"></script>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="XIlT0UZcwzDuOgsc2v3Gz/45y3QrHq37PFcgx3wu7J9fto4rzBwHbeqxvd69eLu1ICXZavnB7S4uNJvp98Yhng==" />
+<!-- https://developers.google.com/analytics/devguides/collection/analyticsjs/sending-hits -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-797907-8', 'auto');
+  </script>
+
+
+</head>
+<body>
+<div class='clearfix'>
+<header class='border-bottom'>
+<nav class='clearfix py2'>
+<div class='col col-4 sm-col-3 md-col-2'>
+<div class='sm-ml1'>
+<a class='btn logo relative' href='https://coderwall.com/'>
+<div class='absolute' style='top: 2px'>
+<svg version="1.1" viewBox="0 0 20 20" width="30" height="30" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="5" cy="5" r="1.4142" fill="#A26FF9"/>
+  <circle cx="10" cy="5" r="1.4142" fill="#A26FF9"/>
+  <circle cx="15" cy="5" r="1.4142" fill="#A26FF9"/>
+  <circle cx="10" cy="10" r="1.4142" fill="#A26FF9"/>
+  <circle cx="15" cy="10" r="1.4142" fill="#A26FF9"/>
+  <circle cx="15" cy="15" r="1.4142" fill="#A26FF9"/>
+</svg>
+
+</div>
+<div class='left font-x-lg' style='padding-left: 35px;'>
+Coderwall
+</div>
+</a>
+</div>
+</div>
+<div class='col col-3 sm-col-6 md-col-8 h6'>
+<a class='btn muted-until-hover xs-hide sm-mr1' href='/t/ruby/popular'>Ruby</a>
+<a class='btn muted-until-hover xs-hide' href='/t/python/popular'>Python</a>
+<a class='btn muted-until-hover xs-hide' href='/t/javascript/popular'>JavaScript</a>
+<a class='btn muted-until-hover xs-hide sm-only-hide' href='/t/web/popular'>Front-End</a>
+<a class='btn muted-until-hover xs-hide sm-only-hide' href='/t/tools/popular'>Tools</a>
+<a class='btn muted-until-hover xs-hide sm-only-hide' href='/t/ios/popular'>iOS</a>
+<div class='btn dropdown' style='margin-top: -3px;'>
+<span class='h3 muted-until-hover'>
+<i class="fa fa-sort-down relative xs-hide" style="top: -2px; margin-right: 2px;"></i>
+</span>
+<span class='muted-until-hover xs-ml3'>
+<span class='xs-hide'>More</span>
+Tips
+</span>
+<div class='dropdown-content bg-white mt1 py1 border z4' style='left:0'>
+<a class='btn py1 muted-until-hover sm-hide' href='/t/ruby/popular'>Ruby</a>
+<a class='btn py1 muted-until-hover sm-hide' href='/t/python/popular'>Python</a>
+<a class='btn py1 muted-until-hover sm-hide' href='/t/javascript/popular'>JavaScript</a>
+<a class='btn py1 muted-until-hover md-hide nowrap' href='/t/web/popular'>Front-End</a>
+<a class='btn py1 muted-until-hover md-hide' href='/t/tools/popular'>Tools</a>
+<a class='btn py1 muted-until-hover md-hide' href='/t/ios/popular'>iOS</a>
+<a class='btn py1 muted-until-hover' href='/t/php/popular'>PHP</a>
+<a class='btn py1 muted-until-hover' href='/t/android/popular'>Android</a>
+<a class='btn py1 muted-until-hover' href='/t/dot-net/popular'>.NET</a>
+<a class='btn py1 muted-until-hover' href='/t/java/popular'>Java</a>
+<a class='btn py1 muted-until-hover green md-hide' href='/jobs'>Jobs</a>
+</div>
+</div>
+<a class='btn border-left xs-hide sm-only-hide' href='/jobs'>
+<div class='green'>Jobs</div>
+</a>
+</div>
+<div class='col col-5 sm-col-3 md-col-2'>
+<div class='right pr2'>
+<a class='btn btn-primary bg-purple white ml1' href='/signin'>Sign In or Up</a>
+</div>
+</div>
+</nav>
+</header>
+
+
+<div class='mt1 px3'>
+
+</div>
+<main>
+<div class='py2 px3'><div class='container protip' id='protip_108506' itemid='g-vim-transparency-the-easy-way' itemscope>
+<div class='hide'><time datetime="2016-09-16T10:19:14Z" itemprop="dateModified">September 16, 2016 10:19</time></div>
+<div class='hide' itemprop='name'>8uo7lg</div>
+<div class='clearfix'>
+<div class='sm-col sm-col sm-col-12 md-col-8'>
+<div class='clearfix mt0 mb1'>
+<div class='sm-right'>
+<div class='diminish inline mr1'>Last Updated: September 16, 2016</div>
+<span class='xs-hide'>
+&middot;
+<div class='diminish inline mx1'>
+<i class="fa fa-eye"></i>
+223
+</div>
+</span>
+&middot;
+<span class='mx1'><a href="/aalvarado">aalvarado</a></span>
+<div class='avatar' itemprop='image' style='background-color: #bad2f0;'><img src="https://coderwall-assets-0.s3.amazonaws.com/uploads/user/avatar/6643/me.png" alt="Me" /></div>
+</div>
+</div>
+<div class='card p1' style='border-top:solid 5px #bad2f0'>
+<h1 class='mt4 mb2 center' itemprop='headline'>(G)Vim transparency the easy way</h1>
+<div class='center mr1' itemprop='keywords'>
+<h6 class='diminish inline px1'><a href="/t/vim/popular">vim</a></h6>
+<h6 class='diminish inline px1'><a href="/t/gvim/popular">gvim</a></h6>
+<h6 class='diminish inline px1'><a href="/t/editor/popular">editor</a></h6>
+<h6 class='diminish inline px1'><a href="/t/notemacs/popular">notemacs</a></h6>
+<h6 class='diminish inline px1'><a href="/t/atomsucks/popular">atomsucks</a></h6>
+</div>
+<div class='content p3 mt4' itemprop='articleBody'>
+<p>Xcompmgr comes with a command that enables you to turn any window transparent, you can execute that command when Gvim is turning on by placing it in the <code class="prettyprint">~/.gvimrc</code> file or by executing the following in Gvim:</p>&#x000A;&#x000A;<pre><code class="prettyprint">:!transset -a --dec 0.15</code></pre>&#x000A;&#x000A;<p>In some distros transset is named transset-df and it's included with xcompmgr (X composition manager)<br>&#x000A;<a href="https://www.freedesktop.org/wiki/Software/xapps/" rel="nofollow">https://www.freedesktop.org/wiki/Software/xapps/</a></p>&#x000A;&#x000A;<p>enjoy!</p>
+</div>
+<div class='clearfix mt1 mb3 mx2 py2'>
+<div class='clearfix border-bottom' itemprop='author'>
+<h4>
+Written by
+<a class='bold user' href='/aalvarado' id='user_6643' itemid='6643' itemscope itemtype='http://schema.org/Person'>
+<span class='blue' itemprop='name'>Adan Alvarado</span>
+</a>
+</h4>
+</div>
+<div class='clearfix mt1'>
+<div class='btn btn-small pl0 mr1 mb1 xs-block'>
+<script type="application/json" id="js-react-on-rails-context">{"inMailer":false,"i18nLocale":"en","i18nDefaultLocale":"en","href":"https://coderwall.com/p/8uo7lg/g-vim-transparency-the-easy-way","location":"/p/8uo7lg/g-vim-transparency-the-easy-way","scheme":"https","host":"coderwall.com","port":null,"pathname":"/p/8uo7lg/g-vim-transparency-the-easy-way","search":null,"httpAcceptLanguage":"ru, uk;q=0.8, be;q=0.8, en;q=0.7, *;q=0.01","pusherKey":"56c8c9e2d013d4e9f315","user":null,"serverSide":false}</script>
+<script type="application/json" class="js-react-on-rails-component" data-component-name="HeartButton" data-dom-id="HeartButton-react-component-7cb9b46b-5b46-4989-a3a0-21dcdaf93fb5">{"heartableId":"protip_108506","href":"/p/8uo7lg/likes","labels":["Recommend","Recommended"]}</script>
+    <div id="HeartButton-react-component-7cb9b46b-5b46-4989-a3a0-21dcdaf93fb5"></div>
+    
+
+</div>
+<a class='btn btn-small pl0 mb1 mr1 xs-block' href='http://twitter.com/home?status=%28G%29Vim+transparency+the+easy+way+by+%40adantj%0A%0Ahttps%3A%2F%2Fcoderwall.com%2Fp%2F8uo7lg' target='twitter'>
+<span class='fixed-space-4'><i class="fa fa-twitter aqua h4"></i></span>
+<span>Say Thanks</span>
+</a>
+<div class='btn btn-small pl0 mb1 mr1 xs-block'>
+<script type="application/json" class="js-react-on-rails-component" data-component-name="ProtipSubscribeButton" data-dom-id="ProtipSubscribeButton-react-component-829a0b86-8906-4ce5-b056-a1834852f59d">{}</script>
+    <div id="ProtipSubscribeButton-react-component-829a0b86-8906-4ce5-b056-a1834852f59d"></div>
+    
+
+</div>
+<a class='btn btn-small pl0 mb1 mr1 xs-block' href='/signup'>
+<span class='fixed-space-4'><i class="fa fa-comment-o black h4"></i></span>
+Respond
+</a>
+</div>
+</div>
+<div class='clearfix'>
+</div>
+</div>
+</div>
+<div class='sm-col sm-col sm-col-12 md-col-4'>
+<div class='clearfix sm-ml3 mt3 p1 pb3'>
+<h5 class='mt0 mb1'>
+<i class="fa fa-folder-o mr1"></i>
+Filed Under
+</h5>
+<hr>
+<div class='topic clearfix py1'>
+<a href='/t/tools/popular'>
+<div class='bold'><span class="translation_missing" title="translation missing: en.categories.long.tools">Tools</span></div>
+</a>
+</div>
+</div>
+<script type="application/json" id="js-react-on-rails-context">{"inMailer":false,"i18nLocale":"en","i18nDefaultLocale":"en","href":"https://coderwall.com/p/8uo7lg/g-vim-transparency-the-easy-way","location":"/p/8uo7lg/g-vim-transparency-the-easy-way","scheme":"https","host":"coderwall.com","port":null,"pathname":"/p/8uo7lg/g-vim-transparency-the-easy-way","search":null,"httpAcceptLanguage":"en-US,en;q=0.5","pusherKey":"56c8c9e2d013d4e9f315","user":null,"serverSide":false}</script>
+<script type="application/json" class="js-react-on-rails-component" data-component-name="Sponsors" data-dom-id="Sponsors-react-component-f790bfd2-3a5b-4c98-833a-bf53cefb00d7">{}</script>
+    <div id="Sponsors-react-component-f790bfd2-3a5b-4c98-833a-bf53cefb00d7"></div>
+    
+
+<div class='clearfix sm-ml3 mt3 p1'>
+<div class='clearfix'>
+<div class='col col-7'>
+<h5 class='mt0'>
+<i class="fa fa-diamond mr1"></i>
+Awesome Job
+</h5>
+</div>
+<div class='col col-5'>
+<div class='right font-sm bold'>
+<a class='block' href='/jobs'>
+See All Jobs
+<i class="fa fa-arrow-right"></i>
+</a>
+</div>
+</div>
+</div>
+<hr>
+<div class='clearfix py1'>
+<a class='link no-hover mt2' ga-event-action='Protip Sidebar - Featured Job' ga-event-category='Jobs' ga-event-label='Nylas - d37afd36-4a67-11e8-9114-574d811607c3' href='https://nylas.workable.com/jobs/687602' rel='nofollow' target='_blank'>
+<div class='col col-3 md-col-2'>
+<img class="" src="//github-jobs.s3.amazonaws.com/8dd53bfc-4a67-11e8-83c5-6fec43335155.png" alt="8dd53bfc 4a67 11e8 83c5 6fec43335155" />
+</div>
+<div class='overflow-hidden pl2'>
+<div class='blue bold'>
+Senior Software Engineer (SF or NYC, $140-160K)
+</div>
+<div class='font-sm black'>
+<div class='inline'><a rel="nofollow" target="_blank" ga-event-category="Jobs" ga-event-action="Protip Sidebar - Featured Job" ga-event-label="Nylas - d37afd36-4a67-11e8-9114-574d811607c3" href="https://www.nylas.com/">Nylas</a></div>
+&middot;
+<div class='inline'>San Francisco or New York</div>
+&middot;
+<div class='inline'>Full Time</div>
+</div>
+</div>
+</a>
+</div>
+
+<div class='mt2 font-sm'>
+<a class='border--green green bold' href='https://coderwall.com/jobs/new'>
+Post a job for only
+$299
+</a>
+</div>
+</div>
+<div class='clearfix ml3 mt4' ga-location='Protip Sidebar'>
+<div class='bsarocks bsap_74f50e679004d8f4d62fec4b0f74ccf1' id='bsap_1305410'></div>
+</div>
+</div>
+</div>
+</div>
+<script src='https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js'></script>
+</div>
+</main>
+<footer class='border-top'>
+<nav class='clearfix'>
+<div class='col col-4 py1 mt1'>
+<a class='btn' href='https://twitter.com/coderwall' target='_blank'>
+@coderwall
+<i class="fa fa-twitter fa-1x ml1"></i>
+</a>
+</div>
+<div class='col col-8 py2 mt1'>
+<div class='right'>
+<a class='inline-block ml1' href='https://github.com/coderwall/coderwall-next' rel='nofollow'>
+<i class="fa fa-github-alt"></i>
+</a>
+<a class='inline-block ml1' href='/t/hackerdesk/popular'>
+<div class='sm-show'><i class="fa fa-gift"></i></div>
+</a>
+<a class='inline-block ml1 mr1' href='mailto:support@coderwall.com'>
+Contact
+</a>
+<a class='inline-block mr1' href='/privacy_policy'>Privacy</a>
+<a class='inline-block mr1' href='/tos'>Terms</a>
+<p class='inline-block diminish inline mr1'>Copyright 2018</p>
+</div>
+</div>
+</nav>
+</footer>
+</div>
+<script type="application/json" data-js-react-on-rails-store="store">{"currentUser":{"item":null},"currentProtip":{"item":{"id":108506,"body":"Xcompmgr comes with a command that enables you to turn any window transparent, you can execute that command when Gvim is turning on by placing it in the `~/.gvimrc` file or by executing the following in Gvim:\r\n\r\n```\r\n:!transset -a --dec 0.15\r\n```\r\nIn some distros transset is named transset-df and it's included with xcompmgr (X composition manager)\r\nhttps://www.freedesktop.org/wiki/Software/xapps/\r\n\r\nenjoy!","created_at":"2016-09-14T23:56:45.281Z","heartableId":"protip_108506","hearts":2,"html":"\u003cp\u003eXcompmgr comes with a command that enables you to turn any window transparent, you can execute that command when Gvim is turning on by placing it in the \u003ccode class=\"prettyprint\"\u003e~/.gvimrc\u003c/code\u003e file or by executing the following in Gvim:\u003c/p\u003e\n\n\u003cpre\u003e\u003ccode class=\"prettyprint\"\u003e:!transset -a --dec 0.15\u003c/code\u003e\u003c/pre\u003e\n\n\u003cp\u003eIn some distros transset is named transset-df and it's included with xcompmgr (X composition manager)\u003cbr\u003e\n\u003ca href=\"https://www.freedesktop.org/wiki/Software/xapps/\" rel=\"nofollow\"\u003ehttps://www.freedesktop.org/wiki/Software/xapps/\u003c/a\u003e\u003c/p\u003e\n\n\u003cp\u003eenjoy!\u003c/p\u003e\n","public_id":"8uo7lg","subscribed":false,"tags":["vim","gvim","editor","notemacs","atomsucks"],"title":"(G)Vim transparency the easy way","upvotes":2}},"comments":{"items":[]}}</script>
+  <script>
+    // perfectaudience
+    (function () {
+        window._pa = window._pa || {};
+        var pa = document.createElement('script');
+        pa.type = 'text/javascript';
+        pa.async = true;
+        pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/50775e2d30a1d50002000221.js";
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(pa, s);
+    })();    
+  </script>
+
+</body>
+</html>
+ºÆù≥¬«      ZÂRvZÂRw?•       ?    :https://coderwall.com/p/8uo7lg/g-vim-transparency-the-easy-way necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Server: Cowboy
+Date: Sun, 29 Apr 2018 12:04:55 GMT
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Etag: W/"22dd3b847a64fe1bbb8f7a46d2e58f40"
+Last-Modified: Fri, 16 Sep 2016 10:19:14 GMT
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 9e71198a-a5f3-409a-b41c-36b427a27d80
+X-Runtime: 0.045829
+Content-Length: 20457
+Via: 1.1 vegur
+ original-response-headers Server: Cowboy
+Date: Sun, 29 Apr 2018 12:04:55 GMT
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Etag: W/"22dd3b847a64fe1bbb8f7a46d2e58f40"
+Last-Modified: Fri, 16 Sep 2016 10:19:14 GMT
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: viewd_protips=8uo7lg; path=/; expires=Sun, 29 Apr 2018 12:14:56 -0000
+Set-Cookie: _coderwall-next_session=eWNlRTdFLzNnT2s1YkVSV3IxWTVHSmUzbXFEYXA5blRKbDdIL3RIR0taeUlTdkswSlBUMU4zVXpncjR3Z2ZmTHNuNUV6NSs5RmJhOUU2OVhVZGlQVm14MXdzWmhLbmovTzVjWEFPd2wyWERkZXBYQTY2QlZaSnhNS0F1UG9ra3NSZU1CV3JxWVBQU1JraG5TZ1I2elhJRWdZMktTbzlsdzlKSmRZVk9INGhpaVNnT0l2UnFVRE12UHBRUys5cUV2UWhWUlJ2ZDdWd3NmbXRCOW84REFEVVlUQTQ5cVdFbi9xODR6NXphejQyZz0tLTBiKy9QbE9yZCtVNytoVms1ZVE4VXc9PQ%3D%3D--cee45057ccc83953d343e3398c5f748b92622c2b; path=/; expires=Wed, 29 Apr 2020 12:04:56 -0000; HttpOnly
+X-Request-Id: 9e71198a-a5f3-409a-b41c-36b427a27d80
+X-Runtime: 0.045829
+Content-Length: 20457
+Via: 1.1 vegur
+ uncompressed-len 0 net-response-time-onstart 757 net-response-time-onstop 767   OÈ
