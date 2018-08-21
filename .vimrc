@@ -1,4 +1,4 @@
-colors solarized
+colors desert
 set background=dark
 filetype indent on
 syntax enable

@@ -1,1 +1,0 @@
-{"previousWelcomeUrl":"https://www.greasespot.net/2017/09/greasemonkey-4-announcement.html"}
